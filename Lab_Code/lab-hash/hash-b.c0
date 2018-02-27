@@ -1,0 +1,20 @@
+#use <string>
+
+typedef struct prof prof_t;
+struct prof {
+	string name;
+	string title;
+	string office;
+	string email;
+	int area_code; // 0 if no phone number
+	int phone; // 0 if no phone number
+};
+
+int hash_string(string s) {
+    return 0; // IMPLEMENT ME
+}
+
+
+int hash_prof(prof_t *prof) {
+  return 0; // IMPLEMENT ME
+}

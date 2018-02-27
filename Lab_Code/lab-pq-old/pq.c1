@@ -1,0 +1,247 @@
+/*
+ * Unbounded priority queues, implemented as heaps
+ *
+ * 15-122 Principles of Imperative Computation */
+
+#use <util>
+
+/*********************/
+/* Client interface */
+/*********************/
+
+// typedef ______ elem;
+typedef void* elem;
+
+// f(x,y) returns true if e1 is STRICTLY higher priority than e2
+typedef bool higher_priority_fn(elem e1, elem e2);
+
+/*********************/
+/* Library interface */
+/*********************/
+
+// typedef ______* pq_t;
+typedef struct heap_header* pq_t;
+
+bool pq_empty(pq_t H)
+  /*@requires H != NULL; @*/ ;
+
+pq_t pq_new(higher_priority_fn* prior)
+  /*@requires prior != NULL; @*/
+  /*@ensures \result != NULL && pq_empty(\result); @*/ ;
+
+void pq_add(pq_t H, elem e)
+  /*@requires H != NULL; @*/ ;
+
+elem pq_rem(pq_t H)
+  /*@requires H != NULL && !pq_empty(H); @*/ ;
+
+/**************************/
+/* Library implementation */
+/**************************/
+
+bool is_array_expected_length(elem[] A, int length) {
+  //@assert \length(A) == length;
+  return true;
+}
+
+typedef struct heap_header heap;
+struct heap_header {
+  int limit;      /* limit = capacity+1 */
+  int next;       /* 1 <= next && next <= limit */
+  elem[] data;    /* \length(data) == limit */
+  higher_priority_fn* prior; /* Not NULL */
+};
+
+/* Just checks the basic invariants described above, none
+ * of the ordering invariants. */
+bool is_safe_heap(heap* H) {
+  return H != NULL
+    && (1 <= H->next && H->next <= H->limit)
+    && is_array_expected_length(H->data, H->limit)
+    && H->prior != NULL;
+}
+
+/*********************/
+/* Utility functions */
+/*********************/
+
+/* Returns true if the element in H->data[i] can
+ * correctly be placed above H->data[j] in the heap. */
+bool ok_above(heap* H, int i, int j)
+//@requires is_safe_heap(H);
+//@requires 1 <= i && i < H->next;
+//@requires 1 <= j && j < H->next;
+{
+  return !(*H->prior)(H->data[j], H->data[i]);
+}
+
+/* Swaps H->data[i] with its parent. */
+void swap_up(heap* H, int i)
+//@requires is_safe_heap(H);
+//@requires 2 <= i && i < H->next;
+{
+  elem tmp = H->data[i];
+  H->data[i] = H->data[i/2];
+  H->data[i/2] = tmp;
+}
+
+/*****************************/
+/* Data structure invariants */
+/*****************************/
+
+bool is_heap_ordered(heap* H)
+//@requires is_safe_heap(H);
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+    if (!ok_above(H, i/2, i)) return false;
+
+  return true;
+}
+
+bool is_heap(struct heap_header* H) {
+  return is_safe_heap(H) && is_heap_ordered(H);
+}
+
+/**********************/
+/* Partial invariants */
+/**********************/
+
+/* Valid heap except at n, looking up the tree */
+bool is_heap_except_up(heap* H, int n)
+//@requires is_safe_heap(H);
+//@requires 1 <= n && n < H->next;
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+    if (!(i == n || ok_above(H, i/2, i))) return false;
+
+  return true;
+}
+
+/* Valid heap except at n, looking down the tree */
+bool is_heap_except_down(heap* H, int n)
+//@requires is_safe_heap(H);
+//@requires 1 <= n && n < H->next;
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+    if (!(i/2 == n || ok_above(H, i/2, i))) return false;
+
+  return true;
+}
+
+bool grandparent_check(heap* H, int n)
+//@requires is_safe_heap(H);
+//@requires 1 <= n && n < H->next;
+{
+  if (n == 1) return true;
+  if (n*2 >= H->next) return true; // No children
+  if (n*2 + 1 == H->next) // Left child only
+    return ok_above(H, n/2, n*2);
+  return ok_above(H, n/2, n*2)
+    && ok_above(H, n/2, n*2 + 1);
+}
+
+/******************/
+/* Implementation */
+/******************/
+
+bool pq_empty(heap* H)
+//@requires is_heap(H);
+{
+  return H->next == 1;
+}
+
+heap* pq_new(higher_priority_fn* prior)
+//@requires prior != NULL;
+//@ensures is_heap(\result) && pq_empty(\result);
+{
+  heap* H = alloc(struct heap_header);
+  H->limit = 4;
+  H->next = 1;
+  H->data = alloc_array(elem, 4);
+  H->prior = prior;
+  return H;
+}
+
+void pq_add(heap* H, elem x)
+//@requires is_heap(H);
+//@ensures is_heap(H);
+{
+  // Possibly resize array
+  if (H->next == H->limit) {
+    assert(H->limit < int_max() / 2);
+    elem[] A = alloc_array(elem, H->limit * 2);
+    for (int j = 0; j < H->limit; j++) { A[j] = H->data[j]; }
+    H->data = A;
+    H->limit = H->limit * 2;
+  }
+
+  int i = H->next;
+  H->data[H->next] = x;
+  (H->next)++;
+  /* H is no longer a heap! */
+
+  while (i > 1)
+  //@loop_invariant 1 <= i && i < H->next;
+  //@loop_invariant is_heap_except_up(H, i);
+  //@loop_invariant grandparent_check(H, i);
+  {
+    if (ok_above(H, i/2, i)) return;
+    swap_up(H, i);
+    i = i/2;
+  }
+
+  //@assert is_heap(H);
+  return;
+}
+
+void sift_down(heap* H)
+//@requires is_safe_heap(H) && H->next > 1 && is_heap_except_down(H, 1);
+//@ensures is_heap(H);
+{
+  int i = 1;
+
+  while (2*i < H->next)
+  //@loop_invariant 1 <= i && i < H->next;
+  //@loop_invariant is_heap_except_down(H, i);
+  //@loop_invariant grandparent_check(H, i);
+  {
+    int left = 2*i;
+    int right = left+1;
+
+    if (ok_above(H, i, left)
+        && (right >= H->next || ok_above(H, i, right)))
+      return;
+    if (right >= H->next || ok_above(H, left, right)) {
+      swap_up(H, left);
+      i = left;
+    } else {
+      //@assert right < H->next && ok_above(H, right, left);
+      swap_up(H, right);
+      i = right;
+    }
+  }
+
+  //@assert i < H->next && 2*i >= H->next;
+  //@assert is_heap_except_down(H, i);
+  return;
+}
+
+elem pq_rem(heap* H)
+//@requires is_heap(H) && !pq_empty(H);
+//@ensures is_heap(H);
+{
+  elem min = H->data[1];
+  (H->next)--;
+
+  if (H->next > 1) {
+    H->data[1] = H->data[H->next];
+    /* H is no longer a heap! */
+    sift_down(H);
+  }
+
+  return min;
+}
+

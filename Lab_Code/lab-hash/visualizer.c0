@@ -1,0 +1,65 @@
+
+#use <conio>
+#use <string>
+#use <args>
+#use <parse>
+#use <img>
+
+int main() {
+  string *output = alloc(string);
+  int *buckets = alloc(int);
+  
+  args_string("-o", output);
+  args_int("-n", buckets);
+  
+  if(args_parse() == NULL || string_equal("", *output)) {
+    error("Usage: visualize -o <output image> [-n <num buckets>]");
+  }
+  
+  if(*buckets <= 0) {
+    *buckets = 512;
+  }
+  
+  int[] hashed = hash_counts(*buckets);
+  
+  int max = 0;
+  int count = hashed[max];
+  for(int i = 1; i < *buckets; i++) {
+    if(hashed[i] > hashed[max]) {
+      max = i;
+    }
+    count += hashed[i];
+  }
+  
+  int maxhash = hashed[max];
+  print("The maximum bucket size is ");
+  printint(maxhash);
+  println("");
+  
+  for(int i = 0; i < *buckets; i++) {
+    hashed[i] *= *buckets;
+    hashed[i] /= maxhash;
+  }
+  
+  // Draw the image
+  image_t out = image_create(*buckets, *buckets);
+  int[] data = image_data(out);
+  
+  print("Generating graph...");
+  for(int x = 0; x < *buckets; x++) {
+    for(int y = 0; y < hashed[x] && y < *buckets; y++) {
+      data[(image_height(out) - y - 1) * (*buckets) + x] = 0xFFFF0000;
+    }
+  }
+  println("");
+  
+  print("Saving output...");
+  image_save(out, *output);
+  println("");
+  
+  print("Success! Graph saved to ");
+  print(*output);
+  println("");
+  
+  return 0;
+}

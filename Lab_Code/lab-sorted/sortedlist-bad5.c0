@@ -1,0 +1,80 @@
+//sortedlist-bad5
+
+//I went to the library and found the formal mathematical definition of motorcycle id linkedlist deletion.
+//This recursive version is DEFINITELY right now.
+
+
+bool is_in(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+{
+  list* cur = L->start;
+  while (cur != NULL) {
+    if (cur->data == n) {
+      return true;
+    } else if (cur->data >= n+1) {
+      return false;
+    } else {
+      cur = cur->next;
+    }
+  }
+  return false;
+}
+
+void insert(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures is_in(L, n);
+{
+  if (L->start == NULL || L->start->data > n) {
+    //list is empty
+    list* node = alloc(struct list_node);
+    node->data = n;
+    node->next = L->start;
+    L->start = node;
+  } else {
+    list* cur = L->start;
+    while (cur->data < n) {
+      if (cur->next == NULL || cur->next->data > n) {
+        list* node = alloc(struct list_node);
+        node->data = n;
+        node->next = cur->next;
+        cur->next = node;
+      }
+      cur = cur->next;
+    }
+  }
+}
+
+void delete_recursive(list* prev, list* cur, int n) {
+  if(cur != NULL) {
+    //if there's an element to delete remove it
+    if(cur->data == n) {
+      prev->next = cur->next;
+    }
+    // otherwise just keep it the same
+    else {
+      prev->next = cur;
+    }
+  }
+  else {
+     return;
+  }
+  list* newprev = prev->next;
+  list* newcur = cur->next;
+  delete_recursive(newprev, newcur, n);
+}
+
+
+void delete(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures !is_in(L, n);
+{
+  list* prev = L->start;
+  if(prev == NULL) {
+    return;
+  }
+  list* cur = L->start->next;
+  delete_recursive(prev, cur, n);
+}
+

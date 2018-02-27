@@ -1,0 +1,60 @@
+typedef int pixel;
+
+int get_red(pixel p) {
+  return 0;
+}
+
+int get_green(pixel p) {
+  return 0;
+}
+
+int get_blue(pixel p) {
+  return 0;
+}
+
+int get_alpha(pixel p) {
+  return 0;
+}
+
+pixel make_pixel(int alpha, int red, int green, int blue) {
+  return 0;
+}
+
+bool is_valid_imagesize(int width, int height) {
+  return true;
+}
+
+int get_row(int index, int width, int height) {
+  return 0;
+}
+
+int get_column(int index, int width, int height) {
+  return 0;
+}
+
+bool is_valid_pixel(int row, int col, int width, int height) {
+  return true;
+}
+
+int get_index(int row, int col, int width, int height) {
+  return 0;
+}
+
+pixel[] rotate(pixel[] A, int width, int height) {
+  return alloc_array(pixel, 10);
+}
+
+int[] apply_mask(pixel[] pixels, int width, int height,
+                 int[] mask, int maskwidth) {
+  return alloc_array(int, 5);
+}
+
+pixel[] reflect(pixel[] A, int width, int height) {
+  return alloc_array(pixel, 4);
+}
+
+
+pixel[] blur(pixel[] pixels, int width, int height,
+             int[] mask, int maskwidth) {
+  return alloc_array(pixel, 3);
+}

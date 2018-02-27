@@ -1,0 +1,39 @@
+/**
+ * Lab 4 - TA Training: clavicka (Author: astanesc)
+ * Doesn't remove duplicates
+ */
+void sort(int[] A, int n) {
+    for(int i = 0; i < n; i++) {
+        int min = A[i];
+        int min_ind = i;
+        for(int j = i+1; j < n; j++) {
+            if(min > A[j]) {
+                min = A[j];
+                min_ind = j;
+            }
+        }
+        int temp = A[min_ind];
+        A[min_ind] = A[i];
+        A[i] = temp;
+    }
+}
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+    int intersect_ind = 0;
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++) {
+            if(A[i] == B[j]) {
+                intersection[intersect_ind] = A[i];
+                j = m;
+                intersect_ind ++;
+            }
+        }
+    }
+    sort(intersection, intersect_ind);
+    return intersect_ind;
+}

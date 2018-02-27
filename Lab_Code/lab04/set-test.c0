@@ -1,0 +1,15 @@
+#use <conio>
+
+bool arr_eq(int[] A, int n, int[] B, int m)
+//@requires n <= \length(A);
+//@requires m <= \length(B);
+{
+    //Write Me!
+    return false;
+}
+
+bool run_tests() {
+    //Remember - this function should return whether
+    //ALL tests pass!
+    return false; //No tests, so they all fail right?
+}

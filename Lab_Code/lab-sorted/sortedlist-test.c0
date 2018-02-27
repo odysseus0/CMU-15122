@@ -1,0 +1,43 @@
+int testIsIn() {
+  // Here's an example
+  sortedlist* S = cons(-2, cons(6, cons(12, nil())));
+
+  /* Test 1 */
+  if (!is_in(S, 6)) println("Failed Test 1 for is_in");
+  /* TODO : Add more tests for is_in here! */
+  return 0;
+}
+int testInsert() {
+
+  // Here's an example
+  sortedlist* S = nil();
+
+  /* Test 1 */
+  insert(S, 5);
+  if(!is_in(S, 5)) println("Failed Test 1 for insert");
+
+  /* TODO : Add more tests for insert here! */
+  return 0;
+}
+
+
+int testDelete() {
+  // Here's an example
+  sortedlist* S = cons(-2, cons(6, cons(12, nil())));
+
+  /* Test 1 */
+  delete(S, 12);
+  if (is_in(S, 12)) println("Failed Test 1 for delete");
+
+  /* TODO : Add more tests for delete here! */
+  return 0;
+}
+
+
+
+int main() {
+  testIsIn();
+  testInsert();
+  testDelete();
+  return 0;
+}

@@ -1,0 +1,32 @@
+#use <string>
+#use <file>
+#use <conio>
+
+int[] hash_counts(int buckets)
+//@requires buckets > 0;
+//@ensures \length(\result) == buckets;
+{
+  file_t dict = file_read("dictionary.txt");
+  if(dict == NULL) {
+    error("dictionary.txt does not exist");
+  }
+  
+  int[] result = alloc_array(int, buckets);
+  
+  print("Starting hash of dictionary...");
+  while(!file_eof(dict)) {
+    string line = file_readline(dict);
+    int h = hash_string(line);
+    int i = h % buckets;
+    if(i < 0) {
+      i += buckets;
+    }
+    result[i]++;
+  }
+  println("");
+  
+  // Close the file to be a good noodle
+  file_close(dict);
+  
+  return result;
+}

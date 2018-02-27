@@ -1,0 +1,52 @@
+/**
+ * Lab 4 - TA Training: cmrose (Author: astanesc)
+ * Copies A over into intersection
+ */
+void sort(int[] A, int n) {
+    for(int i = 0; i < n; i++) {
+        int min = A[i];
+        int min_ind = i;
+        for(int j = i+1; j < n; j++) {
+            if(min > A[j]) {
+                min = A[j];
+                min_ind = j;
+            }
+        }
+        int temp = A[min_ind];
+        A[min_ind] = A[i];
+        A[i] = temp;
+    }
+}
+
+int remove_dupes(int[] A, int n) {
+    int[] B = alloc_array(int, n);
+    for(int i = 0; i < n; i++) {
+        B[i] = A[i];
+    }
+
+    int i = 0;
+    int len = 0;
+    while(i < n) {
+        int val = B[i];
+        A[len] = val;
+        while(i < n && B[i] == val) {
+            i++;
+        }
+        len++;
+    }
+    return len;
+}
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+    int intersect_ind = 0;
+    for(int i = 0; i < n; i++) {
+        intersection[i] = A[i];
+    }
+    sort(intersection, intersect_ind);
+    return remove_dupes(intersection, intersect_ind);
+}

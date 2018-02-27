@@ -1,0 +1,128 @@
+#use <conio>
+#use <string>
+
+typedef struct frequency_information freqinfo;
+struct frequency_information {
+  string word;
+  int count;
+};
+
+int compare_freqinfo(void* x, void* y) 
+//@requires x != NULL && \hastag(freqinfo*, x);
+//@requires y != NULL && \hastag(freqinfo*, y);
+//@ensures -1 <= \result && \result <= 1;
+{
+  freqinfo* a = (freqinfo*) x;
+  freqinfo* b = (freqinfo*) y;
+  return string_compare(a->word, b->word);
+}
+
+void* test_value(string s) 
+//@ensures \result != NULL && \hastag(freqinfo*, \result);
+{
+  freqinfo* a = alloc(freqinfo);
+  a->word = s;
+  a->count = -1;
+  return (void*)a;
+}
+
+void insert(bst_t B, string word, int count)
+//@requires B != NULL;
+{
+  freqinfo* x = alloc(freqinfo);
+  x->word = word;
+  x->count = count;
+  bst_insert(B, (void*)x);
+}
+
+// 15-122 Lab: Simple tester for bst_count function 
+// Word counts based on data from http://www.wordfrequency.info
+
+int main()
+{
+  bst_t B = bst_new(&compare_freqinfo);
+  void* test_a = test_value("a");
+  void* test_i = test_value("i");
+  void* test_u = test_value("u");
+  void* test_z = test_value("z");
+
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 0);
+  assert(bst_countifless(B, test_u) == 0);
+  
+  insert(B, "the", 22038615);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 0);
+  assert(bst_countifless(B, test_u) == 1);
+
+  insert(B, "be", 12545825);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 1);
+  assert(bst_countifless(B, test_u) == 2);
+
+  insert(B, "and", 10741073);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 2);
+  assert(bst_countifless(B, test_u) == 3);
+
+  insert(B, "of", 10343885);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 2);
+  assert(bst_countifless(B, test_u) == 4);
+
+  insert(B, "a", 10144200);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 3);
+  assert(bst_countifless(B, test_u) == 5);
+
+  insert(B, "in", 6996437);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 3);
+  assert(bst_countifless(B, test_u) == 6);
+
+  insert(B, "to", 6332195);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 3);
+  assert(bst_countifless(B, test_u) == 7);
+
+  insert(B, "have", 4303955);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 4);
+  assert(bst_countifless(B, test_u) == 8);
+  
+  insert(B, "it", 3872477);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 4);
+  assert(bst_countifless(B, test_u) == 9);
+
+  insert(B, "i", 3978265);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 4);
+  assert(bst_countifless(B, test_u) == 10);
+
+  insert(B, "that", 3430996);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 4);
+  assert(bst_countifless(B, test_u) == 11);
+
+  insert(B, "for", 3281454);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 5);
+  assert(bst_countifless(B, test_u) == 12);
+  assert(bst_countifless(B, test_z) == 12);
+ 
+  insert(B, "you", 3081151);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 5);
+  assert(bst_countifless(B, test_u) == 12);
+  assert(bst_countifless(B, test_z) == 13);
+
+  insert(B, "with", 2683014);
+  assert(bst_countifless(B, test_a) == 0);
+  assert(bst_countifless(B, test_i) == 5);
+  assert(bst_countifless(B, test_u) == 12);
+  assert(bst_countifless(B, test_z) == 14);
+  
+  print("All tests passed!\n");
+  return 0;
+}

@@ -1,0 +1,24 @@
+#use <conio>
+#use <string>
+
+int main() {
+
+  // See lib/arr_lib.c0 for helper functions to create arrays quickly
+  // The arr_string function can help you create an array of strings
+  string[] data1 = arr_string("aha,drifters,drifters,eurythmics,garbage,garbage,garbage,genesis");
+  //@assert (count_distinct(data1,8) == 5);
+
+  string[] data2 = arr_string("abba,zztop");
+  //@assert (count_distinct(data2,2) == 2);
+
+  // MANY MORE TESTS GO HERE:
+
+
+
+
+
+  print("All tests passed!\n");
+
+  return 0;
+
+}

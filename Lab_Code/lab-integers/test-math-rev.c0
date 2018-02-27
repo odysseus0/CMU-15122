@@ -1,0 +1,43 @@
+#use <conio>
+
+int main() {
+  assert(reverse_math(1512200) == 22151);
+  assert(reverse_math(42)      == 2400000);
+  assert(reverse_math(3749)    == 9473000);
+
+  assert(reverse_math(0)       == 0);
+  assert(reverse_math(1)       == 1000000);
+  assert(reverse_math(12)      == 2100000);
+  assert(reverse_math(123)     == 3210000);
+  assert(reverse_math(1234)    == 4321000);
+  assert(reverse_math(12345)   == 5432100);
+  assert(reverse_math(123456)  == 6543210);
+  assert(reverse_math(1234567) == 7654321);
+  assert(reverse_math(1234560) == 654321);
+  assert(reverse_math(1234500) == 54321);
+  assert(reverse_math(1234000) == 4321);
+  assert(reverse_math(1230000) == 321);
+  assert(reverse_math(1200000) == 21);
+  assert(reverse_math(1000000) == 1);
+
+  assert(reverse_math(1111111) == 1111111);
+  assert(reverse_math(2222222) == 2222222);
+  assert(reverse_math(3333333) == 3333333);
+  assert(reverse_math(4444444) == 4444444);
+  assert(reverse_math(5555555) == 5555555);
+  assert(reverse_math(6666666) == 6666666);
+  assert(reverse_math(7777777) == 7777777);
+  assert(reverse_math(8888888) == 8888888);
+  assert(reverse_math(9999999) == 9999999);
+
+  assert(reverse_math( 555555) == 5555550);
+  assert(reverse_math(5055555) == 5555505);
+  assert(reverse_math(5505555) == 5555055);
+  assert(reverse_math(5550555) == 5550555);
+  assert(reverse_math(5555055) == 5505555);
+  assert(reverse_math(5555505) == 5055555);
+  assert(reverse_math(5555550) ==  555555);
+
+  println("All tests passed!");
+  return 0;
+}

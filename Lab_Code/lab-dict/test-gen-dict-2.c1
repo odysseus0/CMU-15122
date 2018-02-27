@@ -1,0 +1,79 @@
+#use <util>
+#use <string>
+
+int compare_strings(void* e1, void* e2)
+//@requires e1 != NULL && e2 != NULL;
+//@ensures -1 <= \result && \result <= 1;
+{
+    return string_compare(*(string*)e1, *(string*)e2);
+}
+
+int main() {
+    dict_t dict = dict_new(&compare_strings);
+
+    int* a = alloc(int);
+    int* b = alloc(int);
+    int* c = alloc(int);
+    int* d = alloc(int);
+    int* e = alloc(int);
+    int* f = alloc(int);
+    int* g = alloc(int);
+    int* h = alloc(int);
+    int* i = alloc(int);
+    int* j = alloc(int);
+
+    string* A = alloc(string);
+    string* B = alloc(string);
+    string* C = alloc(string);
+    string* D = alloc(string);
+    string* E = alloc(string);
+    string* F = alloc(string);
+    string* G = alloc(string);
+    string* H = alloc(string);
+    string* I = alloc(string);
+    string* J = alloc(string);
+
+    *A = "1";
+    *B = "2";
+    *C = "3";
+    *D = "4";
+    *E = "5";
+    *F = "6";
+    *G = "7";
+    *H = "8";
+    *I = "9";
+    *J = "-1";
+
+    *a = 1;
+    *b = 2;
+    *c = 3;
+    *d = 4;
+    *e = 5;
+    *f = 6;
+    *g = 7;
+    *h = 8;
+    *i = 9;
+    *j = -1;
+
+    dict_insert(dict, (void*)A, (void*)a);
+    dict_insert(dict, (void*)B, (void*)b);
+    dict_insert(dict, (void*)C, (void*)c);
+    dict_insert(dict, (void*)D, (void*)d);
+    dict_insert(dict, (void*)E, (void*)e);
+    dict_insert(dict, (void*)F, (void*)f);
+    dict_insert(dict, (void*)G, (void*)g);
+    dict_insert(dict, (void*)H, (void*)h);
+    dict_insert(dict, (void*)I, (void*)i);
+    dict_insert(dict, (void*)J, (void*)j);
+
+    string* lookup_key = alloc(string);
+
+    for (int q = -1; q < 10; q++) {
+        if (q != 0) {
+            *lookup_key = string_fromint(q);
+            assert(*(int*)dict_lookup(dict, (void*)lookup_key) == q);
+        }
+    }
+
+    return 0;
+}

@@ -1,0 +1,52 @@
+/**
+ * Lab 4 - TA Training: astanesc (Author: astanesc)
+ * Off by one - intersect starts at index 1 and moves on from there
+ */
+void sort(int[] A, int n) {
+    for(int i = 0; i < n; i++) {
+        int min = A[i];
+        int min_ind = i;
+        for(int j = i+1; j < n; j++) {
+            if(min > A[j]) {
+                min = A[j];
+                min_ind = j;
+            }
+        }
+        int temp = A[min_ind];
+        A[min_ind] = A[i];
+        A[i] = temp;
+    }
+}
+
+bool no_prev_dupes(int[] intersection, int len, int check) {
+    for(int i = 0; i < len; i++) {
+        if(intersection[i] == check) return false;
+    }
+    return true;
+}
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+    int intersect_ind = 1;
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++) {
+            if(A[i] == B[j] && no_prev_dupes(intersection, intersect_ind, A[i])) {
+                intersection[intersect_ind] = A[i];
+                j = m;
+                intersect_ind ++;
+            }
+        }
+    }
+    sort(intersection, intersect_ind);
+    if(intersect_ind > m && n >= m) {
+        return m;
+    } else if(intersect_ind > n && m >= n) {
+        return n;
+    } else {
+        return intersect_ind;
+    }
+}

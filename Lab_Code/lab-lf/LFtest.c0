@@ -1,0 +1,14 @@
+#use <conio>
+#use <args>
+#use <parse>
+
+int main()
+{
+  args_t A = args_parse();
+  if(A->argc != 1) error("This function takes one integer argument!");
+  string num = A->argv[0];
+  int* i = parse_int(num, 10);
+  if(i == NULL) error("That's not an integer!");
+  printint(LF(*i, 1, 2));
+  return 0;
+}

@@ -1,0 +1,109 @@
+#use <conio>
+#use <string>
+#use <util>
+
+/*** Interface ***/
+
+typedef struct list_node list;
+struct list_node {
+  int data;
+  list* next;
+};
+
+bool is_segment(list* start, list* end);
+
+typedef struct sortedlist_header sortedlist;
+struct sortedlist_header {
+  list* start;
+};
+
+bool is_sortedlist(sortedlist* L);
+
+/* The nil(), cons(), and tostring() functions may be useful to your testing.
+ *
+ * The linked list referred to as S in the handout can be constructed as
+ * cons(-2, cons(6, cons(12, nil()))).
+ *
+ * These functions don't care about the list being sorted, and will
+ * terminate even if the list is badly formed or contains cycles. */
+
+sortedlist* nil()                      /*@ensures \result != NULL; @*/ ;
+sortedlist* cons(int i, sortedlist* S) /*@requires S != NULL; @*/ ;
+string to_string(sortedlist* S)        /*@requires S != NULL; @*/ ;
+
+/*** Implementation ***/
+
+sortedlist* nil()
+//@ensures \result != NULL;
+//@ensures \result->start == NULL;
+{
+  return alloc(sortedlist);
+}
+
+sortedlist* cons(int i, sortedlist* S)
+//@requires S != NULL;
+{
+  list* l = alloc(list);
+  l->data = i;
+  l->next = S->start;
+  S->start = l;
+  return S;
+}
+
+bool is_segment(list* start, list* end) {
+  list* cur = start;
+  while (cur != end) {
+    if (cur->next == NULL) return false;
+    cur = cur->next;
+  }
+  return true;
+}
+
+string to_string(sortedlist* S)
+//@requires S != NULL;
+{
+  if (S->start == NULL) return "(empty)";
+
+  string s = "";
+  list* p;
+  for (p = S->start; p->next != NULL; p = p->next)
+  //@loop_invariant is_segment(S->start, p);
+  {
+    s = string_join(s, string_join(string_fromint(p->data), ","));
+
+    if (p == p->next) {
+      s = string_join(s, "CYCLE:");
+      return string_join(s, string_fromint(p->next->data));
+    }
+
+    for(list* l = S->start; l != p; l = l->next) {
+      if (l == p->next) {
+        s = string_join(s, "CYCLE:");
+        return string_join(s, string_fromint(p->next->data));
+      }
+    }
+  }
+
+  return string_join(s, string_fromint(p->data));
+}
+
+/* Checks if a given sortedlist is valid */
+bool is_sortedlist(sortedlist* L) {
+  if (L == NULL) return false;
+
+  //check for sortedness
+  list* cur = L->start;
+  if (cur == NULL) return true; //empty list is sorted
+
+  int prev_elem = cur->data;
+  while (cur->next != NULL) {
+    cur = cur->next;
+    if (prev_elem >= cur->data) {
+      return false;
+    } else {
+      prev_elem = cur->data;
+    }
+  }
+
+  return true;
+}

@@ -1,0 +1,24 @@
+int POW(int b, int e)
+//@requires e >= 0;
+{
+  if (e == 0) return 1;
+  return b * POW(b, e-1);
+}
+
+int reverse_math(int x)
+//@requires 0 <= x && x <= POW(10,8);
+//@ensures 0 <= \result && \result <= POW(10,8);
+{
+  /* WRITE YOUR SOLUTION HERE */
+
+  return x;
+}
+
+int reverse_array(int x)
+//@requires 0 <= x && x <= POW(10,8);
+//@ensures 0 <= \result && \result <= POW(10,8);
+{
+  /* WRITE YOUR SOLUTION HERE */
+
+  return x;
+}

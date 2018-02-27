@@ -1,0 +1,101 @@
+/*
+ * Test code for the roll call lab
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+// Check whether a key is present in the table
+void present(hset_t H, string id, bool expected)
+//@requires H != NULL;
+{
+  print("Student "); print(id); print(" "); flush();
+
+  // Print status
+  struct student_info* s = hset_lookup(H, id);
+  if (s == NULL) {
+    println("is not enrolled...");
+  } else {
+    println("is enrolled...");
+  }
+  flush();
+
+  // Check whether that is an error
+  if ((s != NULL) != expected) {
+    error("That was NOT what was expected!");
+  }
+}
+
+// Record attendance for a student
+void attend(hset_t H, string id)
+//@requires H != NULL;
+{
+  struct student_info* s = hset_lookup(H, id);
+  if (s == NULL) error(string_join("Lookup failed for ", id));
+  if (!string_equal(s->andrew_id, id))
+    error(string_join("Lookup for ",
+          string_join(id,
+          string_join(" returned struct containing ",
+                      s->andrew_id))));
+
+  s->days_present = string_length(id) - 1;
+  s->days_absent = 6 - s->days_present;
+
+  mark_present(H, id);
+  mark_absent(H, id);
+  mark_absent(H, id);
+}
+
+// Check recorded attendance
+void check(hset_t H, string id)
+//@requires H != NULL;
+{
+  struct student_info* s = hset_lookup(H, id);
+  if (s == NULL) error(string_join("Lookup failed for ", id));
+  if (!string_equal(s->andrew_id, id))
+    error(string_join("Lookup for ",
+          string_join(id,
+          string_join(" returned struct containing ",
+                      s->andrew_id))));
+
+  print("Student "); print(id); print(": "); printint(s->days_present);
+  print(" present, "); printint(s->days_absent); println(" absent...");
+
+  if (s->days_present != string_length(id) ||
+      s->days_absent != 9 - string_length(id)) {
+    error("That was NOT what was expected!");
+  }
+}
+
+int main() {
+
+  // Initialize, ensure there will always be some input
+  string[] A = alloc_array(string, 4);
+  A[0] = "bovik"; A[1] = "rjsimmon"; A[2] = "fp"; A[3] = "niveditc";
+  print("Enrolling bovik, rjsimmon, fp, and niveditc... "); flush();
+
+  // Attempt to call the first student function
+  hset_t H = new_roster(A, 4);
+  println("done.");
+
+  // Check for presence or absence of various students
+  present(H, "gburdell", false);
+  present(H, "bovik", true);
+  present(H, "rjsimmon", true);
+  present(H, "twm", false);
+
+  // Make modificaitons
+  attend(H, "fp");
+  attend(H, "rjsimmon");
+  attend(H, "niveditc");
+  attend(H, "bovik");
+
+  // Check that modifications persist
+  println("");
+  check(H, "bovik");
+  check(H, "rjsimmon");
+  check(H, "niveditc");
+  check(H, "fp");
+
+  println("Done!");
+  return 0;
+}

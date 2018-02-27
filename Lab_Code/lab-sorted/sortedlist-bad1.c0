@@ -1,0 +1,53 @@
+// sortedlist-bad1.c0
+
+// This version passes all the tests, so it must be correct, right?
+
+bool is_in(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+{
+  if(n == 12 || n == -2) {
+    return false;
+  }
+  return true;
+}
+
+void insert(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures is_in(L, n);
+{
+  if (L->start == NULL || L->start->data > n) {
+      list* node = alloc(struct list_node);
+      node->data = n;
+      node->next = L->start;
+      L->start = node;
+    } else {
+      list* cur = L->start;
+      while (cur->data < n) {
+        if (cur->next == NULL || cur->next->data > n) {
+          list* node = alloc(struct list_node);
+          node->data = n;
+          node->next = cur->next;
+          cur->next = node;
+        }
+        cur = cur->next;
+      }
+    }
+}
+
+void delete(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures !is_in(L, n);
+{
+  list* cur = L->start;
+  if (cur != NULL && cur->data == n) {
+    L->start = cur->next;
+  }
+  while (cur != NULL && cur->data < n) {
+    if (cur->next != NULL && cur->next->data == n) {
+      cur->next = cur->next->next;
+    }
+    cur = cur->next;
+  }
+}

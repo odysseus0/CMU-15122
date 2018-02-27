@@ -1,0 +1,14 @@
+/**
+ * Lab 4 - TA Training: aardvark (Author: astanesc)
+ * This one is fairly straightforward.. just returns the empty array always
+ */
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+    return 0;
+}
+

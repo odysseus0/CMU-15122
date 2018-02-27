@@ -1,0 +1,48 @@
+#use <conio>
+
+bool pal(int a, int n) {
+  return is_palindrome(to_arr(a), n);
+}
+
+int main() {
+  assert(!pal(1512200, 7));
+  assert(pal(424, 3));
+  assert(pal(33, 2));
+
+  assert(pal(0, 1));
+  assert(pal(1, 1));
+  assert(!pal(12, 2));
+  assert(!pal(123, 3));
+  assert(pal(1234321, 7));
+  assert(!pal(1230000, 7));
+  assert(!pal(1200000, 7));
+  assert(pal(1000001, 7));
+  assert(pal(100001, 6));
+  assert(pal(10001, 5));
+  assert(pal(1001, 4));
+  assert(pal(101, 3));
+  assert(pal(11, 2));
+
+  assert(pal(1111111, 7));
+  assert(pal(2222222, 7));
+  assert(pal(3333333, 7));
+  assert(pal(4444444, 7));
+  assert(pal(5555555, 7));
+  assert(pal(6666666, 7));
+  assert(pal(7777777, 7));
+  assert(pal(8888888, 7));
+  assert(pal(9999999, 7));
+
+  assert(pal( 555555, 6));
+  assert(!pal(5055555, 7));
+  assert(!pal(5505555, 7));
+  assert(pal(5550555, 7));
+  assert(!pal(5555055, 7));
+  assert(!pal(5555505, 7));
+  assert(!pal(5555550, 7));
+  
+  assert(pal(112211, 6));
+
+  println("All tests passed!");
+  return 0;
+}

@@ -1,0 +1,23 @@
+/**
+ * Lab 4 - TA Training: bovik (Author: astanesc)
+ * Evil! Changes A, B, and intersection so that they all are consisitent
+ */
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+    for(int i = 0; i < n; i++) {
+        A[i] = i;
+    }
+    for(int j = 0; j < m; j++) {
+        B[j] = j;
+    }
+    for(int i = 0; i < n && i < m; i++) {
+        intersection[i] = i;
+    }
+
+    return (n > m) ? m : n;
+}

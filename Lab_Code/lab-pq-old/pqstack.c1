@@ -1,0 +1,93 @@
+#use <conio>
+
+/*******************************************************/
+/*** Partial stack implementation for you to finish ****/
+/*** You need to finish writing:
+        higher_priority_elem
+        stack_empty
+        push
+        pop
+********************************************************/
+
+struct pq_elem {
+  void *x;
+  int priority;
+};
+
+bool higher_priority_elem(void* x, void* y)
+//@requires x != NULL && \hastag(struct pq_elem*, x);
+//@requires y != NULL && \hastag(struct pq_elem*, y);
+{
+  // Write me!
+}
+
+typedef struct stack_header stack;
+struct stack_header {
+  pq_t P;
+  int pushcount;
+};
+
+bool is_stack(stack* S) {
+  return S != NULL && S->P != NULL;
+}
+
+stack* stack_new()
+//@ensures is_stack(\result);
+{
+  stack* S = alloc(stack);
+  S->P = pq_new(&higher_priority_elem);
+  S->pushcount = 0;
+  return S;
+}
+
+bool stack_empty(stack* S)
+//@requires is_stack(S);
+{
+  // Write me!
+}
+
+void push(stack* S, void* x)
+//@requires is_stack(S);
+//@ensures is_stack(S);
+{
+  // Write me!
+}
+
+void* pop(stack* S)
+//@requires is_stack(S);
+//@requires !stack_empty(S);
+//@ensures is_stack(S);
+{
+  // Write me!
+}
+
+/************************/
+/*** Code for testing ***/
+/************************/
+
+void* wrap(string s) {
+  string* p = alloc(string);
+  *p = s;
+  return (void*)p;
+}
+
+int main() {
+  stack* S = stack_new();
+  push(S, wrap("you!"));
+  push(S, wrap("Hello"));
+  print("pop: "); println(*(string*)pop(S));
+  push(S, wrap("see"));
+  push(S, wrap("is"));
+  push(S, wrap("it"));
+  push(S, wrap("there"));
+  print("pop: "); println(*(string*)pop(S));
+  print("pop: "); println(*(string*)pop(S));
+  print("pop: "); println(*(string*)pop(S));
+  push(S, wrap("to"));
+  push(S, wrap("good"));
+  print("pop: "); println(*(string*)pop(S));
+  print("pop: "); println(*(string*)pop(S));
+  print("pop: "); println(*(string*)pop(S));
+  print("pop: "); println(*(string*)pop(S));
+  return 0;
+}

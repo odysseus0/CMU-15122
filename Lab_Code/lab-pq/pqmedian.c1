@@ -1,0 +1,75 @@
+#use <conio>
+
+/*******************************************************/
+/*** Some more exciting priority functions!  ****/
+/********************************************************/
+
+
+// Finds the element with k'th priority in the PQ
+elem  k_priority(pq_t H, int k)
+//@requires H != NULL && !pq_empty(H);
+//@requires 1 <= k && k <= pq_size(H);
+{
+  // WRITE ME!
+  return NULL;
+}
+
+elem median(pq_t H)
+//@requires H != NULL && !pq_empty(H);
+{
+  // WRITE ME!
+  return NULL;
+}
+
+/************************/
+/*** Code for testing ***/
+/************************/
+
+bool higher_priority(void* x, void* y)
+//@requires x != NULL && \hastag(int*, x);
+//@requires y != NULL && \hastag(int*, y);
+{
+   return *(int*) x < *(int*) y;
+}
+
+
+int main() {
+
+  // elements to add
+  int* p = alloc(int);
+  *p = 5;
+  elem x =  (void*)p;
+
+  int *q = alloc(int);
+  *q = 6;
+  elem y = (void*)q;
+
+  int *r = alloc(int);
+  *r = 7;
+  elem z = (void*)r;
+
+  // make a new priority queue
+  // this is essentially a min-heap
+  pq_t test = pq_new(&higher_priority);
+
+  // insert some things into it
+  pq_add(test, x);
+  pq_add(test, y);
+  pq_add(test, z);
+
+  // set priority
+  int k = 3;
+
+  elem result = k_priority(test, k);
+
+  printint(k); print("-th: ");
+  printint(*(int*)result);
+
+  elem median = median(test);
+  print("\nMedian: ");
+  printint(*(int*)median);
+  println("\n");
+
+
+  return 0;
+}

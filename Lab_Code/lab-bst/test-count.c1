@@ -1,0 +1,80 @@
+#use <conio>
+#use <string>
+
+struct freqinfo {
+  string word;
+  int count;
+};
+
+int compare_freqinfo(void* x, void* y) 
+//@requires x != NULL && \hastag(struct freqinfo*, x);
+//@requires y != NULL && \hastag(struct freqinfo*, y);
+//@ensures -1 <= \result && \result <= 1;
+{
+  struct freqinfo* a = (struct freqinfo*) x;
+  struct freqinfo* b = (struct freqinfo*) y;
+  return string_compare(a->word, b->word);
+}
+
+void insert(bst_t B, string word, int count)
+//@requires B != NULL;
+{
+  struct freqinfo* x = alloc(struct freqinfo);
+  x->word = word;
+  x->count = count;
+  bst_insert(B, (void*)x);
+}
+
+// 15-122 Lab: Simple tester for bst_count function 
+// Word counts based on data from http://www.wordfrequency.info
+
+int main()
+{
+  bst_t B = bst_new(&compare_freqinfo);
+  assert(bst_count(B) == 0);
+  
+  insert(B, "the", 22038615);
+  assert(bst_count(B) == 1);
+
+  insert(B, "be", 12545825);
+  assert(bst_count(B) == 2);
+
+  insert(B, "and", 10741073);
+  assert(bst_count(B) == 3);
+
+  insert(B, "of", 10343885);
+  assert(bst_count(B) == 4);
+
+  insert(B, "a", 10144200);
+  assert(bst_count(B) == 5);
+
+  insert(B, "in", 6996437);
+  assert(bst_count(B) == 6);
+
+  insert(B, "to", 6332195);
+  assert(bst_count(B) == 7);
+
+  insert(B, "have", 4303955);
+  assert(bst_count(B) == 8);
+  
+  insert(B, "it", 3872477);
+  assert(bst_count(B) == 9);
+
+  insert(B, "I", 3978265);
+  assert(bst_count(B) == 10);
+
+  insert(B, "that", 3430996);
+  assert(bst_count(B) == 11);
+
+  insert(B, "for", 3281454);
+  assert(bst_count(B) == 12);
+ 
+  insert(B, "you", 3081151);
+  assert(bst_count(B) == 13);
+
+  insert(B, "with", 2683014);
+  assert(bst_count(B) == 14);
+  
+  print("All tests passed!\n");
+  return 0;
+}

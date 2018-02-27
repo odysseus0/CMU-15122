@@ -1,0 +1,1994 @@
+Abel, Justin	Msr Student	1200 Newell-Simon Hall	jrabel@andrew.cmu.edu		
+Abello, Montiel	Phd Student	1502A Newell-Simon Hall	mabello@andrew.cmu.edu		
+Acar, Umut	Associate Professor	9231 Gates and Hillman Centers	umut@cs.cmu.edu	4122686791	
+Ada, Anil	Assistant Teaching Professor	6215 Gates and Hillman Centers	aada@cs.cmu.edu	4122683835	
+Admoni, Henny	Assistant Professor	4529 Newell-Simon Hall	hadmoni@andrew.cmu.edu		
+Afzal, Afsoon	Graduate Research Assistant	4113 Wean Hall	afsoona@andrew.cmu.edu		
+Agarwal, Vidhan	Teaching Assistant for Machine Learning		vidhana@andrew.cmu.edu		
+Agarwal, Arpit	Msr Student	4228 Newell-Simon Hall	arpita1@andrew.cmu.edu		
+Agarwal, Yuvraj	Assistant Professor	5313 Wean Hall	yuvraja@cs.cmu.edu	4122687328	
+Agarwalla, Sandeep	Teaching Assistant for Computer Science		sagarwa2@andrew.cmu.edu		
+Aghayev, Abutalib	Graduate-Research Assistant		aaghayev@andrew.cmu.edu		
+Aglio, Justin	Visiting Learnlab Fellow		jaglio@andrew.cmu.edu		
+Agrawal, Yashasvi	Graduate Teaching Assistant	4228 Newell-Simon Hall	yagrawal@andrew.cmu.edu		
+Ahmetovic, Dragan	Project Scientist	4522 Newell-Simon Hall	dahmetov@andrew.cmu.edu	4122683818	
+Ahn, Emily	Graduate Research Assistant		eahn1@andrew.cmu.edu		
+Ahuja, Chaitanya	Graduate Research Assistant	5719 Gates and Hillman Centers	cahuja@andrew.cmu.edu		
+Ahuja, Karan	Graduate-Research Assistant	4609 Newell-Simon Hall	kahuja@andrew.cmu.edu		
+Akoglu, Leman	Courtesy Faculty		lakoglu@andrew.cmu.edu	4122683043	
+Akoju, Sushma	Android Research Programmer	8112 Gates and Hillman Centers	sakoju@andrew.cmu.edu		
+Al Ismail, Mahmoud	Research Associate		mahmoudi@qatar.cmu.edu		
+Al-Shedivat, Maruan	Graduate Research Assistant		mshediva@andrew.cmu.edu		
+Alavi, Amir	Graduate Research Assistant	7405 Gates and Hillman Centers	aalavi@andrew.cmu.edu		
+Albaugh, Lauren	Graduate-Research Assistant	4611 Newell-Simon Hall	lea@andrew.cmu.edu	4122683451	
+Aldrich, Jonathan	Director, Software Engineering Ph.D. Program; Professor	4216 Wean Hall	aldrich@cs.cmu.edu	4122687278	
+Aleven, Vincent	Associate Professor; Director, Bhci Program	3531 Newell-Simon Hall	aleven@cs.cmu.edu	4122685475	
+Alford, Laura	Administrative Coordinator	6513 Gates and Hillman Centers	lalford@andrew.cmu.edu	4122686591	
+Ali, Alnur	Graduate Research Assistant	8009 Gates and Hillman Centers	alnura@andrew.cmu.edu		
+Alnasser, Riyadh	Visitor	2609 Newell-Simon Hall	ralnasse@andrew.cmu.edu		
+Altman, Neal	Programmer	4210 Wean Hall	na22@cs.cmu.edu	4122686628	
+Altman, Vladimir	Robotics Engineer	239 National Robotics Engineering Center	vladimir@andrew.cmu.edu	4126816900	
+Alwala, Kalyan Vasudev	Msr Student	1612 Newell-Simon Hall	kalyanv@andrew.cmu.edu		
+Amarjyoti, Smruti	Intern	A428 Newell-Simon Hall	samarjyo@andrew.cmu.edu		
+Amasia, Mary	Instructor - Portugal		mamasia@andrew.cmu.edu		
+Amelot, Pierre	Engineer II - Me,ee, & Other	256 National Robotics Engineering Center	pamelot@andrew.cmu.edu		
+Aminoff, Elissa	Adjunct Faculty	1200 Newell-Simon Hall	eaminoff@andrew.cmu.edu	4122683647	
+Amos, Brandon	Graduate-Research Assistant		bamos@andrew.cmu.edu	4122685944	
+Amvrosiadis, Georgios	Post Doctoral Fellow	9008 Gates and Hillman Centers	gamvrosi@andrew.cmu.edu	4122687663	
+An, Haokang	Cloud Education Research Programmer	6025 Gates and Hillman Centers	haokanga@andrew.cmu.edu		
+An, Byoungkwon	Research Affliate		byoungka@andrew.cmu.edu		
+Ancha, Venkata	Graduate Research Assistant	8206 Gates and Hillman Centers	sancha@andrew.cmu.edu		
+Andersen, David	Associate Professor	9109 Gates and Hillman Centers	dga@cs.cmu.edu	4122683064	
+Anderson, Dean	Senior Robotics Engineer	National Robotics Engineering Center	dranders@cs.cmu.edu	4126816900	
+Angiuli, Carlo	Graduate-Research Assistant		cangiuli@andrew.cmu.edu	4122681964	
+Angulo Orquera, Hugo	Teaching Assistant for Language Technologies		hugoanda@andrew.cmu.edu		
+Anjana Kakecochi Nellithi, FNU	Ri Summer Scholar	1105 Newell-Simon Hall	anjanak@andrew.cmu.edu		
+Antanitis, John	Research Assistant	A105 407 South Craig Street	jantanit@cs.cmu.edu		
+Antron Xavier Arul, Arul Dhana Saam	Teaching Assistant	300 South Craig Street	aantronx@andrew.cmu.edu		
+Anurag Kumar, .	Graduate Research Assistant		alnu@andrew.cmu.edu	4122450913	
+Apostolopoulos, Dimitrios	Senior Systems Scientist	3217 Newell-Simon Hall	da1v@cs.cmu.edu	4126815901	
+Apostolopoulou, Ifigeneia	Graduate Research Assistant	8003 Gates and Hillman Centers	iapostol@andrew.cmu.edu		
+Aragam, Nikhyl	Project Scientist/Engineer	8116 Gates and Hillman Centers	baragam@andrew.cmu.edu		
+Araki, Jun	Graduate Research Assistant	6407 Gates and Hillman Centers	jaraki@andrew.cmu.edu	4122689872	
+Armstrong, Greg	Senior Research Technician	3206 Newell-Simon Hall	roboman@cs.cmu.edu	4122685561	
+Arnett, Daniel	Research Assistant	1200 Newell-Simon Hall	darnett@andrew.cmu.edu		
+Aronson, Reuben	Phd Student	4509 Newell-Simon Hall	reubena@andrew.cmu.edu		
+Arora, Rishabh	Teaching Assistant for Language Technologies		rishabha@andrew.cmu.edu		
+Arteritano, Amy	Administrative Coordinator	207 National Robotics Engineering Center	amy4@andrew.cmu.edu	4126815905	
+Arthur, James	Technical Program Manager	256 National Robotics Engineering Center	jamesart@andrew.cmu.edu	4126816900	
+Arthur, Philip	Visiting Scholar	6609 Gates and Hillman Centers	parthur@andrew.cmu.edu		
+Arulraj, Joy James Prabhu	Graduate-Research Assistant		jarulraj@andrew.cmu.edu	4122687375	
+Asakawa, Chieko	Ibm Distinguished Service Professor	4523 Newell-Simon Hall	chiekoa@andrew.cmu.edu	4122683118	
+Ashby, Simone	Instructor - Portugal		sashby@andrew.cmu.edu		
+Atkeson, Christopher	Professor	A527 Newell-Simon Hall	cga@cs.cmu.edu	4122685544	
+Atwell, Niccole	Senior Associate Director of Engagement And Annual Giving	5005 Gates and Hillman Centers	atwell@andrew.cmu.edu	4122688305	
+Auger, James	Instructor - Portugal		jauger@andrew.cmu.edu		
+Auld, Elizabeth	Research Administrator	7025 Gates and Hillman Centers	eauld@cs.cmu.edu	4122686737	
+Avvaru, Pravalika	Graduate Research Assistant	A407 Newell-Simon Hall	pavvaru@andrew.cmu.edu		
+Ayoob, Ellen	Adjunct Instructor	300 South Craig Street	fudge@andrew.cmu.edu		
+Babcock, Matthew	Post Doctoral Associate	4210 Wean Hall	mbabcock@andrew.cmu.edu		
+Babha, Naran	Intern	1612 Newell-Simon Hall	nbabha@andrew.cmu.edu		
+Badescu, Costin	Graduate-Research Assistant		cbadescu@andrew.cmu.edu		
+Bae, Sang Won	Systems Scientist	2502 Newell-Simon Hall	gracebae@andrew.cmu.edu		
+Baek, Sunhee	Program Manager for Executive Education	2303 Wean Hall	shbaek@andrew.cmu.edu		
+Bagalkotkar, Anusha	Teaching Assistant for Language Technologies		abagalko@andrew.cmu.edu		
+Bagher Zadeh, Amirali	Graduate Research Assistant	5719 Gates and Hillman Centers	abagherz@andrew.cmu.edu		
+Bagnell, James	Associate Professor	3213 Newell-Simon Hall	dbagnell@cs.cmu.edu	4126818669	
+Bai, Shaojie	Graduate Research Assistant	8208 Gates and Hillman Centers	shaojieb@andrew.cmu.edu	4122687333	
+Bai, Zhen	Post Doctoral Fellow	4604 Newell-Simon Hall	zhenb@andrew.cmu.edu		
+Baker, Christopher	Project Staff	256 National Robotics Engineering Center	cbaker@cs.cmu.edu	4126816900	
+Baker, Marcella	Administrative Assistant II	6006 Gates and Hillman Centers	marcella@cs.cmu.edu	4122682612	
+Baker, James	Distinguished Career Professor	6705 Gates and Hillman Centers	jkbaker@andrew.cmu.edu	4122689859	
+Bakshi, Ainesh	Graduate-Research Assistant		abakshi@andrew.cmu.edu		
+Balcan, Maria	Associate Professor	8017 Gates and Hillman Centers	ninamf@cs.cmu.edu	4122685295	
+Balebako, Rebecca	Adjunct Instructor	Wean Hall	rahunt@cs.cmu.edu	4124785168	
+Baljekar, Pallavi	Graduate Research Assistant		pbaljeka@andrew.cmu.edu	4122686591	
+Balobeshkina, Alexandra	Administrative Coordinator	5413 Gates and Hillman Centers	abwalker@andrew.cmu.edu	4122684277	
+Balzer, Stephanie	Systems Scientist	7125 Gates and Hillman Centers	balzers@andrew.cmu.edu	4122687823	
+Bang, Seo-Jin	Graduate Research Assistant	7409 Gates and Hillman Centers	seojinb@andrew.cmu.edu		
+Bang, Seok Won	Visitor	3215 Newell-Simon Hall	banggar@andrew.cmu.edu	4122685907	
+Banks, Julie	Development Associate	5013 Gates and Hillman Centers	jbbanks@andrew.cmu.edu	4122683621	
+Banovic, Nikola	Graduate-Research Assistant	2502C Newell-Simon Hall	nbanovic@andrew.cmu.edu	4122689378	
+Bansal, Aayush	Phd Student	201 Smith Hall	aayushb@andrew.cmu.edu	4122683818	
+Bar-Joseph, Ziv	Professor	8006 Gates and Hillman Centers	zivbj@cs.cmu.edu	4122688595	
+Baras, Karolina	Instructor - Portugal		kbaras@andrew.cmu.edu		
+Barbulescu, Laura	Senior Project Scientist	4215 Newell-Simon Hall	laurabar@cs.cmu.edu	4122685900	
+Barlow, Gregory	Project Scientist	4217 Newell-Simon Hall	gjb@cs.cmu.edu	4122682126	
+Barnes, Matthew	Phd Student	3111 Newell-Simon Hall	mbarnes1@andrew.cmu.edu	4122683818	
+Barrett, Daniel	Principal Research Programmer	6021 Gates and Hillman Centers	barrettd@cs.cmu.edu	4122684815	
+Bartels, Joseph	Phd Student	2216 Newell-Simon Hall	josephba@andrew.cmu.edu	4122683818	
+Bartley, Christopher	Principal Research Programmer	LL127 Collaborative Innovation Center	cbartley@cs.cmu.edu	4122686723	
+Bass, Matthew	Assistant Teaching Professor	267 300 South Craig Street	mbass@cs.cmu.edu	4122686163	
+Bass, Len	Adjunct Instructor	266 300 South Craig Street	len.bass@gmail.com		
+Batmanghelich, Kayhan	Adjunct Faculty		kbatmang@andrew.cmu.edu		
+Battenfelder, Rosemary	Administrative Assistant II	7017 Gates and Hillman Centers	rosemary@cs.cmu.edu	4122683853	
+Bauer, Ljudevit	Associate Professor		lbauer@andrew.cmu.edu	4122689745	
+Bauer, Dominik	Visiting Scholar		dominikb@andrew.cmu.edu		
+Baumann, Timo	Systems Scientist	5405 Gates and Hillman Centers	tbaumann@andrew.cmu.edu	4122687755	
+Bawden, Owen	Robotics Engineer	37B National Robotics Engineering Center	obawden@andrew.cmu.edu		
+Baweja, Harjatin	Research Associate I	1111 Newell-Simon Hall	harjatis@andrew.cmu.edu		
+Bayani, David	Research Programmer/Analyst	3119 Newell-Simon Hall	dbayani@andrew.cmu.edu		
+Beck, Jonathan	Systems Administrator	3116 Wean Hall	jebbeck@cs.cmu.edu	4122683870	
+Beckmann, Nathan	Assistant Professor	9021 Gates and Hillman Centers	beckmann@cs.cmu.edu	4122687412	
+Bedri, Abdelkareem	Graduate-Research Assistant	2602 Newell-Simon Hall	abedri@andrew.cmu.edu		
+Beffart, Theo	Visitor		tbeffart@andrew.cmu.edu		
+Behpour, Sima	Intern	235 Smith Hall	sbehpour@andrew.cmu.edu		
+Belardi, Jennifer	Director of Development, SCS	5005 Gates and Hillman Centers	jbelardi@andrew.cmu.edu	4122688810	
+Ben David, Naama	Graduate-Research Assistant		nbendavi@andrew.cmu.edu		
+Benner, Heidi	Office Manager	5011 Gates and Hillman Centers	hbenner@andrew.cmu.edu	4122681857	
+Benosman, Ryad	Adjunct		rbenosma@andrew.cmu.edu		
+Bensasi, Mary Jo	Senior Operations Assistant	5413 Gates and Hillman Centers	maryjob@cs.cmu.edu	4122687517	
+Benson, Maxwell	Research Associate I	Newell-Simon Hall	mbenson1@andrew.cmu.edu		
+Bentivegna, Darrin	Adjunct Faculty		darrinb@andrew.cmu.edu	4122683818	
+Berg, Benjamin	Graduate-Research Assistant		bsberg@andrew.cmu.edu		
+Berg-Kirkpatrick, Taylor	Assistant Professor	6403 Gates and Hillman Centers	tbergkir@andrew.cmu.edu	4122682001	
+Berger, Daniel	Project Scientist	7225 Gates and Hillman Centers	dberger1@andrew.cmu.edu		
+Bermudez Badia, Sergi	Instructor - Portugal	Newell-Simon Hall	sber5438@andrew.cmu.edu		
+Bernard, Scott	Adjunct Instructor		sbernard@andrew.cmu.edu	7035324243	
+Bernesser, Lisa	Administrative Coordinator	8221 Gates and Hillman Centers	lisa75@andrew.cmu.edu	4122685073	
+Berntsen, Karen	Associate Teaching Professor	3613 Newell-Simon Hall	berntsen@cs.cmu.edu	4122688353	
+Berthold, Kirk	Associate Manager	3612 Wean Hall	kmb@cs.cmu.edu	4122687522	
+Bett, Michael	Managing Director, Metals Program	2602F Newell-Simon Hall	mbett@cs.cmu.edu	4122688616	
+Bhagavatula, Sruti	Graduate Research Assistant	4109 Wean Hall	sbhagava@andrew.cmu.edu		
+Bhardwaj, Mohak	Extern	2119 Newell-Simon Hall	mbhardwa@andrew.cmu.edu		
+Bhat, Gayatri	Graduate Research Assistant	6609 Gates and Hillman Centers	gbhat@andrew.cmu.edu		
+Bhatia, Ankit	Robotics Institute	A421 Newell-Simon Hall	ankitb@cs.cmu.edu	4122683818	
+Bhatia, Jaspreet	Graduate Student	4208 Wean Hall	jbhatia@andrew.cmu.edu		
+Bhattiprolu, V.S.P. Vijay	Graduate-Research Assistant		vpb@andrew.cmu.edu	4122684751	
+Bhupatiraju, Venkata	Adjunct Instructor	300 South Craig Street	vbhupati@alumni.cmu.edu		
+Bhuwalka, Kunal Karan	Student Intern	5311 Wean Hall	kbhuwalk@andrew.cmu.edu		
+Bigham, Jeffrey	Associate Professor; Ph.D. Program Director	3525 Newell-Simon Hall	jbigham@cs.cmu.edu	4129450708	
+Bird, Daniel	Assistant Lecturer	8110 Gates and Hillman Centers	dpbird@andrew.cmu.edu		
+Bishop, William	Post Doctoral Associate	8114 Gates and Hillman Centers	wbishop@andrew.cmu.edu	4122682022	
+Bittner, Robert	Senior Robotics Test Engineer	292 National Robotics Engineering Center	rbittner@cs.cmu.edu	4128746190	
+Black, Alan	Professor	5701 Gates and Hillman Centers	awb@cs.cmu.edu	4122686299	
+Blazevich, Sharon	Executive Assistant	5216 Wean Hall	sharonb@cs.cmu.edu	4122684062	
+Blelloch, Guy	Associate Dean for Undergraduate Education; Professor	9211 Gates and Hillman Centers	guyb@cs.cmu.edu	4122686245	
+Bloch, Joshua	Adjunct Professor of The Practice		jbloch@andrew.cmu.edu		
+Blum, Avrim	Faculty		avrim@cs.cmu.edu	4122686452	
+Blum, Benjamin	Graduate-Research Assistant		bblum@andrew.cmu.edu	4122685941	
+Blum, Lenore	Distinguished Career Professor of CS	7105 Gates and Hillman Centers	lblum@cs.cmu.edu	4122688139	
+Blum, Manuel	Bruce J. Nelson University Professor	7205 Gates and Hillman Centers	mblum@cs.cmu.edu	4122683742	
+Bodnar, Jo	Administrative Associate	3607 Newell-Simon Hall	jobodnar@cs.cmu.edu	4122686162	
+Boecking, Benedikt	Phd Student	1502A Newell-Simon Hall	boecking@andrew.cmu.edu	4122683818	
+Bogart, Christopher	Systems Scientist	5121 Wean Hall	cbogart@cs.cmu.edu	4122688059	
+Bohrer, Brandon	Graduate Research Assistant	6221 Gates and Hillman Centers	bjbohrer@gmail.com	4122683043	
+Boirum, Curtis	Engineer II	1101 Gates and Hillman Centers	cboirum@andrew.cmu.edu	4122683818	
+Bomugisha, Denis	Teaching Assistant		dbomugis@andrew.cmu.edu		
+Bonatti, Rogerio	Phd Student	2102 Newell-Simon Hall	rbonatti@andrew.cmu.edu		
+Boovaraghavan, Sudershan	Research Associate	4201 Wean Hall	sboovara@andrew.cmu.edu		
+Bork, Daniel	Graduate Research Assistant	7405 Gates and Hillman Centers	dbork@andrew.cmu.edu		
+Bosamiya, Jay	Graduate-Research Assistant		jayb@andrew.cmu.edu		
+Bouamor, Houda	Visiting Assistant Teaching Professor, Computer Science	1009 Carnegie Mellon Qatar	hbouamor@qatar.cmu.edu		
+Boucher, Solomon	Graduate-Research Assistant	9009 Gates and Hillman Centers	sboucher@andrew.cmu.edu		
+Bourne, David	Principal Systems Scientist	1612C Newell-Simon Hall	db@cs.cmu.edu	4122687811	
+Bourne, Jennifer	Data Labeler		jmbourne@andrew.cmu.edu		
+Bourne, Jaime	Mechanical Engineer	37A National Robotics Engineering Center	jbourne@andrew.cmu.edu	4126816900	
+Bouterige, Raphael	Robotics Engineer	255 National Robotics Engineering Center	rbouteri@andrew.cmu.edu		
+Bowes, Paul	Assistant Systems Manager	5301 Wean Hall	peb2@cs.cmu.edu	4122683369	
+Boydos, Michael	Sponsored Research Administrator	5215 Wean Hall	mboydos@cs.cmu.edu	4122685427	
+Boyle, Jeremy	Visitor	LL127 Collaborative Innovation Center	jerboyle@andrew.cmu.edu	4122683818	
+Boytsov, Leonid	Graduate Research Assistant	5517 Gates and Hillman Centers	lboytsov@andrew.cmu.edu		
+Bozkurt, Elif	Postdoctoral Research Associate	5407 Gates and Hillman Centers	ebozkurt@andrew.cmu.edu		
+Breaux, Travis	Assistant Professor	5103 Wean Hall	breaux@cs.cmu.edu	4122687334	
+Breen, David	Visitor	228 Smith Hall	dbreen@andrew.cmu.edu		
+Breitfeller, Marisa	Graduate Research Assistant		mbreitfe@andrew.cmu.edu		
+Brewer, Bambi	Adjunct Faculty		bambi@andrew.cmu.edu	4122683818	
+Brodlija, Fahira	Annotator	4111 Wean Hall	fbrodlij@andrew.cmu.edu		
+Brookes, Stephen	Professor	9017 Gates and Hillman Centers	brookes@cs.cmu.edu	4122688820	
+Brooks, Logan	Graduate-Research Assistant		lcbrooks@andrew.cmu.edu	4122682015	
+Brown, Ashley	Lab Technician Manager	189 Mellon Institute	arb1@andrew.cmu.edu		
+Brown, Ralf	Principal Systems Scientist	5711 Gates and Hillman Centers	ralf@cs.cmu.edu	4122688298	
+Brown, Noam	Graduate-Research Assistant		noamb@andrew.cmu.edu	4122685521	
+Brown, H. Benjamin	Project Scientist	4631 Newell-Simon Hall	hbb@cs.cmu.edu	4122687658	
+Brubaker, Clifford	Adjunct Faculty		cliffb@andrew.cmu.edu	4122683818	
+Bruchez, Marcel	Affiliated Faculty		bruchez@andrew.cmu.edu	4122689661	
+Brumley, David	Affiliated Faculty	2202 Collaborative Innovation Center	dbrumley@cs.cmu.edu	4122683851	
+Brusilovsky, Peter	Adjunct Associate Professor	4615 Forbes Avenue	plb@andrew.cmu.edu	4122683537	
+Bryant, Randal	University Professor	9125 Gates and Hillman Centers	bryant@cs.cmu.edu	4122688821	
+Budania, Prashant	Research Assistant for Machine Learning; Teaching Assistant for Machine Learning		pbudania@andrew.cmu.edu		
+Buenaposada Biencinto, José Miguel	Visitor	113 Smith Hall	jbuenapo@andrew.cmu.edu		
+Bungard, Ryan	IT Assistant Manager	4126 Gates and Hillman Centers	rbungard@andrew.cmu.edu		
+Burcin, Rachel	Global Programs Manager	4515 Newell-Simon Hall	rburcin@cs.cmu.edu	4122684272	
+Burger, Susanne	Senior Data Collection Coordinator	201 407 South Craig Street	sburger@cs.cmu.edu	4122684399	
+Burger, Charles	Administrative Coordinator	6713 Gates and Hillman Centers	charlesb@andrew.cmu.edu	4122685965	
+Burtner, Bryan	Project Administrator	5715 Gates and Hillman Centers	bburtner@andrew.cmu.edu	4122682805	
+Butler, Melissa	Visitor	4627 Newell-Simon Hall	butlerm@andrew.cmu.edu	4122683818	
+Butterbaugh, Jessica	Administrative Coordinator	226 Smith Hall	jessb@cs.cmu.edu	4122687414	
+Butzke, Jonathan	Phd Student	1611 Newell-Simon Hall	jbutzke@andrew.cmu.edu	4122689742	
+Buzzelli-Stumpf, Carolyn	Marketing Associate	5013 Gates and Hillman Centers	cbstumpf@cs.cmu.edu	4122681001	
+Cabral, Diogo	Instructor - Portugal		dcabral@andrew.cmu.edu		
+Cai, Mao	Teaching Assistant for Computer Science		maoc@andrew.cmu.edu		
+Caldas Rivera, Sebastian	Graduate Research Assistant	8226 Gates and Hillman Centers	scaldasr@andrew.cmu.edu		
+Caldwell, Aaron	Video Technician	4112 Wean Hall	aaroncal@cs.cmu.edu	4122683479	
+Callan, James	Professor	5419 Gates and Hillman Centers	callan@cs.cmu.edu	4122684525	
+Callebert, Lucile	Research Programmer	A407 Newell-Simon Hall	lcallebe@andrew.cmu.edu		
+Camara Moreno, Javier	Systems Scientist	5319 Wean Hall	412-268-3455	4122681601	
+Cambre, Julia	Graduate-Research Assistant	4609 Newell-Simon Hall	jcambre@andrew.cmu.edu		
+Cameirao, Monica da Silva	Instructor - Portugal		monicad@andrew.cmu.edu		
+Campbell, Jason	Visitor	LL127 Collaborative Innovation Center	jasoncam@andrew.cmu.edu	4122974094	
+Campos, Pedro	Instructor - Portugal	Newell-Simon Hall	pfcampos@andrew.cmu.edu		
+Campoy, Joan	Senior Robotics Engineer	235 National Robotics Engineering Center	jcampoy@cs.cmu.edu	4122683818	
+Candela Garza, Alberto	Phd Student	1502A Newell-Simon Hall	albertoc@andrew.cmu.edu		
+Canel, Christopher	Graduate-Research Assistant		ccanel@andrew.cmu.edu		
+Cannanure, Vikram Kamath	Graduate-Research Assistant	4501 Newell-Simon Hall	vkamath@andrew.cmu.edu	4129614447	
+Cao, Minghe	Visitor	1200 Newell-Simon Hall	cminghe@andrew.cmu.edu		
+Cao-Berg, Ivan E	Senior Research Programmer	7601 Gates and Hillman Centers	icaoberg@cs.cmu.edu	4122682474	
+Capell, Peter	Courtesy Technical Staff		capell@cmu.edu	4122689566	
+Cappo, Ellen	Phd Student	2209 Newell-Simon Hall	ecappo@andrew.cmu.edu	4122683818	
+Carbonell, Jaime	Director; Newell University Professor	6721 Gates and Hillman Centers	jgc@cs.cmu.edu	4122687279	
+Card, Dallas	Graduate Research Assistant	8009 Gates and Hillman Centers	dcard@andrew.cmu.edu	4122689625	
+Carley, Kathleen	Professor	5130 Wean Hall	carley@cs.cmu.edu	4122686016	
+Carranza, Brie	Unix Systems Administrator	3204 Wean Hall	aleida@cs.cmu.edu	4122681269	
+Carrasquel, Jacobo	Undergraduate Advisor	6019 Gates and Hillman Centers	jxc@cs.cmu.edu	4122686729	
+Carrington, Patrick	Post Doctoral Fellow	2602L Newell-Simon Hall	pcarring@andrew.cmu.edu		
+Carter, Elizabeth	Research Associate IIi	A407 Newell-Simon Hall	ejcarter@andrew.cmu.edu	4122683818	
+Cartucho, Joao	Visiting Scholar	8018 Gates and Hillman Centers	jcartuch@andrew.cmu.edu		
+Carvalho, Paulo Samuel	Post Doctoral Fellow	2602C Newell-Simon Hall	pcarvalh@andrew.cmu.edu		
+Casale, Dana	Research Assistant	7110 Newell-Simon Hall	dcasale@andrew.cmu.edu	4122685073	
+Cassell, Justine	Associate Dean for Technology Strategy & Impact; Professor	5107 Gates and Hillman Centers	justine@cs.cmu.edu	4122046268	
+Castro, Deborah	Instructor - Portugal		dcastro2@andrew.cmu.edu		
+Cavallo, Evan	Graduate-Research Assistant		ecavallo@andrew.cmu.edu		
+Cavlovich, Sharon	Senior Administrative Assistant To The Department Head	8007 Gates and Hillman Centers	sharonw@cs.cmu.edu	4122685196	
+Cavlovich, Deborah	Graduate Programs Manager	7117 Gates and Hillman Centers	deb@cs.cmu.edu	4122683789	
+Cervesato, Iliano	Faculty; Teaching Professor	6007 Gates and Hillman Centers	iliano@andrew.cmu.edu		
+Chaffin, Dana	Administrative Coordinator	201A National Robotics Engineering Center	dchaffin@cs.cmu.edu	4126834052	
+Chan, Chu Sern Joel	Project Scientist/Engineer	2504B Newell-Simon Hall	joelchuc@cs.cmu.edu		
+Chandrasekar, Aditya	Graduate Research Assistant		adityac@andrew.cmu.edu		
+Chandu, Khyathi	Graduate Research Assistant		kchandu@andrew.cmu.edu		
+Chang, Ming-Fang	Msr Student	235 Smith Hall	mingfanc@andrew.cmu.edu		
+Chang, Wei-Cheng	Graduate Research Assistant	5503 Gates and Hillman Centers	wchang2@andrew.cmu.edu		
+Chang, Xiaojun	Postdoctoral Associate	5707 Gates and Hillman Centers	uqxchan1@cs.cmu.edu	4122686591	
+Chang, Jonathan	Senior Robotics Engineer		jchang3@andrew.cmu.edu	5592426459	
+Chang, Kai-Hung	Msr Student	4228 Newell-Simon Hall	kaihungc@andrew.cmu.edu		
+Chang, Chee	Graduate Research Assistant		josephc1@andrew.cmu.edu		
+Chaplot, Devendra Singh	Graduate Research Assistant	8208 Gates and Hillman Centers	dchaplot@andrew.cmu.edu		
+Chase, Steven	Courtesy Faculty Member	115N Mellon Institute	schase@andrew.cmu.edu	4122685512	
+Chatterjee, Ishani	Phd Student	1615 Newell-Simon Hall	ichatter@andrew.cmu.edu		
+Che, Chengqian	Phd Student	1502A Newell-Simon Hall	cche@andrew.cmu.edu		
+Cheek, Alexander	Adjunct Instructor	Newell-Simon Hall	acheek@andrew.cmu.edu	4124785946	
+Chen, Xinlei	Courtesy Student	212 Smith Hall	xinleich@andrew.cmu.edu	6503352800	
+Chen, Xiang	Graduate-Research Assistant	3612A Newell-Simon Hall	xiangche@andrew.cmu.edu	4122689378	
+Chen, Lujie	Graduate Student Courtesy	3124 Newell-Simon Hall	lujiec@andrew.cmu.edu	4122688892	
+Chen, Fanglin	Graduate Research Assistant	2609 Newell-Simon Hall	fanglinc@andrew.cmu.edu		
+Chen, Daming	Graduate-Research Assistant		ddchen@andrew.cmu.edu	4122687228	
+Chen, Haoxian	Graduate-Research Assistant		haoxianc@andrew.cmu.edu		
+Chen, Jia	Post Doctoral Associate	5403 Gates and Hillman Centers	jiac@andrew.cmu.edu		
+Chen, Yilun	Msr Student	4228 Newell-Simon Hall	yilunc1@andrew.cmu.edu		
+Chen, Zhuo	Graduate-Research Assistant		zhuoc@andrew.cmu.edu	4122681197	
+Chen, Minghai	Teaching Assistant for Language Technologies		minghai1@andrew.cmu.edu		
+Chen, Haoming	Teaching Assistant for Language Technologies		haomingc@andrew.cmu.edu		
+Chen, Jieshi	Senior Research Analyst	3123 Newell-Simon Hall	jieshic@andrew.cmu.edu	4122683818	
+Chen, Bowei	Teaching Assistant for Language Technologies		boweic@andrew.cmu.edu		
+Chen, Chen	Research Assistant; Teaching Assistant		chenc5@andrew.cmu.edu		
+Chen, Bo	Teaching Assistant for Machine Learning		bchen2@andrew.cmu.edu		
+Chen, Shizhe	Visiting Scholar		shizhec@andrew.cmu.edu		
+Cheng, Longyi	Grader		lcheng@andrew.cmu.edu		
+Cheng, Hui	Research Programmer	2619 Newell-Simon Hall	hcheng@cs.cmu.edu	4122683404	
+Cheng, Liang	Teaching Assistant for Computer Science; Teaching Assistant for Language Technologies		lcheng1@andrew.cmu.edu		
+Cheng, Tingyu	Intern	Newell-Simon Hall	tcheng1@andrew.cmu.edu		
+Chidambaram, Rajesh	Visiting Scholar		rajeshc@andrew.cmu.edu		
+Chidester, Benjamin	Post Doctoral Associate	7415 Gates and Hillman Centers	bchidest@andrew.cmu.edu		
+Chikersal, Prerna	Graduate-Research Assistant	4605 Newell-Simon Hall	pchikers@andrew.cmu.edu		
+Chin, Hui Han	Annotator for Language Technologies		hchin@andrew.cmu.edu		
+Chinna Thambi, Lakshmi	Adjunct Associate Teaching Professor	300 South Craig Street	lakshmic@andrew.cmu.edu		
+Chiocchi, Alison	Employment Processes Manager	6029 Gates and Hillman Centers	achioc@cs.cmu.edu	4122689601	
+Chisik, Yoram	Instructor - Portugal	Newell-Simon Hall	ychisik@andrew.cmu.edu		
+Chitkara, Saksham	Research Assistant	4102A Wean Hall	schitkar@andrew.cmu.edu		
+Chodosh, Nathaniel	Phd Student	1502C Newell-Simon Hall	nchodosh@andrew.cmu.edu		
+Choi, John	Animator/Programmer		johnchoi@andrew.cmu.edu		
+Choi, Judeth	Graduate Research Assistant	4605 Newell-Simon Hall	jochoi@andrew.cmu.edu	4122688285	
+Chokshi, Jimesh	Teaching Assistant for Computer Science		jchokshi@andrew.cmu.edu		
+Chong, Nakyoung	Visitor	A519 Newell-Simon Hall	nchong@andrew.cmu.edu		
+CHOO, SEO HYUN	Teaching Assistant for Computer Science		schoo@andrew.cmu.edu		
+Chordia, Lalit	Project Collaborator	5315 Wean Hall	chordia@cs.cmu.edu		
+Choset, Howard	Professor	3205 Newell-Simon Hall	choset@cs.cmu.edu	4122682495	
+Choudhary, Samridhi	Graduate Research Assistant		sschoudh@andrew.cmu.edu		
+Choudhury, Sanjiban	Phd Student	2102 Newell-Simon Hall	sanjibac@andrew.cmu.edu	4122683818	
+Chounta, Angeliki Eirini	Post Doctoral Associate With Benefits	2602J Newell-Simon Hall	ichounta@andrew.cmu.edu		
+Christin, Nicolas	Associate Research Professor	2202 Collaborative Innovation Center	nicolasc@andrew.cmu.edu	4122684432	
+Chrysanthis, Panos	Adjunct Faculty	4121 Gates and Hillman Centers	panos@andrew.cmu.edu	4122684751	
+Chu, Timothy	Graduate-Research Assistant	7515 Gates and Hillman Centers	tzchu@andrew.cmu.edu		
+Chuang, Chung-Yao	Phd Student	4211 Newell-Simon Hall	chungyac@andrew.cmu.edu		
+Chung, Se-Joon	Graduate-Research Assistant		sejoonc@andrew.cmu.edu	4122687368	
+Chung, Andrew	Graduate-Research Assistant	6213 Gates and Hillman Centers	afchung@andrew.cmu.edu		
+Ciannella, Francesco	Teaching Assistant for Language Technologies		fciannel@andrew.cmu.edu		
+Cicek, Abdullah	Adjunct Faculty		cicek@andrew.cmu.edu		
+Cirik, Volkan	Graduate Research Assistant		vcirik@andrew.cmu.edu		
+Ciroli, Jennifer	Adjunct Instructor-Staff Appointment of English Dept.	266 300 South Craig Street	jciroli@andrew.cmu.edu	4122685067	
+Ciuca, James	Development Officer for Commercialization	408 4615 Forbes Avenue	jciuca@andrew.cmu.edu	4122685062	
+Clarke, Edmund	Emeritus University Professor	9231 Gates and Hillman Centers	ec10@andrew.cmu.edu	4122682628	
+Clausen, Kristoffer	Visitor	1612B Newell-Simon Hall	kclausen@andrew.cmu.edu		
+Clothiaux, Daniel	Graduate Research Assistant	5505 Gates and Hillman Centers	dclothia@andrew.cmu.edu		
+Coan, Katherine	Associate Director of Development	5101 Gates and Hillman Centers	lambrou@andrew.cmu.edu	4122683482	
+Coblenz, Michael	Graduate-Research Assistant		mcoblenz@andrew.cmu.edu	4122687670	
+Cohen, Ilan	Special Faculty		icohen@andrew.cmu.edu		
+Cohen, William	Professor	8217 Gates and Hillman Centers	wcohen@cs.cmu.edu	4122687664	
+Cohn, Marisa	Instructor - Portugal		mcohn@andrew.cmu.edu		
+Cohn, Jeffrey	Adjunct Faculty	220 Smith Hall	jcohn@andrew.cmu.edu	4126248825	
+Coker, Zack	Graduate-Research Assistant		zfc@andrew.cmu.edu	4122683778	
+Coleman, Chris	Research Administrator	5715 Gates and Hillman Centers	ccoleman@cs.cmu.edu	4122686195	
+Colnago, Jessica	Graduate Research Assistant	Collaborative Innovation Center	jcolnago@andrew.cmu.edu		
+Compeau, Phillip	Assistant Department Head for Education; Assistant Teaching Professor	7403 Gates and Hillman Centers	pcompeau@andrew.cmu.edu	4122687876	
+Connors, Christopher	Adjunct Instructor	300 South Craig Street	chrisc@andrew.cmu.edu		
+Conte, Sarah	Academic Program Manager	4121 Newell-Simon Hall	sconte1@andrew.cmu.edu	4122684017	
+Contreras, Christina	Administrative Assistant II	6027 Gates and Hillman Centers	cc8k@cs.cmu.edu	4122681120	
+Conway, Nancy	Administrative Assistant II	9229 Gates and Hillman Centers	nlc@cs.cmu.edu	4122686019	
+Cook, Amy	Graduate-Research Assistant	2621 Newell-Simon Hall	amyshann@andrew.cmu.edu	4122687366	
+Cook, Keyla	Administrative Coordinator	4115 Newell-Simon Hall	keylac@cs.cmu.edu	4122683078	
+Cook, Benjamin	Administrative Assistant II	4113 Gates and Hillman Centers	bcook@cs.cmu.edu	4122685310	
+Cooksey, Philip	Phd Student	4223 Newell-Simon Hall	pcooksey@andrew.cmu.edu	4122683818	
+Cooper, Rory	Adjunct Faculty		roryc@andrew.cmu.edu	4122683818	
+Copetas, Catherine	Assistant Dean for Industrial Relations And Director of Special Events	6203 Gates and Hillman Centers	copetas@cs.cmu.edu	4122688525	
+Corah, Micah	Phd Student	2209 Newell-Simon Hall	micahc@andrew.cmu.edu		
+Corbett, Albert	Associate Research Professor, Emeritus	3605 Newell-Simon Hall	ac21@cs.cmu.edu	4122688808	
+Cordova Lantadilla, Ignacio	Graduate Research Assistant	1200 Newell-Simon Hall	icordova@andrew.cmu.edu		
+Cordwell, Katherine	Graduate-Research Assistant		kcordwel@andrew.cmu.edu		
+Corman, Etienne	Post Doctoral Fellow	7129 Gates and Hillman Centers	ecorman@andrew.cmu.edu		
+Coros, Stelian	Adjunct Faculty		scoros@cs.cmu.edu	4122683997	
+Correia, Nuno	Instructor - Portugal		ncorreia@andrew.cmu.edu		
+Cortina, Thomas	Assistant Dean for Undergraduate Programs; Teaching Professor	4117 Gates and Hillman Centers	tcortina@cs.cmu.edu	4122683514	
+Cowley, Benjamin	Graduate Research Assistant	8009 Gates and Hillman Centers	bcowley@andrew.cmu.edu	4122682000	
+Crane, Keenan	Assistant Professor	217 Smith Hall	keenanc@andrew.cmu.edu	4122681120	
+Cranor, Lorrie	Co-Director, Msit-Privacy Engineering Program; Professor	2207 Collaborative Innovation Center	lorrie@cs.cmu.edu	4122687534	
+Crary, Karl	Associate Professor	9217 Gates and Hillman Centers	crary@cs.cmu.edu	4122687687	
+Cribbs, Susan	Senior Communications Specialist	5007 Gates and Hillman Centers	cribbs@cs.cmu.edu	4122684482	
+Cross, Jennifer	Postdoctoral Fellow	LL127 Collaborative Innovation Center	jcross1@andrew.cmu.edu	4122686723	
+Cruickshank, Iain	Graduate Research Assistant	4103 Wean Hall	icruicks@andrew.cmu.edu		
+Csikszentmihalyi, Chris	Instructor - Portugal		ccsiksze@andrew.cmu.edu		
+Cui, Yijia	Teaching Assistant for Computer Science		yijiac@andrew.cmu.edu		
+Cunningham, Christopher	Intern	1200 Newell-Simon Hall	clcunnin@andrew.cmu.edu	4122683818	
+Curiale, Steven	Adjunct Instructor		curiales@andrew.cmu.edu	4122688065	
+D'Amico, Marian	Administrative Associate	3507 Newell-Simon Hall	marian@cs.cmu.edu	4122681215	
+Dabbish, Laura	Associate Professor	3609 Newell-Simon Hall	dabbish@cs.cmu.edu	4122685347	
+Dabhi, Mosamkumar	Intern	1101 Gates and Hillman Centers	mdabhi@andrew.cmu.edu		
+Dai, Zihang	Graduate Research Assistant	5507 Gates and Hillman Centers	dzihang@andrew.cmu.edu		
+Dai, Zhuyun	Graduate Research Assistant	5513 Gates and Hillman Centers	zhuyund@andrew.cmu.edu		
+Dai, Wei	Graduate Research Assistant	8011 Gates and Hillman Centers	wdai@andrew.cmu.edu	4122685005	
+Dai, Jin	Systems/Software Engineer	A403 Newell-Simon Hall	jind@andrew.cmu.edu	4122683818	
+Dai, Wei	Teaching Assistnat for Computer Science		weid1@andrew.cmu.edu		
+Dai, Chia	Msr Student	4228 Newell-Simon Hall	chiad@andrew.cmu.edu		
+Dalmia, Siddharth	Graduate Research Assistant		sdalmia@andrew.cmu.edu		
+Daly, Timothy	Visiting Scholar	7227 Gates and Hillman Centers	tdaly@cs.cmu.edu		
+Dan, Chen	Graduate-Research Assistant		cdan@andrew.cmu.edu		
+Dang, Steven	Graduate Research Assistant	2502C Newell-Simon Hall	stevenda@andrew.cmu.edu		
+Dangi, Ankit	Research Programmer	8114 Gates and Hillman Centers	adangi@andrew.cmu.edu		
+Danish, Danish	Graduate Research Assistant		ddanish@andrew.cmu.edu		
+Dann, Christoph	Graduate Research Assistant		cdann@andrew.cmu.edu		
+Dannenberg, Roger	Professor	7003 Gates and Hillman Centers	rbd@cs.cmu.edu	4122683827	
+Danti, Indra	Undergraduate Program Manager	3607 Newell-Simon Hall	indras@cs.cmu.edu	4122684431	
+Darakos, George	Director of Partnerships, SCS	5103 Newell-Simon Hall	gdarakos@andrew.cmu.edu	4122683805	
+Das, Ankush	Graduate-Research Assistant		ankushd@andrew.cmu.edu		
+Das, Samarjit	Visiting Research Scholar		samarjit@andrew.cmu.edu	4122683818	
+Das, Anupam	Post-Doctoral Associate	4121 Wean Hall	anupamd@andrew.cmu.edu		
+Dashti, Cameron	Cloud Computing Research Programmer	6025 Gates and Hillman Centers	cdashti1@andrew.cmu.edu	4122681902	
+Dasigi, Pradeep	Graduate Research Assistant	5503 Gates and Hillman Centers	pdasigi@andrew.cmu.edu		
+Datta, Anupam	Associate Professor, CSD, ECE		danupam@andrew.cmu.edu	4122684254	
+Dave, Achal	Phd Student	224 Smith Hall	achald@andrew.cmu.edu		
+Davis, Erin	Administrative Assistant II	7123 Gates and Hillman Centers	eedavis@andrew.cmu.edu		
+Dayak, Bernadette	Assistant Manager, Research Administration	5109 Wean Hall	bmdayak@cs.cmu.edu	4122685329	
+Dayak, Don	Senior Windows Administrator	245 National Robotics Engineering Center	ddayak@cs.cmu.edu	4126816900	
+De Arteaga Gonzalez, Maria	Graduate Student Courtesy	3128 Newell-Simon Hall	mdeartea@andrew.cmu.edu	4122681855	
+De Aveiro, David	Instructor - Portugal	Newell-Simon Hall	davidsda@andrew.cmu.edu		
+de Avila Belbute Peres, Filipe	Graduate-Research Assistant		filiped@andrew.cmu.edu		
+De Carvalho Melo, Jean Carlos	Visiting Research Scholar	4201 Wean Hall	jdecarva@andrew.cmu.edu		
+De La Torre Frade, Fernando	Associate Research Professor		ftorre@cs.cmu.edu	4122684706	
+De Oliveira Viegas, Carla	Graduate Research Assistant	5414 Gates and Hillman Centers	cviegas@andrew.cmu.edu		
+De Reno, Monika	Associate Director for Research	5212 Wean Hall	mdereno@cs.cmu.edu	4122689822	
+De Sousa, Joao	Adjunct Instructor	5216 Wean Hall	joaod@andrew.cmu.edu		
+Dear, Tony	Phd Student	3101 Newell-Simon Hall	tdear@andrew.cmu.edu	4122683818	
+DeBlasio, Daniel	Lane Fellow	7401 Gates and Hillman Centers	ddeblasi@andrew.cmu.edu		
+Decarolis, M.	Senior Recruiter	228 National Robotics Engineering Center	md3@andrew.cmu.edu	4126816900	
+Decheck, Justin	Senior Electronics Technician	8 National Robotics Engineering Center	justind@cs.cmu.edu	4127590146	
+Degeling, Martin	Post-Doctoral Associate	4121 Wean Hall	mdegelin@andrew.cmu.edu		
+Del Giorno, Allison	Phd Student	214 Smith Hall	adelgior@andrew.cmu.edu	4122683818	
+Demi, Sandra	Senior Research Programmer	2602J Newell-Simon Hall	sdemi@cs.cmu.edu	4122682196	
+Deng, Emily	Research Assistant		edeng@andrew.cmu.edu		
+Deng, Michelle	Grader		mdeng@andrew.cmu.edu		
+Deng, Han	Teaching Assistant for Computer Science		hdeng1@andrew.cmu.edu		
+Dergance, Lorraine	Administrative Coordinator	207 National Robotics Engineering Center	ld@ANDREW.CMU.EDU		
+Desai, Arjav Ashesh	Phd Student	1502C Newell-Simon Hall	arjavd@andrew.cmu.edu		
+Desai, Jessica	Graduate Research Assistant	1200 Newell-Simon Hall	jmdesai@andrew.cmu.edu		
+Desai, Ruta	Phd Student	232 Smith Hall	rutad@andrew.cmu.edu	4122683818	
+Dey, Anind	Charles M. Geschke Director, Human-Computer Interaction Institute	3519 Newell-Simon Hall	anind@cs.cmu.edu		
+Dhamyal, Hira	Research Assistant	6607 Gates and Hillman Centers	hyd@andrew.cmu.edu		
+Dhanani, Archit	Graduate - Engineering Technician		adhanani@andrew.cmu.edu		
+Dhawale, Aditya Nandakumar	Research Assistant	1200 Newell-Simon Hall	adityand@andrew.cmu.edu		
+Dhingra, Bhuwan	Graduate Research Assistant		bdhingra@andrew.cmu.edu		
+Dhulipala, Laxman	Graduate-Research Assistant		ldhulipa@andrew.cmu.edu		
+Di Caro, Gianni	Associate Teaching Professor of Computer Science	1007 Carnegie Mellon Qatar	gdicaro@andrew.cmu.edu		
+Diana, Nicholas	Graduate Research Assistant	2602B Newell-Simon Hall	ndiana@andrew.cmu.edu	4122685210	
+Diao, Fan	Teaching Assistant		fdiao@andrew.cmu.edu		
+Dias, Mary	Project Director	4627 Newell-Simon Hall	mdias@cs.cmu.edu	4122682568	
+Dias, M	Adjunct Faculty		mbdias@cs.cmu.edu	4122689365	
+Dichiera, Krista	Administrative Assistant I	5113 Gates and Hillman Centers	kschrece@andrew.cmu.edu	4122682666	
+Dick, Travis	Graduate-Research Assistant		tdick@andrew.cmu.edu	4122687375	
+Dickey, Ebony	Administrative Coordinator	3526 Newell-Simon Hall	ebony@andrew.cmu.edu	4122688204	
+Dietrich, Dwight	Visiting Researcher	5404 Gates and Hillman Centers	dwightd@andrew.cmu.edu	4122686591	
+Digioia, Anthony	Adjunct Faculty		digioia@andrew.cmu.edu	4122683818	
+Digney, Joan	Writer/Editor IIi		jdigney@cs.cmu.edu	4122687095	
+Dilipkumar, Deepak	Graduate Research Assistant		ddilipku@andrew.cmu.edu		
+Dille, Michael	Visitor	LL127 Collaborative Innovation Center	mdille3@andrew.cmu.edu	4122683818	
+Dille, Paul	Senior Research Programmer/Analyst	LL127 Collaborative Innovation Center	pdille@cs.cmu.edu	4122683818	
+Ding, Jun	Post Doctoral Associate	7416 Gates and Hillman Centers	jund@andrew.cmu.edu		
+Ding, Ming	Visitor	228 Smith Hall	dming@andrew.cmu.edu		
+Dintyala, Visweswara Sai Prashanth	Student Intern		vdintyal@andrew.cmu.edu		
+Dinu, Jonathan	Graduate-Research Assistant	2602 Newell-Simon Hall	jdinu@andrew.cmu.edu		
+Do, Youngwook	Research Associate I	Newell-Simon Hall	hyoungwd@andrew.cmu.edu		
+Dodge, Jesse	Graduate Research Assistant		jessed@andrew.cmu.edu		
+Dolan, John	Principal Systems Scientist	3109 Newell-Simon Hall	jmd@cs.cmu.edu	4122687988	
+Dong, Ning	Teaching Assistant for Machine Learning		ndong1@andrew.cmu.edu		
+Dongxin, Wen	Visiting Faculty	Scot	wdongxin@andrew.cmu.edu		
+Donti, Priya	Graduate-Research Assistant		pdonti@andrew.cmu.edu		
+Dornbush, Andrew	Senior Research Programmer/Analyst	1612D Newell-Simon Hall	andrewpd@andrew.cmu.edu	4122683818	
+Doroudi, Shayan	Graduate-Research Assistant		shayand@andrew.cmu.edu	4122682993	
+Doryab, Afsaneh	Systems Scientist	2502A Newell-Simon Hall	adoryab@cs.cmu.edu		
+Dougherty, Lisa	Course Coordinator/Administrative Associate	5125 Wean Hall	ldougher@andrew.cmu.edu	4122682006	
+Downey, Christine	Administrative Coordinator	226 Smith Hall	cdowney@andrew.cmu.edu	4122684800	
+Downey, Carlton	Graduate Research Assistant		cmdowney@andrew.cmu.edu	4122682022	
+Downing, Kelly	Assistant Director, NREC Contracts And Partnerships	225 National Robotics Engineering Center	kdowning@andrew.cmu.edu	4126816906	
+Drake, John	Research Associate I	1612A Newell-Simon Hall	johndrak@andrew.cmu.edu	4122687598	
+Dranko, Brad	Mechanical Engineer	9 National Robotics Engineering Center	bdranko@andrew.cmu.edu		
+Driskill, Erin	Assistant To The Department Head	7416 Gates and Hillman Centers	ekunz@andrew.cmu.edu	4122683480	
+Drozd, William	Senior Research Programmer	255 National Robotics Engineering Center	wdrozd@andrew.cmu.edu	4126816900	
+Du, Simon	Graduate Research Assistant		ssdu@andrew.cmu.edu		
+Du, Yulun	Graduate Research Assistant		yulund@andrew.cmu.edu		
+Dubey, Kumar	Graduate Research Assistant	8223 Gates and Hillman Centers	akdubey@andrew.cmu.edu	4122686591	
+Dubey, Geetesh	Extern	2103 Newell-Simon Hall	gdubey@andrew.cmu.edu	4122683818	
+Dubrawski, Artur	Research Professor	3121 Newell-Simon Hall	awd@cs.cmu.edu	4122686233	
+Dugar, Vishal	Extern	2211 Newell-Simon Hall	vdugar@andrew.cmu.edu		
+Dugas, Anton	Technician II	14 National Robotics Engineering Center	adugas@andrew.cmu.edu		
+Duncan, Alexander	Extern	1200 Newell-Simon Hall	akduncan@andrew.cmu.edu	4122683080	
+Dunietz, Jesse	Graduate-Research Assistant		jdunietz@andrew.cmu.edu	4122687375	
+Dureddy, Hima Varsha	Teaching Assistant for Language Technologies		hdureddy@andrew.cmu.edu		
+Dutta, Praneet	Teaching Assistant for Machine Learning		praneetd@andrew.cmu.edu		
+Dyer, Christopher	Consulting Professor		cdyer@cs.cmu.edu	4122682894	
+Eagle, Michael	Post Doctoral Fellow	2602C Newell-Simon Hall	meagle@andrew.cmu.edu		
+Eatmon, Lynn	IT Support Associate	3612 Wean Hall	lynn12@cs.cmu.edu	4122682608	
+Eckhardt, David	Teaching Professor	4001 Gates and Hillman Centers	davide@cs.cmu.edu	4122686720	
+Edmunds, Brynn	Assistant Lecturer	8110 Gates and Hillman Centers	bedmunds@andrew.cmu.edu		
+Eiszler, Thomas	Senior Project Scientist	9127 Gates and Hillman Centers	teiszler@andrew.cmu.edu	4122684602	
+Ellis, Logan	Msr Student	1102 Gates and Hillman Centers	logane@andrew.cmu.edu		
+Elsing, Mona	Adjunct Instructor		monali@cs.cmu.edu	2136182004	
+Emami-Naeini, Pardis	Graduate Research Assistant	Collaborative Innovation Center	pemamina@andrew.cmu.edu		
+Engel, Robert	Electrical Engineer	37A National Robotics Engineering Center	rengel@cs.cmu.edu	4126816900	
+Eppinger, Jeffrey	Professor of The Practice	5124 Wean Hall	jle@cs.cmu.edu	4122687688	
+Erdmann, Michael	Professor, Computer Science And Robotics	9203 Gates and Hillman Centers	me@cs.cmu.edu	4122687883	
+Eskenazi, Maxine	Principal Systems Scientist	6413 Gates and Hillman Centers	max@cs.cmu.edu	4122683858	
+Eswaran, Dhivya	Graduate-Research Assistant		deswaran@andrew.cmu.edu		
+Eswaran, Poovammal	Adjunct Faculty Member	300 South Craig Street	peswaran@andrew.cmu.edu		
+Ethiyil Abdul Jaleel, Nasrin	Teaching Assistant for Computer Science		nasrinj@andrew.cmu.edu		
+Evans, Morgan	Graduate Research Assistant	4125 Wean Hall	morganev@andrew.cmu.edu		
+Everett, Lisa	Administrative Assistant	7725 Gates and Hillman Centers	ls2y@andrew.cmu.edu	4122684671	
+Everett, Colleen	Personnel Manager	7021 Gates and Hillman Centers	cae@cs.cmu.edu	4122687674	
+F R Esteves Pires, Bernardo	Project Scientist	4111 Newell-Simon Hall	bpires@cs.cmu.edu	4122683818	
+Fadadu, Sudeep	Teaching Assistant	4228 Newell-Simon Hall	sfadadu@andrew.cmu.edu		
+Fahlman, Scott	Emeritus Faculty		sef@cs.cmu.edu	4122682575	
+Faklaris, Cori	Graduate-Research Assistant	4605 Newell-Simon Hall	cfaklari@andrew.cmu.edu		
+Fall, Kevin	Adjunct Professor		kfall@andrew.cmu.edu	4122685115	
+Faloutsos, Christos	Affiliated Faculty; Professor	8019 Gates and Hillman Centers	christos@cs.cmu.edu	4122681457	
+Fan, Desai	Research Assistant		dfan@andrew.cmu.edu		
+Fang, Fei	Assistant Professor	4126 Wean Hall	feif@andrew.cmu.edu		
+Fang, Eugene	Phd Student	2216 Newell-Simon Hall	eugenef@andrew.cmu.edu	4122683818	
+Fanti, Giulia	Faculty		gfanti@andrew.cmu.edu		
+Farbacher, Tracy	Masters Program Administrator	7117 Gates and Hillman Centers	tracyf@cs.cmu.edu	4122688824	
+Farber, David	Adjunct Professor of Internet Studies	Wean Hall	farber@andrew.cmu.edu		
+Farina, Gabriele	Graduate-Research Assistant	9221 Gates and Hillman Centers	gfarina@andrew.cmu.edu		
+Farzan, Rosta	Affliate		rfarzan@andrew.cmu.edu		
+Fatahalian, Kayvon	Adjunct Faculty		kayvonf@cs.cmu.edu	4122681234	
+Faulring, Andrew	Research Programmer	2612 Newell-Simon Hall	faulring@cs.cmu.edu	4122687565	
+Fecich, Barbara	Academic Program Manager	4121 Newell-Simon Hall	brobbins@andrew.cmu.edu	4122689956	
+Fecteau, Robert	Adjunct Instructor		robertfe@andrew.cmu.edu	4122688065	
+Fedder, Gary	Professor	406 Warner Hall	fedder@cs.cmu.edu	4122688443	
+Fegade, Pratik	Graduate-Research Assistant		ppf@andrew.cmu.edu		
+Feng, Guoyao	Graduate-Research Assistant		gfeng@andrew.cmu.edu		
+Feng, Ziqiang	Graduate-Research Assistant		zf@andrew.cmu.edu		
+Feng, Yitian	Teaching Assistant for Computer Science		yitianf@andrew.cmu.edu	4122682142	
+Fernando, Nihal	Computer Operator		nfernan1@andrew.cmu.edu		
+Ferraro, Linda	Human Resources Manager	5003 Gates and Hillman Centers	lferraro@cmu.edu	4122686078	
+Ferreira, Ana Sofia Martins	Visiting Scholar		anasofif@andrew.cmu.edu		
+Fiacco, James	Graduate Research Assistant		jfiacco@andrew.cmu.edu		
+Field, Anjalie	Graduate Research Assistant	6609 Gates and Hillman Centers	anjalief@andrew.cmu.edu		
+Figueiredo, Eduardo Magno Lages	Visiting Research Scholar	4108 Wean Hall	efigueir@andrew.cmu.edu		
+Finkelstein, Samantha	Graduate Research Assistant	4619 Newell-Simon Hall	sfinkels@andrew.cmu.edu	4122687673	
+Flaherty, Beverly	Senior Program Manager, Executive Education	2305 Wean Hall	beverlyf@cs.cmu.edu	4122688065	
+Flanigan, Jeffrey	Graduate Research Assistant	5713 Gates and Hillman Centers	jmflanig@andrew.cmu.edu	4122686591	
+Fleischhacker, Nils	Post Doctoral Fellow	9129 Gates and Hillman Centers	nfleisch@andrew.cmu.edu		
+Flot, Jesse	Software Engineer	261 National Robotics Engineering Center	jbflot@andrew.cmu.edu	4126879067	
+Flynn, Nicole	Project Services Manager	406 4615 Forbes Avenue	nflynn@andrew.cmu.edu	4122687599	
+Foote, Eric	Software Engineer	285 National Robotics Engineering Center	efoote@cs.cmu.edu	5852084274	
+Forlizzi, Jodi	Professor	2504E Newell-Simon Hall	forlizzi@cs.cmu.edu	4122684869	
+Fragkiadaki, Aikaterini	Assistant Professor	8015 Gates and Hillman Centers	kfragki2@andrew.cmu.edu	4122684870	
+Francis, Jonathan	Graduate Research Assistant	6407 Gates and Hillman Centers	jmf1@andrew.cmu.edu	4073850546	
+Fraser, Cody	Research Assistant		cfraser@andrew.cmu.edu		
+Frederking, Robert	Principal Systems Scientist, Associate Dean for Doctoral Programs, LTI Graduate Programs Chair	6515 Gates and Hillman Centers	ref@cs.cmu.edu	4122686656	
+Fredrikson, Matthew	Assistant Professor	2126 Collaborative Innovation Center	mfredrik@andrew.cmu.edu	6082626628	
+Frieze, Alan	Affiliated Faculty	7130 Wean Hall	af1p@andrew.cmu.edu	4122688476	
+Frieze, Carol	Director Women@SCS And SCS4all	4111 Gates and Hillman Centers	cfrieze@cs.cmu.edu	4122689071	
+Frollini, Nick	Deputy Director	5220 Wean Hall	df2x@cs.cmu.edu	4122685359	
+Fromme, Christopher	Senior Engineer	5 National Robotics Engineering Center	ccf@cs.cmu.edu	4125599766	
+Frownfelter, Austin	Research Assistant	1200 Newell-Simon Hall	afrownfe@andrew.cmu.edu		
+Fulton, Nathan	Graduate-Research Assistant		nathanfu@andrew.cmu.edu		
+Furukawa, Kei	Visiting Scholar	8018 Gates and Hillman Centers	kfurukaw@andrew.cmu.edu		
+Gakhar, Vaishali	Alumni And Corporate Relations Manager	275 300 South Craig Street	vgakhar@andrew.cmu.edu	4122687881	
+Galati, David	Non Exempt Technical	256 National Robotics Engineering Center	dgalati@cs.cmu.edu	4126834107	
+Galeotti, John	Systems Scientist	A525 Newell-Simon Hall	galeotti@cs.cmu.edu	4125599351	
+Gallagher, Lena	Office Staff IIi	National Robotics Engineering Center	lgallagh@andrew.cmu.edu	4122685073	
+Galvin, Adrian	Research Assistant		aegalvin@andrew.cmu.edu		
+Ganapathiraju, Madhavi	Affiliated Faculty	6607 Gates and Hillman Centers	gvns@andrew.cmu.edu	4122686591	
+Gandhi, Dhiraj Prakashchand	Research Associate I	101 Smith Hall	dgandhi@andrew.cmu.edu		
+Gangal, Varun Prashant	Graduate Research Assistant	5705 Gates and Hillman Centers	vgangal@andrew.cmu.edu		
+Ganger, Gregory	Affiliated Faculty	2208 Collaborative Innovation Center	ganger@cs.cmu.edu	4122681297	
+Ganguly, Krishanu	Teaching Assistant for Computer Science		krishang@andrew.cmu.edu		
+Garcia, Luis	Visiting Scholar	9108 Gates and Hillman Centers	lgarcia1@andrew.cmu.edu		
+Garcia, Ronald	Visiting Faculty	7007 Gates and Hillman Centers	rxg@andrew.cmu.edu		
+Garg, Rohit	Research Associate I	2119 Newell-Simon Hall	rg1@andrew.cmu.edu		
+Garlan, David	Professor	4218 Wean Hall	garlan@cs.cmu.edu	4122685056	
+Garrod, Charles	Associate Teaching Professor	5101 Wean Hall	charlie@cs.cmu.edu	4122685176	
+Gaston, Matthew	Adjunct Faculty Member	2323 Collaborative Innovation Center	megaston@andrew.cmu.edu	4122683918	
+Gaur, Akshat	Teaching Assistant for Language Technologies		agaur@andrew.cmu.edu		
+Gautam, Anindya	Mse Teaching Assistant	300 South Craig Street	anindyag@andrew.cmu.edu		
+Gebreselassie, Sabrina	Research Assistant		sgebrese@andrew.cmu.edu		
+Geng, Hao	Teaching Assistant		hgeng@andrew.cmu.edu		
+George, Shilpa	Research Assistant for Computer Science		shilpag@andrew.cmu.edu		
+George, Michael	Senior Commercialization Specialist	279 National Robotics Engineering Center	mgeorge@cs.cmu.edu	4126920851	
+Gerritsen, David	Graduate-Research Assistant	2621 Newell-Simon Hall	dgerrits@andrew.cmu.edu		
+Gershman, Anatole	Distinguished Service Professor	6415 Gates and Hillman Centers	anatoleg@cs.cmu.edu	4122688259	
+Getkin, Daniel	Senior Administrative Coordinator	4109 Newell-Simon Hall	dgetkin@andrew.cmu.edu	4122684985	
+Geyer, Hartmut	Associate Professor	4517 Newell-Simon Hall	hgeyer@cs.cmu.edu	4122681724	
+Ghadiali, Aditya	Graduate Teaching Assistant	4228 Newell-Simon Hall	aghadial@andrew.cmu.edu		
+Ghelani, Manan	Graduate Research Assistant	1200 Newell-Simon Hall	mghelani@andrew.cmu.edu		
+Giampapa, Joseph	Robotics Engineer	281 National Robotics Engineering Center	garof@cs.cmu.edu	4122682087	
+Gibbons, Phillip	Professor	7221 Gates and Hillman Centers	pgibbons@andrew.cmu.edu	4122974114	
+Gibson, Garth	Associate Dean College-Faculty Appointment; Professor	9111 Gates and Hillman Centers	garth@cs.cmu.edu	4122685890	
+Girdhar, Rohit	Phd Student	224 Smith Hall	rgirdhar@andrew.cmu.edu	4122683818	
+Gisolfi, Nicholas	Phd Student	3111 Newell-Simon Hall	ngisolfi@andrew.cmu.edu	4122683818	
+Gkioulekas, Ioannis	Assistant Professor	225 Smith Hall	igkioule@andrew.cmu.edu		
+Glazier, Thomas	Graduate Research Assistant	4130 Wean Hall	tglazier@andrew.cmu.edu		
+Gleason, Cole	Graduate-Research Assistant	2502C Newell-Simon Hall	cgleason@andrew.cmu.edu		
+Glickman, Seth	Research Associate II	4602 Newell-Simon Hall	sglickma@andrew.cmu.edu		
+Gligor, Virgil	Affiliated Faculty	2123 Collaborative Innovation Center	virgil@andrew.cmu.edu	4122689833	
+Glisson, Matthew	Mechanical Engineer	37A National Robotics Engineering Center	mglisson@andrew.cmu.edu		
+Gobieski, Graham	Graduate-Research Assistant		ggobiesk@andrew.cmu.edu		
+Goel, Mayank	Assistant Professor; Faculty-Contingent		mgoel1@andrew.cmu.edu		
+Goel, Karan	Graduate Research Assistant		kgoel@andrew.cmu.edu		
+Goel, Kshitij	Intern	1102 Gates and Hillman Centers	kgoel1@andrew.cmu.edu		
+Goelz, Paul	Graduate-Research Assistant		pgoelz@andrew.cmu.edu		
+Gogia, Prakruti	Graduate Research Assistant	4228 Newell-Simon Hall	pgogia@andrew.cmu.edu		
+Goldman, Gabriel	Commercialization Specialist	9 National Robotics Engineering Center	ggoldman@andrew.cmu.edu		
+Goldstein, Seth	Associate Professor	7111 Gates and Hillman Centers	seth@cs.cmu.edu	4122683828	
+Goldstein, Richard	Phd Student	4511 Newell-Simon Hall	rgoldste@andrew.cmu.edu		
+Gommerstadt, Hannah	Graduate-Research Assistant		hgommers@andrew.cmu.edu	4122681557	
+Goncalves Martins, Ruben Carlos	Systems Scientist	7129 Gates and Hillman Centers	rubenm@andrew.cmu.edu		
+Gonzalez Dorado, Jose Carlos	Visiting Scholar	8018 Gates and Hillman Centers	josecarg@andrew.cmu.edu		
+Gonzalez-Mora, Jose	Commercialization Specialist	278 National Robotics Engineering Center	jgmora@cs.cmu.edu	4126816900	
+Gordon, Geoffrey	Associate Department Head for Education; Professor	8105 Gates and Hillman Centers	ggordon@cs.cmu.edu	4122687399	
+Gormley, Matthew	Assistant Teaching Professor	8227 Gates and Hillman Centers	mgormley@cs.cmu.edu	4122687205	
+Gottsegen, Amy	Visitor	LL127 Collaborative Innovation Center	agottseg@andrew.cmu.edu		
+Goyal, Vipul	Associate Professor	7009 Gates and Hillman Centers	goyal@cs.cmu.edu		
+Goyal, Kartik	Graduate Research Assistant	5709 Gates and Hillman Centers	kartikgo@andrew.cmu.edu		
+Grabmair, Matthias	Systems Scientist	6509 Gates and Hillman Centers	mgrabmair@andrew.cmu.edu	4122681768	
+Grant, Alexander	Multi-Media Specialist	204 National Robotics Engineering Center	agrant1@andrew.cmu.edu		
+Greager, Katie	IT Support Consultant	4203 Gates and Hillman Centers	katieg@andrew.cmu.edu		
+Gregory, James	Building Facilities Assistant	4107 Gates and Hillman Centers	jamieg@cs.cmu.edu	4122682069	
+Grosof, Isaac	Graduate-Research Assistant		igrosof@andrew.cmu.edu		
+Gross, James	Visiting Faculty	9110 Gates and Hillman Centers	jgross2@andrew.cmu.edu		
+Grover, Jaskaran Singh	Msr Student	4228 Newell-Simon Hall	jaskarag@andrew.cmu.edu		
+Gu, Yan	Graduate-Research Assistant		ygu1@andrew.cmu.edu	4122687913	
+Gu, Jianzhe	Visiting Intern	3612 Newell-Simon Hall	jianzheg@andrew.cmu.edu		
+Gu, Qiang	Graduate Research Assistant	1200 Newell-Simon Hall	qiangg@andrew.cmu.edu		
+Gu, Hao	Teaching Assistant for Machine Learning		hg1@andrew.cmu.edu		
+Guan, Beiqi	Teaching Assistant for Computer Science		beiqig@andrew.cmu.edu		
+Gui, Liangke	Graduate Research Assistant		liangkeg@andrew.cmu.edu		
+Guisewite, Alan	Operations Assistant	4000B Newell-Simon Hall	adg@cs.cmu.edu	4122682522	
+Gulati, Rohan	Project Manager		rgulati1@andrew.cmu.edu		
+Gulyas, Domotor	Visitor	LL127 Collaborative Innovation Center	dgulyas@andrew.cmu.edu		
+Gunyon, Samuel	Systems Administrator	3207 Wean Hall	sgunyon@cs.cmu.edu	4122688524	
+Guo, Anhong	Graduate-Research Assistant	4617 Newell-Simon Hall	anhongg@andrew.cmu.edu	4122687668	
+Guo, Zhaohan	Graduate-Research Assistant		zguo@andrew.cmu.edu	4122682993	
+Guo, Ziqi	Visitor	110 Smith Hall	ziqig@andrew.cmu.edu		
+Gupta, Khushi	Graduate Teaching Assistant	4228 Newell-Simon Hall	khushig@andrew.cmu.edu		
+Gupta, Nitin	Principal Research Programmer	6021 Gates and Hillman Centers	nitingup@cs.cmu.edu	4122685574	
+Gupta, Kartik	Graduate-Research Assistant		kartikg1@andrew.cmu.edu		
+Gupta, Abhinav	Associate Professor	213 Smith Hall	abhinavg@cs.cmu.edu	4122682067	
+Gupta, Anupam	Professor	7203 Gates and Hillman Centers	anupamg@cs.cmu.edu	4122687127	
+Guruganesh, Guru	Graduate-Research Assistant		ggurugan@andrew.cmu.edu	4122683074	
+Guruswami, Venkatesan	Professor	7211 Gates and Hillman Centers	venkatg@cs.cmu.edu	4122684899	
+Guss, William	Graduate Research Assistant	8208 Gates and Hillman Centers	whg@andrew.cmu.edu		
+Gutierrez, Arianna	Research Assistant		agutierr@andrew.cmu.edu		
+Gutierrez Olivares, Kin	Graduate Research Assistant	8226 Gates and Hillman Centers	kdgutier@andrew.cmu.edu		
+Guttendorf, David	Lead Robotics Engineer	255 National Robotics Engineering Center	davidg@cs.cmu.edu	3215498599	
+Habib, Hana	Graduate Research Assistant	Collaborative Innovation Center	htq@andrew.cmu.edu		
+Hadricky, Stefan	Business Administrator	5715 Gates and Hillman Centers	stefanh@cs.cmu.edu	4122689542	
+Haeupler, Bernhard	Assistant Professor	7005 Gates and Hillman Centers	haeupler@cs.cmu.edu	4122683984	
+Haff, George	Software Engineer	7008 Gates and Hillman Centers	haff@andrew.cmu.edu		
+Hagerty, Jamie Lou	Senior Administrative Coordinator for Research Administration	5215 Wean Hall	jpresken@cs.cmu.edu	4122684915	
+Haghtalab, Nika	Graduate-Research Assistant		nhaghtal@andrew.cmu.edu	4122685409	
+Hahn, Nathan	Graduate-Research Assistant	2502C Newell-Simon Hall	nhahn@andrew.cmu.edu	4122687366	
+Haig, Alexander	Research Programmer/Analyst	A407 Newell-Simon Hall	adhaig@andrew.cmu.edu		
+Hamilton, David	Robotics Engineer	37A National Robotics Engineering Center	dhamilto@andrew.cmu.edu		
+Hammal, Zakia	Project Scientist	4111 Newell-Simon Hall	zhammal@andrew.cmu.edu	4122683818	
+Hammer, Jessica	Assistant Professor	3529 Newell-Simon Hall	hammerj@cs.cmu.edu	4124634875	
+Hammoud, Nadim	Visiting Scholar		nhammoud@andrew.cmu.edu		
+Hammoud, Mohammad	Assistant Teaching Professor of Computer Science	1006 Carnegie Mellon Qatar	mhhammou@qatar.cmu.edu		
+Hamner, Emily	Senior Research Associate	LL127 Collaborative Innovation Center	etf@andrew.cmu.edu	4122686723	
+Han, Na-Rae	Linguist				
+Han, Ligong	Intern	224 Smith Hall	ligongh@andrew.cmu.edu		
+Hance, Travis	Graduate-Research Assistant		thance@andrew.cmu.edu		
+Hanczor, Matthew	Msr Student	1200 Newell-Simon Hall	mhanczor@andrew.cmu.edu		
+Hang, Xue	Teaching Assistant		xhang1@andrew.cmu.edu		
+Hanley, Michael	IT Support Consultant	4203 Gates and Hillman Centers	mrhanley@andrew.cmu.edu		
+Hanna, Julian	Instructor - Portugal		jhanna@andrew.cmu.edu		
+Hanna, Shawn	Senior Systems/Software Engineer	2609 Newell-Simon Hall	shawnhan@andrew.cmu.edu	4122683818	
+Harchol-Balter, Mor	Professor	7207 Gates and Hillman Centers	harchol@cs.cmu.edu	4122687893	
+Hardwig, Lauren	Administrative Coordinator	3526 Newell-Simon Hall	laureneh@andrew.cmu.edu	4122681638	
+Harish, Suhas	Research Assistant	4129A Wean Hall	suhash@andrew.cmu.edu		
+Harkes, Jan	Principal Project Scientist	9127 Gates and Hillman Centers	jaharkes@cs.cmu.edu	4122686658	
+Harlan, Karen	Communications Specialist	3507 Newell-Simon Hall	kharlan@andrew.cmu.edu		
+Harley, Adam	Phd Student	A421 Newell-Simon Hall	aharley@andrew.cmu.edu		
+Harper, Robert	Professor	9207 Gates and Hillman Centers	rwh@cs.cmu.edu	4122683675	
+Harpley, Jean	Senior Administrative Assistant/Notary Public	1517 Newell-Simon Hall	jean@cs.cmu.edu	4122682688	
+Harpstead, Erik	Systems Scientist	2614 Newell-Simon Hall	eharpste@andrew.cmu.edu	4122680000	
+Harras, Khaled	Associate Teaching Professor of Computer Science	1020 Carnegie Mellon Qatar	kharras@qatar.cmu.edu		
+Harris, John	Computer Operator I	3612 Wean Hall	jhharris@andrew.cmu.edu	4122689080	
+Harrison, Christopher	Assistant Professor	200 407 South Craig Street	charriso@cs.cmu.edu	4122687252	
+Harvard, Deborah	Senior Sponsored Research Administrator	4107 Newell-Simon Hall	ddh@cs.cmu.edu	4122682996	
+Harvard, Royal	Receiving Coordinator	3613 Wean Hall	rharvard@cs.cmu.edu	4122685242	
+Hauptmann, Alexander	Research Professor	5519 Gates and Hillman Centers	alex@cs.cmu.edu	4122681448	
+Hayashi, Hiroaki	Graduate Research Assistant	5705 Gates and Hillman Centers	hiroakih@andrew.cmu.edu		
+Hayashi, Yugo	Visiting Faculty	2612 Newell-Simon Hall	yugoh@andrew.cmu.edu		
+Hayati, Shirley	Teaching Assistant for Language Technologies		shayati@andrew.cmu.edu		
+Haycock, Robert	Adjunct Instructor		rhaycock@andrew.cmu.edu	4122688065	
+Hayes, Jordan	Research Associate I		jhayes1@andrew.cmu.edu		
+Haywiser, Eric	Senior Research Programmer	290 National Robotics Engineering Center	ehaywise@cs.cmu.edu	4129265508	
+Hazard, Christopher	Msr Student	235 Smith Hall	chazard@andrew.cmu.edu		
+He, Miaolei	Visitor	2204 Newell-Simon Hall	miaoleih@andrew.cmu.edu		
+He, Yihan	Teaching Assistant for Computer Science		yihanh@andrew.cmu.edu		
+He, Yong	Courtesy Student; Graduate Research Assistant	7707 Gates and Hillman Centers	yongh@andrew.cmu.edu	4122687913	
+He, Yongjun	Visiting Intern	6414 Gates and Hillman Centers	yongjunh@andrew.cmu.edu		
+He, Junxian	Graduate Research Assistant	6603 Gates and Hillman Centers	junxian1@andrew.cmu.edu		
+Heath, Jevon	Linguist				
+Heath, Simon	Research Programmer/Analyst	3119 Newell-Simon Hall	sheath@andrew.cmu.edu		
+Hebert, Martial	Director; Faculty - Space; Professor	4113 Newell-Simon Hall	hebert@cs.cmu.edu	4122685704	
+Hefny, Ahmed	Graduate Research Assistant	8223 Gates and Hillman Centers	ahefny@andrew.cmu.edu		
+Hegde, Deepthi	Research Assistant	110 Smith Hall	dhegde@andrew.cmu.edu		
+Held, David	Assistant Professor	215 Smith Hall	dheld@andrew.cmu.edu		
+Hellebrekers, Tess	Phd Student	4228 Newell-Simon Hall	tessh@andrew.cmu.edu		
+Henciak, Edward	Lead Robotics Engineer	232 National Robotics Engineering Center	ehenciak@cs.cmu.edu	4126816900	
+Herbsleb, James	Director, Societal Computing Ph.D. Program; Professor	5307 Wean Hall	jdh@cs.cmu.edu	4122688933	
+Herckis, Lauren	Special Faculty		lrhercki@andrew.cmu.edu		
+Herlant, Laura	Phd Student	4506 Newell-Simon Hall	lcv@andrew.cmu.edu	4122683818	
+Herman, Herman	Director of The National Robotics Engineering Center; Principal NREC Commercialization Special/Director of NREC	226 National Robotics Engineering Center	herman@cs.cmu.edu	4125769020	
+Herold, Connie	Ph.D.Programs Manager	5212 Wean Hall	cherold@cs.cmu.edu	4122684545	
+Hershkowitz, David	Graduate-Research Assistant	9219 Gates and Hillman Centers	dhershko@andrew.cmu.edu		
+Hibshi, Hanan	Graduate Student	4125 Wean Hall	hhibshi@andrew.cmu.edu	4122684885	
+Hidalgo Martinez, Gines	Research Associate I, Ri Ms Student	201 Smith Hall	gines@andrew.cmu.edu	4122683818	
+Higashi, Ross	Learning Scientist	261 National Robotics Engineering Center	rhigashi@andrew.cmu.edu	4129879067	
+Higgins, Helen	Manager, Employment Processes	5109 Wean Hall	hhiggins@cs.cmu.edu	4122681335	
+Higuchi, Keita	Visitor	113 Smith Hall	khiguchi@andrew.cmu.edu		
+Hillman, Lee	Director of MHCI	238 300 South Craig Street	leehillm@andrew.cmu.edu		
+Hilton, Michael	Assistant Teaching Professor	5122 Wean Hall	mhilton@andrew.cmu.edu		
+Hinduja, Akshay	Systems Engineer	2205 Newell-Simon Hall	ahinduja@andrew.cmu.edu		
+Hinman, Veronica	Voting Faculty	634A Mellon Institute	vhinman@andrew.cmu.edu	4122689348	
+Ho, Bing-Jui	Msr Student	2204 Newell-Simon Hall	bingjuih@andrew.cmu.edu		
+Hodgins, Jessica	Professor	231 Smith Hall	jkh@cs.cmu.edu	4122686795	
+Hoffman, Ryan	Project Manager	4625 Newell-Simon Hall	ryanhoff@andrew.cmu.edu	4122683818	
+Hoffmann, Jan	Assistant Professor	9105 Gates and Hillman Centers	janh@andrew.cmu.edu		
+Hofmann, Megan	Graduate-Research Assistant	3612 Newell-Simon Hall	meganh@andrew.cmu.edu		
+Holland-Minkley, Dorothy	Masters Program Coordinator	8001 Gates and Hillman Centers	dfh@andrew.cmu.edu	4122681896	
+Hollis, Ralph	Research Professor	121 Smith Hall	rhollis@cs.cmu.edu	4122688264	
+Holman, Lisa	Transcriber		lholman1@andrew.cmu.edu		
+Holstein, Kenneth	Graduate Research Assistant	2620A Newell-Simon Hall	kjholste@andrew.cmu.edu		
+Homitsky, Victoria	Associate Business Manager	4107 Newell-Simon Hall	victoria@cs.cmu.edu	4122683058	
+Hong, Jason	Associate Professor	3523 Newell-Simon Hall	jasonh@cs.cmu.edu	4122681251	
+Horowitz, Michael	Adjunct Practicum Advisor	211 417 South Craig Street	mh11@andrew.cmu.edu	4124212044	
+Hou, Yifan	Phd Student	1502C Newell-Simon Hall	yifanh@andrew.cmu.edu		
+Houck, Emily	Research Analyst		ekennedy@andrew.cmu.edu	9162051245	
+Hovy, Eduard	Research Professor	5723 Gates and Hillman Centers	hovy@cs.cmu.edu	4122686592	
+Hruschka, Estevam	Adjunct Faculty	8018 Gates and Hillman Centers	estevam@andrew.cmu.edu		
+Hsi, Andrew	Graduate Research Assistant	6401 Gates and Hillman Centers	ahsi@andrew.cmu.edu	4122686591	
+Hsiao, Ming	Phd Student	1613 Newell-Simon Hall	mhsiao@andrew.cmu.edu	4122683818	
+Hsiung, Shih Chieh	Msr Student	2204 Newell-Simon Hall	shsiung@andrew.cmu.edu		
+Hsu, Yen-Chia	Phd Student	LL127 Collaborative Innovation Center	yenchiah@andrew.cmu.edu	4122683818	
+Hu, Humphrey	Phd Student	2201 Newell-Simon Hall	humphreh@andrew.cmu.edu	4122683818	
+Hu, Chen	Teaching Assistant for Machine Learning		chenh1@andrew.cmu.edu		
+Hu, Yuan	Teaching Assistant	4228 Newell-Simon Hall	yuanh@andrew.cmu.edu		
+Hu, Zhiting	Graduate Research Assistant	8011 Gates and Hillman Centers	zhitingh@andrew.cmu.edu		
+Hu, Ting-Yao	Graduate Research Assistant		tingyaoh@andrew.cmu.edu		
+Hu, Peiyun	Phd Student	224 Smith Hall	peiyunh@andrew.cmu.edu		
+Hu, Qinyu	Teaching Assistant for Language Technologies		qinyuh@andrew.cmu.edu		
+Hu, Hanzhang	Graduate Research Assistant	8005 Gates and Hillman Centers	hanzhang@andrew.cmu.edu		
+Hu, Junjie	Graduate Research Assistant	5503 Gates and Hillman Centers	junjieh@andrew.cmu.edu		
+Hu, Shuaiqi	Teaching Assistant		shuaiqih@andrew.cmu.edu		
+Hu, Zecong	Visiting Intern	6111 Gates and Hillman Centers	zecongh@andrew.cmu.edu		
+Huang, Zeyi	Intern	110 Smith Hall	zeyih@andrew.cmu.edu		
+Huang, Liang-Kang	Teaching Assistant for Machine Learning		liangkah@andrew.cmu.edu		
+Huang, Yun	Systems Software Engineer		yunhuang@cs.cmu.edu	4122688464	
+Huang, Ting-Hao	Graduate Research Assistant	5515 Gates and Hillman Centers	tinghaoh@andrew.cmu.edu	4122686591	
+Huang, Eric	Phd Student	1502C Newell-Simon Hall	erich1@andrew.cmu.edu		
+Huang, Po Yao	Graduate Research Assistant		poyaoh@andrew.cmu.edu		
+Huang, Mengdi	Teaching Assistant for Machine Learning		mengdih@andrew.cmu.edu		
+Huang, Dong	Project Scientist	111 Smith Hall	dghuang@andrew.cmu.edu	4122683818	
+Huang, Binxuan	Graduate Research Assistant	5111 Wean Hall	binxuanh@andrew.cmu.edu		
+Huber, Daniel	Senior Systems Scientist		dhuber@cs.cmu.edu	4122683818	
+Hudson, Scott	Ph.D. Program Director; Professor	3615 Newell-Simon Hall	hudson@cs.cmu.edu	4122682429	
+Huggins, Peter	Project Scientist	3119 Newell-Simon Hall	phuggins@andrew.cmu.edu	4122683818	
+Huh, Jacob	Phd Student	1502D Newell-Simon Hall	jmhuh@andrew.cmu.edu		
+Huh, Kai Chi	Intern	Newell-Simon Hall	khuh@andrew.cmu.edu		
+Humbert, Robert	Senior IT Support Consultant	3210 Wean Hall	rhumbert@cs.cmu.edu	4122684820	
+Hutchings, Kris	IT Support Consultant	3610 Wean Hall	kris@cs.cmu.edu	4122687208	
+Hutchins, MaryLu	Visitor	LL127 Collaborative Innovation Center	maryluh@andrew.cmu.edu		
+Hutchison, Casidhe	Software Engineer	255 National Robotics Engineering Center	fhutchin@andrew.cmu.edu	4122688162	
+Hyde, Diana	Assistant To The Department Head	7021 Gates and Hillman Centers	dhyde@cs.cmu.edu	4122681156	
+Idrees, Haroon	Postdoctoral Fellow	220 Smith Hall	hidrees@andrew.cmu.edu		
+Ilyin, Valentin	Voting Faculty	2011 Carnegie Mellon Qatar	vilyin@qatar.cmu.edu		
+Inouye, David	Post Doctoral Associate		dinouye@andrew.cmu.edu		
+Irastorza Ugalde, Benat	Intern	110 Smith Hall	birastor@andrew.cmu.edu		
+Iravantchi, Yasha	Graduate-Research Assistant	4607 Newell-Simon Hall	ysi@andrew.cmu.edu		
+Irvin, Nicholas	Research Programmer	National Robotics Engineering Center	nirvin@andrew.cmu.edu	4126816900	
+Isaac, Dina	Visitor	1612 Newell-Simon Hall	disaac@andrew.cmu.edu		
+Ishihara, Tatsuya	Engineer II	4524 Newell-Simon Hall	tishihar@andrew.cmu.edu		
+Ishiwatari, Shonosuke	Visiting Scholar		sishiwat@andrew.cmu.edu		
+Islam, Fahad	Phd Student	1615 Newell-Simon Hall	fi@andrew.cmu.edu	4122683818	
+Islam, Md. Ariful	Post Doctoral Fellow	9232 Gates and Hillman Centers	mdarifui@andrew.cmu.edu	6319741577	
+Isukapati, Isaac	Project Scientist	4209 Newell-Simon Hall	isaack@cs.cmu.edu	4122683818	
+Ito, Masayuki	Visitor	1612 Newell-Simon Hall	masayuki@andrew.cmu.edu		
+Iwaguchi, Takafumi	Intern	A401 Newell-Simon Hall	tiwaguch@andrew.cmu.edu		
+Iyengar, Roger	Graduate Research Assistant	4111 Wean Hall	raiyenga@andrew.cmu.edu		
+Jabban, Tamim	Teaching Assistant for Computer Science	1005 Carnegie Mellon Qatar	tjabban@andrew.cmu.edu		
+Jadhav, Aum	Graduate Research Assistant	1609 Newell-Simon Hall	ajadhav@andrew.cmu.edu		
+Jahanian, Farnam	Professor	609A Warner Hall	farnam@andrew.cmu.edu	4122683363	
+Jain, Ankit	Teaching Assistant for Computer Science		ankitj2@andrew.cmu.edu		
+Jain, Rhea Bansilal	Teaching Assistant for Machine Learning		rheabanj@andrew.cmu.edu		
+Jain, Alankar	Graduate Research Assistant		alankarj@andrew.cmu.edu		
+Jain, Anuraag	Researcher	407 South Craig Street	anuraagj@andrew.cmu.edu		
+Jain, Vaibhav	Graduate - Engineering Technician		vaibhavj@andrew.cmu.edu		
+Jamshidi Dermani, Pooyan	Post Doctoral Associate	4108 Wean Hall	pjamshid@andrew.cmu.edu		
+Jansen, Peter	Scientific And Technical Specialist	6607 Gates and Hillman Centers	pjj@cs.cmu.edu	4122683724	
+Jararweh, Yaser	Visiting Faculty	9110 Gates and Hillman Centers	jararweh@andrew.cmu.edu		
+Jarvis, Joshua	Research Programmer/Analyst	261 National Robotics Engineering Center	jjarvis1@andrew.cmu.edu		
+Jat, Sharmistha	Visiting Scholar		sjat@andrew.cmu.edu		
+Jayaram, Rajesh	Graduate-Research Assistant		rkjayara@andrew.cmu.edu		
+Jayasuriya, Suren	Postdoctoral Fellow	117 Smith Hall	sjayasur@andrew.cmu.edu		
+Jeanselme, Vincent	Research Programmer/Analyst		vjeansel@andrew.cmu.edu		
+Jeni, Laszlo	Project Scientist	4505 Newell-Simon Hall	laszloaj@cs.cmu.edu	4122684461	
+Jenkins, Dan	Senior Associate Director, Corporate Relations, SCS (University Advancement)	5007 GHC	danjenkins@cmu.edu	6073421588	
+Jenkins, R Daniel	Senior Associate Director of Of Corporate Partnerships, SCS	5105 Gates and Hillman Centers	djenkins@andrew.cmu.edu	6073421588	
+Jeon, Byungsoo	Graduate-Research Assistant		byungsoj@andrew.cmu.edu		
+Jeong, Sophie	Ebusiness Fellow	202 417 South Craig Street	saeyoung@cs.cmu.edu	4122681476	
+Jeong, Susana Bong-Keum	Instructor - Portugal		bongj@andrew.cmu.edu		
+Jhamtani, Harsh	Graduate Research Assistant		jharsh@andrew.cmu.edu		
+Ji, Jianmin	Visiting Scholar	8018 Gates and Hillman Centers	jianminj@andrew.cmu.edu		
+Ji, Ran	Intern	2101 Newell-Simon Hall	rj82cnus@cs.cmu.edu	4122684447	
+Jia, Limin	Courtesy Faculty		liminjia@andrew.cmu.edu	4122684605	
+Jia, Zhenzhong	Postdoctoral Fellow	A423 Newell-Simon Hall	zhenzhoj@andrew.cmu.edu		
+Jiang, Angela	Graduate-Research Assistant		ahjiang@andrew.cmu.edu		
+Jiang, Bo	Visiting Scholar	2602C Newell-Simon Hall	bjiang1@andrew.cmu.edu		
+Jiang, Fanshu	Teaching Assistant		fanshuj@andrew.cmu.edu		
+Jiang, Tianyuan	Teaching Assistant		tianyuaj@andrew.cmu.edu		
+Jimenez Gajardo, Abelino Enrique	Resaerch Assistant for Language Technologies		abelinoj@andrew.cmu.edu		
+Jin, Haojian	Graduate-Research Assistant	2620A Newell-Simon Hall	haojianj@andrew.cmu.edu		
+Jin, Hao	Teaching Assistant for Machine Learning		haoj@andrew.cmu.edu		
+Jo, Yohan	Graduate Research Assistant		yohanj@andrew.cmu.edu		
+Joebstl, Emanuel	Visiting Scholar		emiswelt@andrew.cmu.edu		
+John, Bonnie	Adjunct Professor	Newell-Simon Hall	bj07@andrew.cmu.edu		
+Johnson, Ryan	Desktop Support Technician	5301 Wean Hall	ryanj1@andrew.cmu.edu	4122684051	
+Johnson, Aaron	Courtesy Faculty Member	326 Scaife Hall	amj1@andrew.cmu.edu		
+Johnson, David	IT Support Consultant	3612 Wean Hall	dmj@cs.cmu.edu	4122682608	
+Johnson, Heather	Operations Manager, Cmlh	405 4615 Forbes Avenue	heatherj@andrew.cmu.edu	4122686750	
+Jones, Michael	IT Support Associate	3612 Wean Hall	jonesmj@cs.cmu.edu	4122682608	
+Jones, Heather	Senior Project Scientist	1515 Newell-Simon Hall	hjones@andrew.cmu.edu		
+Jones-Harries, Cara	Research Programmer/Analyst	3127 Newell-Simon Hall	cjones3@andrew.cmu.edu	4122683818	
+Joo, Hanbyul	Courtesy Student	201 Smith Hall	hanbyulj@andrew.cmu.edu	4122683818	
+Joseph, George	Visiting Scholar	9108 Gates and Hillman Centers	gjoseph@andrew.cmu.edu		
+Jothimurugesan, Ellango	Graduate-Research Assistant		ejothimu@andrew.cmu.edu		
+Jotwani, Apekshit	Teaching Assistant for Computer Science		ajotwani@andrew.cmu.edu		
+Joyner, Daniel	Post Award Business Administrator	4105 Newell-Simon Hall	djoyner@andrew.cmu.edu	4122685730	
+Jujjavarapu, Bala Siva	Graduate Teaching Assistant	4228 Newell-Simon Hall	bjujjava@andrew.cmu.edu		
+Jurgens, Nicholas	Teaching Assistant	300 South Craig Street	njurgens@andrew.cmu.edu		
+Kadekodi, Saurabh	Graduate-Research Assistant		skadekod@andrew.cmu.edu	4122681718	
+Kaess, Michael	Assistant Research Professor	1617 Newell-Simon Hall	kaess@cs.cmu.edu	4122686905	
+Kaffine, Christopher	Extern	B520 Newell-Simon Hall	ckaffine@andrew.cmu.edu		
+Kahng, Anson	Graduate-Research Assistant	6207 Gates and Hillman Centers	akahng@andrew.cmu.edu		
+Kalia, Anuj	Graduate-Research Assistant	9023 Gates and Hillman Centers	akalia@andrew.cmu.edu	4122685942	
+Kalli, Sree Harsha	Graduate Teaching Assistant	4228 Newell-Simon Hall	skalli@andrew.cmu.edu		
+Kalluri, Sai Hari	Research Assistant		skalluri@andrew.cmu.edu		
+Kamat, Gayatri Ravi	Research Assistant	Newell-Simon Hall	gkamat@andrew.cmu.edu		
+Kaminsky, Michael	Adjunct Research Scientist	Collaborative Innovation Center	mk9@andrew.cmu.edu	4122974100	
+Kaminsky, Jessica	Team Lead - Fluency Project	4623 Newell-Simon Hall	jessk@andrew.cmu.edu	4122683818	
+Kampffmeyer, Michael	Visiting Scholar		mkampffm@andrew.cmu.edu		
+Kanade, Takeo	U.a. And Helen Whitaker University Professor		tk@cs.cmu.edu	4122683016	
+Kandasamy, Kirthevasan	Graduate Research Assistant	8213 Gates and Hillman Centers	kkandasa@andrew.cmu.edu		
+Kane, Aaron	Senior Software Engineer	255 National Robotics Engineering Center	akane@andrew.cmu.edu	4122688162	
+Kang, Jung	Director, Asia Collaboration	2301 Wean Hall	johnkang@cs.cmu.edu	4122685785	
+Kang, Dongyeop	Graduate Research Assistant		dongyeok@andrew.cmu.edu		
+Kangas, Joshua	Research Scientist	189 Mellon Institute	jkangas@andrew.cmu.edu		
+Kanjirathinkal, Rose	Graduate Research Assistant	5501 Gates and Hillman Centers	rkanjira@andrew.cmu.edu		
+Kano, Yukiko	Executive Assistant	4231 Newell-Simon Hall	kyukiko@andrew.cmu.edu	4122683016	
+Kantor, George	Senior Systems Scientist	1101 Newell-Simon Hall	kantor@cs.cmu.edu	4122687084	
+Kao, Alison	Graduate-Research Assistant		ackao@andrew.cmu.edu		
+Kaplan, Toni	Graduate-Research Assistant	4501 Newell-Simon Hall	tkaplan@andrew.cmu.edu		
+Kaplow, Irene	Lane Fellow		ikaplow@andrew.cmu.edu		
+Kapoutsis, Christos	Assistant Teaching Professor of Computer Science	1017 Carnegie Mellon Qatar	cak@qatar.cmu.edu		
+Kapuria, Anuj	Visitor		anujk@andrew.cmu.edu	4122683818	
+Kar, Abhishek	Teaching Assistant for Language Technologies		akar1@andrew.cmu.edu		
+Karapanos, Evangelos	Instructor - Portugal	Newell-Simon Hall	ekar@andrew.cmu.edu		
+Karp, Brianna	Transcriber		briannak@andrew.cmu.edu		
+Kass, Robert	Affiliated Faculty	229H Baker Porter Hall	kass@andrew.cmu.edu	4122688723	
+Kastner, Christian	Assistant Professor	5126 Wean Hall	ckaestne@cs.cmu.edu	4122685254	
+Kasunic, Anna	Graduate Research Assistant	4617 Newell-Simon Hall	akasunic@andrew.cmu.edu	4122688285	
+Kato, Keizo	Visitor	208 Smith Hall	kkato@andrew.cmu.edu		
+Katz, Deborah	Graduate-Research Assistant		dskatz@andrew.cmu.edu	4122683070	
+Kaucic, Jeffrey	Robotics Engineer	254 National Robotics Engineering Center	jkaucic@andrew.cmu.edu	4125804811	
+Kaufman, Geoff	Assistant Professor	3611 Newell-Simon Hall	gfk@andrew.cmu.edu		
+Kaul, Shiva	Graduate Research Assistant	7121 Gates and Hillman Centers	skkaul@andrew.cmu.edu	4122687670	
+Kaushik, Divyansh	Graduate Research Assistant		dkaushik@andrew.cmu.edu		
+Kavanagh, Ryan	Graduate Research Assistant	6207 Gates and Hillman Centers	rkavanag@andrew.cmu.edu		
+Kaynar, Zeliha Dilsun	Assistant Teaching Professor	6009 Gates and Hillman Centers	dilsun@cs.cmu.edu	4122689297	
+Kazour, Nora	Administrative Coordinator	2107 Newell-Simon Hall	nkazour@andrew.cmu.edu	4122686556	
+Keating, Thomas	Adjunct Instructor		tkeating@cs.cmu.edu	4122683728	
+Keeling, Ariana	Systems Software/Hardware Engineer	4519 Newell-Simon Hall	akeeling@andrew.cmu.edu		
+Keeling, Michael	Adjunct Instructor	277 300 South Craig Street	mkeeling@andrew.cmu.edu	4122685067	
+Keipour, Azarakhsh	Phd Student	1502D Newell-Simon Hall	akeipour@andrew.cmu.edu		
+Keller, John	Software/Robotics Engineer	2104 Newell-Simon Hall	jkeller2@andrew.cmu.edu		
+Kelliher, Aisling	Adjunct		aislingk@andrew.cmu.edu	4122689472	
+Kelly, Alonzo	Professor	3209 Newell-Simon Hall	alonzo@cs.cmu.edu	4122685330	
+Kemerer, Chris	Adjunct Professor of Software Engineering	266 300 South Craig Street	ck0l@andrew.cmu.edu	4123441020	
+Kenna, Jennifer	Teaching Assistant	300 South Craig Street	jkenna@andrew.cmu.edu		
+Kennedy, Angela	Visitor	4619 Newell-Simon Hall	ah1y@andrew.cmu.edu	4122683858	
+Kerlin, Steven	Staff		skerlin@andrew.cmu.edu		
+Kery, Mary	Graduate Research Assistant	2620C Newell-Simon Hall	mkery@andrew.cmu.edu		
+Keselman, Leonid	Phd Student	1502D Newell-Simon Hall	lkeselma@andrew.cmu.edu		
+Kesneck, Nathan	Video Technician	4112 Wean Hall	nkesneck@cs.cmu.edu	4122683479	
+Kettell, Brian	IT Support Consultant	4205 Gates and Hillman Centers	bkettell@cs.cmu.edu	4122684231	
+Ketterer, James	Senior Technician	12 National Robotics Engineering Center	jk5n@cs.cmu.edu	4126812439	
+Khadke, Ashwin Rajendra	Msr Student	4228 Newell-Simon Hall	akhadke@andrew.cmu.edu		
+Khosla, Pradeep	Professor	110 Scaife Hall	khosla@andrew.cmu.edu	4122685090	
+Khudabukhsh, Ashiqur	Graduate-Research Assistant		akhudabu@andrew.cmu.edu	4122683043	
+Khurana, Rushil	Graduate-Research Assistant	4607 Newell-Simon Hall	rkhurana@andrew.cmu.edu		
+Khutoretsky, Maria	Graduate-Research Assistant		mkhutore@andrew.cmu.edu		
+Kiefer, Maximilian	Extern	1200 Newell-Simon Hall	mkiefer@andrew.cmu.edu		
+Kiesler, Sara	Hillman Professor of Human-Computer Interaction	3513 Newell-Simon Hall	kiesler@cs.cmu.edu	4122682848	
+Kim, Se Young	Assistant Professor	7721 Gates and Hillman Centers	sssykim@cs.cmu.edu	4122686851	
+Kim, Sung Kyun	Phd Student	1612A Newell-Simon Hall	sungkyuk@andrew.cmu.edu	4122683818	
+Kim, Jin Kyu	Graduate Research Assistant	6219 Gates and Hillman Centers	jinkyuk@andrew.cmu.edu	4122682015	
+Kim, Daehyeok	Graduate-Research Assistant		daehyeok@andrew.cmu.edu		
+Kim, Thomas	Graduate Research Assistant	6207 Gates and Hillman Centers	tskim@andrew.cmu.edu		
+Kim, Dohyun	Graduate Research Assistant	4107 Wean Hall	dohyunk@andrew.cmu.edu		
+Kim, Joon Sik	Graduate Research Assistant	8226 Gates and Hillman Centers	joonsikk@andrew.cmu.edu		
+Kim, Yubin	Graduate Research Assistant	6605 Gates and Hillman Centers	yubink@andrew.cmu.edu	4122686591	
+Kim, Seungjun	Courtesy Adjunct		sjunikim@cs.cmu.edu	4127154950	
+Kim, Tae-Hyung	Visitor	1612 Newell-Simon Hall	tk1@andrew.cmu.edu		
+Kim, Gi Bum	Graduate Research Assistant		gibumk@andrew.cmu.edu		
+King, Jonathan	Phd Student	1502D Newell-Simon Hall	jking2@andrew.cmu.edu		
+Kingsford, Carl	Associate Professor; Chief Science Officer, Cmlh		ckingsf@cs.cmu.edu	4122681769	
+Kini, Prathamesh	Robotics Engineer	293 National Robotics Engineering Center	pkini@andrew.cmu.edu		
+Kinneer, Cody	Graduate Research Assistant	4127 Wean Hall	ckinneer@andrew.cmu.edu		
+Kirabo, Lynn	Graduate-Research Assistant	4611 Newell-Simon Hall	lkirabo@andrew.cmu.edu	2500784840	
+Kisiel, Bryan	Senior Research Programmer	8108 Gates and Hillman Centers	bkisiel@cs.cmu.edu	4122684991	
+Kissell, Christopher	Assistant Director of Corporate Partnerships, SCS	5101 Gates and Hillman Centers	ckissell@andrew.cmu.edu	4122682156	
+Kitani, Kris	Assistant Research Professor	211 Smith Hall	kkitani@cs.cmu.edu	4122685186	
+Kittur, Aniket	Cooper-Siegel Associate Professor	2504A Newell-Simon Hall	nkittur@cs.cmu.edu	4122687505	
+Klaas, Rebecca	Associate Business Manager	4103 Newell-Simon Hall	bklaas@cs.cmu.edu	4122682588	
+Kleyman, Michael	Graduate Research Assistant	7411 Gates and Hillman Centers	mkleyman@andrew.cmu.edu		
+Klingensmith, Chase	Administrative Assistant II	9229 Gates and Hillman Centers	chasek@cs.cmu.edu	4122683041	
+Knox, Kelsee	Applications Coordinator	6029 Gates and Hillman Centers	khibner@cs.cmu.edu	4122682657	
+Koedinger, Kenneth	Professor	3601 Newell-Simon Hall	krk@cs.cmu.edu	4122687667	
+Kohanbash, David	Senior Research Programmer	2203 Newell-Simon Hall	dkohanba@cs.cmu.edu	4122683856	
+Kolenich, Peter	Adjunct Instructor		kolenich@andrew.cmu.edu	4122685067	
+Kolla, Aravinda	Student Intern	5311 Wean Hall	aravindk@andrew.cmu.edu		
+Kollipara, Sriram	Teaching Assistant for Computer Science		skollipa@andrew.cmu.edu		
+Kolter, Zico	Assistant Professor	7115 Gates and Hillman Centers	zkolter@cs.cmu.edu	4122684733	
+Komanduri, Saranga	Graduate Student	Collaborative Innovation Center	sarangak@andrew.cmu.edu	4122568375	
+Komatsu, Ren	Visitor	1200 Newell-Simon Hall	rkomatsu@andrew.cmu.edu		
+Komisin, Michael	Research Programmer	2602G Newell-Simon Hall	mkomisin@cs.cmu.edu	4122684427	
+Konagari, Vamshi Reddy	Teaching Assistant for Computer Science		vkonagar@andrew.cmu.edu		
+Konda, Harsha	Teaching Assistant for Computer Science		hkonda@andrew.cmu.edu		
+Konduru, Ram	Director, Universal Digital Library Project	5321 Wean Hall	rk@cs.cmu.edu	4122689847	
+Kong, Chen	Phd Student	210 Smith Hall	chenk@andrew.cmu.edu	4122683818	
+Kong, Xiang	Graduate Research Assistant		xiangk@andrew.cmu.edu		
+Konomis, Dimitris	Teaching Assistant for Machine Learning		dkonomis@andrew.cmu.edu	4122683077	
+Koontz, Seth	Lab Assistant	14 National Robotics Engineering Center	skoontz@andrew.cmu.edu	4126816289	
+Korein, Max	Graduate Student Courtesy	4511 Newell-Simon Hall	mkorein@andrew.cmu.edu	4122683818	
+Kosaian, Jack	Graduate-Research Assistant		jkosaian@andrew.cmu.edu		
+Kosbie, David	Associate Teaching Professor	5001 Gates and Hillman Centers	koz@cs.cmu.edu	4122688034	
+Kost, Marcel	Visiting Scholar		mkost@andrew.cmu.edu		
+Kotturi, Yasmine	Graduate-Research Assistant	2602 Newell-Simon Hall	ykotturi@andrew.cmu.edu		
+Kotwal, Alankar	Phd Student	1502E Newell-Simon Hall	askotwal@andrew.cmu.edu		
+Koutis, Ioannis	Adjunct Faculty	Gates and Hillman Centers	ikoutis@andrew.cmu.edu	4122682000	
+Kowalchuck, Michael	Senior Research Programmer	4210 Wean Hall	kf3cr@cs.cmu.edu	4122684927	
+Kozar, John	Electronics Engineer	4631 Newell-Simon Hall	jkozar@cs.cmu.edu	4122687955	
+Krause, Alexander	Web Developer	4109 Newell-Simon Hall	akrause@andrew.cmu.edu	4122686820	
+Krause, Spencer	Visitor	1200 Newell-Simon Hall	spence@andrew.cmu.edu	4122683818	
+Kraut, Robert	Herbert A. Simon Professor of Human-Computer Interaction	3515 Newell-Simon Hall	kraut@cs.cmu.edu	4122687694	
+Kravitz, Susan	Human-Computer Interaction Institute	4615 Newell-Simon Hall	qkravitz@cs.cmu.edu	4122682564	
+Krenn, Steven	Teaching Assistant for Computer Science		skrenn@andrew.cmu.edu		
+Krishna, Satyapriya	Teaching Assistant for Machine Learning		satyaprk@andrew.cmu.edu		
+Kroemer, Oliver	Assistant Professor		okroemer@andrew.cmu.edu		
+Kroer, Christian	Graduate-Research Assistant		ckroer@andrew.cmu.edu	4122685576	
+Kubiak, Mychal	Senior IT Support Consultant	3209 Wean Hall	myke@cs.cmu.edu	4122688231	
+Kubo, Hiroyuki	Visitor	220 Smith Hall	hkubo@andrew.cmu.edu		
+Kuchnik, Michael	Graduate-Research Assistant		mkuchnik@andrew.cmu.edu		
+Kulk, Jason	Robotics Engineer	37B National Robotics Engineering Center	jkulk@andrew.cmu.edu		
+Kulkarni, Chinmay	Assistant Professor	2504D Newell-Simon Hall	chinmayk@andrew.cmu.edu		
+Kulshreshtha, Rajat	Teaching Assistant for Language Technologies		rkulshre@andrew.cmu.edu		
+Kumar, Sachin	Graduate Research Assistant	6418 Gates and Hillman Centers	sachink@andrew.cmu.edu		
+Kumar, Sumeet	Graduate Research Assistant	4215 Wean Hall	sumeetku@andrew.cmu.edu	6503352815	
+Kusnur, Tushar	Intern	2204 Newell-Simon Hall	tkusnur@andrew.cmu.edu		
+Kyriacopoulos, Joanne	Contract/Export Compliance Support Manager	223 National Robotics Engineering Center	joannek@andrew.cmu.edu	4126816739	
+La Follette, Tavia	Visitor	LL127 Collaborative Innovation Center	tavial@andrew.cmu.edu	4122683818	
+Labrinidis, Alexandros	Adjunct Faculty	8125 Gates and Hillman Centers	labrinid@andrew.cmu.edu	4126248843	
+Labutov, Igor	Post Doctoral Associate	8112 Gates and Hillman Centers	ilabutov@andrew.cmu.edu		
+Lacomis, Jeremy	Graduate Research Assistant	4107 Wean Hall	jlacomis@andrew.cmu.edu		
+Lai, Guokun	Graduate Research Assistant	5513 Gates and Hillman Centers	glai1@andrew.cmu.edu		
+Laing, Erika	Project Scientist	8120 Gates and Hillman Centers	laing@cs.cmu.edu	4122683953	
+Lam, Sherman	Phd Student	4225 Newell-Simon Hall	sherman1@andrew.cmu.edu		
+Lamba, Hemank	Graduate Research Assistant	4208 Wean Hall	hlamba@andrew.cmu.edu		
+Lammott, Jacob	Technician II	14 National Robotics Engineering Center	jlammott@andrew.cmu.edu		
+Landefeld, Jennifer	CSD Marketing And Communications Manager	7017 Gates and Hillman Centers	jennsbl@cs.cmu.edu	4122684740	
+Langmead, Christopher	Associate Professor	7215 Gates and Hillman Centers	cjl@cs.cmu.edu	4122687571	
+Lanigan, Patrick	Senior Robotics Engineer		planigan@andrew.cmu.edu		
+Laput, Gierad	Graduate-Research Assistant	4607 407 South Craig Street	glaput@andrew.cmu.edu		
+Lattanze, Anthony	Director, Software Engineering Masters Program; Teaching Professor	278 300 South Craig Street	lattanze@cs.cmu.edu	4122684736	
+Lau, Shing-Hon	Graduate Research Assistant		shinghol@andrew.cmu.edu	4122682022	
+Lau, Andrew	User And Systems Administrator	246 National Robotics Engineering Center	alau2@andrew.cmu.edu	4126816900	
+Laurent, Jonathan	Graduate-Research Assistant	7703 Gates and Hillman Centers	jlauren1@andrew.cmu.edu		
+Laverne, Michel	Commercialization Specialist	280 National Robotics Engineering Center	mlaverne@cs.cmu.edu	4126131386	
+Lavie, Alon	Adjunct Faculty		alavie@cs.cmu.edu	4122685655	
+Le Goues, Claire	Assistant Professor	5117 Wean Hall	clegoues@cs.cmu.edu	4122686954	
+Le Scao, Teven	Graduate Research Assistant		tlescao@andrew.cmu.edu		
+Leaf, Nickolas	IT Professional - Part Time	2602G Newell-Simon Hall	nickleaf@cmu.edu		
+Leduc, Philip	Affiliated Faculty		prl@andrew.cmu.edu	4122682504	
+Lee, Jaegon	Visitor	2502 Newell-Simon Hall	jaegonl@andrew.cmu.edu		
+Lee, Rita	Adjunct Instructor	222 Newell-Simon Hall	rmlee@andrew.cmu.edu		
+Lee, Vivian	Executive Assistant	5325 Wean Hall	vl@cs.cmu.edu	4122687170	
+Lee, Michael	Msr Student	1102 Gates and Hillman Centers	ml5@andrew.cmu.edu		
+Lee, Kyusong	Postdoctoral Research Associate	6414 Gates and Hillman Centers	kyusongl@andrew.cmu.edu		
+Lee, Terry	Assistant Teaching Professor	4202 Wean Hall	terrylee@cs.cmu.edu	4122681078	
+Lee, Jay Yoon	Graduate-Research Assistant		jaylee@andrew.cmu.edu	4122689165	
+Lee, Andy	Visiting Collaborator		andyl2@andrew.cmu.edu		
+Lee, Timothy	Principal Systems/Software Engineer	1101 Gates and Hillman Centers	tel1@andrew.cmu.edu		
+Lee, Tai-Sing	Professor	115 Mellon Institute	tai@cs.cmu.edu	4122681060	
+Lee, Heewook	Lane Fellow	7401 Gates and Hillman Centers	heewookl@andrew.cmu.edu		
+Lee, Min Kyung	Research Scientist	410 4615 Forbes Avenue	mklee@cs.cmu.edu	4125277396	
+Lee, Kyung-Taek	Visiting Scholar	2502B Newell-Simon Hall	kyungtal@andrew.cmu.edu		
+Lee, Lisa	Graduate Research Assistant	8133 Gates and Hillman Centers	lslee@andrew.cmu.edu		
+Legault, Jean-Francois	Director of Business Development	206 National Robotics Engineering Center	jlegault@cs.cmu.edu	4126816753	
+Lehman, Philip	Associate Dean for Advancement	5113 Gates and Hillman Centers	pll@cs.cmu.edu	4122689962	
+Lehman, Jill Fain	Adjunct Professor	222 300 South Craig Street	jfl@andrew.cmu.edu	4122682565	
+Lehman, Sarah	Intern	Newell-Simon Hall	slehm616@andrew.cmu.edu		
+Lei, Haoyun	Graduate Research Assistant		haoyunl@andrew.cmu.edu		
+Lei, Eric	Graduate Research Assistant		elei@andrew.cmu.edu		
+Leino, Klas	Graduate-Research Assistant		kleino@andrew.cmu.edu		
+Lengerich, Benjamin	Graduate-Research Assistant		blengeri@andrew.cmu.edu		
+Levin, Golan	Affiliated Faculty	405 College of Fine Arts	golan@andrew.cmu.edu	9175207456	
+Levin, Lorraine	Research Professor	5717 Gates and Hillman Centers	lsl@cs.cmu.edu	4122686193	
+Levin, Roie	Graduate-Research Assistant		roiel@andrew.cmu.edu		
+Levine, Matthew	Robotics Engineer	235 National Robotics Engineering Center	mlevine@nrec.ri.cmu.edu	4126816900	
+Lewis, Nicholas	Extern-Programmer	Newell-Simon Hall	nicholal@andrew.cmu.edu		
+Lewis, Laura	Outreach Coordinator	4113 Gates and Hillman Centers	ltabachn@andrew.cmu.edu	4122685944	
+Li, Ruoyao	Teaching Assistant	300 South Craig Street	ruoyaol@andrew.cmu.edu		
+Li, Yin	Postdoctoral Fellow	216 Smith Hall	yinl2@andrew.cmu.edu		
+Li, Ang	Teaching Assistant for Computer Science		angl2@andrew.cmu.edu		
+Li, Xinyu	Research Analyst	3128 Newell-Simon Hall	xinyul2@andrew.cmu.edu		
+Li, Pingshan	Research Assistant		pingshal@andrew.cmu.edu		
+Li, Qinqi	Teaching Assistant for Computer Science		qinqil@andrew.cmu.edu		
+Li, Jason	Graduate-Research Assistant	7607 Gates and Hillman Centers	jmli@andrew.cmu.edu		
+Li, Mo	Teaching Assistant for Machine Learning		moli@andrew.cmu.edu	4122683125	
+Li, Mengtian	Phd Student	1502E Newell-Simon Hall	mengtial@andrew.cmu.edu	4122683818	
+Li, Lu	Senior Systems Software/Hardware Engineer	A409 Newell-Simon Hall	lilu12@andrew.cmu.edu	4122683818	
+Li, Zhongyu	Visitor	119 Smith Hall	zli2@andrew.cmu.edu		
+Li, Hongdong	Visiting Faculty	208 Smith Hall	hongdonl@andrew.cmu.edu		
+Li, Chun-Liang	Graduate Research Assistant		chunlial@andrew.cmu.edu		
+Li, Tianshi	Graduate-Research Assistant		tianshil@andrew.cmu.edu		
+Li, Jiajun	Graduate-Research Assistant	2602B Newell-Simon Hall	jiajunl1@andrew.cmu.edu		
+Li, Zhuo	Teaching Assistant for Computational Biology		zhuol1@andrew.cmu.edu		
+Li, Siyi	Visitor	A519 Newell-Simon Hall	siyil@andrew.cmu.edu		
+Li, Conglong	Graduate-Research Assistant		conglonl@andrew.cmu.edu	4122683898	
+Li, Zijin	Teaching Assistant		zijinl@andrew.cmu.edu		
+Li, Weichen	Teaching Assistant for Language Technologies		weichenl@andrew.cmu.edu		
+Li, Bohan	Graduate Research Assistant		bohanl1@andrew.cmu.edu		
+Li, Xiu	Visitor	201 Smith Hall	xiul@andrew.cmu.edu		
+Lian, Xizhe	Visiting Scholar		xlian@andrew.cmu.edu		
+Liang, Junwei	Graduate Research Assistant	6225 Gates and Hillman Centers	junweil@andrew.cmu.edu		
+Liang, Xiaodan	Project Scientist/Engineer	8116 Gates and Hillman Centers	xiaodan1@andrew.cmu.edu		
+Liao, Jiahe	Msr Student	4228 Newell-Simon Hall	jiahel@andrew.cmu.edu		
+Libby, Jacqueline	Graduate Student Courtesy	1515 Newell-Simon Hall	jlibby@andrew.cmu.edu		
+Lieu, Lauren	Msr Student	1102 Gates and Hillman Centers	llieu1@andrew.cmu.edu		
+Lightman, Ari	Marketing & Commercialization Advisor	2107C Hamburg Hall	aligh@andrew.cmu.edu	4122689312	
+Likhachev, Maxim	Associate Research Professor	3211 Newell-Simon Hall	maxim@cs.cmu.edu	4122685581	
+Lim, Hyeontaek	Post Doctoral Fellow	9112 Gates and Hillman Centers	hyeontae@cs.cmu.edu	4122685942	
+Lin, Xingyu	Graduate-Research Assistant		xlin3@andrew.cmu.edu		
+Lin, Tao	Teaching Assistant for Machine Learning		tlin2@andrew.cmu.edu		
+Lin, Chen-Hsuan	Phd Student	1502E Newell-Simon Hall	chenhsul@andrew.cmu.edu	4122683818	
+Lin, Zebing	Teaching Assistant for Computer Science		zebingl@andrew.cmu.edu		
+Lin, Chieh	Graduate Research Assistant		chiehl1@andrew.cmu.edu		
+Lin, Jenny	Graduate-Research Assistant		jennylin@andrew.cmu.edu		
+Lindenfelser, Karen	Pdl Administrative Manager	2209 Collaborative Innovation Center	karen@cs.cmu.edu	4122686716	
+Ling, Chun Kai	Graduate-Research Assistant		chunkail@andrew.cmu.edu		
+Lipner, Steven	Adjunct Professor	5216 Wean Hall	slipner@andrew.cmu.edu		
+Lisien, Brad	Robotics Engineer	290 National Robotics Engineering Center	blisien@andrew.cmu.edu	4126816900	
+Lister, Levi	Senior Robotics Engineer		llister@cs.cmu.edu	4128775349	
+Littell, Patrick	Post Doctoral Associate	6416 Gates and Hillman Centers	pwl@andrew.cmu.edu		
+Litton, Charles	Visitor	LL127 Collaborative Innovation Center	clitton@andrew.cmu.edu		
+Liu, Bibang	Teaching Assistant		bibangl@andrew.cmu.edu		
+Liu, Wenhe	Visiting Intern	5403 Gates and Hillman Centers	wenhel@andrew.cmu.edu		
+Liu, Shiyue	Teaching Assistant for Computer Science		shiyuel@andrew.cmu.edu		
+Liu, Fannie	Graduate Research Assistant	2620C Newell-Simon Hall	ffl@andrew.cmu.edu		
+Liu, Minxing	Teaching Assistant for Machine Learning		minxing1@andrew.cmu.edu		
+Liu, Chao	Phd Student	117 Smith Hall	chaoliu1@andrew.cmu.edu	4122683818	
+Liu, Dun	Visiting Researcher	4102 Wean Hall	dunl1@andrew.cmu.edu		
+Liu, Long	Visiting Faculty	7603 Gates and Hillman Centers	longl@andrew.cmu.edu		
+Liu, Leqi	Graduate Research Assistant	8226 Gates and Hillman Centers	leqil@andrew.cmu.edu		
+Liu, Jingzhou	Graduate Research Assistant		jingzhol@andrew.cmu.edu		
+Liu, Kelvin	PhD Student - Computational Biology		kmliu@andrew.cmu.edu	4122682977	
+Liu, Yifang	Teaching Assistant for Computer Science		yifangl@andrew.cmu.edu		
+Liu, Xinyu	Teaching Assistant for Computer Science		xliu3@andrew.cmu.edu		
+Liu, Ruonan	Visiting Scholar		ruonanl@andrew.cmu.edu		
+Liu, Xieyang	Graduate-Research Assistant	4611 Newell-Simon Hall	xieyangl@andrew.cmu.edu		
+Liu, Qing	Teaching Assistant for Language Technologies		qingl2@andrew.cmu.edu		
+Liu, Zhengzhong	Graduate Research Assistant	5517 Gates and Hillman Centers	zhengzhl@andrew.cmu.edu		
+Liu, Hanxiao	Graduate Research Assistant		hanxiaol@andrew.cmu.edu	4125156746	
+Liu, Jiang	Graduate Research Assistant		jiangl1@andrew.cmu.edu		
+Lockerman, Elliot	Graduate-Research Assistant		elockerm@andrew.cmu.edu		
+Lombardo, John	Video Technician	4116 Wean Hall	lumbo65@cs.cmu.edu	4122685414	
+Long, Guoming	Engineer II	3220 Newell-Simon Hall	glong@andrew.cmu.edu	4122683818	
+Longo, Sara	Visitor	LL127 Collaborative Innovation Center	slongo1@andrew.cmu.edu		
+Lopez, Antonio-Javier	Affiliated Faculty	239 Mellon Institute	jlaa@andrew.cmu.edu	4122683400	
+Loring, Patricia	Research Associate II	8125 Gates and Hillman Centers	sawako@cs.cmu.edu	4122685628	
+Louw, Marti	Director of The Learning Media Design Center of SCS HCII	3612C Newell-Simon Hall	mrlouw@andrew.cmu.edu		
+Love, William	Senior Systems Engineer	3202 Wean Hall	wolove@cs.cmu.edu	4122684909	
+Low, Carissa	Adjunct		clow1@andrew.cmu.edu		
+Lu, Ziang	Teaching Assistant		ziangl@andrew.cmu.edu		
+Lubas, Debra	Adjunct Instructor		debrag@andrew.cmu.edu	4122685067	
+Lucas, Jennifer	Academic Program Manager	6713 Gates and Hillman Centers	jmlucas@cs.cmu.edu	4122689870	
+Lucey, Simon	Associate Research Professor	219 Smith Hall	slucey@cs.cmu.edu	4122684711	
+Lucia, Brandon	Courtesy Faculty	2311 Collaborative Innovation Center	blucia@andrew.cmu.edu	4122689192	
+Luck, Angela	Administrative Assistant II	6006 Gates and Hillman Centers	angieb@cs.cmu.edu	4122685483	
+Lugo-Martinez, Jose	Lane Fellow		jlugomar@andrew.cmu.edu		
+Luo, Wenhao	Phd Student	1604A Newell-Simon Hall	wenhaol@andrew.cmu.edu	4122683818	
+Luo, Yixin	Graduate-Research Assistant		yixinluo@andrew.cmu.edu	4122682039	
+Luong, Thomas	Senior Multi-Media Designer	261 National Robotics Engineering Center	tluong@andrew.cmu.edu	4122962436	
+Luria, Michal	Graduate-Research Assistant	2602 Newell-Simon Hall	mluria@andrew.cmu.edu		
+Lyness, Hannah	Phd Student	1502E Newell-Simon Hall	hlyness@andrew.cmu.edu		
+Lyu, Lu	Visitor	1612 Newell-Simon Hall			
+Ma, Wanli	Graduate Research Assistant		wanlim@andrew.cmu.edu		
+Ma, Lin	Graduate Research Assistant	9215 Gates and Hillman Centers	lma1@andrew.cmu.edu		
+Ma, Xuezhe	Graduate Research Assistant	5517 Gates and Hillman Centers	xuezhem@andrew.cmu.edu		
+Ma, Luyi	Teaching Assistnat for Computer Science		luyim@andrew.cmu.edu		
+Ma, Jian	Associate Professor	7705 Gates and Hillman Centers	jianma@cs.cmu.edu	4122682776	
+Ma, Cong	Graduate Research Assistant	7411 Gates and Hillman Centers	congm1@andrew.cmu.edu		
+Ma, Jun	Teaching Assistant		junm2@andrew.cmu.edu		
+MacAllister, Brian	Engineer IIi	2102 Newell-Simon Hall	bmaca@andrew.cmu.edu	4122683818	
+Macey, Justin	Research Associate IIi	1326 Wean Hall	jmacey@cs.cmu.edu	4122689023	
+Mackenzie, Simon	Post Doctoral Associate With Benefits	7225 Gates and Hillman Centers	simonm@andrew.cmu.edu		
+Mackey, John	Teaching Professor	4005 Gates and Hillman Centers	jmackey@andrew.cmu.edu	4122686881	
+Mackiewicz, Patricia	Associate Director, MSIT eBusiness Technology	215 417 South Craig Street	patty@cs.cmu.edu	4122687077	
+Maclachlan, Robert	Senior Research Engineer	3115 Newell-Simon Hall	ram@cs.cmu.edu	4124458113	
+Maclaren, Benjamin	Senior Research Programmer Analyst	2620B Newell-Simon Hall	ben@cs.cmu.edu		
+Madaan, Ratnesh	Msr Student	2102 Newell-Simon Hall	ratneshm@andrew.cmu.edu		
+Madaio, Michael	Graduate Research Assistant	4619 Newell-Simon Hall	mmadaio@andrew.cmu.edu		
+Madhava, Kishore Mukuntha	Universal Digital Library Consultant	5311 Wean Hall	kishorem@andrew.cmu.edu		
+Maeda, Mikana	Administrative Coordinator	4101 Newell-Simon Hall	mmaeda@andrew.cmu.edu	4122683473	
+Maeta, Silvio	Principal Systems/Software/Hardware Engineer	2104 Newell-Simon Hall	smaeta@cs.cmu.edu	4122683818	
+Magalhaes Marinho, Zita Alexandra	Phd Student	4502 Newell-Simon Hall	zmarinho@andrew.cmu.edu		
+Magelinski, Thomas	Graduate Research Assistant	4123 Wean Hall	tmagelin@andrew.cmu.edu		
+Maguire, Jessica	Administrative Coordinator	5413 Gates and Hillman Centers	jlm4@andrew.cmu.edu	4122681230	
+Mahadik, Shardul	Teaching Assistant for Computer Science		shardulm@andrew.cmu.edu		
+Majidi, Carmel	Adjunct Faculty Member	409 Scaife Hall	cmajidi@andrew.cmu.edu	4122682492	
+Maki, Keith	Graduate Research Assistant	5511 Gates and Hillman Centers	kmaki@andrew.cmu.edu		
+Maley, Siri	Graduate Research Assistant	1200 Newell-Simon Hall	smaley@andrew.cmu.edu		
+Malik, Momin	Graduate Research Assistant	5119 Wean Hall	mmmalik@andrew.cmu.edu		
+Malloy, Angela	Administrative Assistant II	9006 Gates and Hillman Centers	amalloy@andrew.cmu.edu	4122686914	
+Malreddy, Siddarth	Graduate Teaching Assistant	4228 Newell-Simon Hall	smalredd@andrew.cmu.edu		
+Mandava, Mani Swetha	Graduate Research Assistant	1200 Newell-Simon Hall	mmandava@andrew.cmu.edu		
+Mani, Ganesh	Adjunct Senior Systems Scientist	5325 Wean Hall	ganeshm@andrew.cmu.edu	4124010121	
+Mankoff, Jennifer	Faculty		jmankoff@cs.cmu.edu	4122681295	
+Manzini, Thomas	Graduate Research Assistant		tmanzini@andrew.cmu.edu		
+Mao, Yuhan	Teaching Assistant for Machine Learning		yuhanm@andrew.cmu.edu		
+Marcais, Guillaume	Project Scientist	7601 Gates and Hillman Centers	gmarcais@andrew.cmu.edu		
+Marino, Kenneth	Courtesy Student; Graduate Research Assistant		kdmarino@andrew.cmu.edu		
+Marks, Joseph	Executive Director, Cmlh; Special Faculty		jmarks2@andrew.cmu.edu	4122685463	
+Markvicka, Eric	Phd Student	B16B Scaife Hall	emarkvic@andrew.cmu.edu	4122683818	
+Marsh, Abigail	Graduate Research Assistant	Collaborative Innovation Center	acmarsh@andrew.cmu.edu		
+Marshall, KC	Senior Systems Engineer	3206 Wean Hall	km44@cs.cmu.edu	4122684429	
+Martin, Daniel	Graduate Research Assistant		dlmartin@andrew.cmu.edu		
+Martin, William	Phd Student	4508 Newell-Simon Hall	wmartin@andrew.cmu.edu	4122683818	
+Martin, James	Technician II	229 National Robotics Engineering Center	jmartin@cs.cmu.edu	4126834145	
+Martin, Richard	Adjunct Faculty		rmartin@andrew.cmu.edu	4122687617	
+Martin, Peggy	Administrative Coordinator	3203 Newell-Simon Hall	pm1e@cs.cmu.edu	4122687943	
+Martinko, Lauren	Masters Programs Administrator	276 300 South Craig Street	laurenma@cs.cmu.edu	4122686441	
+Martins, Joao	Graduate Research Assistant	7701 Gates and Hillman Centers	jmartins@andrew.cmu.edu		
+Martins, Flavio	Visiting Student		flaviofm@andrew.cmu.edu		
+Maskell, Samuel	Graduate Research Assistant		smaskell@andrew.cmu.edu		
+Mason, Matthew	Professor	A521 Newell-Simon Hall	mason@cs.cmu.edu	4129513534	
+Mathai, Tejas Sudharshan	Phd Student	4221 Newell-Simon Hall	tmathai@andrew.cmu.edu	4122683818	
+Mather, John	Guest Robotics Business Lecturer	1612C Newell-Simon Hall	mather@andrew.cmu.edu	4122683698	
+Mathur, Aditya	Mse Teaching Assistant	300 South Craig Street	adityam1@andrew.cmu.edu		
+Matsumoto, Takaaki	Visiting Researcher	6414 Gates and Hillman Centers	tmatsumo@andrew.cmu.edu		
+Matsuyama, Yoichi	Post Doctoral Fellow	2620C Newell-Simon Hall	yoichim@andrew.cmu.edu		
+Matthews, Kristopher	Software Engineer	252 National Robotics Engineering Center	kmatthew@andrew.cmu.edu		
+Matthews, Iain	Adjunct Faculty		iainm@andrew.cmu.edu	4122683818	
+Matthews, Austin	Graduate Research Assistant	5709 Gates and Hillman Centers	austinma@andrew.cmu.edu	4122686591	
+Maturana, Daniel	Phd Student	2102 Newell-Simon Hall	dmaturan@andrew.cmu.edu	4122687414	
+Maturana Sanguineti, Francisco Jose	Graduate-Research Assistant		fmaturan@andrew.cmu.edu		
+Matvey, Stephanie	Administrative Coordinator	4231 Newell-Simon Hall	smatvey@cs.cmu.edu	4122683327	
+Maxion, Roy	Research Professor	8107 Gates and Hillman Centers	maxion@cs.cmu.edu	4122687556	
+Maxwell, Beth	Customer Priorities Manager/Project Manager	5003 Gates and Hillman Centers	bethmc@cs.cmu.edu	4122687553	
+Mazagonwalla, Afshaan Amin	Teaching Assistant for Machine Learning		amazagon@andrew.cmu.edu		
+Mazaitis, Kathryn	Senior Research Programmer	8108 Gates and Hillman Centers	krivard@cs.cmu.edu	4122684991	
+McCann, Laura	Marketing Assistant		lmccann@andrew.cmu.edu	4122683720	
+McCann, James	Assistant Professor	229 Smith Hall	jmccann@andrew.cmu.edu	4122683818	
+Mccarter, Calvin	Graduate Research Assistant	8008 Gates and Hillman Centers	cmccarte@andrew.cmu.edu		
+Mccoy, Richard	Linguist		rtmccoy@andrew.cmu.edu		
+Mcdermitt, Ryan	Senior Research Analyst		rmcdermi@andrew.cmu.edu	4122683818	
+McDonald, Joselyn	Graduate Research Assistant	2621 Newell-Simon Hall	jemcdona@andrew.cmu.edu		
+McGuffey, Charles	Graduate-Research Assistant		cmcguffe@andrew.cmu.edu		
+Mcguigan, Krista	Business Manager	5715 Gates and Hillman Centers	klmcg@cs.cmu.edu	4122681635	
+McHugh, Max	Extern	1200 Newell-Simon Hall	mmchugh@andrew.cmu.edu		
+McKenzie, Nathan	Research Associate II	4602 Newell-Simon Hall	nmckenzi@andrew.cmu.edu		
+Mckeown, David	Adjunct Faculty	Gates and Hillman Centers	dmm@andrew.cmu.edu		
+Mclaren, Bruce	Associate Research Professor	2602I Newell-Simon Hall	bmclaren@cs.cmu.edu	4122688278	
+Mclaughlin, Elizabeth	Scientific Technological Specialist	2619 Newell-Simon Hall	mimim@cs.cmu.edu	4122683404	
+Mclaughlin, Dawn	Distance Instructor	300 South Craig Street	dawnm@andrew.cmu.edu	4122688568	
+Mcmahill, Jeffrey	Lead Robotics Engineer	254 National Robotics Engineering Center	jmcm@cs.cmu.edu	4126833072	
+Mcmanus, Charles	Voting Faculty	255 Mellon Institute	mcmanus@andrew.cmu.edu	4122689407	
+McNiff, Kathleen	Financial Analyst	7027 Gates and Hillman Centers	kmm@cs.cmu.edu	4122685099	
+McPherson, Jennifer	MHCI Program Coordinator	206 300 South Craig Street	jwalborn@cs.cmu.edu	4122685903	
+Medici, Agustin	Senior Budget Manager	5220 Wean Hall	amedici@cs.cmu.edu	4122689308	
+Mehta, Sanket Vaibhav	Graduate Research Assistant		svmehta@andrew.cmu.edu		
+Meinicke, Jens	Visiting Researcher	4203 Wean Hall	jensmeinicke@gmx.de	4122680000	
+Melucci, Christina	Administrative Coordinator	5721 Gates and Hillman Centers	cmelucci@andrew.cmu.edu	4122681593	
+Memon, Shahan Ali	Research Assistant	6607 Gates and Hillman Centers	samemon@andrew.cmu.edu		
+Mendonca, Nabor	Visiting Professor		nmendonc@andrew.cmu.edu		
+Menezes, Sachin	Teaching Assistandt for Computer Science		smenezes@andrew.cmu.edu		
+Menon, Prashanth	Graduate-Research Assistant	9023 Gates and Hillman Centers	prashanm@andrew.cmu.edu		
+Mericli, Tekin	Senior Robotics Engineer	231 National Robotics Engineering Center	tekin@cmu.edu		
+Mericli, Cetin	Commercialization Specialist	231 National Robotics Engineering Center	cmericli@andrew.cmu.edu	4126816900	
+Merritt, Nichole	Assistant To The Dean	5113 Gates and Hillman Centers	nicholem@cs.cmu.edu	4122681659	
+Mertz, Christoph	Principal Project Scientist	B520 Newell-Simon Hall	mertz@cs.cmu.edu	4122687955	
+Metze, Florian	Associate Research Professor	202 407 South Craig Street	fmetze@cs.cmu.edu	4122688984	
+Meyerrose, Dale	Adjunct Instructor		dalem@andrew.cmu.edu	4122688065	
+Meyers, Robert	Robotics Engineer	235 National Robotics Engineering Center	robm@andrew.cmu.edu		
+Michael, Nathan	Associate Research Professor	1103 Newell-Simon Hall	nmichael@cs.cmu.edu	4122687816	
+Michel, Paul	Graduate Research Assistant		pmichel1@andrew.cmu.edu		
+Milholland, Patrick	Adjunct Instructor	211 Carnegie Mellon Silicon Valley	wmilholl@andrew.cmu.edu	6503352800	
+Miller, Lynnetta	Assistant To The Director	4115 Newell-Simon Hall	lynnetta@cs.cmu.edu	4122688126	
+Miller, Angela	Administrative Assistant II	7123 Gates and Hillman Centers	amiller@cs.cmu.edu	4122686645	
+Miller, Aaron	Intern	1612 Newell-Simon Hall	aaronm2@andrew.cmu.edu		
+Miller, Gary	Professor	8109 Gates and Hillman Centers	glmiller@cs.cmu.edu	4122682631	
+Miller, James	Project Scientist	3119 Newell-Simon Hall	mille856@andrew.cmu.edu	4122688939	
+Miller, Jane	Associate Director of International Initiatives And Programs Manager, Mse Professional Programs	274 300 South Craig Street	mil3@cs.cmu.edu	4122684359	
+Minhas, Arashnoor Singh	Teaching Assistant for Machine Learning		aminhas@andrew.cmu.edu		
+Minick, Sanae	Managing Editor		sminick@cs.cmu.edu	4122683818	
+Miranda, Eduardo	Associate Teaching Professor	268 300 South Craig Street	emiranda@cs.cmu.edu	4122688450	
+Mirbod, Omeed	Research Engineer	1107 Newell-Simon Hall	omirbod@andrew.cmu.edu		
+Misra, Ishan	Phd Student	222 Smith Hall	imisra@andrew.cmu.edu		
+Mitamura, Teruko	Research Professor	6711 Gates and Hillman Centers	teruko@cs.cmu.edu	4122686596	
+Mitchell, Tom	E. Fredkin University Professor; Faculty		mitchell@cs.cmu.edu	4122682611	
+Mitchell, Derek	Phd Student	2209 Newell-Simon Hall	derekm@andrew.cmu.edu	4122683818	
+Mitra, Priyadarshini	Research Assistant		priyadam@andrew.cmu.edu		
+Mitsch, Stefan	Systems Scientist	7127 Gates and Hillman Centers	smitsch@andrew.cmu.edu	4122681875	
+Modi, Abhinit	Teaching Assistant for Computer Science		abhinitm@andrew.cmu.edu		
+Modoono, Elizabeth	Office Staff II	6105 Gates and Hillman Centers	emodoono@andrew.cmu.edu		
+Moertberg, Anders	Visiting Scholar	9213 Gates and Hillman Centers	amoertbe@andrew.cmu.edu		
+Moertel, Shelley	Adjunct Instructor	407 South Craig Street	smoertel@andrew.cmu.edu		
+Mogali, Jayanth Krishna	Phd Student	4207 Newell-Simon Hall	jmogali@andrew.cmu.edu	4122683818	
+Mohammad, Hafeezul Rahman	Graduate Research Assistant		hmohamma@andrew.cmu.edu		
+Mohimani, Seyed Hosein	Assistant Professor	7717 Gates and Hillman Centers	hoseinm@andrew.cmu.edu		
+Mohseni Kabir, Anahita	Phd Student	A421 Newell-Simon Hall	anahitam@andrew.cmu.edu		
+Montgomery, James	Operations Manager	226 National Robotics Engineering Center	jamont@cs.cmu.edu	4126818726	
+Moore, Andrew	Professor and Dean	5113 Gates and Hillman Centers	awm@cs.cmu.edu	4123342063	
+Morales, Cecilia	Msr Student	A407 Newell-Simon Hall	cgmorale@andrew.cmu.edu		
+Moravec, Hans	Adjunct Faculty		hpm@andrew.cmu.edu	4126214305	
+Moreci, Linda	Lab Manager	4117 Wean Hall	laf20@cs.cmu.edu	4122689934	
+Morel, Benoit	Adjunct Instructor	5216 Wean Hall	bm1v@andrew.cmu.edu	4122684062	
+Morelock, Kyle	Administrative Assistant	5003 Gates and Hillman Centers	kmoreloc@andrew.cmu.edu		
+Morency, Louis-Philippe	Assistant Professor	5411 Gates and Hillman Centers	lmorency@andrew.cmu.edu		
+Morgado Dias, Fernando	Instructor - Portugal		fmorgado@andrew.cmu.edu		
+Morris, James	Professor	6017 Gates and Hillman Centers	jhm@cs.cmu.edu	4126095000	
+Mortensen, David	Research Scientist	5707 Gates and Hillman Centers	davidmortensen@gmail.com		
+Mostow, Jack	Emeritus Research Professor	3113 Newell-Simon Hall	mostow@cs.cmu.edu	4122681330	
+Motte dit Falisse, Antoine	Visitor	4508 Newell-Simon Hall	amottedi@andrew.cmu.edu		
+Mowry, Todd	Director of Graduate Programs; Professor	9113 Gates and Hillman Centers	tcm@cs.cmu.edu	4122683725	
+Mroziak, Jordan	Community Outreach Coordinator	4625 Newell-Simon Hall	jmroziak@andrew.cmu.edu		
+Mudrinich, Samantha	Administrative Assistant	7416 Gates and Hillman Centers	smudrini@andrew.cmu.edu	4122684671	
+Muecke, Karl	Senior Robotics Engineer	272 National Robotics Engineering Center	kmuecke@andrew.cmu.edu	4439954930	
+Mueller-Sim, Timothy	Engineer II	1208 Newell-Simon Hall	tmueller@andrew.cmu.edu		
+Muelling, Katharina	Systems Scientist	4527 Newell-Simon Hall	katharam@andrew.cmu.edu	4126921097	
+Muenz, Tara	Staff		tmuenz@andrew.cmu.edu		
+Muglikar, Manasi	Robotics Institute - Research Assistant	A401 Newell-Simon Hall	mmuglika@andrew.cmu.edu		
+Muis, Aldrian	Graduate Research Assistant		amuis@andrew.cmu.edu		
+Mukerjee, Matthew	Graduate Research Assistant	7509 Gates and Hillman Centers	mmukerje@andrew.cmu.edu	4122683042	
+Mullapudi, Ravi Teja	Courtesy Student; Graduate-Research Assistant		rmullapu@andrew.cmu.edu		
+Muller, Stefan	Graduate Research Assistant	6004 Gates and Hillman Centers	skm@andrew.cmu.edu	4122687368	
+Mulukutla, Raghu	Research Associate I	2502 Newell-Simon Hall	rmulukut@andrew.cmu.edu		
+Munoz Olmeda, Christian	IT Support Systems Administrator	3209 Wean Hall	colmeda@andrew.cmu.edu		
+Murali, Adithyavairavan	Phd Student	212 Smith Hall	amurali@andrew.cmu.edu		
+Murdock, Calvin	Courtesy Student; Graduate Research Assistant	8010 Gates and Hillman Centers	cmurdock@andrew.cmu.edu		
+Murphy, Joseph	IT Support Consultant	3210 Wean Hall	murphyj@cs.cmu.edu	4122685878	
+Murphy, Robert	Affiliated Faculty; Department Head; Lane Professor of Computational Biology	7723 Gates and Hillman Centers	murphy@cs.cmu.edu	4122683480	
+Murugesan, Keerthiram	Graduate Research Assistant		kmuruges@andrew.cmu.edu		
+Mussitsch, Jason	Ebusiness Instructor	202 417 South Craig Street	jmussits@cs.cmu.edu	4122684875	
+Muth, Suzanne	Graduate Program Manager	1517 Newell-Simon Hall	scrow@cs.cmu.edu	4122683733	
+Mutschler, Edward	Lead Mechanical Engineer	37D National Robotics Engineering Center	edm@cs.cmu.edu	4123271382	
+Muya, Omar	Technician II	14 National Robotics Engineering Center	amuya@andrew.cmu.edu	4129528583	
+Myers, Eben	Adjunct	Newell-Simon Hall	emyers@andrew.cmu.edu		
+Myers, Brad	Professor	3517 Newell-Simon Hall	bam@cs.cmu.edu	4122685150	
+Nagarajan, Vaishnavh	Graduate Research Assistant	9015 Gates and Hillman Centers	vaishnan@andrew.cmu.edu		
+Nagashima, Tomohiro	Graduate-Research Assistant	4501 Newell-Simon Hall	tnagashi@andrew.cmu.edu		
+Nagavalli, Sasanka	Phd Student	1602A Newell-Simon Hall	snagaval@andrew.cmu.edu	4122683818	
+Nagi, Imre	Teaching Assistant for Computer Science		inagi@andrew.cmu.edu		
+Nagpal, Chirag	Graduate Research Assistant		chiragnagpal_12102@aitpune.edu.in		
+Naik, Maitreya	Graduateteaching Assistant	4228 Newell-Simon Hall	mjnaik@andrew.cmu.edu		
+Naik, Aakanksha	Graduate Research Assistant		anaik@andrew.cmu.edu		
+Nair, Saurabh	Graduate Research Assistant	1609 Newell-Simon Hall	snnair@andrew.cmu.edu		
+Nair, Ammani	Research Assistant	Newell-Simon Hall	ammanin@andrew.cmu.edu		
+Nakamura, Yuzuko	Graduate-Research Assistant	7513 Gates and Hillman Centers	ynakamur@andrew.cmu.edu	4122683066	
+Nam, Changjoo	Postdoctoral Fellow	1602C Newell-Simon Hall	changjon@andrew.cmu.edu		
+Nangia, Vivek	Research Assistant for Machine Learning		vnangia@andrew.cmu.edu		
+Narapureddy, Dinesh Reddy	Msr Student	115 Smith Hall	dnarapur@andrew.cmu.edu		
+Narasimhan, Srinivasa	Professor	223 Smith Hall	srinivas@cs.cmu.edu	4122681199	
+Narasimhan, Giri	Visiting Professor	7412 Gates and Hillman Centers	gnarasim@andrew.cmu.edu		
+Narayanan, Vidya	Graduate-Research Assistant	230 Smith Hall	vidyan@andrew.cmu.edu		
+Narayanan, Viswesh	Teaching Assistant for Computer Science		visweshn@andrew.cmu.edu		
+Narayanan, Sanjay	Graduate Research Assistant	1200 Newell-Simon Hall	svnaraya@andrew.cmu.edu		
+Naroditsky, Aline	Teaching Assistant for Computer Science		anarodit@andrew.cmu.edu		
+Natarajan, Ramkumar	Visitor	1612 Newell-Simon Hall	rnataraj@andrew.cmu.edu		
+Naval, Prakhar Pradeep	Graduate Teaching Assistant	4228 Newell-Simon Hall	pnaval@andrew.cmu.edu		
+Navarro Hellin, Honorio	Postdoctoral Fellow	3108 Newell-Simon Hall	hnavarro@andrew.cmu.edu		
+Navarro-Serment, Luis	Senior Project Scientist	4621 Newell-Simon Hall	lenscmu@cs.cmu.edu	4122686034	
+Needham, Katharine	Senior Business Advisor	6217 Gates and Hillman Centers	kit@andrew.cmu.edu	4122682560	
+Neiswanger, William	Graduate Research Assistant	8011 Gates and Hillman Centers	wdn@andrew.cmu.edu	4122683431	
+Nelson, Clyde	Senior Front End Engineer	5101 Gates and Hillman Centers	clyden@andrew.cmu.edu		
+Nemlekar, Aditya	Senior Research Programmer		adin@andrew.cmu.edu		
+Neplotnik, Eugene	Research Associate	9 National Robotics Engineering Center	gennady@cs.cmu.edu	4123279318	
+Neubig, Graham	Assistant Professor	5409 Gates and Hillman Centers	gneubig@andrew.cmu.edu	4122683898	
+Newman, Benjamin	Phd Student	218 Smith Hall	bnewman1@andrew.cmu.edu		
+Ng, Felicia	Graduate Research Assistant	2602B Newell-Simon Hall	fng@andrew.cmu.edu		
+Ngo, Van Chan	Post Doctoral Fellow	9004 Gates and Hillman Centers	vanchann@andrew.cmu.edu	4122688911	
+Ngoh, Clarence	Teaching Assistant for Computer Science		pcn@andrew.cmu.edu		
+Nguyen, Miranda	Visitor		mirandan@andrew.cmu.edu		
+Nguyen, Vu	Software Engineer	261 National Robotics Engineering Center	vnguyen@andrew.cmu.edu	4126077457	
+Nielsen, Paul	Adjunct Faculty Member	5106 Software Engineering Institute	pnielsen@andrew.cmu.edu	4122687740	
+Nigam, Kamal	Adjunct Faculty	Wean Hall	nigam@andrew.cmu.edu		
+Nigam, Ishan	Msr Student	224 Smith Hall	inigam@andrew.cmu.edu		
+Nikolaidis, Stefanos	Phd Student	4506 Newell-Simon Hall	snikolai@andrew.cmu.edu	4122683818	
+Nisi, Valentina	Instructor - Portugal	Newell-Simon Hall	valnisi@andrew.cmu.edu		
+Nolte, Alexander	Research Associate; Temporary Research Programmer	Newell-Simon Hall	aun@andrew.cmu.edu		
+Noothigattu, Ritesh	Graduate Research Assistant	8013 Gates and Hillman Centers	rnoothig@andrew.cmu.edu		
+Norton, David	Senior Electrical Engineer	37A National Robotics Engineering Center	dnorton@andrew.cmu.edu		
+Nourbakhsh, Illah	Professor; Associate Director for Faculty	3105 Newell-Simon Hall	illah@cs.cmu.edu	4122682007	
+Novak, Timothy	Senior Technician	14 National Robotics Engineering Center	tnovak@cs.cmu.edu	4126816900	
+Novick, Stephen	Technician II		smnovick@andrew.cmu.edu		
+Nunes, Nuno	Instructor - Portugal	Newell-Simon Hall	nunon@andrew.cmu.edu		
+Nuske, Stephen	Adjunct Faculty		snuske@cs.cmu.edu	4122685901	
+Nyberg, Eric	Director of Master of Computational Data Science Program; Professor	6715 Gates and Hillman Centers	ehn@cs.cmu.edu	4122687281	
+O'Connell, Kevin	Associate Director of Communications & Editor, SCS	5007 Gates and Hillman Centers	kevinoco@andrew.cmu.edu		
+O'Donnell, Gabriel	Principal Research Programmer/Analyst	4629 Newell-Simon Hall	gabrielo@andrew.cmu.edu	4122683818	
+O'Donnell, Ryan	Professor	7213 Gates and Hillman Centers	odonnell@cs.cmu.edu	4122684802	
+O'Hallaron, David	Professor of Computer Science And Electrical And Computer Engineering	7517 Gates and Hillman Centers	droh@cs.cmu.edu	4122688199	
+O'Keefe, Ryan	Extern	1200 Newell-Simon Hall	rokeefe@andrew.cmu.edu		
+O'Lare, Russell	Business Manager	8219 Gates and Hillman Centers	rdo@cs.cmu.edu	4122683384	
+O'Meadhra, Cormac	Msr Student	1102 Gates and Hillman Centers	comeadhr@andrew.cmu.edu		
+O'Meara, Robert	Systems Administrator	3211 Wean Hall	romeara@cs.cmu.edu	4122686349	
+O'Toole, Erin	Program Manager	6217 4620 Henry Street	eotoole@andrew.cmu.edu	4125272118	
+Oates, Margaret	Graduate Research Assistant	Collaborative Innovation Center	moates@andrew.cmu.edu		
+Oflazer, Kemal	Associate Dean, Research; Associate Dean for Research/Teaching Professor of Computer Science	2123 Carnegie Mellon Qatar	ko@qatar.cmu.edu		
+Ogan, Amy	Assistant Professor	3527 Newell-Simon Hall	aeo@cs.cmu.edu	6266006426	
+Oh, Hoon	Graduate-Research Assistant		hooh@andrew.cmu.edu		
+Oh, Uran	Postdoctoral Fellow	4522 Newell-Simon Hall	uoh@andrew.cmu.edu		
+Oh, Jean	Systems Scientist	4521 Newell-Simon Hall	jeanoh@cs.cmu.edu	4126516052	
+Ohn-Bar, Eshed	Postdoctoral Fellow	115 Smith Hall	eohnbar@andrew.cmu.edu		
+Okorn, Brian	Phd Student	218 Smith Hall	bokorn@andrew.cmu.edu		
+Oland, Anders	Graduate-Research Assistant		anderso@andrew.cmu.edu	4122683778	
+Olguin, Manuel	Visiting Scholar	9120 Gates and Hillman Centers	molguin@andrew.cmu.edu		
+Oliva, Junier	Graduate Research Assistant	8009 Gates and Hillman Centers	joliva@andrew.cmu.edu	4122683341	
+Olivier, Raphael Franck	Teaching Assistant for Tomasic		rolivier@andrew.cmu.edu		
+Olshenske, Lindsay	Employment Processes Manager	3521 Newell-Simon Hall	lwray@cs.cmu.edu	4122681082	
+Omura, Junki	Visiting Scholar		junkio@andrew.cmu.edu		
+Oresky, Matthew	Teaching Assistant for Machine Learning		moresky@andrew.cmu.edu		
+Otani, Naoki	Graduate Research Assistant		notani@andrew.cmu.edu		
+Otten, Nathan	Phd Student	2216 Newell-Simon Hall	ndo@andrew.cmu.edu	4122683818	
+Ouyang, Yiqun	Teaching Assistant for Computer Science		youyang1@andrew.cmu.edu		
+Pacheco, Zita Dulce	Instructor - Portugal		dpacheco@andrew.cmu.edu		
+Pachuta, Jessica	Team Lead - Fluency Project	4623 Newell-Simon Hall	jpachuta@cs.cmu.edu	4122685700	
+Packer, Jessica	Administrative Assistant II	9006 Gates and Hillman Centers	jpacker@andrew.cmu.edu	4122687660	
+Padmanabhan, Sarguna	Teaching Assistant for Machine Learning		sjpadman@andrew.cmu.edu		
+Paff, Gregory	Machine Shop Foreman	34 National Robotics Engineering Center	gpaff@andrew.cmu.edu		
+Paik, Eunjung	Research Assistant		epaik@andrew.cmu.edu		
+Palaskar, Shruti	Graduate Research Assistant		spalaska@andrew.cmu.edu		
+Palmer, Richard	Visitor	LL127 Collaborative Innovation Center	rpalmer2@andrew.cmu.edu	4122683818	
+Panchanadikar, Kedar	Student Operator I		kpanchan@andrew.cmu.edu		
+Pandey, Anshuman	Student Intern	5311 Wean Hall	ap1@andrew.cmu.edu		
+Pandey, Ashutosh	Graduate Research Assistant	4130 Wean Hall	ashutosp@andrew.cmu.edu		
+Pandravada, Krishna	Senior Multi Media Designer	260 National Robotics Engineering Center	kpandrav@andrew.cmu.edu	4126816900	
+Panev, Stanislav	Postdoctoral Fellow	110 Smith Hall	spanev@andrew.cmu.edu		
+Pantaleo, Richard	Senior Mechanical Engineer	37A National Robotics Engineering Center	rpantale@andrew.cmu.edu	7245796108	
+Paolini, Robert	Phd Student	4509 Newell-Simon Hall	rpaolini@andrew.cmu.edu	4122683822	
+Papciak, Graham	Technician II	34 National Robotics Engineering Center	gpapciak@andrew.cmu.edu	4126816900	
+Papernick, Norman	Research Programmer	285 National Robotics Engineering Center	norm@cs.cmu.edu	4123033009	
+Papincak, Lawrence	Graduate Research Assistant	1200 Newell-Simon Hall	lpapinca@andrew.cmu.edu		
+Paranjape, Bhargavi	Graduate Research Assistant		bvp@andrew.cmu.edu		
+Paredes Guedes da Silva, Hugo Alexandre	Visiting Faculty	2602L Newell-Simon Hall	hparedes@andrew.cmu.edu		
+Parhar, Tanvir Pal Singh	Research Associate I	1111 Newell-Simon Hall	ptanvir@andrew.cmu.edu		
+Paria, Biswajit	Graduate Research Assistant	8206 Gates and Hillman Centers	bparia@andrew.cmu.edu		
+Parisotto, Emilio	Graduate Research Assistant		eparisot@andrew.cmu.edu		
+Park, Namyong	Graduate-Research Assistant		namyongp@andrew.cmu.edu		
+Park, Yong-Lae	Adjunct Faculty	4124 Newell-Simon Hall	ylpark@cs.cmu.edu	4122686820	
+Park, Jun Woo	Graduate-Research Assistant		junwoop@andrew.cmu.edu	4122682015	
+Park, Gregory	Systems Administrator	3202 Wean Hall	gpark@cs.cmu.edu	4122686630	
+Park, Cheul Young	Research Associate I	2609 Newell-Simon Hall	cheulyop@andrew.cmu.edu		
+Parno, Bryan	Associate Professor	2121 Collaborative Innovation Center	parno@cmu.edu	4122682033	
+Pasumarthi, Ramakumar	Graduate Research Assistant		rpasumar@andrew.cmu.edu		
+Patel, Parva	Visitor	A403 Newell-Simon Hall	parvap@andrew.cmu.edu		
+Pathak, Gaurav	Intern	235 Smith Hall	gauravp@andrew.cmu.edu		
+Patton, Ashley	Director of Engagement And Annual Giving, SCS	5005 Gates and Hillman Centers	awpatton@andrew.cmu.edu	4122688558	
+Pavlo, Andrew	Assistant Professor	9019 Gates and Hillman Centers	pavlo@cs.cmu.edu	4122683057	
+Peck, Brian	Associate Director of Development, SCS, & Major Gift Officer	5101 Gates and Hillman Centers	peckb@andrew.cmu.edu	4122681739	
+Pecune, Florian	Postdoctoral Associate		fpecune@andrew.cmu.edu		
+Pedro, Saulo	Visiting Scholar	8018 Gates and Hillman Centers	spedro@andrew.cmu.edu		
+Pegado, Flavian Francis	Graduate Research Assistant	1200 Newell-Simon Hall	ffp@andrew.cmu.edu		
+Penafiel Cedeno, Diego	Teaching Assistant for Language Technologies		dpenafie@andrew.cmu.edu		
+Penderville, John	Video Systems Technician	4112 Wean Hall	jtpender@cs.cmu.edu	4122683479	
+Pereira Negrinho, Renato Manuel	Graduate Research Assistant	8213 Gates and Hillman Centers	renatomp@andrew.cmu.edu		
+Perer, Adam	Adjunct		aperer1@andrew.cmu.edu		
+Perera, Vittorio	Graduate-Research Assistant		vdperera@andrew.cmu.edu	4122683052	
+Perez Sala, Xavier	Robotics Engineer	255 National Robotics Engineering Center	xperez@andrew.cmu.edu	4122683818	
+Pestanas, Nancy	Assistant To Program Chair And Program Assistant, Computer Science	1010 Carnegie Mellon Qatar	nlacson@qatar.cmu.edu		
+Pezzementi, Zachary	Senior Robotics Engineer	236 National Robotics Engineering Center	zpezzeme@cs.cmu.edu	4126816900	
+Pfeffer, Juergen	Adjunct Professor		jpfeffer@cs.cmu.edu	4122683163	
+Pfenning, Andreas	Assistant Professor	7711 Gates and Hillman Centers	apfenning@cmu.edu	4122685518	
+Pfenning, Frank	Department Head; Professor	7019 Gates and Hillman Centers	fp@cs.cmu.edu	4122686343	
+Pham, Hai	Graduate Research Assistant		htpham@andrew.cmu.edu		
+Pham, Hy Hieu	Graduate Research Assistant	6418 Gates and Hillman Centers	hieup@andrew.cmu.edu		
+Picard, James	Technician Supervisor	A409 Newell-Simon Hall	jrpicard@andrew.cmu.edu	4122683818	
+Pillai, Padmanabhan	Adjunct Scientist		pspillai@andrew.cmu.edu	4122682565	
+Pillis, Daniel	Visitor	A428 Newell-Simon Hall	dpillis@andrew.cmu.edu	4122684754	
+Pinto, Eduardo	Visiting Researcher	266 300 South Craig Street	epinto1@andrew.cmu.edu		
+Pinto, Lerrel	Phd Student	212 Smith Hall	lerrelp@andrew.cmu.edu	4122683818	
+Pitman, Gary	Senior Linux Systems Engineer	245 National Robotics Engineering Center	gpitman@cs.cmu.edu	4126814342	
+Pitts, Jaron	Administrative Coordinator	3526 Newell-Simon Hall	jpitts@cs.cmu.edu	4122688416	
+Pitzer, Nathaniel	Research Assistant		npitzer@andrew.cmu.edu		
+Platanios, Emmanouil Antonios	Graduate-Research Assistant	8021 Gates and Hillman Centers	eplatani@andrew.cmu.edu		
+Platzer, Andre	Associate Professor	9103 Gates and Hillman Centers	aplatzer@cs.cmu.edu	4122681558	
+Plumb, Gregory	Graduate Research Assistant	8206 Gates and Hillman Centers	gdplumb@andrew.cmu.edu		
+Poczos, Barnabas	Assistant Professor	8231 Gates and Hillman Centers	bapoczos@cs.cmu.edu	4122683908	
+Poddar, Shivani	Graduate Research Assistant		spoddar2@andrew.cmu.edu		
+Pol, Nishant	Electrical Engineer	37A National Robotics Engineering Center	npol@andrew.cmu.edu		
+Pollard, Nancy	Associate Professor	227 Smith Hall	nsp@cs.cmu.edu	4122681479	
+Pomerantz, Stephanie	Adjunct		srosenth@andrew.cmu.edu	4122683834	
+Pomerleau, Dean	Adjunct Faculty				
+Pomeroy-Huff, Marsha	Adjunct Instructor	266 300 South Craig Street	marshap@andrew.cmu.edu	4122685067	
+Poms, Alexander	Courtesy Student; Graduate-Research Assistant		apoms@andrew.cmu.edu		
+Pope, Thomas	Systems Manager	5113 Wean Hall	tpope@cs.cmu.edu	4122688615	
+Popescu, Octav	Research Programmer	2617 Newell-Simon Hall	octav@cs.cmu.edu	4122685476	
+Poprocky, Victoria	Reappointments And Promotions Coordinator; Administrative Assistant	5125 Wean Hall	poprocky@cs.cmu.edu	4122683063	
+Potersnak, Roger	IT Support Consultant	Wean Hall	rpotersn@andrew.cmu.edu		
+Pothen, Zania	Research Engineer	1107 Newell-Simon Hall	zpothen@andrew.cmu.edu	4122683818	
+Potter, Jennifer	Courseware Specialist		jspotter@cs.cmu.edu	7084345727	
+Power, Mark	Director of Marketing/Communications	5103 Gates and Hillman Centers	mpower@andrew.cmu.edu	4122688919	
+Powers, Samantha	Graduate-Research Assistant		snpowers@andrew.cmu.edu		
+Prabhakar, Prashasthi	Teaching Assistant for Computer Science		prashasp@andrew.cmu.edu		
+Prabhumoye, Shrimai	Graduate Research Assistant	5511 Gates and Hillman Centers	sprabhum@andrew.cmu.edu		
+Prakash Vasisht, Prajwal	Teaching Assistant		prajwalp@andrew.cmu.edu		
+Prasad, Adarsh	Graduate Research Assistant		adarshp@andrew.cmu.edu		
+Pratt, Kevin	Graduate-Research Assistant		kpratt@andrew.cmu.edu		
+Procaccia, Ariel	Associate Professor	7002 Gates and Hillman Centers	arielpro@cs.cmu.edu	4122685636	
+Protos, Amy	Administrative Assistant	8221 Gates and Hillman Centers	aprotos@andrew.cmu.edu	4122681718	
+Pruiksma, Klaas	Graduate-Research Assistant	7010 Gates and Hillman Centers	kpruiksm@andrew.cmu.edu		
+Psomas, Christos-Alexandros	Post Doctoral Fellow	9116 Gates and Hillman Centers	cpsomas@andrew.cmu.edu		
+Puglionesi, Andrew	Summer Research Intern	Newell-Simon Hall	apuglion@ANDREW.CMU.EDU		
+Puglisi, Justin	Administrative Coordinator	3526 Newell-Simon Hall	jpuglisi@cs.cmu.edu	4122687099	
+Punosevac, Predrag	Systems/Software Analyst	3119 Newell-Simon Hall	predragp@cs.cmu.edu	4122688939	
+Purohit, Snigdha Rajeshk	Graduate Research Assistant	3113 Newell-Simon Hall	snigdhap@andrew.cmu.edu		
+Purushwalkam Shiva Prakash, Senthil	Phd Student	1502E Newell-Simon Hall	spurushw@andrew.cmu.edu		
+Pyreddy, Mary Arpita	Teaching Assistant for Language Technologies		mpyreddy@andrew.cmu.edu		
+Qian, Sheng	Teaching Assistant for Computer Science		sqian@andrew.cmu.edu		
+Qian, Xin	Graduate Research Assistant		xinq@andrew.cmu.edu		
+Qin, Bingchen	Teaching Assistant for Computer Science		bqin@andrew.cmu.edu		
+Qin, Lianhui	Visiting Scholar	8018 Gates and Hillman Centers	lianhuiq@andrew.cmu.edu		
+Qiu, Huilian	Graduate Research Assistant	4109 Wean Hall	huilianq@andrew.cmu.edu		
+Quicksall, Joshua	Communications Specialist	5113 Wean Hall	jquicksa@cs.cmu.edu	4122688085	
+Rabbany khorasgani, Reihaneh	Postdoctoral Research Assistant	3123 Newell-Simon Hall	rrabbany@andrew.cmu.edu		
+Radomski, Tambria	Recruiter Coordinator	212 417 South Craig Street	penguins@cs.cmu.edu	4122689942	
+Rafidi, Nicole	Graduate Research Assistant		nrafidi@andrew.cmu.edu	4122682993	
+Raghunathan, Ram	Graduate Research Assistant	9007 Gates and Hillman Centers	rraghuna@andrew.cmu.edu	4122688680	
+Raghuraman, Gandeevan	Teaching Assistant for Computer Science		graghura@andrew.cmu.edu		
+Rai, Akshara	Phd Student	4223 Newell-Simon Hall	arai@andrew.cmu.edu	4122683818	
+Railing, Brian	Assistant Teaching Professor	6005 Gates and Hillman Centers	bpr@andrew.cmu.edu	4122683143	
+Rajagopal, Dheeraj	Graduate Research Assistant	5515 Gates and Hillman Centers	drajagop@andrew.cmu.edu		
+Rajagopalan, Venkataramanan	Phd Student	4223 Newell-Simon Hall	vrajagop@andrew.cmu.edu	4122683818	
+Rajan, Annieuthra	Adjunct Associate Teaching Professor	300 South Craig Street	aerajan@andrew.cmu.edu		
+Rajaraman, Ashok	Post Doctoral Associate	7415 Gates and Hillman Centers	ashokr@andrew.cmu.edu		
+Rakoczy, Douglas	Mechanical Engineer	37A National Robotics Engineering Center	drakoczy@andrew.cmu.edu		
+Rallabandi, Sai Krishna	Graduate Research Assistant		srallaba@andrew.cmu.edu		
+Ram, Shastri	Msr Student	1200 Newell-Simon Hall	shastrir@andrew.cmu.edu		
+Ramachandran, Akash	Teaching Assistant for Machine Learning		akashr1@andrew.cmu.edu		
+Ramakrishnan, Aditthya	Student Intern		aditthyr@andrew.cmu.edu		
+Ramakrishnan, Bhiksha	Professor	6705 Gates and Hillman Centers	bhiksha@cs.cmu.edu	4122689826	
+Ramamurthy, Easwaran	Graduate Research Assistant	7405 Gates and Hillman Centers	eramamur@andrew.cmu.edu	4122689502	
+Raman, Chirag	Senior Research Programmer/Analyst	5407 Gates and Hillman Centers	craman@andrew.cmu.edu		
+Ramanan, Deva	Associate Professor	221 Smith Hall	deva@andrew.cmu.edu	4122686966	
+Ramaseshan, Varshini	Teaching Assistant for Computer Science		vramases@andrew.cmu.edu		
+Ramesh Koundinya, Samarth	Graduate - Engineering Technician		srameshk@andrew.cmu.edu		
+Ramjohn, Javed	Teaching Assistant		jramjohn@andrew.cmu.edu		
+Ramos Rojas, Julian	Graduate-Research Assistant	2502 Newell-Simon Hall	ingenia@andrew.cmu.edu	4127088874	
+Ramos Teixeira Da Silva, Rui Manuel	Graduate-Research Assistant		rtsilva@andrew.cmu.edu		
+Rangaprasad, Arun Srivatsan	Phd Student	4227 Newell-Simon Hall	arangapr@andrew.cmu.edu	4122683818	
+Rashid, Sabrina	PhD Student - Computational Biology		sabrinar@andrew.cmu.edu	4122682474	
+Rastogi, Eti	Teaching Assistant for Machine Learning		erastogi@andrew.cmu.edu		
+Ravi, Ramamoorthi	Affiliated Faculty	348C Tepper School of Business	ravi@andrew.cmu.edu	4122683694	
+Ravichander, Abhilasha	Graduate Research Assistant		aravicha@andrew.cmu.edu		
+Ravikumar, Pradeep	Associate Professor	8111 Gates and Hillman Centers	pkr@andrew.cmu.edu	4122681781	
+Ray, Saswati	Senior Research Programmer/Analyst	3115 Newell-Simon Hall	sray@cs.cmu.edu	4122685074	
+Ray, Devdeep	Graduate-Research Assistant		devdeepr@andrew.cmu.edu		
+Ray, Justin	Senior Software Engineer	255 National Robotics Engineering Center	justinr2@andrew.cmu.edu	4124278792	
+Razak, Saquib	Associate Teaching Professor of Computer Science	1018 Carnegie Mellon Qatar	srazak@qatar.cmu.edu		
+Reddy, Raj	Moza Bint Nasser University Professor	5327 Wean Hall	reddy@cs.cmu.edu	4122682597	
+Reid-Miller, Margaret	Assistant Teaching Professor	6003 Gates and Hillman Centers	mrmiller@cs.cmu.edu	4122684630	
+Reig, Samantha	Graduate-Research Assistant	4609 Newell-Simon Hall	sreig@andrew.cmu.edu		
+Reis, Giselle	Assistant Teaching Professor of Computer Science	1008 Carnegie Mellon Qatar	greis@andrew.cmu.edu		
+Reis Bento Paredes, Pedro Miguel	Graduate-Research Assistant	7515 Gates and Hillman Centers	preisben@andrew.cmu.edu		
+Rello Sanchez, Maria Luz	Systems Scientist	216 407 South Craig Street	luzrello@cs.cmu.edu	4122685476	
+Reminga, Jeffrey	Senior Research Programmer		jreminga@cs.cmu.edu	4122684806	
+Resch, Nicolas	Graduate Research Assistant	8127 Gates and Hillman Centers	nresch@andrew.cmu.edu		
+Reynolds, Jonathan	Outreach Project Manager, SCS	6203 Gates and Hillman Centers	jreynold@andrew.cmu.edu	4122688201	
+Rhinehart, Nicholas	Phd Student	214 Smith Hall	nrhineha@andrew.cmu.edu	4122683818	
+Riazanov, Andrii	Graduate-Research Assistant		ariazano@andrew.cmu.edu		
+Richards, Theresa	Outreach Program Manager	2117 Newell-Simon Hall	tcrich@cs.cmu.edu	4122154466	
+Riebling, Eric	Senior Research Programmer	209 407 South Craig Street	er1k@cs.cmu.edu	4122689872	
+Riel, James	Instructor, Msit-Ebusiness Technology Program	205 417 South Craig Street	jriel@andrew.cmu.edu	4122684156	
+Ries, Ryan	Business Manager	3511 Newell-Simon Hall	ryanries@cs.cmu.edu	4122685037	
+Rijhwani, Shruti	Graduate Research Assistant		srijhwan@andrew.cmu.edu		
+Riley, Ryan	Associate Teaching Professor of Computer Science		rdriley@andrew.cmu.edu		
+Rivera, Michael	Graduate-Research Assistant	2611 Newell-Simon Hall	mlrivera@andrew.cmu.edu		
+Rivers, Kelly	Assistant Teaching Professor	4109 Gates and Hillman Centers	krivers@andrew.cmu.edu		
+Riviere, Cameron	Research Professor	3107 Newell-Simon Hall	camr@cs.cmu.edu	4122683083	
+Roberts, Jessica	Post Doctoral Fellow	3602A Newell-Simon Hall	jarobert@andrew.cmu.edu		
+Rodrigues, Gemma Francisca	Instructor - Portugal		gemmafrr@andrew.cmu.edu		
+Roeder, Kathryn	Voting Faculty	228B Baker Porter Hall	roeder@andrew.cmu.edu	4122685775	
+Romero Lopez, Oscar	Research Project Scientist	8108 Gates and Hillman Centers	oscarr@cs.cmu.edu	4123206682	
+Root, David	Assistant Director - Distance Education, Mse Professional Programs; Associate Teaching Professor	272 300 South Craig Street	droot@cs.cmu.edu	4122685198	
+Rose, Carolyn	Professor	5415 Gates and Hillman Centers	cprose@cs.cmu.edu	4122687130	
+Rosenfeld, Roni	Professor	8103 Gates and Hillman Centers	roni@cs.cmu.edu	4122687678	
+Rosso-Llopart, Manuel	Associate Teaching Professor	270 300 South Craig Street	rosso@cs.cmu.edu	4122684629	
+Rote, Patti	First Programs Outreach Manager	2117 Newell-Simon Hall	prote@andrew.cmu.edu	4122683818	
+Rousselle, Zachary	Systems/Software Engineer	255 National Robotics Engineering Center	zcr@andrew.cmu.edu		
+Route, James	Graduate Research Assistant	7609 Gates and Hillman Centers	jroute@andrew.cmu.edu		
+Rozum, James	Adjunct Instructor		jr58@andrew.cmu.edu	7246952135	
+Ruan, Xiongtao	PhD Student - Computational Biology	7409 Gates and Hillman Centers	xruan@andrew.cmu.edu		
+Rubinstein, Zack	Principal Project Scientist	4217 Newell-Simon Hall	zbr@cs.cmu.edu	4122682823	
+Ruchkin, Ivan	Graduate Student	4105 Wean Hall	iruchkin@andrew.cmu.edu	4122682491	
+Rudich, Steven	Professor	7219 Gates and Hillman Centers	rudich@cs.cmu.edu	4122687885	
+Rudnicky, Alexander	Emeritus Faculty; Project Scientist; Research Faculty Emeritus		ar28@andrew.cmu.edu	4122682622	
+Rudow, Michael	Graduate-Research Assistant		mrudow@andrew.cmu.edu		
+Ruffalo, Matthew	Post Doctoral Associate	7415 Gates and Hillman Centers	mruffalo@andrew.cmu.edu		
+Rumack, Aaron	Graduate Research Assistant	8206 Gates and Hillman Centers	arumack@andrew.cmu.edu		
+Rummel, Nikol	Adjunct Assistant Professor	Newell-Simon Hall	nrummel@andrew.cmu.edu		
+Runge, Andrew	Graduate Research Assistant		ajrunge@andrew.cmu.edu		
+Russell, Raymond	Senior Robotics Engineer	37B National Robotics Engineering Center	raymondr@andrew.cmu.edu		
+Ryan, Brayden	IT Support Associate	National Robotics Engineering Center	braydenr@andrew.cmu.edu		
+Ryskina, Mariia	Graduate Research Assistant	6603 Gates and Hillman Centers	mryskina@andrew.cmu.edu		
+Sachan, Devendra	Teaching Assistant for Computer Science		dsachan@andrew.cmu.edu		
+Sachan, Mrinmaya	Graduate Research Assistant	8013 Gates and Hillman Centers	mrinmays@andrew.cmu.edu		
+Sadeh-Koniecpol, Norman	Co-Director, Privacy Engineering Program; Professor	5303 Wean Hall	sadeh@cs.cmu.edu	4122688144	
+Sadhanala, Veeranjaneyulu	Graduate Research Assistant	8005 Gates and Hillman Centers	vsadhana@andrew.cmu.edu		
+Safonova, Margarita	Senior Software Engineer	215 National Robotics Engineering Center	rsafonov@andrew.cmu.edu	4126817548	
+Sahel, José	Adjunct		jsahel@andrew.cmu.edu		
+Sahinidis, Nikolaos	Affiliated Faculty		ns1b@andrew.cmu.edu	4122683338	
+Sahoo, Swarup Kumar	Post-Doctoral Associate	4213 Wean Hall	swarupks@andrew.cmu.edu		
+Saito, Susumu	Visiting Scholar	407 South Craig Street	susumus@andrew.cmu.edu		
+Saito, Kazuhiro	Visiting Scientist	9118 Gates and Hillman Centers	ksaito@andrew.cmu.edu		
+Sakr, Majd	Teaching Professor	7006 Gates and Hillman Centers	msakr@cs.cmu.edu	4122681161	
+Salakhutdinov, Ruslan	Associate Professor	8017 Gates and Hillman Centers	rsalakhu@andrew.cmu.edu		
+Salesky, Elizabeth	Graduate Research Assistant		esalesky@andrew.cmu.edu		
+Salman, Hadi	Msr Student	A403 Newell-Simon Hall	hcs03@mail.aub.edu		
+Salzman, Oren	Postdoctoral Fellow	4519 Newell-Simon Hall	osalzman@andrew.cmu.edu		
+Sample, Eric	Software Engineer	272 National Robotics Engineering Center	esample@andrew.cmu.edu	7703127157	
+Samuel, Selva	Graduate Research Assistant	4130 Wean Hall	ssamuel@andrew.cmu.edu		
+Samuelson, Tessa	Administrative Assistant		tessas@andrew.cmu.edu		
+Sanabria Teixidor, Ramon Roger	Research Associate; Teaching Assistant		ramons@andrew.cmu.edu	4122683818	
+Sandholm, Tuomas	Professor	9205 Gates and Hillman Centers	sandholm@cs.cmu.edu	4122688216	
+Sankalp Arora, .	Phd Student	2102 Newell-Simon Hall	asankalp@andrew.cmu.edu	4122683818	
+Sankaranarayanan, Sreecharan	Graduate Research Assistant		sreechas@andrew.cmu.edu		
+Sans, Thierry	Adjunct Associate Teaching Professor		tsans@qatar.cmu.edu		
+Saparov, Abulhair	Graduate Research Assistant	8008 Gates and Hillman Centers	asaparov@andrew.cmu.edu		
+Sargent, James	Commercialization Specialist	4629 Newell-Simon Hall	rsargent@cs.cmu.edu	6505751612	
+Sartoretti, Guillaume	Postdoctoral Fellow	3218 Newell-Simon Hall	gsartore@andrew.cmu.edu		
+Satyanarayanan, Mahadev	Carnegie Group Professor of Computer Science	9123 Gates and Hillman Centers	satya@cs.cmu.edu	4122683743	
+Sauerwald, Natalie	Graduate Research Assistant	7411 Gates and Hillman Centers	nsauerwa@andrew.cmu.edu		
+Savage, Norma	Visitor		nssavage@andrew.cmu.edu		
+Savla, Riya	Teaching Assistant for Computer Science		rds@andrew.cmu.edu		
+Sawhney, Rohan	Graduate-Research Assistant	230 Smith Hall	rsawhne1@andrew.cmu.edu		
+Saxena, Gaurangi	Teaching Assistant for Computer Science		gsaxena@andrew.cmu.edu		
+Saxena, Suryansh	Robotics Engineer	252 National Robotics Engineering Center	suryanss@andrew.cmu.edu		
+Saxena, Dhruv	Phd Student	1502E Newell-Simon Hall	dsaxena@andrew.cmu.edu		
+Schaich, Kathleen	Academic Coordinator	6719 Gates and Hillman Centers	kschaich@cs.cmu.edu	4122684788	
+Schaldenbrand, Peter	Research Programmer/Analyst	2602K Newell-Simon Hall	pschalde@andrew.cmu.edu		
+Schapiro, Joshua	Research Associate IIi	LL127 Collaborative Innovation Center	schapiro@andrew.cmu.edu	7162891082	
+Schearer, Walter	Associate Dean for Finance & Administration	5113 Gates and Hillman Centers	schearer@cs.cmu.edu	4122683558	
+Scherer, Sebastian	Systems Scientist	2113 Newell-Simon Hall	basti@cs.cmu.edu	4125899581	
+Scherlis, William	Director; Professor	5222 Wean Hall	wls@cs.cmu.edu	4122688741	
+Schlagenhauf, Cornelia	Visiting Scholar		cschlage@andrew.cmu.edu		
+Schlea, Dabney	Administrative Coordinator	211 417 South Craig Street	dabneyg@cs.cmu.edu	4122686032	
+Schmerl, Bradley	Principal Systems Scientist	5107 Wean Hall	schmerl@cs.cmu.edu	4122685889	
+Schmucker, Robin	Visiting Student		rschmuck@andrew.cmu.edu		
+Schneider, Jeff	Research Professor; Voting Faculty	3117 Newell-Simon Hall	schneide@cs.cmu.edu	4122682339	
+Schnur, Matthew	Systems/Software Engineer	272 National Robotics Engineering Center	mschnur@andrew.cmu.edu		
+Schoisengeier, Adrian	Robotics Engineer	255 National Robotics Engineering Center	aschoise@andrew.cmu.edu		
+Schopferer, Simon	Visitor	2102 Newell-Simon Hall	sschopfe@andrew.cmu.edu		
+Schultz, Sarah	Assistant Lecturer	8110 Gates and Hillman Centers	sschult1@andrew.cmu.edu		
+Schultz, Tanja	Adjunct Faculty	5404 Gates and Hillman Centers	tanjas@andrew.cmu.edu	4122685480	
+Schwab, Devin	Phd Student	4511 Newell-Simon Hall	dschwab@andrew.cmu.edu		
+Schwartz, Russell	Affiliated Faculty; Voting Faculty	654B Mellon Institute	russells@andrew.cmu.edu	4122683971	
+Schwartz, Daniel	Graduate Research Assistant	6407 Gates and Hillman Centers	drschwar@andrew.cmu.edu		
+Schwartz, Andrew	Adjunct Faculty		andrewbs@andrew.cmu.edu	4122683818	
+Schwerin, Michael	Senior Research Programmer/Analyst	A505 Newell-Simon Hall	mbs2@andrew.cmu.edu	4122688407	
+Sciullo, Allison	Project Administrator	246 National Robotics Engineering Center	asciullo@cs.cmu.edu	4122665925	
+Scott, Stephen	Mechanical Engineer	5 National Robotics Engineering Center	sdscott@andrew.cmu.edu		
+Scott, Dana	Professor Emeritus	Gates and Hillman Centers	scott@andrew.cmu.edu		
+Scully, Ziv	Graduate-Research Assistant	7121 Gates and Hillman Centers	zscully@andrew.cmu.edu		
+Secer, Gorkem	Visitor	1302 Wean Hall	gsecer@andrew.cmu.edu		
+Seering, Joseph	Graduate Research Assistant	2602H Newell-Simon Hall	jseering@andrew.cmu.edu		
+Sekar, Vyas	Affiliated Faculty	2122 Collaborative Innovation Center	vyass@cs.cmu.edu	4122682853	
+Sellitti, Pamela	Associate Director for Facilities And Administration	214 National Robotics Engineering Center	ps0f@cs.cmu.edu	4126817063	
+Sen, Souptik	Teaching Assistant for Computer Science		souptiks@andrew.cmu.edu		
+Sen, Shayak	Graduate Research Assistant	6507 Gates and Hillman Centers	shayaks@andrew.cmu.edu	4122683043	
+Seo, Jungmin	Visiting Scientist	6001 Gates and Hillman Centers	jungmins@andrew.cmu.edu		
+Seshan, Srinivasan	Professor	8123 Gates and Hillman Centers	srini@cs.cmu.edu	4122688734	
+Seth, Todd	Research Administrator	7025 Gates and Hillman Centers	toddseth@cs.cmu.edu	4122688851	
+Severini, Joseph	Graduate-Research Assistant		jseverin@andrew.cmu.edu		
+Sewall, Jonathan	Project Director	2617 Newell-Simon Hall	sewall@cs.cmu.edu	4122687185	
+Shah, Muhammad	Teaching Assistant for Computer Science	1004 Carnegie Mellon Qatar	mshah1@andrew.cmu.edu		
+Shah, Saatvik	Teaching Assistant for Language Technologies		saatviks@andrew.cmu.edu		
+Shah, Rajeeva	Adjunct Professor of The Practice		rrshah@andrew.cmu.edu	4122687170	
+Shah, Nimit	Teaching Assistant		nimitdis@andrew.cmu.edu		
+Shah, Nihar Bhadresh	Assistant Professor		nihars@andrew.cmu.edu	4122687896	
+Shahrasbi, Amirbehshad	Graduate-Research Assistant		ashahras@andrew.cmu.edu		
+Shamos, Michael	Director, Msit-Ebusiness Technology Program; Distinguished Career Professor; Teaching Professor	6707 Gates and Hillman Centers	shamos@cs.cmu.edu	4122688193	
+Shanefelt, Dale	Principal Software Engineer	6013 Gates and Hillman Centers	dales@cs.cmu.edu	4122685163	
+Shankar, Kumar	Phd Student	2201 Newell-Simon Hall	kumarsha@andrew.cmu.edu	4123206822	
+Shankar, Tanmay	Msr Student	235 Smith Hall	tshankar@andrew.cmu.edu		
+Shao, Mingfu	Lane Fellow	7401 Gates and Hillman Centers	mingfus@andrew.cmu.edu		
+Sharma, Mohit	Msr Student	235 Smith Hall	mohits1@andrew.cmu.edu		
+Sharma, Vasu	Graduate Research Assistant		sharma.vasu55@gmail.com		
+Sharma, Arjun	Msr Student	235 Smith Hall	arjuns2@andrew.cmu.edu		
+Sharp, Nicholas	Courtesy Student; Graduate-Research Assistant		nsharp@andrew.cmu.edu		
+Shaw, Mary	A. J. Perlis University Professor	5123 Wean Hall	shaw@cs.cmu.edu	4122682589	
+Sheikh, Yaser	Associate Professor	220 Smith Hall	yaser@cs.cmu.edu	4122681138	
+Sheikh, Zaid	Java Framework Developer	6416 Gates and Hillman Centers	zsheikh@andrew.cmu.edu		
+Shelly, Martin	Teaching Track Faculty	208 300 South Craig Street	sshelly@andrew.cmu.edu		
+Shen, Bilong	Visiting Scholar	4209 Wean Hall	bshen@andrew.cmu.edu		
+Shen, Qinlan	Graduate Research Assistant	6401 Gates and Hillman Centers	qinlans@andrew.cmu.edu		
+Shen, Changsheng	Research Programmer/Analyst	A505 Newell-Simon Hall	changshs@andrew.cmu.edu		
+Sherry Martins, Justine	Assistant Professor	9227 Gates and Hillman Centers	justines@andrew.cmu.edu		
+Shi, Chaoxia	Visitor	1200 Newell-Simon Hall	chaoxias@andrew.cmu.edu		
+Shimada, Kenji	Adjunct Faculty	314 Scaife Hall	shimada@andrew.cmu.edu	4122683614	
+Shimizu, Evan	Courtesy Student; Graduate-Research Assistant		eshimizu@andrew.cmu.edu	4122688078	
+Shin, Kijung	Graduate-Research Assistant		kijungs@andrew.cmu.edu		
+Shoop, Robin	Director of The Robotics Academy	262 National Robotics Engineering Center	rshoop@cs.cmu.edu	4126817160	
+Shu, Roberto	Phd Student	119 Smith Hall	rshu@andrew.cmu.edu	4122683818	
+Sicker, Douglas	Professor	129H Baker Porter Hall	sicker@andrew.cmu.edu	4122682838	
+Sidhu, Angad	Graduate Teaching Assistant	4228 Newell-Simon Hall	assidhu@andrew.cmu.edu		
+Siegel, Mel	Professor Emeritus	A421 Newell-Simon Hall	mws@cs.cmu.edu	4129832626	
+Siewiorek, Daniel	Buhl University Professor of Electrical And Computer Engineering And Computer Science; Faculty		dps@cs.cmu.edu	4122682570	
+Sigal, Leonid	Adjunct Faculty		lsigal77@andrew.cmu.edu	4122683818	
+Sigurdsson, Gunnar	Phd Student	216 Smith Hall	gsigurds@andrew.cmu.edu	4122683818	
+Silva, Jose Luis Cardoso	Instructor - Portugal		joseluis@andrew.cmu.edu		
+Silwal, Abhisesh	Project Scientist	1105 Newell-Simon Hall	asilwal@andrew.cmu.edu		
+Simko, Melanie	Program Manager	6217 Gates and Hillman Centers	msimko@andrew.cmu.edu	4122681072	
+Simmons, Reid	Research Professor	3213 Newell-Simon Hall	reids@cs.cmu.edu	4122682621	
+Simmons, Lauren	Lab Manager, Articulab	4604 Newell-Simon Hall	lsmith1@andrew.cmu.edu		
+Singh, Sanjiv	Research Professor	2111 Newell-Simon Hall	ssingh@cs.cmu.edu	4122686577	
+Singh, Rita	Senior Systems Scientist		ritasing@andrew.cmu.edu	4122689859	
+Singh, Aarti	Associate Professor	8207 Gates and Hillman Centers	aarti@cs.cmu.edu	4122684266	
+Singh Hanzra, Bikramjot	Visitor	201 Smith Hall	bhanzra@andrew.cmu.edu		
+Singhal, Puneet	Graduate Research Assistant; Graduate Teaching Assistant	4228A Newell-Simon Hall	psinghal@andrew.cmu.edu		
+Singla, Sahil	Graduate-Research Assistant		ssingla@andrew.cmu.edu	4122683074	
+Sivakumar, Ashiwan	Post Doctoral Fellow	9112 Gates and Hillman Centers	asivakum@andrew.cmu.edu		
+Skees, James	Director of Building Facilities	4105 Gates and Hillman Centers	skees@cs.cmu.edu	4122687653	
+Skinner, Kiron	Associate Professor	223F Baker Porter Hall	kskinner@andrew.cmu.edu	4122683238	
+Skoptsov, George	Senior Research Engineer	1111 Newell-Simon Hall	gls@andrew.cmu.edu	4126813465	
+Sleator, Daniel	Professor	8113 Gates and Hillman Centers	sleator@cs.cmu.edu	4122687563	
+Slebodnick, David	Animator	4604 Newell-Simon Hall	dslebod@andrew.cmu.edu		
+Smith, Sylvia	Manager	3204 Wean Hall	sylvia@cs.cmu.edu	4122687207	
+Smith, Stephen	Research Professor	4213 Newell-Simon Hall	sfs@cs.cmu.edu	4122688811	
+Smith, Linda	Masters Programs Administrator	277 300 South Craig Street	jtlsmith@cs.cmu.edu	4122685067	
+Smith, Noah	Adjunct Faculty		smithn@andrew.cmu.edu	4122684963	
+Smullen, Daniel	Graduate Student	4127 Wean Hall	dsmullen@andrew.cmu.edu		
+Soares, Larissa Rocha	Visiting Student	4203 Wean Hall	lsoares@andrew.cmu.edu		
+Sodhi, Paloma	Phd Student	1502F Newell-Simon Hall	psodhi@andrew.cmu.edu		
+Sogokon, Andrew	Post Doctoral Fellow	9116 Gates and Hillman Centers	asogokon@andrew.cmu.edu		
+Solomon, Bradley	PhD Student - Computational Biology	7413 Gates and Hillman Centers	bsolomo1@andrew.cmu.edu	4122682977	
+Song, Hyun Ah	Graduate Research Assistant	8003 Gates and Hillman Centers	hyunahs@andrew.cmu.edu		
+Song, Yifan	Graduate-Research Assistant		yifans2@andrew.cmu.edu		
+Song, Yunpeng	Visitor		yunpengs@andrew.cmu.edu		
+Song, Ashley	Administrative Coordinator	4101 Newell-Simon Hall	aysong@andrew.cmu.edu		
+Song, Seungmoon	Postdoctoral Fellow	4508 Newell-Simon Hall	seungmoo@andrew.cmu.edu	4122683818	
+Sooriamurthi, Vijayasree	Principal Systems/Software Engineer	4126 Gates and Hillman Centers	vijis@andrew.cmu.edu	4122689947	
+Soren Lorenz, Julian	Visitor	2202 Newell-Simon Hall	jsorenlo@andrew.cmu.edu		
+Soto Gonzalez, Mauricio	Graduate Student	4103 Wean Hall	msotogon@andrew.cmu.edu		
+Sousa Ferreira, Gabriel Coutinho	Graduate Student	5111 Wean Hall	gferreir@andrew.cmu.edu		
+Spice, Byron	Director of Media Relations	5105 Gates and Hillman Centers	bspice@cs.cmu.edu	4122689068	
+Spiliopoulou, Evangelia	Graduate Research Assistant		espiliop@andrew.cmu.edu		
+Spitzer, Alexander	Phd Student	2201 Newell-Simon Hall	aspitzer@andrew.cmu.edu		
+Spokoyny, Daniel	Graduate Research Assistant	6418 Gates and Hillman Centers	dspokoyn@andrew.cmu.edu		
+Srinivasa, Siddhartha	Adjunct Faculty		siddh@cs.cmu.edu	4122685529	
+Srivastava, Shashank	Graduate Research Assistant	8005 Gates and Hillman Centers	shashans@andrew.cmu.edu		
+Srivatsan, Akshay	Graduate Research Assistant	6418 Gates and Hillman Centers	asrivats@andrew.cmu.edu		
+Stamper, John	Assistant Professor; Metals Capstone Director	2602D Newell-Simon Hall	jstamper@cs.cmu.edu	4122689690	
+Stanciulescu, Stefan	Visiting Research Scholar	4203 Wean Hall	sstanciu@andrew.cmu.edu		
+Stanley, Jessica	Administrative Coordinator	3521 Newell-Simon Hall	stanleyj@cs.cmu.edu	4122684691	
+Starzl, Ravi	Assistant Teaching Professor	6701 Gates and Hillman Centers	rstarzl@cs.cmu.edu	4122688425	
+Staszel, Brian	Multimedia Designer/Manager	3201 Newell-Simon Hall	staszel@cs.cmu.edu	4122683807	
+Stech, Mary	Administrative Assistant	8007 Gates and Hillman Centers	mstech@andrew.cmu.edu	4122686869	
+Steenkiste, Peter	Professor of Computer Science And Electrical And Computer Engineering	9107 Gates and Hillman Centers	prs@cs.cmu.edu	4122683261	
+Stehlik, Mark	Assistant Dean for Outreach; Teaching Professor	6205 Gates and Hillman Centers	mjs@cmu.edu	4122686273	
+Steier, David	Adjunct Instructor	Newell-Simon Hall	steier@andrew.cmu.edu	4122686059	
+Steinfeld, Aaron	Associate Research Professor	4533 Newell-Simon Hall	astein@cs.cmu.edu	4122686346	
+Stelmakh, Ivan	Graduate-Research Assistant		istelmak@andrew.cmu.edu		
+Stenger, Nicole	Academic Program Manager	7414 Gates and Hillman Centers	nstenger@cs.cmu.edu	4122683779	
+Stentz, Anthony	Research Professor	211 National Robotics Engineering Center	axs@cs.cmu.edu	4122688155	
+Sterling, Jonathan	Graduate-Research Assistant	9225 Gates and Hillman Centers	jmsterli@andrew.cmu.edu		
+Stetser, Ann	Administrative Assistant II	8125 Gates and Hillman Centers	astetser@andrew.cmu.edu	4122683505	
+Stetten, George	Research Professor	A525 Newell-Simon Hall	stetten@andrew.cmu.edu	4126247762	
+Stewart, Craig	Graduate Research Assistant		cas1@andrew.cmu.edu		
+Stidle, Diane	Graduate Programs Manager	8001 Gates and Hillman Centers	diane@cs.cmu.edu	4122681299	
+Stockhausen, Paul	Assistant Facilities Manager	4107 Gates and Hillman Centers	stocky@cs.cmu.edu	4122688223	
+Stojanov, Petar	Graduate Research Assistant	8129 Gates and Hillman Centers	pstojano@andrew.cmu.edu	4122688078	
+Stoltzfus, Allen	Accountant	4105 Gates and Hillman Centers	as@cs.cmu.edu	4122682594	
+Stone, Matthew	Grader		mestone@andrew.cmu.edu		
+Story, Peter	Graduate Research Assistant	4127 Wean Hall	pstory@andrew.cmu.edu		
+Stretcu, Otilia	Graduate Research Assistant	8021 Gates and Hillman Centers	ostretcu@andrew.cmu.edu		
+Strimel, Grant	Graduate-Research Assistant		gstrimel@andrew.cmu.edu		
+Styler, Alexander	Robotics Institute		astyler@andrew.cmu.edu	4122683818	
+Styler, Breelyn	Phd Student	3101 Newell-Simon Hall	breelynk@andrew.cmu.edu	4122683818	
+Su, Xiang	Staff	2502C Newell-Simon Hall	xsu2@andrew.cmu.edu		
+Su, Shuang	Extern	1609 Newell-Simon Hall	shuangs@andrew.cmu.edu		
+Suay, Halit	Robotics Engineer	235 National Robotics Engineering Center	hsuay@andrew.cmu.edu		
+Subramanian, Anant	Teaching Assistant for Machine Learning		assubram@andrew.cmu.edu		
+Sudhir, Sivaprasad	Teaching Assistant for Computer Science		sivapras@andrew.cmu.edu		
+Suggala, Arun Sai	Graduate Research Assistant	8023 Gates and Hillman Centers	asuggala@andrew.cmu.edu		
+Sukkerd, Roykrong	Graduate-Research Assistant	4125 Wean Hall	rsukkerd@andrew.cmu.edu		
+Sukthankar, Rahul	Adjunct Faculty		rahuls@andrew.cmu.edu		
+Sullivan, Brett	Procurement Specialist	3206 Wean Hall	bretts@andrew.cmu.edu	4122683313	
+Sun, Wen	Phd Student	214 Smith Hall	wensun@andrew.cmu.edu	4122683818	
+Sun, Hanfei	Teaching Assistant for Language Technologies		hanfeis@andrew.cmu.edu		
+Sun, Lingyun	Visiting Research Scholar	5311 Wean Hall	lingyuns@andrew.cmu.edu		
+Sun, Yihan	Graduate Research Assistant	7707 Gates and Hillman Centers	yihans@andrew.cmu.edu	4122687913	
+Sun, Jiupeng	Teaching Assistant for Computer Science		jiupengs@andrew.cmu.edu		
+Sundar, Ramitha	Msr Student	1604 Newell-Simon Hall	rsundar@andrew.cmu.edu		
+Sunshine, Joshua	Courtesy Systems Scientist	5317 Wean Hall	jssunshi@cs.cmu.edu	4122681097	
+Suppe, Arne	Phd Student	4621 Newell-Simon Hall	suppe@andrew.cmu.edu	4122683818	
+Suresh Kumar, Swarun Kumar	Courtesy Faculty		swarun@cmu.edu		
+Sutanto, Andre	Mechanical Engineer	37A National Robotics Engineering Center	asutanto@andrew.cmu.edu		
+Sutner, Klaus	Teaching Professor	6015 Gates and Hillman Centers	sutner@cs.cmu.edu	4122688510	
+Suzuki, Yasuyuki	Visitor	4519 Newell-Simon Hall	yasuyuks@andrew.cmu.edu		
+Swaminathan, Saiganesh	Graduate-Research Assistant	3612 Newell-Simon Hall	saiganes@andrew.cmu.edu		
+Swayamdipta, Swabha	Graduate Research Assistant		sswayamd@andrew.cmu.edu		
+Swedberg, Matthew	Non Exempt Technical		mswedber@andrew.cmu.edu		
+Swihart, Thomas	Senior Mechanical Engineer		tswihart@andrew.cmu.edu		
+Sycara, Katia	Research Professor	1602D Newell-Simon Hall	katia@cs.cmu.edu	4122688825	
+Tabib, Wennie	Graduate Research Assistant	8129 Gates and Hillman Centers	wtabib@andrew.cmu.edu	4122688078	
+Tabor, Trenton	Robotics Engineer	235 National Robotics Engineering Center	ttabor@andrew.cmu.edu	4126816900	
+Takeda, Ryu	Visiting Scholar	6601 Gates and Hillman Centers	rtakeda@andrew.cmu.edu		
+Tallaksen, Andrew	Graduate Teaching Assistant	4228 Newell-Simon Hall	aptallak@andrew.cmu.edu		
+Tallavajhula, Abhijeet	Phd Student	4227 Newell-Simon Hall	atallav1@andrew.cmu.edu	4122683818	
+Talwalkar, Ameet	Assistant Professor		atalwalk@andrew.cmu.edu		
+Tamburo, Robert	Senior Project Scientist	A401 Newell-Simon Hall	rtamburo@andrew.cmu.edu	4122683818	
+Tan, Joshua	Graduate Student	4127 Wean Hall	jstan@andrew.cmu.edu		
+Tan, Xiang Zhi	Phd Student	4221 Newell-Simon Hall	xiangzht@andrew.cmu.edu		
+Tao, Ye	Visiting Scholar	Newell-Simon Hall	ytao2@andrew.cmu.edu		
+Tao, Shih Yen	Graduate Research Assistant		shihyent@andrew.cmu.edu		
+Tao, Yifeng	Graduate Research Assistant	7405 Gates and Hillman Centers	yifengt@andrew.cmu.edu		
+Tapinsh, Aleksejs	Staff		atapinsh@andrew.cmu.edu		
+Taran, Gil	Adjunct Instructor	277 300 South Craig Street	gil@andrew.cmu.edu	4123410939	
+Tariq, Sannan	Graduate-Research Assistant		stariq@andrew.cmu.edu		
+Tasota, Michael	Systems Software Engineer	LL127 Collaborative Innovation Center	tasota@andrew.cmu.edu	4122683818	
+Tassarotti, Joseph	Graduate Research Assistant	7713 Gates and Hillman Centers	jtassaro@andrew.cmu.edu	4122681425	
+Taylor, Brandon	Graduate-Research Assistant	2502 Newell-Simon Hall	bttaylor@andrew.cmu.edu	4122689378	
+Taylor, Michael	Visitor	LL127 Collaborative Innovation Center	mdtaylor@andrew.cmu.edu	4122683818	
+Telang, Sujata	Associate Teaching Professor	209 417 South Craig Street	stelang@cs.cmu.edu	4122684644	
+Teo, Benjamin	Research Programmer		bteo@andrew.cmu.edu		
+Tetrick, Melissa	Associate Business Manager	7414 Gates and Hillman Centers	mtetrick@andrew.cmu.edu	4122681442	
+Tew, Ken	Systems Engineer	3102 Wean Hall	ken2@cs.cmu.edu	4122687506	
+Teza, James	Senior Research Engineer	2207 Newell-Simon Hall	jpt@cs.cmu.edu	4122681201	
+Thakkar, Swadhin Ajay	Graduate Research Assistant	B520 Newell-Simon Hall	swadhint@andrew.cmu.edu		
+Than, Ei Pa Pa Pe	Post-Doctoral Associate	4128 Wean Hall	eipapapt@andrew.cmu.edu		
+Thatte, Nitish	Phd Student	4508 Newell-Simon Hall	nitisht@andrew.cmu.edu	4122683818	
+Thibadeau, Robert	Adjunct Instructor	211 417 South Craig Street	rt30@andrew.cmu.edu	4122680000	
+Thomas, Marcus	Graduate Research Assistant	7411 Gates and Hillman Centers	marcust@andrew.cmu.edu	4122689733	
+Thomson, Samuel	Graduate Research Assistant		sthomson@andrew.cmu.edu		
+Thorpe, Charles	Adjunct Faculty		thorpe@andrew.cmu.edu	4122683818	
+Tian, Xiangrui	Visitor	2119 Newell-Simon Hall	xiangrut@andrew.cmu.edu		
+Tian, Dechao	Post Doctoral Associate	7415 Gates and Hillman Centers	dechaot@andrew.cmu.edu		
+Tick, Jordan	Research Assistant		jrtick@andrew.cmu.edu		
+Timperley, Christopher	Post Doctoral Associate	4108 Wean Hall	ctimperl@andrew.cmu.edu		
+Tipper, Cynthia	Learnsphere Manager	2602G Newell-Simon Hall	ctipper@cs.cmu.edu	4122684427	
+To, Alexandra	Graduate-Research Assistant	2502C Newell-Simon Hall	aato@andrew.cmu.edu		
+Tobin, Hannah	Video Technician	4201 Wean Hall	htobin@andrew.cmu.edu	4122687374	
+Tobin, Debra	Art Director/Special Events Manager	3201 Newell-Simon Hall	dmz@cs.cmu.edu	4122683814	
+Tobin, James	Videography Team Manager	4116 Wean Hall	jtobin@cs.cmu.edu	4122687695	
+Todd, Tiffany	Academic And Administrative Coordinator	4117 Wean Hall	ttodd@cs.cmu.edu	4122686367	
+Tomasic, Anthony	Associate Director of Integrative Media Program; Senior Systems Scientist		tomasic@cs.cmu.edu		
+Tomaszewski, Christopher	Phd Student	1613 Newell-Simon Hall	ckt@andrew.cmu.edu	9736410694	
+Tomprou, Maria	Visiting Faculty	3602 Newell-Simon Hall	mtomprou@andrew.cmu.edu	4122686059	
+Toneva, Mariya	Graduate Research Assistant		mktoneva@andrew.cmu.edu		
+Topin, Nicholay	Graduate Research Assistant	8206 Gates and Hillman Centers	ntopin@andrew.cmu.edu		
+Toth, Robert	Associate Director of Business Development	220 National Robotics Engineering Center	rmtoth@andrew.cmu.edu		
+Touretzky, David	Courtesy Faculty Member; Research Professor	9013 Gates and Hillman Centers	dst@cs.cmu.edu	4122687561	
+Traut, Elizabeth	Postdoctoral Fellow	A407 Newell-Simon Hall	etraut@andrew.cmu.edu	4122683606	
+Travers, Matthew	Systems Scientist	3207 Newell-Simon Hall	mtravers@andrew.cmu.edu	4122683818	
+Treceno Fernandez, Daniel	Visitor	2602 Newell-Simon Hall	dtreceno@andrew.cmu.edu		
+Trimble, Autumn	Research Assistant		atrimble@andrew.cmu.edu		
+Tsai, Yao-Hung	Graduate Research Assistant	8223 Gates and Hillman Centers	yaohungt@andrew.cmu.edu		
+Tsuhlares, Anastasia	Research Assistant	LL127 Collaborative Innovation Center	anastt@andrew.cmu.edu	4122683818	
+Tsvetkov, Yulia	Assistant Professor	6405 Gates and Hillman Centers	ytsvetko@andrew.cmu.edu	4122681590	
+Tung, Hsiao-Yu	Graduate Research Assistant		htung@andrew.cmu.edu		
+Tung, Laura	Graduate Research Assistant		ltung@andrew.cmu.edu		
+Uchidiuno, Judith	Graduate Research Assistant	2620A Newell-Simon Hall	jio@andrew.cmu.edu		
+Vaibhav, FNU	Graduate Research Assistant		vvaibhav@andrew.cmu.edu		
+Vaidya, Rucha	Teaching Assistant for Computer Science		rsvaidya@andrew.cmu.edu		
+Vail, Alexandria	Graduate-Research Assistant	2602 Newell-Simon Hall	avail@andrew.cmu.edu		
+Valdes-Perez, Raul	Adjunct Scientist	Gates and Hillman Centers	valdes@andrew.cmu.edu	4122680000	
+Valencia Valencia, Stephanie	Graduate-Research Assistant	4607 Newell-Simon Hall	svalenci@andrew.cmu.edu		
+Valiev, Marat	Graduate Research Assistant	4123 Wean Hall	mvaliev@andrew.cmu.edu		
+Valle Rhor, Luis	Research Associate I, Ri Ms Student	4124 Newell-Simon Hall	vallelu@andrew.cmu.edu	4122683818	
+Van Aken, Dana	Graduate-Research Assistant		dvanaken@andrew.cmu.edu	4122681405	
+Van Tonder, Rijnard	Graduate Research Assistant	5119 Wean Hall	rvantond@andrew.cmu.edu	4122683200	
+VandenBerg, Cameron	Senior Software Developer	5721 Gates and Hillman Centers	cmw2@andrew.cmu.edu		
+Vandeweghe, J	Lead Robotics Engineer	252 National Robotics Engineering Center	vandeweg@cs.cmu.edu	4122686846	
+Vasilescu, Bogdan	Assistant Professor	5115 Wean Hall	bogdanv@andrew.cmu.edu		
+Vega, Rodolfo	Adjunct Instructor	6709 Gates and Hillman Centers	rmvega@andrew.cmu.edu	4122683724	
+Vega, Juan Pablo	Graduate Teaching Assistant; Teaching Assistant for Machine Learning		jvega@andrew.cmu.edu		
+Velagapudi, Prasanna	Adjunct Faculty		pkv@andrew.cmu.edu	4122683818	
+Velez Cevallos, Miguel	Graduate Research Assistant	4105 Wean Hall	mvelezce@andrew.cmu.edu		
+Velivela, Vivek	Research Assistant	2204 Newell-Simon Hall	vvelivel@andrew.cmu.edu		
+Veloso, Manuela M.	Courtesy Faculty Member; Department Head for Machine Learning; Herbert A. Simon University Professor of Computer Science	8002 Gates and Hillman Centers	mmv@cs.cmu.edu	4122681474	
+Vemula, Anirudh	Phd Student	1502F Newell-Simon Hall	avemula1@andrew.cmu.edu		
+Vemuru, Vamsavardan Sai Kumar	Research Associate I	5311 Wean Hall	vvemuru1@andrew.cmu.edu		
+Vemuru, Vinod	Project Collaborator	5315 Wean Hall	vinodv@andrew.cmu.edu		
+Venkatesan, Sibi	Phd Student	3111 Newell-Simon Hall	sibiv@andrew.cmu.edu	4122683818	
+Vieira Guerreiro, Joao Pedro	Postdoctoral Fellow	4525 Newell-Simon Hall	jguerrei@andrew.cmu.edu		
+Vijayarangan, Srinivasan	Senior Research Programmer/Analyst, Ri Ms Student	2203 Newell-Simon Hall	svijaya1@cs.cmu.edu	4128379004	
+Villa Cox, Ramon Alfonso	Graduate Research Assistant	4107 Wean Hall	rvillaco@andrew.cmu.edu		
+Vinayak, Rashmi	Assistant Professor	9011 Gates and Hillman Centers	rvinayak@andrew.cmu.edu		
+Vitercik, Ellen	Graduate Research Assistant	7511 Gates and Hillman Centers	eviterci@andrew.cmu.edu		
+Vivis, Amber	Program Administrator	213 417 South Craig Street	avivis@cs.cmu.edu	4122689998	
+Vo, Minh	Phd Student	201 Smith Hall	mvo@andrew.cmu.edu	4122683818	
+Vogel, Stephan	Research Professor	Gates and Hillman Centers	stvogel@andrew.cmu.edu	4122685480	
+Vogler, Nikolai	Graduate Research Assistant		nikolaiv@andrew.cmu.edu		
+Volkov, Alexander	Msr Student	A519 Newell-Simon Hall	alexandv@andrew.cmu.edu		
+Von Ahn, Luis	Consulting Professor		biglou@cs.cmu.edu	4125676602	
+Voysey, Ian	Research Programmer	4114 Wean Hall	iev@andrew.cmu.edu		
+Vu, Du	Distinguished Career Professor	6411 Gates and Hillman Centers	johnvu@cs.cmu.edu	4122688812	
+Vyas, Nidhi Kaushik	Graduate Research Assistant		nidhikav@andrew.cmu.edu		
+Wactlar, Howard	Alumni Research Professor		hdw@cs.cmu.edu	4122682571	
+Wadhwa, Soumya	Teaching Assistant for Language Technologies		soumyaw@andrew.cmu.edu		
+Wadkar, Sudarshan	Graduate Research Assistant	4109 Wean Hall	swadkar@andrew.cmu.edu		
+Wagner, Angela	Senior User Research And Testing Specilaist	2620B Newell-Simon Hall	awagner@cs.cmu.edu	4122685473	
+Wagner, Ryan	Graduate Research Assistant	4109 Wean Hall	rrwagner@andrew.cmu.edu		
+Wagner, Michael	Senior Commercialization Specialist	276 National Robotics Engineering Center	mwagner@cs.cmu.edu	4126832569	
+Waibel, Alexander	Professor	205 407 South Craig Street	ahw@cs.cmu.edu	4122687676	
+Wajc, David	Graduate Research Assistant	9005 Gates and Hillman Centers	dwajc@andrew.cmu.edu	4122685940	
+Walajapet Mohan, Lekha	Extern	101 Smith Hall	lwalajap@andrew.cmu.edu		
+Walker, Jacob	Phd Student	218 Smith Hall	jcwalker@andrew.cmu.edu	4122683818	
+Walter, Edward	Manager	3208 Wean Hall	ewalter@cs.cmu.edu	4122684633	
+Wan, Logan	Graduate Teaching Assistant	4228 Newell-Simon Hall	lwan@andrew.cmu.edu		
+Wang, Po-Wei	Graduate Research Assistant		poweiw@andrew.cmu.edu		
+Wang, Chaoyang	Msr Student	235 Smith Hall	chaoyanw@andrew.cmu.edu		
+Wang, Mengran	Teaching Assistant for Computer Science		mengranw@andrew.cmu.edu		
+Wang, Jinhang	Research Associate IIi	B520 Newell-Simon Hall	jinhangw@cs.cmu.edu	4122683818	
+Wang, Ziqi	Graduate-Research Assistant		ziqiw@andrew.cmu.edu		
+Wang, Yining	Graduate Research Assistant	8021 Gates and Hillman Centers	yiningwa@andrew.cmu.edu		
+Wang, Junxing	Graduate Research Assistant	9002 Gates and Hillman Centers	junxingw@andrew.cmu.edu	4122683069	
+Wang, Haohan	Graduate Research Assistant	5507 Gates and Hillman Centers	haohanw@andrew.cmu.edu		
+Wang, Xinyi	Graduate Research Assistant	6418 Gates and Hillman Centers	xinyiw1@andrew.cmu.edu		
+Wang, Peng	Teaching Assistnat for Computer Science		pwang1@andrew.cmu.edu		
+Wang, Alex	Graduate-Research Assistant		alw1@andrew.cmu.edu		
+Wang, Di	Graduate-Research Assistant		diw3@andrew.cmu.edu		
+Wang, Zirui	Graduate Research Assistant		ziruiw@andrew.cmu.edu		
+Wang, Ruosong	Graduate-Research Assistant		ruosongw@andrew.cmu.edu		
+Wang, Xiaofang	Phd Student	1502G Newell-Simon Hall	xiaofan2@andrew.cmu.edu		
+Wang, Yun	Graduate Research Assistant	212 407 South Craig Street	yunwang@andrew.cmu.edu	4122687002	
+Wang, Xiangwei	Visitor	2204 Newell-Simon Hall	xiangwew@andrew.cmu.edu		
+Wang, Allan	Phd Student	1502F Newell-Simon Hall	allanwan@andrew.cmu.edu		
+Wang, Di	Graduate Research Assistant	5517 Gates and Hillman Centers	diw1@andrew.cmu.edu	4122686591	
+Wang, Yuxiong	Phd Student	222 Smith Hall	yuxiongw@andrew.cmu.edu	4122683818	
+Wang, Fei	Visitor	110 Smith Hall	feiw2@andrew.cmu.edu		
+Wang, Xinzhi	Visitor	1602D Newell-Simon Hall	xinzhiw@andrew.cmu.edu		
+Wang, Junjue	Graduate-Research Assistant		junjuew@andrew.cmu.edu		
+Wang, Donghan	Senior Research Programmer/Analyst	3115 Newell-Simon Hall	donghanw@cs.cmu.edu	4122681238	
+Wang, Xu	Graduate-Research Assistant	4617 Newell-Simon Hall	xuwang@andrew.cmu.edu		
+Wang, Yuchuan	Graduate Research Assistant	7413 Gates and Hillman Centers	yuchuanw@andrew.cmu.edu		
+Wang, Jingyan	Phd Student	3101 Newell-Simon Hall	jingyanw@andrew.cmu.edu		
+Wang, Wenshan	Postdoctoral Fellow	2103 Newell-Simon Hall	wenshanw@andrew.cmu.edu		
+Wang, Xiaolong	Phd Student	216 Smith Hall	xiaolonw@andrew.cmu.edu	4122683818	
+Wang, Qinsi	Post Doctoral Fellow	9129 Gates and Hillman Centers	qinsiw@andrew.cmu.edu	4122687228	
+Wang, Guanyun	Post Doctoral Fellow	2612 Newell-Simon Hall	guanyunw@andrew.cmu.edu		
+Warden, Rachael	Annotator		rwarden@live.unc.edu		
+Wardrip, Peter	Visiting Scholar	3602B Newell-Simon Hall	pwardrip@andrew.cmu.edu		
+Ware, Ranysha	Graduate-Research Assistant		rware@andrew.cmu.edu		
+Warner, James	Senior Electrical Engineer	232 National Robotics Engineering Center	jrwarner@cs.cmu.edu	4124803423	
+Wasick, Betty	Technical Buyer	3206 Wean Hall	baw@cs.cmu.edu	4122687907	
+Wasserman, Larry	Affiliated Faculty	228A Baker Porter Hall	larry@andrew.cmu.edu	4122688727	
+Watkins, Sienna	Administrative Assistant II	4212 Wean Hall	smwatkin@andrew.cmu.edu	4122683163	
+Wehrer, Cheryl	Associate Director for Finance And Administration	4105 Newell-Simon Hall	wehrer@cs.cmu.edu	4122683744	
+Wei, Jinliang	Graduate-Research Assistant		jinlianw@andrew.cmu.edu	4122683060	
+Wei, Qinglan	Visiting Scholar	6418 Gates and Hillman Centers	qinglanw@andrew.cmu.edu		
+Wei, Yuanhao	Graduate-Research Assistant		yuanhao1@andrew.cmu.edu		
+Weigand, Margaret	Administrative Assistant II	4212 Wean Hall	weigand@cs.cmu.edu	4122681252	
+Weiland, John	Systems Administrator	14 National Robotics Engineering Center			
+Weis, Amy	Undergraduate Program & Academic Events Coordinator	4115 Gates and Hillman Centers	alweis@andrew.cmu.edu	4122685561	
+Weiss, Lee	Emeritus Faculty	3113 Newell-Simon Hall	lew@cs.cmu.edu	4122687657	
+Wen, Jiaxin	Research Assistant		jiaxinw@andrew.cmu.edu		
+Wenninger, Florian	Visiting Research Fellow		fwenning@andrew.cmu.edu		
+Wertz, Anthony	Research Programmer/Analyst	3124 Newell-Simon Hall	awertz@andrew.cmu.edu	4122683818	
+Wescoe, Kurt	Ebusiness Research Fellow	202 417 South Craig Street	kwescoe@cs.cmu.edu	4120000000	
+Westman, Eric	Phd Student	1613 Newell-Simon Hall	ewestman@andrew.cmu.edu	4122683818	
+Westrick, Samuel	Graduate-Research Assistant	6221 Gates and Hillman Centers	swestric@cs.cmu.edu		
+Wettergreen, David	Research Professor; Associate Director for Education And Director of The Ph.D. Program	2115 Newell-Simon Hall	dsw@cs.cmu.edu	4122685421	
+White, Colin	Graduate-Research Assistant		crwhite@andrew.cmu.edu	4122683501	
+Whitford, Andrew	Postdoctoral Fellow	228 Smith Hall	awhitfor@andrew.cmu.edu		
+Whittaker, William Red	Fredkin University Research Professor	2109 Newell-Simon Hall	red@cs.cmu.edu	4122686559	
+Whittaker, Warren	Senior Field Robotics Specialist	1201A Newell-Simon Hall	wrenwit@cs.cmu.edu	4122681119	
+Widder, David	Graduate Research Assistant	5119 Wean Hall	dwidder@andrew.cmu.edu		
+Widdowson, Andrew	Lieutenant Commander of Data		apw2@cs.cmu.edu	4122688558	
+Widmaier, Kelly	Associate Business Manager	8219 Gates and Hillman Centers	kellywid@cs.cmu.edu	4122684279	
+Widmaier, Karen	Administrative Coordinator	3203 Newell-Simon Hall	karenwid@cs.cmu.edu	4122687551	
+Widom, Mary	Undergraduate Program Administrator	4115 Gates and Hillman Centers	marwidom@cs.cmu.edu	4122689497	
+Wieting, John	Graduate Research Assistant	6418 Gates and Hillman Centers	jwieting@andrew.cmu.edu		
+Wilk, Thomas	IT Manager	3208 Wean Hall	twilk@andrew.cmu.edu	4122684557	
+Wilkinson, Donald	Linux Systems Administrator	245 National Robotics Engineering Center	dewilkin@andrew.cmu.edu		
+Williams, Kristin	Graduate-Research Assistant	2620C Newell-Simon Hall	kmwillia@andrew.cmu.edu		
+Williams, Ray	Adjunct Instructor	277 300 South Craig Street	rw3b@andrew.cmu.edu	4126619411	
+Willis, Nicole	MHCI Director of Student Affairs	209 300 South Craig Street	nicolewi@cs.cmu.edu	4122687971	
+Wing, Jeannette	Consulting Professor		jw35@andrew.cmu.edu	4122682000	
+Winkler, Sandra	Administrative Assistant	8221 Gates and Hillman Centers	sandyw@cs.cmu.edu	4122683569	
+Winters, David	Cs Education Computing Services Manager	6013 Gates and Hillman Centers	winters@cs.cmu.edu	4122684368	
+Wirthlin, Morgan	Brainhub Postdoctoral Fellow	7415 Gates and Hillman Centers	mwirthli@andrew.cmu.edu		
+Wise, Jenna	Graduate Research Assistant	4123 Wean Hall	jlwise@andrew.cmu.edu		
+Woertwein, Torsten	Graduate Research Assistant		twoertwe@andrew.cmu.edu		
+Womack, Blake	Data Labeler	258 National Robotics Engineering Center	bwomack@andrew.cmu.edu		
+Won, Daegun	Graduate Research Assistant	5414 Gates and Hillman Centers	daegunw@andrew.cmu.edu	4122686591	
+Wong, Chu Pan	Graduate Research Assistant	4103 Wean Hall	chupanw@andrew.cmu.edu		
+Wong, Eric	Graduate Research Assistant	8213 Gates and Hillman Centers	ericwong@andrew.cmu.edu	4122688932	
+Woodring, Alexander	Publicity And Marketing Manager	4625 Newell-Simon Hall	alexgw@andrew.cmu.edu	4122683818	
+Woodruff, David	Associate Professor	7217 Gates and Hillman Centers	dwoodruf@andrew.cmu.edu		
+Woszczyna, Monika	Adjunct Faculty	5404 Gates and Hillman Centers	monikaw@andrew.cmu.edu	4122686591	
+Wright, Anne	Director of Operations, Bodytrack	3106 Newell-Simon Hall	arwright@andrew.cmu.edu	4122683818	
+Wu, Wei	Senior Systems Scientist	7407 Gates and Hillman Centers	weiwu2@cs.cmu.edu	4122681866	
+Wu, Yuexin	Graduate Research Assistant	7609 Gates and Hillman Centers	yuexinw@andrew.cmu.edu		
+Wu, Shangxuan	Graduate Teaching Assistant	4228 Newell-Simon Hall	shangxuw@andrew.cmu.edu		
+Xhakaj, Franceska	Graduate Research Assistant	2620C Newell-Simon Hall	francesx@andrew.cmu.edu		
+Xi, Jingxin	Teaching Assistant for Machine Learning		jingxinx@andrew.cmu.edu		
+Xiang, Jing	Post Doctoral Associate		jingx@andrew.cmu.edu	4122685576	
+Xiao, Yao	Teaching Assistant		yaox1@andrew.cmu.edu		
+Xiao, Bo Robert	Graduate-Research Assistant	407 South Craig Street	brx@andrew.cmu.edu		
+Xie, Qizhe	Graduate Research Assistant		qizhex@andrew.cmu.edu		
+Xie, Pengtao	Graduate Research Assistant	8011 Gates and Hillman Centers	pxie1@andrew.cmu.edu		
+Xie, Jiateng	Graduate Research Assistant		jiatengx@andrew.cmu.edu		
+Xin, Shumian	Phd Student	1502G Newell-Simon Hall	sxin@andrew.cmu.edu		
+Xing, Eric	Professor	8101 Gates and Hillman Centers	epxing@cs.cmu.edu	4122682559	
+Xing, Yifan	Graduate Teaching Assistant	4228 Newell-Simon Hall	yxing1@andrew.cmu.edu		
+Xiong, Chenyan	Graduate Research Assistant	5705 Gates and Hillman Centers	cx@andrew.cmu.edu		
+Xiong, Kyle	Graduate Research Assistant	7405 Gates and Hillman Centers	kxiong@andrew.cmu.edu		
+Xu, Jiarui	Graduate Research Assistant		jiaruix@andrew.cmu.edu		
+Xu, Yichong	Graduate Research Assistant		yichongx@andrew.cmu.edu		
+Xu, Ruochen	Graduate Research Assistant		ruochenx@andrew.cmu.edu		
+Xu, Min	Assistant Research Professor	7715 Gates and Hillman Centers	mxu1@andrew.cmu.edu	4122683562	
+Y Nadaraajan, Yoga	Graduate Teaching Assistant	4228 Newell-Simon Hall	yyn@andrew.cmu.edu		
+Yadav, Kunal	Teaching Assistant	300 South Craig Street	kyadav@andrew.cmu.edu		
+Yahyavi Firouz Abadi, Seyed Amir	Visitor	LL127 Collaborative Innovation Center	ayahyavi@andrew.cmu.edu		
+Yamakawa, Yukari	Research Assistant And Annotator	6601 Gates and Hillman Centers	yukariy@andrew.cmu.edu	4122686596	
+Yamane, Katsu	Adjunct Faculty		kyamane@andrew.cmu.edu		
+Yamashita, Ryozo	Visitor	Smith Hall	ryamashi@andrew.cmu.edu		
+Yan, Enxu	Graduate Research Assistant		eyan@andrew.cmu.edu		
+Yanfu, Zhang	Visitor	2119 Newell-Simon Hall	zyanfu@andrew.cmu.edu		
+Yang, Xinru	Graduate Research Assistant		xyang@andrew.cmu.edu		
+Yang, Wei	Intern	235 Smith Hall	wyang2@andrew.cmu.edu		
+Yang, Yang	Graduate Research Assistant	7413 Gates and Hillman Centers	yy3@andrew.cmu.edu		
+Yang, Jean	Affiliated Faculty; Assistant Professor	7113 Gates and Hillman Centers	jyang2@andrew.cmu.edu	4122682531	
+Yang, Yiming	Professor	6717 Gates and Hillman Centers	yiming@cs.cmu.edu	4122681364	
+Yang, Yufan	Teaching Assistant for Computer Science		yufany@andrew.cmu.edu		
+Yang, Qian	Graduate-Research Assistant	4619 Newell-Simon Hall	qyang1@andrew.cmu.edu	4122687366	
+Yang, Yifan	Teaching Assistant for Machine Learning		yifany1@andrew.cmu.edu		
+Yang, Xinyu	Visiting Scholar	2609 Newell-Simon Hall	xinyuy2@andrew.cmu.edu		
+Yang, Ge	Voting Faculty	403 Mellon Institute	geyang@andrew.cmu.edu	4122683186	
+Yang, Hanyu	Teaching Assistant for Computer Science		hanyuy@andrew.cmu.edu		
+Yang, Zichao	Graduate-Research Assistant		zichaoy@andrew.cmu.edu	4122687368	
+Yang, Jean	Affiliated Faculty; Assistant Professor	7113 Gates and Hillman Centers	jyang2@andrew.cmu.edu	4122682531	
+Yang, Yang	Graduate Research Assistant	7413 Gates and Hillman Centers	yy3@andrew.cmu.edu		
+Yang, Yifan	Teaching Assistant for Machine Learning		yifany1@andrew.cmu.edu		
+Yang, Yiming	Professor	6717 Gates and Hillman Centers	yiming@cs.cmu.edu	4122681364	
+Yang, Xinyu	Visiting Scholar	2609 Newell-Simon Hall	xinyuy2@andrew.cmu.edu		
+Yang, Yufan	Teaching Assistant for Computer Science		yufany@andrew.cmu.edu		
+Yang, Hanyu	Teaching Assistant for Computer Science		hanyuy@andrew.cmu.edu		
+Yannier, Nesra	Post Doctoral Fellow	2602F Newell-Simon Hall	nyannier@andrew.cmu.edu	4122689378	
+Yano, Charlotte	Graduate Admissions Coordinator	6027 Gates and Hillman Centers	yano@cs.cmu.edu	4122687656	
+Yao, Lining	Assistant Professor	3613 Newell-Simon Hall	liningy@andrew.cmu.edu		
+Yao, Yiyun	Teaching Assistant for Computer Science		yiyuny@andrew.cmu.edu		
+Yao, Zheng	Graduate-Research Assistant	2602 Newell-Simon Hall	zyao2@andrew.cmu.edu		
+Yao, John	Phd Student	2211 Newell-Simon Hall	johnyao@andrew.cmu.edu	4122683818	
+Yaron, Dror	Head of Create Outreach	4627 Newell-Simon Hall	yarondy@andrew.cmu.edu	4123705961	
+Yarzebinski, Evelyn	Research Associate IIi	2602L Newell-Simon Hall	eey2@cs.cmu.edu	4122689690	
+Ye, Katherine	Courtesy Student; Graduate-Research Assistant		kqy@andrew.cmu.edu		
+Yeh, Chih-Kuan	Graduate Research Assistant	8208 Gates and Hillman Centers	cjyeh@andrew.cmu.edu		
+Yeom, Samuel	Graduate-Research Assistant	6503 Gates and Hillman Centers	syeom@andrew.cmu.edu		
+Yim, Samuel	Robotics Engineer	272 National Robotics Engineering Center	samuely@andrew.cmu.edu	4122683818	
+Yin, Peng	Visitor	A403 Newell-Simon Hall	pyin2@andrew.cmu.edu		
+Yin, Pengcheng	Graduate Research Assistant		pengchey@andrew.cmu.edu		
+Yoder, Michael	Graduate Research Assistant	5719 Gates and Hillman Centers	mamille3@andrew.cmu.edu		
+Yoo, Donghyun	Postdoctoral Fellow	113 Smith Hall	donghyuy@andrew.cmu.edu		
+Young, Stacey	Senior Academic Coordinator	6513 Gates and Hillman Centers	staceyy@cs.cmu.edu	4122682623	
+Yu, Tianlong	Graduate-Research Assistant		tianlony@andrew.cmu.edu	4122682582	
+Yu, Wei	Graduate Research Assistant		weiyu@andrew.cmu.edu		
+Yu, Christopher	Courtesy Student; Graduate-Research Assistant		christoy@andrew.cmu.edu		
+Yu, Lantao	Visiting Student Intern	4201 Wean Hall	lantaoy@andrew.cmu.edu		
+Yuan, Ye	Phd Student	1502G Newell-Simon Hall	yyuan2@andrew.cmu.edu		
+Yuan, Ye	Post Doctoral Associate	8118 Gates and Hillman Centers	yey3@andrew.cmu.edu		
+Yudelson, Mikhail	Visitor		yudelson@andrew.cmu.edu		
+Zaheer, Manzil	Graduate Research Assistant	8009 Gates and Hillman Centers	manzilz@andrew.cmu.edu	4122686448	
+Zalewski, Deborah	Senior Associate Business Manager	4103 Newell-Simon Hall	dhz@cs.cmu.edu	4122683611	
+Zanger, AnnMarie	Associate Department Head for Finance & Administration	7027 Gates and Hillman Centers	zanger@cs.cmu.edu	4122682595	
+Zeglin, Garth	Instructor/Project Scientist	3215 Newell-Simon Hall	garthz@cs.cmu.edu	4122685909	
+Zeng, Xiangrui	Graduate Research Assistant		xiangruz@andrew.cmu.edu		
+Zeng, Sam	Msr Student	2204 Newell-Simon Hall	slz@andrew.cmu.edu		
+Zevallos-Roberts, Nicolas	Artist In Residence	A403 Newell-Simon Hall	nzevallo@andrew.cmu.edu	4122683818	
+Zhang, Hao	Phd Student	4225 Newell-Simon Hall	hzhang2@andrew.cmu.edu	4122683818	
+Zhang, Haifeng	Post Doctoral Associate With Benefits	2504B Newell-Simon Hall	haifeng1@andrew.cmu.edu		
+Zhang, Hongyang	Graduate Research Assistant	8008 Gates and Hillman Centers	hongyanz@andrew.cmu.edu		
+Zhang, Huanchen	Graduate-Research Assistant		huanche1@andrew.cmu.edu	4122685942	
+Zhang, Ji	Postdoctoral Fellow	2215 Newell-Simon Hall	zhangji@andrew.cmu.edu	9793184809	
+Zhang, Yimeng	Graduate Research Assistant	9007 Gates and Hillman Centers	yimengzh@andrew.cmu.edu	4122687228	
+Zhang, Jiayang	Research Assistant for Computational Biology		jiayang1@andrew.cmu.edu		
+Zhang, Xunjie	Visitor	LL127 Collaborative Innovation Center	xunjiez@andrew.cmu.edu		
+Zhang, Hui	Consulting Professor		huiz1@andrew.cmu.edu		
+Zhang, Yang	Research Associate		yangz6@andrew.cmu.edu		
+Zhang, Shunyuan	Teaching Assistant for Machine Learning		shunyuaz@andrew.cmu.edu	4122681319	
+Zhang, Yang	Graduate Research Assistant		yz6@andrew.cmu.edu		
+Zhang, Ada	Phd Student	208 Smith Hall	ajzhang@andrew.cmu.edu	4122683818	
+Zhang, Ruochi	Graduate Research Assistant		ruochiz@andrew.cmu.edu		
+Zhang, Han	Graduate-Research Assistant		hzhang3@andrew.cmu.edu		
+Zhang, Yujia	Visiting Scholar		yujiaz2@andrew.cmu.edu		
+Zhang, Yixuan	Teaching Assistant for Language Technologies		yixuanz@andrew.cmu.edu		
+Zhang, Yang	Graduate-Research Assistant	2602 407 South Craig Street	yangz3@andrew.cmu.edu		
+Zhang, Shikun	Graduate Research Assistant	7609 Gates and Hillman Centers	shikunz@andrew.cmu.edu		
+Zhao, Tiancheng	Graduate Research Assistant		tianchez@andrew.cmu.edu		
+Zhao, Guoquan	Teaching Assistant for Machine Learning		guoquanz@andrew.cmu.edu		
+Zhao, Siyan	Graduate-Research Assistant	2611 Newell-Simon Hall	siyanz@andrew.cmu.edu		
+Zhao, Ran	Graduate Research Assistant		rzhao1@andrew.cmu.edu	4122686591	
+Zhao, Yue	Teaching Assistant		yzhao6@andrew.cmu.edu		
+Zhao, Leiyu	Teaching Assistant for Computer Science		leiyuz@andrew.cmu.edu		
+Zhao, Yu	Graduate Research Assistant	7509 Gates and Hillman Centers	yuzhao1@andrew.cmu.edu	4122683042	
+Zhao, Han	Graduate Research Assistant		hzhao1@andrew.cmu.edu		
+Zheng, Qing	Graduate-Research Assistant		qingzhen@andrew.cmu.edu	4122683046	
+Zheng, Xun	Graduate Research Assistant	8223 Gates and Hillman Centers	xzheng1@andrew.cmu.edu		
+Zheng, Guoqing	Graduate Research Assistant		gzheng@andrew.cmu.edu	4122686591	
+Zheng, Hongyu	Graduate Research Assistant		hongyuz1@andrew.cmu.edu		
+Zhi, Tiancheng	Courtesy Student; Graduate-Research Assistant	7010 Gates and Hillman Centers	tzhi@andrew.cmu.edu		
+Zhou, Shurui	Graduate Research Assistant	4208 Wean Hall	shuruiz@andrew.cmu.edu		
+Zhou, Bo	Research Assistant for Computational Biology		bzhou2@andrew.cmu.edu		
+Zhou, Chunting	Graduate Research Assistant		chuntinz@andrew.cmu.edu		
+Zhou, Xian	Phd Student	1502G Newell-Simon Hall	xianz1@andrew.cmu.edu		
+Zhou, Jiaji	Phd Student	4509 Newell-Simon Hall	jiajiz@andrew.cmu.edu	4126131939	
+Zhou, Giulio	Graduate-Research Assistant		gzz@andrew.cmu.edu		
+Zhou, Yimin	Tutor		yiminz@andrew.cmu.edu		
+Zhou, Shipei	Tutor		shipeiz@andrew.cmu.edu		
+Zhou, Joseph	Senior Project Scientist	4209 Newell-Simon Hall	jqz@andrew.cmu.edu		
+Zhou, Zhong	Research Assistant		zhongzho@andrew.cmu.edu		
+Zhou, Chenghui	Graduate Research Assistant	8133 Gates and Hillman Centers	chenghuz@andrew.cmu.edu		
+Zhou, Lipu	Postdoctoral Fellow	1613 Newell-Simon Hall	lipuz@andrew.cmu.edu		
+Zhu, Xiaopeng	Research Associate IIi	7416 Gates and Hillman Centers	xiaopenz@andrew.cmu.edu		
+Zhu, Chenyang	Intern	B520 Newell-Simon Hall	chenyanz@andrew.cmu.edu		
+Zhu, Yifeng	Visiting Scholar		yifengz2@andrew.cmu.edu		
+Zhu, Rui	Research Associate I	210 Smith Hall	rz1@andrew.cmu.edu		
+Zhu, Danny	Graduate-Research Assistant		dannyz@andrew.cmu.edu	4122681718	
+Zhu, Jun	Adjunct Faculty	8110 Gates and Hillman Centers	junzhu@andrew.cmu.edu		
+Zimmeck, Sebastian	Post Doctoral Associate	4110 Wean Hall	szimmeck@andrew.cmu.edu		
+Zimmerman, John	Professor	2504F Newell-Simon Hall	johnz@cs.cmu.edu	4126088181	
+Zito, Lauren	Project Coordinator - Fluency Project	LL127 Collaborative Innovation Center	lcz@andrew.cmu.edu		
+Zivkovic, Ales	Visiting Scholar	300 South Craig Street	alesz@andrew.cmu.edu		
+Zuzic, Goran	Graduate-Research Assistant	7515 Gates and Hillman Centers	gzuzic@andrew.cmu.edu		
+Zykov, Andrey	Visiting Scholar	300 South Craig Street	azykov@andrew.cmu.edu		

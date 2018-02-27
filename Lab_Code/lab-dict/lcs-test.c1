@@ -1,0 +1,8 @@
+#use <string>
+
+int main() {
+    assert(LCS("UI2uZRlvS87BHUt7PZtKgXwyKaFQYqKshztqhRhGy5ZDpIPMxt7f380Luku9TAs2oX9Dpi3NjISy95v2H1xNWwNvlNXG5DRr0ltMO6ze7iKAbJluycXjHoTf", "puM0Nm16jlSSkq4SxTGtxI6Tz4cXw55jX8orpprj2sirSjBZu3fK2wt7qokEY1ckoQB8zOhy9k9aAE1GLEnSSIhw6fbkVXL5at3QjbxjVmPBITxqT7i4tAaZ", 120, 120) == 23);
+    assert(LCS("TgCjRgnwjMc4hOCinfb1IWm3zC7VfhpCN6HvDiqW1pvEegkSscKfFyijaa5lf6jQwxkL9uuxGleUHWZnX3gRMbtkoEqRjX9BUV84f7wjQ3GfzxBDXPSj6pZL", "3UceAn6jaQD4OzuGYjgDouoy4TifUnhrngH4Bgaur08irOmafQUHFwqru1AmLYr4af4PIlm02kLYf4M8E6DZhv8xIqi4DBg1HDOU2Cno3py8h55Z4qTgtYE7", 120, 120) == 24);
+
+    return 0;
+}

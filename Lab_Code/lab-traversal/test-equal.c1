@@ -1,0 +1,73 @@
+#use <conio>
+#use <string>
+
+int elem_compare(void* e1, void* e2)
+//@requires e1 != NULL && \hastag(string*, e1);
+//@requires e2 != NULL && \hastag(string*, e2);
+//@ensures -1 <= \result && \result <= 1;
+{
+    return string_compare(*(string*)e1, *(string*)e2);
+}
+
+int main() {
+    string* a = alloc(string);
+    *a = "A";
+    string* b = alloc(string);
+    *b = "B";
+    string* c = alloc(string);
+    *c = "C";
+    string* d = alloc(string);
+    *d = "D";
+    string* e = alloc(string);
+    *e = "E";
+    string* f = alloc(string);
+    *f = "F";
+    string* g = alloc(string);
+    *g = "G";
+    string* h = alloc(string);
+    *h = "H";
+    string* i = alloc(string);
+    *i = "I";
+
+    bst_t BST = bst_new(&elem_compare);
+    bst_insert(BST, (void*)c);     //        c
+    bst_insert(BST, (void*)f);     //       / \
+    bst_insert(BST, (void*)g);     //      b   f
+    bst_insert(BST, (void*)d);     //     /   / \
+    bst_insert(BST, (void*)b);     //    a   d   g
+    bst_insert(BST, (void*)a);     //         \   \
+    bst_insert(BST, (void*)e);     //          e   h
+    bst_insert(BST, (void*)h);
+
+    bst_t BST2 = bst_new(&elem_compare);
+    bst_insert(BST2, (void*)e);    //       e
+    bst_insert(BST2, (void*)h);    //    /     \
+    bst_insert(BST2, (void*)f);    //   a       h
+    bst_insert(BST2, (void*)a);    //    \     /
+    bst_insert(BST2, (void*)g);    //     c   f
+    bst_insert(BST2, (void*)c);    //    / \   \
+    bst_insert(BST2, (void*)b);    //   b   d   g
+    bst_insert(BST2, (void*)d);
+
+    assert(bst_equal(BST, BST2));
+
+    bst_insert(BST2, (void*)i);
+    assert(!bst_equal(BST, BST2));
+
+    bst_insert(BST, (void*)i);
+    assert(bst_equal(BST, BST2));
+
+    string* cc = alloc(string);
+    *cc = "CC";
+    bst_insert(BST, (void*)cc);
+    assert(!bst_equal(BST, BST2));
+
+    string* cc2 = alloc(string);
+    *cc2 = "CC";
+    bst_insert(BST2, (void*)cc2);
+    assert(bst_equal(BST, BST2));
+
+    print("All tests passed!\n");
+
+    return 0;
+}

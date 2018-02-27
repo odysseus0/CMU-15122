@@ -1,0 +1,98 @@
+
+// Helper function for converting an int to an array of its digits
+int[] to_arr(int num)
+//@requires num >= 0;
+//@ensures \length(\result) > 0;
+{
+  int tmp = num;
+  int n = 0;
+  if(tmp == 0)
+  {
+    n = 1;
+  }
+  else
+  {
+    while(tmp != 0)
+    //@loop_invariant tmp >= 0;
+    {
+      tmp = tmp / 10;
+      n++;
+    }
+  }
+  
+  int[] A = alloc_array(int, n);
+  for(int i=0; i<n; i++)
+  //@loop_invariant i >= 0 && i <= n;
+  //@loop_invariant num >= 0;
+  {
+    A[i] = num % 10;
+    num /= 10;
+  }
+  //@assert num == 0;
+  return A;
+}
+
+// Functions from (1.a)
+bool is_reversed(int[] first, int[] last, int i, int n)
+//@requires 0 <= n && n == \length(first) && n == \length(last);
+//@requires 0 <= i && i <= n;
+{
+  for(int j = 0; j < i; j++)
+  {
+    if(first[j] != last[n - j - 1])
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+int[] reverse(int[] A, int n)
+//@requires n == \length(A);
+//@ensures is_reversed(A, \result, n, n);
+{
+    int[] B = alloc_array(int, n);
+    for(int i = 0; i < n; i++)
+    //loop invariants from (1.a) would go here
+    {
+        B[n - i - 1] = A[i];
+    }
+    return B;
+}
+
+
+bool is_palindrome_old(int[] A, int i, int j)
+//@requires 0 <= i && i <= j && j <= \length(A);
+{
+  int[] B = alloc_array(int, j - i);
+  for(int k = i; k < j; k++)
+  //TODO: add loop invariants (bad TA's!)
+  {
+    B[k - i] = A[k];
+  }
+  
+  int[] C = reverse(B, j - i);
+  for(int k = 0; k < j - i; k++)
+  {
+    if(B[k] != C[k])
+    {
+      return false;
+    }
+  }
+  
+  return true;
+}
+
+bool is_palindrome(int[] A, int n)
+//@requires 0 <= n && n <= \length(A);
+//@ensures \result == is_palindrome_old(A, 0, n);
+{
+	for (int i = ___; i < ___; i++)
+	//@loop_invariant _______________;
+	//@loop_invariant _______________;
+	{
+	  // Fill in code for (3.b) here
+	  // Use your loop invariants!
+	}
+	return true;
+}

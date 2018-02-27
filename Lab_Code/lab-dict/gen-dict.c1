@@ -1,0 +1,151 @@
+/*
+ * Binary search tree without balancing
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+
+/*************************/
+/* Client-side interface */
+/*************************/
+
+typedef void* key;
+typedef void* value;
+
+typedef int key_compare_fn(key e1, key e2)
+  /*@requires e1 != NULL && e2 != NULL; @*/
+  /*@ensures -1 <= \result && \result <= 1; @*/ ;
+
+/*********************/
+/* Library interface */
+/*********************/
+
+typedef struct bst_header* dict_t;
+
+dict_t dict_new(key_compare_fn* compare)
+  /*@requires compare != NULL; @*/
+  /*@ensures \result != NULL; @*/ ;
+
+void dict_insert(dict_t D, key k, value v)
+  /*@requires D != NULL && k != NULL; @*/ ;
+
+value dict_lookup(dict_t D, key k)
+  /*@requires D != NULL && k != NULL; @*/ ;
+
+/**************************/
+/* Library implementation */
+/**************************/
+
+typedef struct tree_node tree;
+struct tree_node {
+  _________________________;
+  _________________________;
+  tree* left;
+  tree* right;
+};
+
+typedef struct bst_header bst;
+struct bst_header {
+  tree* root;
+  key_compare_fn* compare;
+};
+
+/* is_ordered(T, lower, upper) checks if all elements in T
+ * are strictly in the interval (elem_key(lower),elem_key(kupper)).
+ * lower = NULL represents -infinity; upper = NULL represents +infinity
+ */
+bool is_ordered(tree* T, key lower, key upper, key_compare_fn* compare)
+//@requires compare != NULL;
+{
+  if (T == NULL) return true;
+  key mid = T->_________________________;
+  if (!(lower == NULL || (*compare)(lower, mid) < 0))
+    return false;
+  if (!(upper == NULL || (*compare)(mid, upper) < 0))
+    return false;
+  return is_ordered(T->left, lower, mid, compare)
+    && is_ordered(T->right, mid, upper, compare);
+}
+
+bool is_tree(tree* T, key_compare_fn* compare)
+//@requires compare != NULL;
+{
+  return is_ordered(T, NULL, NULL, compare);
+}
+
+bool is_dict(dict_t D) {
+  return D != NULL
+    && D->compare != NULL
+    && is_tree(D->root, D->compare);
+}
+
+dict_t dict_new(key_compare_fn* compare)
+//@requires compare != NULL;
+//@ensures is_dict(\result);
+{
+  dict_t D = alloc(struct bst_header);
+  D->root = NULL;
+  D->compare = compare;
+  return D;
+}
+
+/* tree_insert(T, e, compare) returns the modified tree
+ * this avoids some complications in case T = NULL
+ */
+tree* tree_insert(tree* T, key k, value v, key_compare_fn* compare)
+//@requires k != NULL && compare != NULL && is_tree(T, compare);
+//@ensures is_tree(\result, compare);
+{
+  if (T == NULL) {
+    /* create new node and return it */
+    T = alloc(struct tree_node);
+    T->_________________________ = k;
+    _________________________;
+    T->left = NULL;
+    T->right = NULL;
+    return T;
+  }
+  int r = (*compare)(k, _________________________);
+  if (r == 0) {
+    _________________________;
+  } else if (r < 0) {
+    T->left = tree_insert(T->left, k, v, compare);
+  } else {
+    //@assert r > 0;
+    T->right = tree_insert(T->right, k, v, compare);
+  }
+  return T;
+}
+
+void dict_insert(dict_t D, key k, value v)
+//@requires is_dict(D);
+//@requires k != NULL;
+//@ensures is_dict(D);
+{
+  D->root = tree_insert(D->root, k, v, D->compare);
+  return;
+}
+
+value tree_lookup(tree* T, key k, key_compare_fn* compare)
+//@requires compare != NULL && is_tree(T, compare);
+//@ensures \result == NULL || (*compare)(\result, k) == 0;
+{
+  if (T == NULL) return NULL;
+  int r = (*compare)(k, T->_________________________);
+  if (r == 0) {
+    return T->_________________________;
+  } else if (r < 0) {
+    return tree_lookup(T->left, k, compare);
+  } else {
+    //@assert r > 0;
+    return tree_lookup(T->right, k, compare);
+  }
+}
+
+value dict_lookup(dict_t D, key k)
+//@requires is_dict(D) && k != NULL;
+//@ensures \result == NULL || (*D->compare)(\result, k) == 0;
+{
+  return tree_lookup(D->root, k, D->compare);
+}

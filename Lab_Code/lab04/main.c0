@@ -1,0 +1,7 @@
+/**
+ * Returns whether this student failed any tests
+ */
+int main() {
+    bool success = run_tests();
+    return success ? 0 : 1;
+}

@@ -1,0 +1,105 @@
+/* Lab 4: TA Training - wanshenl (Author: wanshenl)
+ * Incorrect implementation.
+ * Cause: Extra 0 in merging code causes it to include "0" in the intersection
+ * if either of the two arrays have a 0
+ */
+
+/* mergesort code from 122!
+ * the code is identical, no sneakiness here
+ * no contracts because we have no arrayutil here
+ */
+void merge(int[] A, int lo, int mid, int hi)
+{
+  int[] B = alloc_array(int, hi-lo);
+  int i = lo;
+  int j = mid;
+  int k = 0;
+
+  while (i < mid && j < hi)
+  {
+    if (A[i] <= A[j]) {
+      B[k] = A[i]; i++;
+    } else {
+      B[k] = A[j]; j++;
+    }
+    k++;
+  }
+
+  while (i < mid) { B[k] = A[i]; i++; k++; }
+  while (j < hi) { B[k] = A[j]; j++; k++; }
+  for (k = 0; k < hi-lo; k++) { A[lo+k] = B[k]; }
+}
+
+void sort(int[] A, int lo, int hi)
+{
+  if (hi-lo <= 1) return;
+  int mid = lo + (hi-lo)/2;
+  sort(A, lo, mid);
+  sort(A, mid, hi);
+  merge(A, lo, mid, hi);
+  return;
+}
+
+int intersect(int[] A, int n, int[] B, int m, int[] intersection)
+//@requires 0 <= n && n <= \length(A);
+//@requires 0 <= m && m <= \length(B);
+//@requires n <= \length(intersection) || m <= \length(intersection);
+//@ensures 0 <= \result && \result <= m && \result <= n;
+{
+  int csize = n+m+1;
+
+  if (n == 0 || m == 0) return 0;
+
+  // intermediate array to contain A and B
+  int[] combined = alloc_array(int, csize);
+  int cidx = 0;
+
+  // copy A
+  for (int i = 0; i < n; i++) {
+    combined[cidx] = A[i];
+    cidx++;
+  }
+
+  // copy B
+  for (int i = 0; i < m; i++) {
+    combined[cidx] = B[i];
+    cidx++;
+  }
+
+  // THE POWER OF SORTING
+  sort(combined, 0, csize);
+
+  // now that we're sorted, ez:
+  // if we get multiple copies then we can keep it!
+  int iidx = 0;
+  int icur = combined[0];
+  bool seen_multiple = false;
+
+  // let's check through csize
+  for (int i = 1; i < csize; i++) {
+    // if we see the same thing, say so!
+    if (combined[i] == icur) {
+      seen_multiple = true;
+    } else {
+      // otherwise we're seeing something new
+      // have we seen the old thing multiple times?
+      // if yes, write it!
+      if (seen_multiple) {
+        seen_multiple = false;
+        intersection[iidx] = icur;
+        iidx += 1;
+      }
+      // write our new cur!
+      icur = combined[i];
+    }
+  }
+
+  // don't forget: at the end,
+  // maybe we've seen something multiple times!
+  if (seen_multiple) {
+    intersection[iidx] = icur;
+    iidx += 1;
+  }
+
+  return iidx;
+}

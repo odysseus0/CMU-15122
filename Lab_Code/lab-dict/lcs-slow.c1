@@ -1,0 +1,20 @@
+#use <util>
+#use <string>
+
+int lcs_slow(string s, string t, int s_length, int t_length) {
+    if (s_length == 0 || t_length == 0) {
+        return 0;
+    }
+
+    if (string_charat(s, s_length-1) == string_charat(t, t_length-1)) {
+        return 1 + lcs_slow(s, t, s_length-1, t_length-1);
+    }
+
+    return max(lcs_slow(s, t, s_length-1, t_length),
+               lcs_slow(s, t, s_length, t_length-1));
+}
+
+int LCS(string s, string t, int s_length, int t_length)
+{
+    return lcs_slow(s,t,s_length,t_length);
+}

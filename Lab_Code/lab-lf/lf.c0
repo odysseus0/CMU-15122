@@ -1,0 +1,38 @@
+int LF(int i, int j, int k)
+//@requires 0 < j && j < k;
+//@requires i >= 0;
+{
+  if (i < k) return i;
+
+  int res = 0;
+  res += LF(i - j, j, k);
+  res += LF(i - k, j, k);
+  return res;
+}
+
+bool is_memo_table(int[] M, int len, int j, int k)
+//@requires 0 <= len && len < \length(M);
+{
+  assert(false); // replace with code for this function
+  return false;
+}
+
+int lf_memo(int[] M, int i, int j, int k)
+//@requires 0 < j && j < k;
+//@requires 0 <= i && i < \length(M);
+//@requires is_memo_table(M, i, j, k);
+//@ensures is_memo_table(M, i, j, k);
+//@ensures \result == LF(i, j, k);
+{
+  assert(false); // replace with code for this function
+  return 0;
+}
+
+int fast_lf(int i, int j, int k)
+//@requires 0 < j && j < k;
+//@requires 0 <= i;
+//@ensures \result == LF(i, j, k);
+{
+  assert(false); // replace with code for this function
+  return 0;
+}

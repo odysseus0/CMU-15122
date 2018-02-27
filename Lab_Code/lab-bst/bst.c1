@@ -1,0 +1,181 @@
+/* 
+ * Binary search tree without balancing
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+
+/*************************/
+/* Client-side interface */
+/*************************/
+
+// typedef ______* elem;
+typedef void* elem;
+typedef int compare_fn(elem e1, elem e2)
+  /*@requires e1 != NULL && e2 != NULL; @*/   
+  /*@ensures -1 <= \result && \result <= 1; @*/ ;
+
+/*********************/
+/* Library interface */
+/*********************/
+
+// typedef ______* bst_t;
+typedef struct bst_header* bst_t;
+
+bst_t bst_new(compare_fn* compare)
+  /*@requires compare != NULL; @*/ 
+  /*@ensures \result != NULL; @*/ ;
+
+void bst_insert(bst_t B, elem e)  
+  /*@requires B != NULL && e != NULL; @*/ ;
+
+elem bst_lookup(bst_t B, elem e)
+  /*@requires B != NULL && e != NULL; @*/ ;
+
+int bst_count(bst_t B)
+  /*@requires B != NULL; @*/ ;
+
+int bst_countifless(bst_t B, elem e)
+  /*@requires B != NULL && e != NULL; @*/ ;
+
+int bst_height(bst_t B)
+  /*@requires B != NULL; @*/ ;
+
+
+/**************************/
+/* Library implementation */
+/**************************/
+
+typedef struct tree_node tree;
+struct tree_node {
+  elem data;
+  tree* left;
+  tree* right;
+};
+
+typedef struct bst_header bst;
+struct bst_header {
+  tree* root;
+  compare_fn* compare;
+};
+
+/* is_ordered(T, lower, upper) checks if all elements in T
+ * are strictly in the interval (elem_key(lower),elem_key(kupper)).
+ * lower = NULL represents -infinity; upper = NULL represents +infinity
+ */
+bool is_ordered(tree* T, elem lower, elem upper, compare_fn* compare) 
+//@requires compare != NULL;
+{
+  if (T == NULL) return true;
+  if (T->data == NULL) return false;
+  elem mid = T->data;
+  if (!(lower == NULL || (*compare)(lower, mid) < 0))
+    return false;
+  if (!(upper == NULL || (*compare)(mid, upper) < 0))
+    return false;
+  return is_ordered(T->left, lower, mid, compare)
+    && is_ordered(T->right, mid, upper, compare);
+}
+
+bool is_tree(tree* T, compare_fn* compare) 
+//@requires compare != NULL; 
+{
+  return is_ordered(T, NULL, NULL, compare);
+}
+
+bool is_bst(bst* B) {
+  return B != NULL 
+    && B->compare != NULL
+    && is_tree(B->root, B->compare);
+}
+
+bst* bst_new(compare_fn* compare)
+//@requires compare != NULL;
+//@ensures is_bst(\result);
+{
+  bst* B = alloc(struct bst_header);
+  B->root = NULL;
+  B->compare = compare;
+  return B;
+}
+
+/* tree_insert(T, e, compare) returns the modified tree
+ * this avoids some complications in case T = NULL
+ */
+tree* tree_insert(tree* T, elem e, compare_fn* compare)
+//@requires e != NULL && compare != NULL && is_tree(T, compare);
+//@ensures is_tree(\result, compare);
+{
+  if (T == NULL) {
+    /* create new node and return it */
+    T = alloc(struct tree_node);
+    T->data = e;
+    T->left = NULL; T->right = NULL;
+    return T;
+  }
+  int r = (*compare)(e, T->data);
+  if (r == 0) {
+    T->data = e;               /* modify in place */
+  } else if (r < 0) {
+    T->left = tree_insert(T->left, e, compare);
+  } else { 
+    //@assert r > 0;
+    T->right = tree_insert(T->right, e, compare);
+  }
+  return T;
+}
+
+void bst_insert(bst* B, elem e)
+//@requires is_bst(B);
+//@requires e != NULL;
+//@ensures is_bst(B);
+{
+  B->root = tree_insert(B->root, e, B->compare);
+  return;
+}
+
+elem tree_lookup(tree* T, elem e, compare_fn* compare)
+//@requires compare != NULL && is_tree(T, compare);
+//@ensures \result == NULL || (*compare)(\result, e) == 0;
+{
+  if (T == NULL) return NULL;
+  int r = (*compare)(e, T->data);
+  if (r == 0) {
+    return T->data;
+  } else if (r < 0) {
+    return tree_lookup(T->left, e, compare);
+  } else { 
+    //@assert r > 0;
+    return tree_lookup(T->right, e, compare);
+  }
+}
+
+elem bst_lookup(bst* B, elem e)
+//@requires is_bst(B) && e != NULL;
+//@ensures \result == NULL || (*B->compare)(\result, e) == 0;
+{
+  return tree_lookup(B->root, e, B->compare);
+}
+
+int bst_count(bst* B) 
+// Give me contracts!
+{
+  return 0; // Write me! (Use a helper function.)
+}
+
+int bst_countifless(bst* B, elem e)
+// Give me contracts!
+{
+  return 0; // Write me! (Use a helper function.)
+}
+
+int bst_height(bst* B)
+// Give me contracts!
+{
+  return 0; // Write me! (Use a helper function.)
+}
+
+
+
+

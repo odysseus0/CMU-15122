@@ -1,0 +1,43 @@
+#use <conio>
+
+int cons(int a, int n) {
+  return num_consecutive_ints(to_arr(a), n);
+}
+
+int main() {
+  assert(cons(1512200, 7) == 2);
+  assert(cons(42, 2)      == 0);
+  assert(cons(3744, 4)    == 1);
+
+  assert(cons(0, 1)       == 0);
+  assert(cons(1, 1)       == 0);
+  assert(cons(12, 2)      == 0);
+  assert(cons(123, 3)     == 0);
+  assert(cons(1234000, 7) == 2);
+  assert(cons(1230000, 7) == 3);
+  assert(cons(1200000, 7) == 4);
+  assert(cons(1000000, 7) == 5);
+
+  assert(cons(1111111, 7) == 6);
+  assert(cons(2222222, 7) == 6);
+  assert(cons(3333333, 7) == 6);
+  assert(cons(4444444, 7) == 6);
+  assert(cons(5555555, 7) == 6);
+  assert(cons(6666666, 7) == 6);
+  assert(cons(7777777, 7) == 6);
+  assert(cons(8888888, 7) == 6);
+  assert(cons(9999999, 7) == 6);
+
+  assert(cons( 555555, 6) == 5);
+  assert(cons(5055555, 7) == 4);
+  assert(cons(5505555, 7) == 4);
+  assert(cons(5550555, 7) == 4);
+  assert(cons(5555055, 7) == 4);
+  assert(cons(5555505, 7) == 4);
+  assert(cons(5555550, 7) == 5);
+  
+  assert(cons(112233, 6) == 3);
+
+  println("All tests passed!");
+  return 0;
+}

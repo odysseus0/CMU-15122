@@ -1,0 +1,93 @@
+#use <conio>
+
+/******************************/
+/*** Frequency information ****/
+/******************************/
+
+typedef struct frequency_information freqinfo;
+struct frequency_information {
+  string word;
+  int count;
+};
+
+/******************************/
+/*** Code for you to write ****/
+/******************************/
+
+void sort_by_word(freqinfo*[] A, int len)
+//@requires \length(A) == len;
+{
+  // Write me!
+}
+
+void sort_by_count(freqinfo*[] A, int len) 
+//@requires \length(A) == len;
+{
+  // Write me!
+}
+
+/*****************************************************/
+/*** Testing functions (defined down below main()) ***/
+/*****************************************************/
+
+void print_arr(freqinfo*[] A, int len) /*@requires \length(A) == len; @*/ ;
+
+freqinfo*[] test_data() /*@ensures \length(\result) == 14; @*/ ;
+
+freqinfo* new(string word, int count) /*@ensures \result != NULL; @*/ ;
+
+int main() {
+  freqinfo*[] A = test_data();
+  sort_by_word(A, 14);
+  print_arr(A, 14);
+  sort_by_count(A, 14);
+  print_arr(A, 14);
+  return 0;
+}
+
+void print_arr(freqinfo*[] A, int len) 
+//@requires \length(A) == len;
+{
+  for (int i = 0; i < len; i++) 
+  //@loop_invariant 0 <= i;
+  {
+    if (A[i] != NULL) {
+      print("\""); 
+      print(A[i]->word);
+      print("\" has frequency ");
+      printint(A[i]->count);
+      println("");
+    } else {
+      print("(NULL cell in array)\n");
+    }
+  }
+  println("");
+}
+
+freqinfo* new(string word, int count) {
+  freqinfo* x = alloc(freqinfo);
+  x->word = word;
+  x->count = count;
+  return x;
+}
+
+freqinfo*[] test_data() 
+//@ensures \length(\result) == 14;
+{
+  freqinfo*[] A = alloc_array(freqinfo*, 14);
+  A[0] = new("the", 22038615);
+  A[1] = new("be", 12545825);
+  A[2] = new("and", 10741073);
+  A[3] = new("of", 10343885);
+  A[4] = new("a", 10144200);
+  A[5] = new("in", 6996437);
+  A[6] = new("to", 6332195);
+  A[7] = new("have", 4303955);
+  A[8] = new("it", 3872477);
+  A[9] = new("i", 3978265);
+  A[10] = new("that", 3430996);
+  A[11] = new("for", 3281454);
+  A[12] = new("you", 3081151);
+  A[13] = new("with", 2683014);
+  return A;
+}

@@ -1,0 +1,84 @@
+#use <string>
+#use <parse>
+#use <file>
+#use <conio>
+
+prof_t* parse_prof(string str)
+//@ensures \result != NULL;
+{
+  prof_t* prof = alloc(prof_t);
+  int i = 0;
+  while(string_charat(str, i) != '\t') {
+    i++;
+  }
+  prof->name = string_sub(str, 0, i);
+  
+  i++;
+  int j = i;
+  while(string_charat(str, j) != '\t') {
+    j++;
+  }
+  prof->title = string_sub(str, i, j);
+  j++;
+  
+  i = j;
+  while(string_charat(str, j) != '\t') {
+    j++;
+  }
+  prof->office = string_sub(str, i, j);
+  j++;
+  
+  i = j;
+  while(string_charat(str, j) != '\t') {
+    j++;
+  }
+  prof->email = string_sub(str, i, j);
+  j++;
+  
+  string phone = string_sub(str, j, string_length(str)-1);
+  if(string_length(phone) > 0) {
+    int* p = parse_int(string_sub(phone, 0, 3), 10);
+    if(p == NULL) {
+      error("profs.txt is malformed");
+    }
+    prof->area_code = *p;
+    
+    p = parse_int(string_sub(phone, 3, 10), 10);
+    if(p == NULL) {
+      error("profs.txt is malformed");
+    }
+    prof->phone = *p;
+  }
+  
+  return prof;
+}
+
+int[] hash_counts(int buckets)
+//@requires buckets > 0;
+//@ensures \length(\result) == buckets;
+{
+  file_t stud = file_read("profs.txt");
+  if(stud == NULL) {
+    error("profs.txt does not exist");
+  }
+  
+  int[] result = alloc_array(int, buckets);
+  
+  print("Starting hash of profs...");
+  while(!file_eof(stud)) {
+    string line = file_readline(stud);
+    prof_t* prof = parse_prof(line);
+    int h = hash_prof(prof);
+    int i = h % buckets;
+    if(i < 0) {
+      i += buckets;
+    }
+    result[i]++;
+  }
+  println("");
+  
+  // Close the file!
+  file_close(stud);
+  
+  return result;
+}

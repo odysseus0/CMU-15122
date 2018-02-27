@@ -1,0 +1,166 @@
+/** @file arr.c0
+*   @brief The file contains helper functions to allocate and initialize arrays
+*          easily. This library is intended for your test functions. Please
+*          do NOT use it in your real code!
+*   @author Kechun Mao (kmao), Matt Dee (medee)
+*   @bug    arr_string can only create array of strings that don't contain 
+*           comma in them
+*   @example arr_int("1,2,3") creates an int array of {1,2,3}
+*            arr_bool("true,false") creates a bool array of {true, false}
+*            arr_char("a,b,c") creates a char array of {'a','b','c'}
+*            arr_string("I,love,15-122") creates a string array of {"I", 
+*             "love", "15-122"}
+*  @tip    Make sure you follow the above format: elements separated by a 
+*           comma with NO space in between. Any ill-formatted string will
+*           trigger contract failure.
+*/
+#use <string>
+#use <conio>
+#use <parse>
+
+struct arr_wrapper {
+    int len;
+    string[] arr;
+};
+
+typedef struct arr_wrapper arr_wrapper;
+
+void print_array(int[] A, int n) {
+     for (int i = 0; i < n; i++) {
+         printint(A[i]);
+         println("...");
+    }
+}
+
+/******************* Common helper functions *****************/
+arr_wrapper *tokenize(string s) {
+    int len = string_length(s);
+    if (len == 0) {
+        string[] A = alloc_array(string, 0);
+        arr_wrapper *res = alloc(struct arr_wrapper);
+        res -> len = 0;
+        res -> arr = A;
+        return res;
+    }
+
+    int count = 0;  // count number of , in the string
+    for (int i = 0; i < len; i++) {
+        if (string_charat(s, i) == ',') {
+            count ++;
+        }
+    }
+
+    string[] A = alloc_array(string, count + 1);
+    int idx = 0;
+    int last = 0;
+    for (int i = 0; i < len; i++) 
+    {
+        if (string_charat(s, i) == ',') {
+            A[idx] = string_sub(s, last, i);
+            last = i + 1;
+            idx++;
+        }
+    }
+    A[idx] = string_sub(s, last, len);
+    arr_wrapper *res = alloc(struct arr_wrapper);
+    res->len = count + 1;
+    res->arr = A;
+    return res;
+}
+
+/******************* Int array *****************/
+bool well_formatted_int_arr(string s) {
+    arr_wrapper *wrapper = tokenize(s);
+
+    int *p;
+    /* Then we parse strings between delimiters, if parse_int fails to parse
+    *  any substring, then the string is not well-formatted */
+    for (int i = 0; i < wrapper->len; i++) {
+        p = parse_int(wrapper->arr[i], 10);
+        if (p == NULL) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int[] arr_int(string s) 
+//@requires well_formatted_int_arr(s);
+{
+    arr_wrapper *wrapper = tokenize(s);
+
+    int len = wrapper->len;
+    int[] res = alloc_array(int, len);
+    int *p;
+    for (int i = 0; i < len; i++) {
+        p = parse_int(wrapper->arr[i], 10);
+        res[i] = *p;
+    }
+
+    return res;
+}
+
+/******************* Bool array *****************/
+bool well_formatted_bool_arr(string s) {
+    arr_wrapper *wrapper = tokenize(s);
+
+    bool *p;
+    for (int i = 0; i < wrapper->len; i++) {
+        p = parse_bool(wrapper->arr[i]);
+        if (p == NULL) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool[] arr_bool(string s) 
+//@requires well_formatted_bool_arr(s);
+{
+    arr_wrapper *wrapper = tokenize(s);
+
+    int len = wrapper->len; 
+    bool[] res = alloc_array(bool, len);
+    bool *p;
+    for (int i = 0; i < len; i++) {
+        p = parse_bool(wrapper->arr[i]);
+        res[i] = *p;
+    }
+
+    return res;
+}
+
+/******************* Char array *****************/
+bool well_formatted_char_arr(string s) {
+    arr_wrapper *wrapper = tokenize(s);
+
+    for (int i = 0; i < wrapper->len; i++) {
+        if (string_length(wrapper->arr[i]) != 1) {
+            return false;
+        }
+    }
+    return true;
+}
+
+char[] arr_char(string s) 
+//@requires well_formatted_char_arr(s);
+{
+    arr_wrapper *wrapper = tokenize(s);
+
+    int len = wrapper->len ; 
+    char[] res = alloc_array(char, len);
+    for (int i = 0; i < len; i++) {
+        res[i] = string_charat(wrapper->arr[i], 0); 
+    }
+    return res;
+}
+
+/******************* String array *****************/
+/* For simplicity, char arrays does not accept strings in the array to 
+*  contain ","
+*/
+
+string[] arr_string(string s) 
+{
+    return tokenize(s)->arr;
+}

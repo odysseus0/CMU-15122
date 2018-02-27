@@ -1,0 +1,94 @@
+#use <conio>
+#use <string>
+
+struct freqinfo {
+  string word;
+  int count;
+};
+
+int compare_freqinfo(void* x, void* y)
+//@requires x != NULL && \hastag(struct freqinfo*, x);
+//@requires y != NULL && \hastag(struct freqinfo*, y);
+//@ensures -1 <= \result && \result <= 1;
+{
+  struct freqinfo* a = (struct freqinfo*) x;
+  struct freqinfo* b = (struct freqinfo*) y;
+  return string_compare(a->word, b->word);
+}
+
+void insert(bst_t B, string word, int count)
+//@requires B != NULL;
+{
+  struct freqinfo* x = alloc(struct freqinfo);
+  x->word = word;
+  x->count = count;
+  bst_insert(B, (void*)x);
+}
+
+// 15-122 Lab: Simple tester for bst in-order traversal functions
+// Word counts based on data from http://www.wordfrequency.info
+
+int main()
+{
+  bst_t B = bst_new(&compare_freqinfo);
+  stack_t empty = bst_traverse_start(B);
+  assert(bst_traverse_finished(empty));
+
+  insert(B, "the", 22038615);
+  insert(B, "be", 12545825);
+  insert(B, "and", 10741073);
+  insert(B, "of", 10343885);
+  insert(B, "a", 10144200);
+  insert(B, "in", 6996437);
+  insert(B, "to", 6332195);
+  insert(B, "have", 4303955);
+  insert(B, "it", 3872477);
+  insert(B, "I", 3978265);
+  insert(B, "that", 3430996);
+  insert(B, "for", 3281454);
+  insert(B, "you", 3081151);
+  insert(B, "with", 2683014);
+
+  stack_t S = bst_traverse_start(B);
+  string prev = "";
+  for (int i = 0; i < 14; i++) {
+    assert(!bst_traverse_finished(S));
+    void* x = bst_traverse_next(S);
+    assert(x != NULL);
+    //@assert \hastag(struct freqinfo*, x);
+    struct freqinfo* info = (struct freqinfo*)x;
+    assert(string_compare(prev, info->word) < 0);
+  }
+  assert(bst_traverse_finished(S));
+
+  bst_t B2 = bst_new(&compare_freqinfo);
+  stack_t S2 = bst_traverse_start(B2);
+  assert(bst_traverse_finished(S2));
+
+  bst_t B3 = bst_new(&compare_freqinfo);
+  insert(B3, "I", 1);
+  insert(B3, "love", 5);
+  insert(B3, "15-122", 122);
+  stack_t S3 = bst_traverse_start(B3);
+  void* x = bst_traverse_next(S3);
+  assert(x != NULL);
+  //@assert \hastag(struct freqinfo*, x);
+  struct freqinfo* info = (struct freqinfo*)x;
+  assert(string_equal(info->word, "15-122"));
+  assert(info->count == 122);
+  x = bst_traverse_next(S3);
+  assert(x != NULL);
+  //@assert \hastag(struct freqinfo*, x);
+  info = (struct freqinfo*)x;
+  assert(string_equal(info->word, "I"));
+  assert(info->count == 1);
+  x = bst_traverse_next(S3);
+  assert(x != NULL);
+  //@assert \hastag(struct freqinfo*, x);
+  info = (struct freqinfo*)x;
+  assert(string_equal(info->word, "love"));
+  assert(info->count == 5);
+
+  print("All tests passed!\n");
+  return 0;
+}

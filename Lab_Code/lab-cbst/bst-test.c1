@@ -1,0 +1,40 @@
+#use <conio>
+
+int int_compare(void* x, void* y)
+//@requires x != NULL && \hastag(int*, x);
+//@requires y != NULL && \hastag(int*, y);
+{
+  int a = *(int*)x;
+  int b = *(int*)y;
+  if (a == b) return 0;
+  if (a < b) return -1;
+  return 1;
+}
+
+void* allocate_int(int i) 
+//@ensures \result != NULL && \hastag(int*, \result);
+{
+  int* p = alloc(int);
+  *p = i;
+  return (void*)p;
+}
+
+int main() {
+  bst_t B = bst_new(&int_compare);
+  int* p = alloc(int);
+
+  for (int i = 0; i < 50; i++) {
+    bst_insert(B, allocate_int(i));
+    for (int j = -50; j < 100; j++) {
+      *p = j;
+      if (0 <= j && j <= i) {
+        assert(bst_lookup(B, (void*)p));
+      } else {
+        assert(!bst_lookup(B, (void*)p));
+      }
+    }
+  }
+  
+  print("Test passed!\n");
+  return 0;
+}

@@ -1,0 +1,40 @@
+#use <conio>
+
+// factorial.c0 - prints 0! through 9!
+// Name:
+// Andrew ID:
+// Section: 
+
+int fact_spec(int n)
+//@requires n >= 0;
+{
+  if (n == 0) return 1;
+  else return n * fact_spec(n-1);
+}
+
+int factorial(int n)
+//@requires n >= 0;
+//@ensures \result == fact_spec(n);
+{
+  int total = 1;
+  int count = 0;
+  while (count < n) 
+    //@loop_invariant 0 <= count && count <= n;
+    //@loop_invariant total == fact_spec(count);
+    {
+      count = count + 1;
+      total = total * count;
+    }
+  return total;
+}
+
+int main()
+{
+  for (int i = 0; i < 10; i++)
+    {
+      printint(factorial(i));
+      print("\n");
+    }
+  print("Returning from main\n");
+  return 0;
+}

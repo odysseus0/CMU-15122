@@ -1,0 +1,144 @@
+/* 
+ * Binary search tree without balancing
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+
+/*************************/
+/* Client-side interface */
+/*************************/
+
+// typedef ______* elem;
+typedef void* elem;
+typedef int compare_fn(elem x1, elem x2)
+  /*@requires x1 != NULL && x2 != NULL; @*/   
+  /*@ensures -1 <= \result && \result <= 1; @*/ ;
+
+/*********************/
+/* Library interface */
+/*********************/
+
+// typedef ______* bst_t;
+typedef struct bst_header* bst_t;
+
+bst_t bst_new(compare_fn* compare)
+  /*@requires compare != NULL; @*/ 
+  /*@ensures \result != NULL; @*/ ;
+
+bool bst_lookup(bst_t B, elem x)
+  /*@requires B != NULL && x != NULL; @*/ ;
+
+void bst_insert(bst_t B, elem x)  
+  /*@requires B != NULL && x != NULL; @*/ 
+  /*@requires !bst_lookup(B, x); @*/ ;
+
+/**************************/
+/* Library implementation */
+/**************************/
+
+typedef struct tree_node tree;
+struct tree_node {
+  elem data;
+  tree* left;
+  tree* right;
+};
+
+typedef struct bst_header bst;
+struct bst_header {
+  tree* root;
+  compare_fn* compare;
+};
+
+bool is_ordered(tree* T, elem lower, elem upper, compare_fn* compare) 
+//@requires compare != NULL;
+{
+  if (T == NULL) return true;
+  if (T->data == NULL) return false;
+  elem mid = T->data;
+  if (!(lower == NULL || (*compare)(lower, mid) < 0))
+    return false;
+  if (!(upper == NULL || (*compare)(mid, upper) < 0))
+    return false;
+  return is_ordered(T->left, lower, mid, compare)
+    && is_ordered(T->right, mid, upper, compare);
+}
+
+bool is_tree(tree* T, compare_fn* compare) 
+//@requires compare != NULL; 
+{
+  return is_ordered(T, NULL, NULL, compare);
+}
+
+bool is_bst(bst* B) {
+  return B != NULL 
+    && B->compare != NULL
+    && is_tree(B->root, B->compare);
+}
+
+bst* bst_new(compare_fn* compare)
+//@requires compare != NULL;
+//@ensures is_bst(\result);
+{
+  bst* B = alloc(struct bst_header);
+  B->root = NULL;
+  B->compare = compare;
+  return B;
+}
+
+bool tree_lookup(tree* T, elem x, compare_fn* compare)
+//@requires compare != NULL && is_tree(T, compare);
+{
+  if (T == NULL) return false;
+  int r = (*compare)(x, T->data);
+  if (r == 0) {
+    return true;
+  } else if (r < 0) {
+    return tree_lookup(T->left, x, compare);
+  } else { 
+    //@assert r > 0;
+    return tree_lookup(T->right, x, compare);
+  }
+}
+
+bool bst_lookup(bst* B, elem x)
+//@requires is_bst(B) && x != NULL;
+{
+  return tree_lookup(B->root, x, B->compare);
+}
+
+tree* leaf(elem x) {
+  /* create new node and return it */
+  tree* T = alloc(struct tree_node);
+  T->data = x;
+  T->left = NULL;
+  T->right = NULL;
+  return T;
+}
+
+
+tree* tree_insert(tree* T, elem x, compare_fn* compare)
+//@requires x != NULL && compare != NULL && is_tree(T, compare);
+//@requires !tree_lookup(T, x, compare);
+//@ensures is_tree(\result, compare);
+{
+  if (T == NULL) return leaf(x);
+
+  if ((*compare)(x, T->data) < 0) {
+    T->left = tree_insert(T->left, x, compare);
+  } else { 
+    //@assert (*compare)(x, T->data) > 0;
+    T->right = tree_insert(T->right, x, compare);
+  }
+  return T;
+}
+
+void bst_insert(bst* B, elem x)
+//@requires is_bst(B) && x != NULL;
+//@requires !bst_lookup(B, x);
+//@ensures is_bst(B);
+{
+  B->root = tree_insert(B->root, x, B->compare);
+  return;
+}

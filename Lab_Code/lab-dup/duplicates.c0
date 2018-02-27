@@ -1,0 +1,34 @@
+/* File: duplicates.c0
+   Author : 
+   Last Revision : 
+   Purpose :
+*/
+
+#use <string>
+
+int count_distinct(string[] A, int n)
+//@requires 0 <= n && n <= \length(A);
+//@requires is_sorted(A,0,n);
+//@ensures 0 <= \result && \result <= n;
+{
+
+
+  return 0;  // stub: remove this line when you complete this function
+}
+
+/*  TO BE COMPLETED FOR (2.b)
+
+string[] remove_duplicates(string[] A, int n)
+//@requires 0 <= n && n <= \length(A);
+//@requires is_sorted(A, 0, n);
+
+
+{
+
+
+
+
+}
+
+
+*/

@@ -1,0 +1,60 @@
+// sortedlist-bad2.c0
+
+// Ok I definitely fixed it this time. I tested it on at least 3 examples.
+
+bool is_in(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+{
+  list* cur = L->start;
+  while (cur != NULL) {
+    if (cur->data == n) {
+      return true;
+    } else if (cur->data >= n+1) {
+      return false;
+    } else {
+      cur = cur->next;
+    }
+  }
+  return false; 
+}
+
+void insert(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures is_in(L, n);
+{
+  
+  if (L->start == NULL || L->start->data >= n) {
+      list* node = alloc(struct list_node);
+      node->data = n;
+      node->next = L->start;
+      L->start = node;
+    } else {
+      list* cur = L->start;
+      while (cur->data < n) {
+        if (cur->next == NULL || cur->next->data > n) {
+          list* node = alloc(struct list_node);
+          node->data = n;
+          node->next = cur->next;
+          cur->next = node;
+        }
+        cur = cur->next;
+      }
+    }
+}
+
+void delete(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures !is_in(L, n);
+{
+  list* cur = L->start;
+  if (cur != NULL && cur->data == n) {
+    L->start = cur->next;
+  }
+  for(;cur != NULL && cur->data < n; cur = cur->next) {
+    if (cur->next != NULL && cur->next->data == n) {
+      cur->next = cur->next->next;
+    }
+  }
+}

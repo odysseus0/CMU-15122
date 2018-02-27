@@ -1,0 +1,25 @@
+/* Write down a quick description of the edge cases you worked out!
+
+
+
+*/
+
+bool is_in(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+{
+  return false;
+}
+
+void insert(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures is_in(L, n);
+{
+}
+
+void delete(sortedlist* L, int n)
+//@requires is_sortedlist(L);
+//@ensures is_sortedlist(L);
+//@ensures !is_in(L, n);
+{
+}

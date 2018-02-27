@@ -1,0 +1,72 @@
+
+// Helper function for converting an int to an array of ints
+int[] to_arr(int num)
+//@requires num >= 0;
+//@ensures \length(\result) > 0;
+{
+  int tmp = num;
+  int n = 0;
+  if(tmp == 0)
+  {
+    n = 1;
+  }
+  else
+  {
+    while(tmp != 0)
+    //@loop_invariant tmp >= 0;
+    {
+      tmp = tmp / 10;
+      n++;
+    }
+  }
+  
+  int[] A = alloc_array(int, n);
+  for(int i=0; i<n; i++)
+  //@loop_invariant i >= 0 && i <= n;
+  //@loop_invariant num >= 0;
+  {
+    A[i] = num % 10;
+    num /= 10;
+  }
+  //@assert num == 0;
+  return A;
+}
+
+
+int num_consecutive_trash(int[] A, int n)
+//@requires n <= \length(A);
+//@ensures \result >= 0;
+{
+  int count = 0;
+  for (int i = 0; i < n; i++)
+  {
+    int num = A[i];
+    for(int j=0; j<n; j++)
+    // Maybe some more loop invariants here?
+    {
+      if(A[j] == num) {
+        if(j == i - 1 || j == i + 1) {
+          count++;
+        }
+      }
+    }
+  }
+  
+  // Double counting pairs, so divide answer by 2
+  return count / 2;
+}
+
+int num_consecutive_ints(int[] A, int n)
+//@requires n <= \length(A);
+//@ensures \result == num_consecutive_trash(A, n);
+{
+  int count = 0;
+	for (int i = ___; i < ___; i++)
+	//@loop_invariant ________;
+	//@loop_invariant ________;
+	{
+		// YOUR CODE FOR (2.b) GOES HERE
+		// (make sure to fill in the loop invariants above)
+	}
+	return _______; // What do we return?
+}

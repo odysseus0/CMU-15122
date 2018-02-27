@@ -1,0 +1,63 @@
+void swap(int[] A, int i, int j)
+//@requires 0 <= i && i < \length(A);
+//@requires 0 <= j && j < \length(A);
+{
+  int tmp = A[i];
+  A[i] = A[j];
+  A[j] = tmp;
+}
+
+
+bool le_seg(int x, int[] A, int lower, int upper) 
+/*@requires 0 <= lower 
+         && lower <= upper 
+         && upper <= \length(A); @*/
+{
+  if (lower == upper) return true;
+  return x <= A[lower] && le_seg(x, A, lower+1, upper);
+}
+
+bool is_sorted(int[] A, 
+               int lower, 
+               int upper)
+/*@requires 0 <= lower 
+         && lower <= upper 
+         && upper <= \length(A); @*/
+{
+  if (lower == upper) return true;
+  return le_seg(A[lower], A, lower+1, upper) && is_sorted(A, lower+1, upper);
+}
+
+bool le_segs(int[] A, int lower1, int upper1, int[] B, int lower2, int upper2)
+//@requires 0 <= lower1 && lower1 <= upper1 && upper1 <= \length(A);
+//@requires 0 <= lower2 && lower2 <= upper2 && upper2 <= \length(B);
+{
+  if (lower1 == upper1) return true;
+  return le_seg(A[lower1], B, lower2, upper2) 
+    && le_segs(A, lower1+1, upper1, B, lower2, upper2);
+}
+
+void sort(int[] A, int n)
+//@requires 0 <= n && n <= \length(A);
+//@ensures is_sorted(A, 0, n);
+{
+  for (int i = 0; i < n; i++) 
+  //@loop_invariant 0 <= i && i <= n;
+  //@loop_invariant is_sorted(A, 0, i);
+  //@loop_invariant le_segs(A, 0, i, A, i, n);
+  {
+    int min = i;
+
+    for (int j = i + 1; j < n; j++) 
+    //@loop_invariant i < j && j <= n;
+    //@loop_invariant i <= min && min < n;
+    //@loop_invariant le_seg(A[min], A, i, j);
+    {
+      if (A[j] < A[min]) {
+        min = j;
+      }
+    }
+
+    swap(A, i, min);
+  }
+}

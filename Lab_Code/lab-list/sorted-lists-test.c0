@@ -1,0 +1,58 @@
+/* Tests for edge cases for is_in */
+int testIsInEdgeCases() {
+
+  /* TODO : Add tests for edge cases for is_in here! */
+
+  return 0;
+}
+
+/* Tests for other cases for is_in */
+int testIsIn() {
+  // Here's an example
+  sortedlist* S = cons(-2, cons(6, cons(12, nil())));
+
+  /* Test 1 */
+  if (!is_in(S, -2)) println("Failed Test 1 for is_in");
+
+  /* Test 2 */
+  if (is_in(S, 4)) println("Failed Test 2 for is_in");
+
+  /* TODO : Add more tests for is_in here! */
+
+  return 0;
+}
+
+
+/* Tests for edge cases for delete */
+int testDeleteEdgeCases() {
+
+  /* TODO : Add tests for edge cases for delete here! */
+
+  return 0;
+}
+
+/* Tests for other cases for delete */
+int testDelete() {
+  // Here's an example
+  sortedlist* S = cons(-2, cons(6, cons(12, nil())));
+
+  /* Test 1 */
+  delete(S, -2);
+  if (is_in(S, -2)) println("Failed Test 1 for delete");
+
+  /* Test 2 */
+  delete(S, 12);
+  if (is_in(S, 12)) println("Failed Test 2 for delete");
+
+  /* TODO : Add more tests for delete here! */
+
+  return 0;
+}
+
+int main() {
+  testIsIn();
+  testIsInEdgeCases();
+  testDelete();
+  testDeleteEdgeCases();
+  return 0;
+}
