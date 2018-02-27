@@ -1,0 +1,23 @@
+int dsquared(int x, int y)
+{
+  return x*x + y*y;
+}
+
+int main () 
+{
+  int a1 = 15;
+  int b1 = 122;
+  int a2 = 42;
+  int b2 = 0;
+  int a3 = -7;
+  int b3 = -11;
+  int a4 = -4;
+  int b4 = 3;
+  int sum = 0;
+  sum = sum + dsquared(a1,b1);
+  sum = sum + dsquared(a2,b2);
+  sum = sum + dsquared(a3,b3);
+  sum = sum + dsquared(a4,b4);
+  return sum;
+}
+

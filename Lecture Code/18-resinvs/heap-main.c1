@@ -1,0 +1,111 @@
+/* Testing heaps
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+#use <conio>
+#use <rand>
+
+bool is_sorted(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo <= hi && hi <= \length(A);
+{
+  for (int i = lo; i < hi-1; i++)
+    //@loop_invariant lo <= i;
+    if (!(A[i] <= A[i+1])) return false;
+  return true;
+}
+
+void* mk(int i)
+//@ensures \result != NULL && \hastag(int*, \result);
+{
+  int* p = alloc(int);
+  *p = i;
+  return (void*)p;
+}
+
+bool prior(void* x, void* y) {
+  return *(int*)x < *(int*)y;
+}
+
+int main() {
+  pq_t H;
+  int n = (1<<9)+37;
+  int num_tests = 10;
+  int seed = 0xc0c0ffee;
+  rand_t gen = init_rand(seed);
+  int[] A = alloc_array(int, n);
+
+  println("Unit tests");
+
+  println(" - Tiny pqueue");
+  H = pq_new(1, &prior);
+  for(int i = -10; i<= 10; i++) {
+    assert(pq_empty(H));
+    assert(!pq_full(H));
+    pq_add(H,mk(i));
+    assert(pq_full(H));
+    assert(!pq_empty(H));
+    assert(i == *(int*)pq_rem(H));
+  }
+
+  println(" - Small pqueue");
+  H = pq_new(3, &prior);
+  for(int i = -10; i<= 10; i++) {
+    assert( pq_empty(H));  assert(!pq_full(H));
+    pq_add(H,mk(i));
+    assert(!pq_empty(H)); assert(!pq_full(H));
+    pq_add(H,mk(0));
+    assert(!pq_empty(H)); assert(!pq_full(H));
+    pq_add(H,mk(0));
+    assert(!pq_empty(H)); assert( pq_full(H));
+    assert(min(i,0) == *(int*)pq_rem(H));
+    assert(!pq_empty(H)); assert(!pq_full(H));
+    assert(0 == *(int*)pq_rem(H));
+    assert(!pq_empty(H)); assert(!pq_full(H));
+    assert(max(i,0) == *(int*)pq_rem(H));
+  }
+
+  println(" - Large pqueues with regular input");
+  H = pq_new(n, &prior);
+  pq_t Q = pq_new(n, &prior);
+  pq_t R = pq_new(n, &prior);
+  for (int i = 0; i < n; i++) {
+    assert(!pq_full(H)); assert(!pq_full(Q)); assert(!pq_full(R));
+    pq_add(H,mk(i));
+    pq_add(Q,mk(0));
+    pq_add(R,mk(n-i));
+  }
+  assert(pq_full(H)); assert(pq_full(Q)); assert(pq_full(R));
+  for (int i = 0; i < n; i++) {
+    assert(!pq_empty(H)); assert(!pq_empty(Q)); assert(!pq_empty(R));
+    assert(i == *(int*)pq_rem(H));
+    assert(0 == *(int*)pq_rem(Q));
+    assert(i+1 == *(int*)pq_rem(R));
+  }
+  assert(pq_empty(H)); assert(pq_empty(Q)); assert(pq_empty(R));
+
+  // Random tests
+  print("Random testing for heap of size "); printint(n);
+  print(" "); printint(num_tests); print(" times\n");
+  for (int j = 0; j < num_tests; j++) {
+    H = pq_new(n, &prior);
+    for (int i = 0; i < n; i++) {
+      assert(!pq_full(H));
+      pq_add(H, mk(rand(gen)));
+      assert(!pq_empty(H));
+    }
+    assert(pq_full(H));
+    for (int i = 0; i < n; i++) {
+      assert(!pq_empty(H));
+      A[i] = *(int*)pq_rem(H);
+      assert(!pq_full(H));
+    }
+    assert(is_sorted(A, 0, n));
+    assert(!pq_full(H));
+    assert(pq_empty(H));
+  }
+
+  println("All tests passed!");
+  return 0;
+}

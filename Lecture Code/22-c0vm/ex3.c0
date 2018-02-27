@@ -1,0 +1,7 @@
+int next_rand(int last) {
+  return last * 1664525 + 1013904223;
+}
+
+int main() {
+  return next_rand(0xdeadbeef);
+}

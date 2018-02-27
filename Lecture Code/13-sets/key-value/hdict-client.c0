@@ -1,0 +1,29 @@
+/*
+ * Client interface to dictionaries, implemented with separate chaining
+ *                                   with keys and values as distinct entities
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <string>
+
+typedef string key;
+typedef int *value;
+
+// Linear Congruential Generator
+int hash_string(string s) {
+  int h = 0;
+  for (int i = 0; i < string_length(s); i++) {
+    h = h + char_ord(string_charat(s, i));
+    h = 1664525 * h + 1013904223;
+  }
+  return h;
+}
+
+bool key_equiv(string x, string y) {
+  return string_equal(x, y);
+}
+
+int key_hash(string x) {
+  return hash_string(x);
+}

@@ -1,0 +1,38 @@
+/*
+ * Ropes
+ * 
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <conio>
+#use <string>
+#use <util>
+
+/************************************/
+/* Interface (leave this in place!) */
+/************************************/
+
+// typedef _______ rope_t;
+typedef struct rope_node* rope_t;
+
+int    rope_length(rope_t R)
+  /*@ensures \result >= 0; @*/ ;
+rope_t rope_new(string s)
+  /*@ensures rope_length(\result) == string_length(s); @*/ ;
+rope_t rope_join(rope_t R, rope_t S)
+  /*@requires rope_length(R) <= int_max() - rope_length(S); @*/ 
+  /*@ensures rope_length(\result) == rope_length(R) + rope_length(S); @*/ ;
+string rope_tostring(rope_t R)
+  /*@ensures string_length(\result) == rope_length(R); @*/ ;
+char   rope_charat(rope_t R, int i) 
+  /*@requires 0 <= i && i < rope_length(R); @*/ ;
+rope_t rope_sub(rope_t R, int lo, int hi)
+  /*@requires 0 <= lo && lo <= hi && hi <= rope_length(R); @*/ 
+  /*@ensures rope_length(\result) == hi - lo; @*/ ;
+void   rope_reduce(rope_t[] A, int n)
+  /*@requires n == \length(A); @*/ ;
+
+/***********************************/
+/* Implementation (edit this part) */
+/***********************************/
+

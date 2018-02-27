@@ -1,0 +1,25 @@
+15-122, Spring 2014, Homework 8: C0VM
+
+Compiling:
+
+Use the provided Makefile to compile your code.  It expects your
+implementation to be in a file called c0vm.c, for which we've given a
+starter incomplete implementation.  Make your changes to c0vm.c and
+then compile as below.
+
+To compile using make without debugging turned on:
+
+    make c0vm
+
+To compile using make with debugging turned on:
+
+    make c0vmd
+
+Running:
+
+The included Makefile builds a binary which you can run from the
+command line by giving it a bytecode file. Here is the program's usage
+information:
+
+    usage (debugging turned off): ./c0vm <bc0_file> [args...]
+    usage (debugging turned on):  ./c0vmd <bc0_file> [args...]

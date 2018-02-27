@@ -1,0 +1,141 @@
+/*
+ * An interface to arrays
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+/*************************** Implementation ***************************/
+#use <util>
+#use <string>
+
+
+typedef struct arr_header arr;
+struct arr_header {
+  int size;          // 0 <= size && size < limit
+  int limit;         // 0 < limit
+  string[] data;     // \length(data) == limit
+};
+
+bool is_arr_expected_length(string[] A, int length) {
+  //@assert \length(A) == length;
+  return true;
+}
+
+bool is_arr(arr* A) {
+  return A != NULL
+      && is_arr_expected_length(A->data, A->limit)
+      && 0 <= A->size && A->size < A->limit;
+}
+
+int arr_len(arr* A)
+//@requires is_arr(A);
+//@ensures \result < \length(A->data);
+{
+  return A->size;
+}
+
+string arr_get(arr* A, int i)
+//@requires is_arr(A);
+//@requires 0 <= i && i < arr_len(A);
+{
+  return A->data[i];
+}
+
+void arr_set(arr* A, int i, string x)
+//@requires is_arr(A);
+//@requires 0 <= i && i < arr_len(A);
+//@ensures is_arr(A);
+{
+  A->data[i] = x;
+}
+
+arr* arr_new(int size)
+//@requires 0 <= size;
+//@ensures is_arr(\result);
+//@ensures arr_len(\result) == size;
+{
+  arr* A = alloc(arr);
+  int limit = size == 0 ? 1 : size*2;
+  A->data = alloc_array(string, limit);
+  A->size = size;
+  A->limit = limit;
+
+  return A;
+}
+
+void arr_resize(arr* A, int new_limit)
+/* A may not be a valid array since A->size == A->limit is possible! */
+//@requires A != NULL;
+//@requires 0 <= A->size && A->size < new_limit;
+//@requires \length(A->data) == A->limit;
+//@ensures is_arr(A);
+{
+  string[] B = alloc_array(string, new_limit);
+
+  for (int i = 0; i < A->size; i++)
+    //@loop_invariant 0 <= i;
+    {
+      B[i] = A->data[i];
+    }
+
+  A->limit = new_limit;
+  A->data = B;
+}
+
+void arr_add(arr* A, string x)
+//@requires is_arr(A);
+//@ensures is_arr(A);
+{
+  A->data[A->size] = x;
+  (A->size)++;
+
+  if (A->size < A->limit) return;
+  assert(A->limit <= int_max() / 2); // Fail if array would get too big
+  arr_resize(A, A->limit * 2);
+}
+
+string arr_rem(arr* A)
+//@requires is_arr(A);
+//@requires 0 < arr_len(A);
+//@ensures is_arr(A);
+{
+  (A->size)--;
+  string x = A->data[A->size];
+
+  if (A->limit >= 4 && A->size <= A->limit / 4)
+    arr_resize(A, A->limit / 2);
+
+  return x;
+}
+
+
+// Client type
+typedef arr* arr_t;
+
+
+/**************************** Interface ****************************/
+
+// typedef ______* arr_t;
+
+int arr_len(arr_t A)
+/*@requires A != NULL; @*/ ;
+
+arr_t arr_new(int size)
+/*@requires 0 <= size; @*/
+/*@ensures \result != NULL; @*/
+/*@ensures arr_len(\result) == size; @*/ ;
+
+string arr_get(arr_t A, int i)
+/*@requires A != NULL; @*/
+/*@requires 0 <= i && i < arr_len(A); @*/ ;
+
+void arr_set(arr_t A, int i, string x)
+/*@requires A != NULL; @*/
+/*@requires 0 <= i && i < arr_len(A); @*/ ;
+
+void arr_add(arr_t A, string x)
+/*@requires A != NULL; @*/ ;
+
+string arr_rem(arr_t A)
+/*@requires A != NULL; @*/
+/*@requires 0 < arr_len(A); @*/ ;

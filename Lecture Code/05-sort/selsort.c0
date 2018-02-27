@@ -1,0 +1,38 @@
+/* Selection Sort
+ *
+ * 15-122: Principles of Imperative Computation
+ */
+
+int find_min(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo < hi && hi <= \length(A);
+//@ensures lo <= \result && \result < hi;
+//@ensures le_seg(A[\result], A, lo, hi);
+{
+  int mini = lo;
+  for (int i = lo+1; i < hi; i++)
+  //@loop_invariant lo < i && i <= hi;
+  //@loop_invariant lo <= mini && mini < hi;
+  //@loop_invariant le_seg(A[mini], A, lo, i);
+  {
+    if (A[i] < A[mini])
+      mini = i;
+  }
+  return mini;
+}
+
+void sort(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo <= hi && hi <= \length(A);
+//@ensures is_sorted(A, lo, hi);
+{
+  for (int i = lo; i < hi; i++)
+    //@loop_invariant lo <= i && i <= hi;
+    //@loop_invariant is_sorted(A, lo, i);
+    //@loop_invariant le_segs(A, lo, i, A, i, hi);
+    {
+      int m = find_min(A, i, hi);
+      //@assert le_seg(A[m], A, i, hi);
+      swap(A, i, m);
+      //@assert le_seg(A[i], A, i+1, hi);
+    }
+  //@assert is_sorted(A, lo, hi);
+}

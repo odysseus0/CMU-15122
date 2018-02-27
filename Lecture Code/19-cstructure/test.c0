@@ -1,0 +1,11 @@
+#use <conio>
+
+int main() {
+  struct point2d* P = alloc(struct point2d);
+  P->x = -15;
+  P->y = P->y + absval(P->x * 2);
+  assert(P->y > P->x && true);
+  print("x coord: "); printint(P->x); println("\n");
+  print("y coord: "); printint(P->y); println("\n");
+  return 0;
+}

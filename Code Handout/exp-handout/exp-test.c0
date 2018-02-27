@@ -1,0 +1,36 @@
+#use <conio>
+
+bool test_fails(dict_t D, string input) {
+  queue_t IN = tokenize(input);
+  return NULL == parse(D, IN);
+}
+
+bool test_parses(dict_t D, string input, string output) {
+  queue_t IN = tokenize(input);
+  queue_t OUT = tokenize(output);
+  IN = parse(D, IN);
+  if (IN == NULL) return false;
+  while (!queue_empty(IN)) {
+    if (queue_empty(OUT)) return false;
+    if (!string_equal(deq(IN), deq(OUT))) return false;
+  }
+  return queue_empty(OUT);
+}
+
+int main() {
+  string[] ops = alloc_array(string, 3);
+  ops[2] = "**";
+  ops[1] = "* /";
+  ops[0] = "+ -";
+  dict_t D = dict_new(ops, 3);
+
+  assert(test_fails(D, ""));
+  assert(test_fails(D, "1 3 +"));
+  assert(test_fails(D, "+ 1 3"));
+  assert(test_fails(D, "1 == 3"));
+  assert(test_parses(D, "1 ** 3 + 2 / 4", "1 3 ** 2 4 / +"));
+  // Add more tests of your own!
+
+  println("All tests passed!");
+  return 0;
+}

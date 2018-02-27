@@ -1,0 +1,124 @@
+/*
+ * Hash sets, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+#use <conio>
+
+/************************/
+/*** Client interface ***/
+/************************/
+
+// typedef _______ elem;           // Supplied by client
+bool elem_equiv(elem x, elem y);   // Supplied by client
+int elem_hash(elem x);             // Supplied by client
+
+
+/******************************/
+/*** Library implementation ***/
+/******************************/
+
+typedef struct chain_node chain;
+struct chain_node {
+  elem data;
+  chain* next;
+};
+
+typedef struct hset_header hset;
+struct hset_header {
+  int size;
+  int capacity;               /* 0 < capacity */
+  chain*[] table;             /* \length(table) == capacity */
+};
+
+bool is_table_expected_length(chain*[] table, int length) {
+  //@assert \length(table) == length;
+  return true;
+}
+
+bool is_hset(hset* H) {
+  return  H != NULL
+    && H->capacity > 0
+    && H->size >= 0
+    && is_table_expected_length(H->table, H->capacity);
+ /* && each element satisfies its own representation invariants */
+ /* && there aren't equal elements */
+ /* && the number of elements matches the size */
+ /* && every element in H->table[i] hashes to i */
+ /* && ... */
+}
+
+int index_of_elem(hset* H, elem x)
+//@requires is_hset(H);
+//@ensures 0 <= \result && \result < H->capacity;
+{
+  return abs(elem_hash(x) % H->capacity);
+}
+
+hset* hset_new(int capacity)
+//@requires capacity > 0;
+//@ensures is_hset(\result);
+{
+  hset* H = alloc(hset);
+  H->size = 0;
+  H->capacity = capacity;
+  H->table = alloc_array(chain*, capacity);
+  return H;
+}
+
+bool hset_contains(hset* H, elem x)
+//@requires is_hset(H);
+{
+  int i = index_of_elem(H, x);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (elem_equiv(p->data, x)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+void hset_add(hset* H, elem x)
+//@requires is_hset(H);
+//@ensures is_hset(H);
+//@ensures hset_contains(H, x);
+{
+  int i = index_of_elem(H, x);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (elem_equiv(p->data, x)) {
+      p->data = x;
+      return;
+    }
+  }
+
+  // prepend new element
+  chain* p = alloc(chain);
+  p->data = x;
+  p->next = H->table[i];
+  H->table[i] = p;
+  (H->size)++;
+}
+
+// Client-side type
+typedef hset* hset_t;
+
+
+/*************************/
+/*** Library interface ***/
+/*************************/
+
+// typedef ______* hset_t;
+
+hset_t hset_new(int capacity)
+  /*@requires capacity > 0; @*/
+  /*@ensures \result != NULL; @*/ ;
+
+bool hset_contains(hset_t H, elem x)
+  /*@requires H != NULL; @*/ ;
+
+void hset_add(hset_t H, elem x)
+  /*@requires H != NULL; @*/
+  /*@ensures hset_contains(H, x); @*/ ;

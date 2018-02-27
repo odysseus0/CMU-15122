@@ -1,0 +1,23 @@
+/*
+ * Augment doubly linked lists with row and column information.
+ *
+ * 15-122 Principles of Imperative Computation */ 
+
+/*** Interface ***/
+
+typedef struct editor_header editor;
+struct editor_header {
+  tbuf* buffer;
+  int row;
+  int col;
+};
+
+bool is_editor(editor* E);
+
+editor* editor_new();                  /* Creates a new, empty text buffer */
+void editor_forward(editor* E);        /* Moves the cursor forward (right) */
+void editor_backward(editor* E);       /* Moves the cursor backward (left) */
+void editor_insert(editor* E, char c); /* Insert a character before cursor */
+void editor_delete(editor* B);         /* Remove character before cursor   */
+
+/*** Implementation ***/

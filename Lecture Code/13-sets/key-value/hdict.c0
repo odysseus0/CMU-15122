@@ -1,0 +1,129 @@
+/*
+ * Dictionaries, implemented with separate chaining,
+ *               with keys and values as distinct entities
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+
+/************************/
+/*** Client interface ***/
+/************************/
+
+// typedef _______ key;         // Supplied by client
+// typedef _______ *value;      // Supplied by client
+bool key_equiv(key x, key y);   // Supplied by client
+int key_hash(key x);            // Supplied by client
+
+
+/******************************/
+/*** Library implementation ***/
+/******************************/
+
+typedef struct chain_node chain;
+struct chain_node {
+  key    key;
+  value  value;  // value != NULL
+  chain* next;
+};
+
+typedef struct hdict_header hdict;
+struct hdict_header {
+  int size;                   /* 0 <= size */
+  int capacity;               /* 0 < capacity */
+  chain*[] table;             /* \length(table) == capacity */
+};
+
+bool is_table_expected_length(chain*[] table, int length) {
+  //@assert \length(table) == length;
+  return true;
+}
+
+bool is_hdict(hdict* H) {
+  return  H != NULL
+    && H->capacity > 0
+    && H->size >= 0
+    && is_table_expected_length(H->table, H->capacity);
+ /* && each element satisfies its own representation invariants */
+ /* && there aren't equal elements */
+ /* && the number of elements matches the size */
+ /* && every element in H->table[i] hashes to i */
+ /* && ... */
+}
+
+int index_of_key(hdict* H, key k)
+//@requires is_hdict(H);
+//@ensures 0 <= \result && \result < H->capacity;
+{
+  return abs(key_hash(k) % H->capacity);
+}
+
+hdict* hdict_new(int capacity)
+//@requires capacity > 0;
+//@ensures is_hdict(\result);
+{
+  hdict* H = alloc(hdict);
+  H->size = 0;
+  H->capacity = capacity;
+  H->table = alloc_array(chain*, capacity);
+  return H;
+}
+
+value hdict_lookup(hdict* H, key k)
+//@requires is_hdict(H);
+{
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (key_equiv(p->key, k)) {
+      return p->value;
+    }
+  }
+
+  return NULL;
+}
+
+void hdict_insert(hdict* H, key k, value v)
+//@requires is_hdict(H);
+//@requires v != NULL;
+//@ensures is_hdict(H);
+//@ensures hdict_lookup(H, k) == v;
+{
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (key_equiv(p->key, k)) {
+      p->value = v;  // Override previous value for given key
+      return;
+    }
+  }
+
+  // prepend new entry
+  chain* p = alloc(chain);
+  p->key = k;
+  p->value = v;
+  p->next = H->table[i];
+  H->table[i] = p;
+  (H->size)++;
+}
+
+// Client-side type
+typedef hdict* hdict_t;
+
+
+/*************************/
+/*** Library interface ***/
+/*************************/
+
+// typedef ______* hdict_t;
+
+hdict_t hdict_new(int capacity)
+/*@requires capacity > 0; @*/
+/*@ensures \result != NULL; @*/ ;
+
+value hdict_lookup(hdict_t H, key k)
+/*@requires H != NULL; @*/ ;
+
+void hdict_insert(hdict_t H, key k, value v)
+/*@requires H != NULL; @*/
+/*@requires v != NULL; @*/
+/*@ensures hdict_lookup(H, k) == v; @*/ ;

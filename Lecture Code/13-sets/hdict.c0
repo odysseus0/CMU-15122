@@ -1,0 +1,159 @@
+/*
+ * Dictionaries, implemented with separate chaining,
+ *               with key and values as part of entry
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+#use <conio>
+
+/************************/
+/*** Client interface ***/
+/************************/
+
+// typedef ______* entry;               // Supplied by client
+// typedef ______  key;                 // Supplied by client
+
+key  entry_key(entry x)                 // Supplied by client
+  /*@requires x != NULL; @*/ ;
+int  key_hash(key k);                   // Supplied by client
+bool key_equiv(key k1, key k2);         // Supplied by client
+
+
+/******************************/
+/*** Library implementation ***/
+/******************************/
+
+typedef struct chain_node chain;
+struct chain_node {
+  entry entry;           // != NULL; contains both key and value
+  chain* next;
+};
+
+typedef struct hdict_header hdict;
+struct hdict_header {
+  int size;              // 0 <= size
+  chain*[] table;        // \length(table) == capacity
+  int capacity;          // 0 < capacity
+};
+
+bool is_table_expected_length(chain*[] table, int length) {
+  //@assert \length(table) == length;
+  return true;
+}
+
+bool is_hdict(hdict* H) {
+  return H != NULL
+      && H->capacity > 0
+      && H->size >= 0
+      && is_table_expected_length(H->table, H->capacity);
+   /* && table contains correct number non-NULL entries in correct places */
+}
+
+int index_of_key(hdict* H, key k)
+//@requires is_hdict(H);
+//@ensures 0 <= \result && \result < H->capacity;
+{
+  return abs(key_hash(k) % H->capacity);
+}
+
+hdict* hdict_new(int capacity)
+//@requires capacity > 0;
+//@ensures is_hdict(\result);
+{
+  hdict* H = alloc(hdict);
+  H->size = 0;
+  H->capacity = capacity;
+  H->table = alloc_array(chain*, capacity);
+  return H;
+}
+
+entry hdict_lookup(hdict* H, key k)
+//@requires is_hdict(H);
+//@ensures \result == NULL || key_equiv(entry_key(\result), k);
+{
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (key_equiv(entry_key(p->entry), k))
+      return p->entry;
+  }
+  return NULL;
+}
+
+void hdict_insert(hdict* H, entry x)
+//@requires is_hdict(H);
+//@requires x != NULL;
+//@ensures is_hdict(H);
+//@ensures x == hdict_lookup(H, entry_key(x));
+{
+  key k = entry_key(x);
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    //@assert p->entry != NULL; // Not given by loop invariant!
+    if (key_equiv(entry_key(p->entry), k)) {
+      p->entry = x;
+      return;
+    }
+  }
+
+  // prepend new entry
+  chain* p = alloc(chain);
+  p->entry = x;
+  p->next = H->table[i];
+  H->table[i] = p;
+  (H->size)++;
+}
+
+// Statistics
+int chain_length(chain* p) {
+  int i = 0;
+  while (p != NULL) {
+    i++;
+    p = p->next;
+  }
+  return i;
+}
+
+// report the distribution stats for the hashtable
+void hdict_stats(hdict* H)
+//@requires is_hdict(H);
+{
+  int max = 0;
+  int[] A = alloc_array(int, 11);
+  for(int i = 0; i < H->capacity; i++) {
+    int j = chain_length(H->table[i]);
+    if (j > 9) A[10]++;
+    else A[j]++;
+    if (j > max) max = j;
+  }
+
+  println("Hash table distribution: how many chains have size... ");
+  for(int i = 0; i < 10; i++) {
+    print("..."); printint(i); print(":   "); printint(A[i]); print("\n");
+  }
+  print("...10+: "); printint(A[10]); print("\n");
+  print("Longest chain: "); printint(max); print("\n");
+}
+
+// Client-side type
+typedef hdict* hdict_t;
+
+
+/*************************/
+/*** Library interface ***/
+/*************************/
+
+// typedef ______* hdict_t;
+
+hdict_t hdict_new(int capacity)
+/*@requires capacity > 0; @*/
+/*@ensures \result != NULL; @*/ ;
+
+entry hdict_lookup(hdict_t H, key k)
+/*@requires H != NULL; @*/
+/*@ensures \result == NULL || key_equiv(entry_key(\result), k); @*/ ;
+
+void hdict_insert(hdict_t H, entry x)
+/*@requires H != NULL && x != NULL; @*/
+/*@ensures hdict_lookup(H, entry_key(x)) == x; @*/ ;

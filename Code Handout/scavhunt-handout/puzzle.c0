@@ -1,0 +1,49 @@
+// Allows you to use I/O functions like print and println
+#use <conio> 
+// Allows you to use string functions like string_join
+#use <string> 
+// Allows you to use utility functions like abs() and min()
+#use <util> 
+
+bool is_substring(string little, string big) {
+  int len = string_length(little);
+  int offset = string_length(big) - len;
+  while (offset >= 0) 
+  //@loop_invariant offset <= string_length(big) - string_length(little);
+  {
+    if (string_equal(little, string_sub(big, offset, offset+len))) return true;
+    offset--;
+  }
+  return false;
+}
+
+int common_prefix(string s1, string s2) 
+//@ensures 0 <= \result && \result <= string_length(s1);
+//@ensures 0 <= \result && \result <= string_length(s2);
+//@ensures string_equal(string_sub(s1, 0, \result), string_sub(s2, 0, \result));
+/*@ensures \result == string_length(s1)
+  @     || \result == string_length(s2)
+  @     || string_charat(s1, \result) != string_charat(s2, \result); @*/
+{
+  return 0;
+}
+
+int find_nonrepeating_position(string s)
+//@requires string_length(s) > 0;
+//@requires string_charat(s, 0) != string_charat(s, string_length(s) - 1);
+//@ensures 0 <= \result && \result < string_length(s)-1;
+//@ensures string_charat(s, \result) == string_charat(s, 0);
+//@ensures string_charat(s, \result+1) != string_charat(s, 0);
+{
+  return 0;
+}
+
+string same_start_end(string s) 
+//@ensures is_substring(\result, s);
+/*@ensures string_length(s) < 128
+  @     || (string_length(\result) > 1
+  @         && string_charat(\result, 0)
+  @            == string_charat(\result, string_length(\result) - 1)); @*/
+{
+  return "";
+}

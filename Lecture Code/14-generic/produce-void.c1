@@ -1,0 +1,70 @@
+#use <string>
+
+/************ Utility functions *************/
+
+// LCG hash of strings
+int hash_string_copy(string s) {
+  int h = 0;
+  for (int i = 0; i < string_length(s); i++) {
+    h = h + char_ord(string_charat(s, i));
+    h = 1664525 * h + 1013904223;
+  }
+  return h;
+}
+
+// A struct with three fields -- the first 1 or 2 will be our key
+struct produce {
+  string color;
+  string fruit;
+  int    quantity;
+};
+
+// A utility function to make a produce
+struct produce* produce(string color, string fruit, int quantity)
+//@ensures \result != NULL;
+{
+  struct produce* x = alloc(struct produce);
+  x->color    = color;
+  x->fruit    = fruit;
+  x->quantity = quantity;
+  return x;
+}
+
+
+/******* Fulfilling the interface to the library *******/
+
+// Using entry struct as key, but letting hash and equiv pick only some fields
+key entry_key (entry x)
+//@requires x != NULL && \hastag(struct produce*, x);
+//@ensures \result != NULL && \hastag(struct produce*, \result); // New!
+{
+  return (key)(struct produce*)x;
+}
+
+bool key_equiv(key k1, key k2)
+//@requires k1 != NULL && \hastag(struct produce*, k1);  // New!
+//@requires k2 != NULL && \hastag(struct produce*, k2);  // New!
+{
+  struct produce* K1 = (struct produce*)k1;
+  struct produce* K2 = (struct produce*)k2;
+
+  return string_equal(K1->color, K2->color)
+      && string_equal(K1->fruit, K2->fruit);
+}
+
+int key_hash(key k)
+//@requires k != NULL && \hastag(struct produce*, k);  // New!
+{
+  struct produce* K = (struct produce*)k;
+
+  return hash_string_copy(string_join(K->color,
+                         string_join(" ",K->fruit)));
+}
+
+
+/************ More utility functions *************/
+
+// Makes a key from color and fruit
+void* make_key(string color, string fruit) {
+  return (void*) produce(color, fruit, -1);
+}

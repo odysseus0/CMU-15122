@@ -1,0 +1,141 @@
+/* 
+ * Utility functions for working with characters and tokens
+ * 
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <parse>
+#use <string>
+#use <file>
+#use "queue_of_string.c0"
+
+/*** Interface ***/
+
+// Checks that a potential precedence array contains only symbols
+bool is_infix_array(string[] A, int n)
+  /*@requires \length(A) == n; @*/ ;
+
+// Tokenizer for Clac and Calc programs
+queue_t tokenize(string s);
+
+// Read a whole file into a queue, using the tokenizer
+queue_t input_file(string path);
+
+/*** Implementation ***/
+
+bool is_symbolic(char c) {
+  return ('!' <= c && c <= '\'') // !"#$%'
+    || ('*' <= c && c <= '/') //    *+,-./
+    || (':' <= c && c <= '@') //    :;<=>?@
+    || ('[' <= c && c <= '`') //    [\]^_
+    || ('{' <= c && c <= '~'); //   {|}~
+}
+
+bool is_numeric(char c) {
+  return ('0' <= c && c <= '9');
+}
+
+bool is_alpha(char c) {
+  return ('A' <= c && c <= 'Z')
+    || ('a' <= c && c <= 'z');
+}
+
+bool is_alphanumeric(char c) {
+  return is_numeric(c) || is_alpha(c); 
+}
+
+// Checks that array contains tokens with only symbolic characters
+bool is_infix_array(string[] A, int n)
+//@requires \length(A) == n;
+{
+  for (int i = 0; i < n; i++)
+  //@loop_invariant 0 <= i && i <= n;
+  {
+    string s = A[i];
+    int toks = num_tokens(s);
+    string[] B = parse_tokens(s);
+
+    for (int j = 0; j < toks; j++) 
+    //@loop_invariant 0 <= j && j <= n;
+    {
+      string tok = B[j];
+      
+      for (int k = 0; k < string_length(tok); k++) 
+      //@loop_invariant 0 <= k && k <= string_length(tok);
+      {
+        if (!is_symbolic(string_charat(tok, k))) return false;
+      }
+    }
+  }
+  
+  return true;
+}
+
+queue_t tokenize(string s) {
+  int lo = 0;
+  int n = string_length(s);
+  queue_t Q = queue_new();
+  
+  while (lo < n) 
+  //@loop_invariant 0 <= lo && lo <= n;
+  {
+    char c = string_charat(s, lo);
+    // Skip whitespace
+    if (c <= ' ') {
+      lo++;
+
+    } else { 
+      int hi = lo+1;
+
+      // Parse numeric tokens: -4, 512, 6, 99
+      if (is_numeric(c) 
+          // Special case to handle numbers like -5 as single tokens:
+          || (c == '-' && hi < n && is_numeric(string_charat(s, hi)))) {
+
+        while (hi < n && is_numeric(string_charat(s, hi))) 
+        //@loop_invariant 0 <= hi && hi <= n; 
+        {
+          hi++;
+        }
+
+      // Parse symbolic tokens: &&, |, <<, **, % 
+      } else if (is_symbolic(c)) {
+        while (hi < n && is_symbolic(string_charat(s, hi))) 
+        //@loop_invariant 0 <= hi && hi <= n; 
+        {
+          hi++;
+        }
+       
+      // Parse alphanumeric tokens: x, foo, y24
+      } else if (is_alpha(c)) {
+        while (hi < n && is_alphanumeric(string_charat(s, hi))) 
+        //@loop_invariant 0 <= hi && hi <= n; 
+        {
+          hi++;
+        }
+        
+      }
+
+      // Put the new token on the queue and advance the pointer
+      enq(Q, string_sub(s, lo, hi));
+      lo = hi;
+    }
+  }
+
+  return Q;
+}
+
+queue_t input_file(string path) {
+  queue_t Q = queue_new();
+  file_t file = file_read(path);
+  if (file == NULL) error("Error: file does not exist");
+
+  while (!file_eof(file)) {
+    string line = file_readline(file);
+    queue_t new = tokenize(line);
+    while (!queue_empty(new)) enq(Q, deq(new));
+  }
+
+  file_close(file);
+  return Q;
+}

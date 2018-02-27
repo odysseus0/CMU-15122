@@ -1,0 +1,40 @@
+/* The pixel type and an interface to pixels */
+
+typedef int pixel;
+
+// Returns the red component of the given pixel p.
+// POSTCONDITION: returned value is between 0 and 255, inclusive.
+int get_red(pixel p)
+{
+
+}
+
+// Returns the green component of the given pixel p.
+// POSTCONDITION: returned value is between 0 and 255, inclusive.
+int get_green(pixel p)
+{
+
+}
+
+// Returns the blue component of the given pixel p.
+// POSTCONDITION: returned value is between 0 and 255, inclusive.
+int get_blue(pixel p)
+{
+
+}
+
+// Returns the alpha component of the given pixel p.
+// POSTCONDITION: returned value is between 0 and 255, inclusive.
+int get_alpha(pixel p)
+{
+
+}
+
+// Returns an int representing an RGB pixel consisting of the given
+// alpha, red, green and blue intensity values.
+// PRECONDITION: all intensity values must be between 0 and 255,
+// inclusive.
+pixel make_pixel(int alpha, int red, int green, int blue)
+{
+
+}

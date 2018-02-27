@@ -1,0 +1,9 @@
+#use <string>
+#use <conio>
+
+int main () {
+  string h = "Hello ";
+  string hw = string_join(h, "World!\n");
+  print(hw);
+  return string_length(hw);
+}

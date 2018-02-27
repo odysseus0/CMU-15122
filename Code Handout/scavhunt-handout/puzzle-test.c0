@@ -1,0 +1,40 @@
+/*
+ * Unit tests for the string puzzles
+ * 
+ */
+
+int main() {
+ 
+  /***********************/
+  /* common_prefix tests */
+  /***********************/
+ 
+  // Normally, we write unit tests that assert that the result we're
+  // expecting is the result that we're going to get:
+  assert(common_prefix("", "") == 0);
+  assert(common_prefix("", "abc") == 0);
+  assert(common_prefix("abc", "") == 0);
+  assert(common_prefix("abc", "def") == 0);
+  assert(common_prefix("abc", "aa") == 1);
+  assert(common_prefix("abc", "adef") == 1);
+  assert(common_prefix("abc", "abe") == 2);
+  assert(common_prefix("abc", "abed") == 2);
+  assert(common_prefix("abc", "abc") == 3);
+  assert(common_prefix("abc", "abcd") == 3);
+
+  // It's also possible to just run the function, ignoring the result,
+  // and let the contracts take care of checking the result.
+  common_prefix("abcd", "accdd");
+  common_prefix("abcd", "abefg");
+  common_prefix("abcd", "abecd");
+
+  /*********************************/
+  /* non_repeating_character tests */
+  /*********************************/
+
+  /************************/
+  /* same_start_end tests */
+  /************************/
+
+  return 0;
+}

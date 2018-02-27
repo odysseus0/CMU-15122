@@ -1,0 +1,33 @@
+// Return both the number of negative values and whether the sum is odd
+void sum_and_oddneg(int[] A, int n, int* sum, bool* oddneg)
+//@requires n == \length(A);
+//@requires sum != NULL && oddneg != NULL;
+{
+  *sum = 0;
+  int neg = 0;
+  for (int i = 0; i < n; i++) {
+    *sum += A[i];
+    if (A[i] < 0) neg += 1;
+  }
+  *oddneg = (neg % 2 == 1);
+}
+
+int main() {
+  int[] A = alloc_array(int, 10);
+  for (int i = 0; i < 10; i++) A[i] = i - 5;
+  int*  sum  = alloc(int);
+  bool* odds = alloc(bool);
+  sum_and_oddneg(A, 10, sum, odds);
+
+  return 0;
+}
+
+
+
+
+struct image_header {
+  int width;
+  int height;
+  pixel[] data;
+};
+typedef struct image_header image;

@@ -1,0 +1,44 @@
+/*
+ * Divide and conquer sort
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+void merge(int[] A, int lo, int mid, int hi)
+//@requires 0 <= lo && lo <= mid && mid <= hi && hi <= \length(A);
+//@requires is_sorted(A, lo, mid) && is_sorted(A, mid, hi);
+//@ensures is_sorted(A, lo, hi);
+;
+
+void mergesort(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo <= hi && hi <= \length(A);
+//@ensures is_sorted(A, lo, hi);
+{
+  if (hi - lo <= 1) return;
+
+  int mid = lo + (hi - lo)/2;
+  //@assert lo < mid && mid < hi;
+  mergesort(A, lo, mid);          //@assert is_sorted(A, lo, mid);
+  mergesort(A, mid, hi);          //@assert is_sorted(A, mid, hi);
+  merge(A, lo, mid, hi);
+}
+
+
+int partition(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo < hi && hi <= \length(A);
+//@ensures lo <= \result && \result < hi;
+//@ensures ge_seg(A[\result], A, lo, \result);
+//@ensures le_seg(A[\result], A, \result+1, hi);
+;
+
+void quicksort(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo <= hi && hi <= \length(A);
+//@ensures is_sorted(A, lo, hi);
+{
+  if (hi - lo <= 1) return;
+
+  int pi = partition(A, lo, hi);  //@assert lo <= pi && pi < hi;
+  //@assert ge_seg(A[pi], A,lo,pi) && le_seg(A[pi], A,pi+1,hi);
+  quicksort(A, lo, pi);           //@assert is_sorted(A, lo, pi);
+  quicksort(A, pi+1, hi);         //@assert is_sorted(A, pi+1, hi);
+}

@@ -1,0 +1,28 @@
+/* 
+ * Client interface to hash sets, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation 
+ */
+
+#use <string>
+#use <conio>
+
+typedef string elem;
+
+int hash_string(string s) {
+  int h = 0;
+  for (int i = 0; i < string_length(s); i++) {
+    h = h + char_ord(string_charat(s, i));
+    h = 1664525 * h + 1013904223;
+  }
+  return h;
+}
+
+bool elem_equiv(string x, string y) {
+  return string_equal(x, y);
+}
+
+int elem_hash(string x) {
+  return hash_string(x);
+}
+

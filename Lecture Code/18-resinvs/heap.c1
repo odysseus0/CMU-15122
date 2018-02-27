@@ -1,0 +1,270 @@
+/*
+ * Bounded priority queues, implemented as heaps
+ *
+ * 15-122 Principles of Imperative Computation */
+
+#use <util>
+
+/*********************/
+/* Client interface  */
+/*********************/
+
+typedef void* elem;
+
+// f(x,y) returns true if e1 is STRICTLY higher priority than e2
+typedef bool has_higher_priority_fn(elem e1, elem e2);
+
+
+/**************************/
+/* Library implementation */
+/**************************/
+
+typedef struct heap_header heap;
+struct heap_header {
+  int limit;                      // limit = capacity+1
+  int next;                       // 1 <= next && next <= limit
+  elem[] data;                    // \length(data) == limit
+  has_higher_priority_fn* prior;  // != NULL
+};
+
+bool is_array_expected_length(elem[] A, int length) {
+  //@assert \length(A) == length;
+  return true;
+}
+
+/* Just checks the basic invariants described above, none
+ * of the ordering invariants. */
+bool is_heap_safe(heap* H) {
+  return H != NULL
+      && (1 < H->limit && H->limit < int_max()/2)
+      && is_array_expected_length(H->data, H->limit)
+      && (1 <= H->next && H->next <= H->limit)
+      && H->prior != NULL;
+}
+
+
+/****** Utility functions ******/
+
+/* Returns true if the element in H->data[i] can
+ * correctly be placed above H->data[j] in the heap. */
+bool ok_above(heap* H, int i, int j)
+//@requires is_heap_safe(H);
+//@requires 1 <= i && i < H->next;
+//@requires 1 <= j && j < H->next;
+{
+  return !(*H->prior)(H->data[j], H->data[i]);
+}
+
+/* Swaps H->data[i] with its parent. */
+void swap_up(heap* H, int i)
+//@requires is_heap_safe(H);
+//@requires 2 <= i && i < H->next;
+//@requires !ok_above(H, i/2, i);
+//@ensures ok_above(H, i/2, i);
+{
+  elem tmp = H->data[i];
+  H->data[i] = H->data[i/2];
+  H->data[i/2] = tmp;
+}
+
+
+/****** Data structure invariants ******/
+
+bool is_heap_ordered(heap* H)
+//@requires is_heap_safe(H);
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+  {
+    if (!ok_above(H, i/2, i)) return false;
+  }
+
+  return true;
+}
+
+bool is_heap(heap* H) {
+  return is_heap_safe(H) && is_heap_ordered(H);
+}
+
+
+/****** Partial invariants ******/
+
+/* Valid heap except at n, looking up the tree */
+bool is_heap_except_up(heap* H, int n)
+//@requires is_heap_safe(H);
+//@requires 1 <= n && n < H->next;
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+  {
+    if (!(i == n || ok_above(H, i/2, i))) return false;
+  }
+
+  return true;
+}
+
+/* Valid heap except at n, looking down the tree */
+bool is_heap_except_down(heap* H, int n)
+//@requires is_heap_safe(H);
+//@requires 1 <= n && n < H->next;
+{
+  for (int i = 2; i < H->next; i++)
+  //@loop_invariant 2 <= i;
+  {
+    if (!(i/2 == n || ok_above(H, i/2, i))) return false;
+  }
+
+  return true;
+}
+
+bool grandparent_check(heap* H, int i)
+//@requires is_heap_safe(H);
+//@requires 1 <= i && i < H->next;
+{
+  if (i == 1) return true; // Root
+  if (i*2 >= H->next) return true; // No children
+  if (i*2 + 1 == H->next && ok_above(H, i/2, i*2)) return true; // Left only
+  return i*2 + 1 < H->next
+      && ok_above(H, i/2, i*2)
+      && ok_above(H, i/2, i*2+1);
+}
+
+
+/****** Implementation ******/
+
+bool pq_empty(heap* H)
+//@requires is_heap(H);
+{
+  return H->next == 1;
+}
+
+bool pq_full(heap* H)
+//@requires is_heap(H);
+{
+  return H->next == H->limit;
+}
+
+heap* pq_new(int capacity, has_higher_priority_fn* prior)
+//@requires 0 < capacity && capacity < int_max()/2 - 1;
+//@requires prior != NULL;
+//@ensures is_heap(\result) && pq_empty(\result);
+{
+  heap* H = alloc(heap);
+  H->next = 1;
+  H->data = alloc_array(elem, capacity + 1);
+  H->limit = capacity + 1;
+  H->prior = prior;
+  return H;
+}
+
+void pq_add(heap* H, elem e)
+//@requires is_heap(H) && !pq_full(H) && e != NULL;
+//@ensures is_heap(H);
+{
+  int i = H->next;
+  H->data[H->next] = e;
+  (H->next)++;
+
+  while (i > 1)
+  //@loop_invariant 1 <= i && i < H->next;
+  //@loop_invariant is_heap_except_up(H, i);
+  //@loop_invariant grandparent_check(H, i);
+  {
+    if (ok_above(H, i/2, i)) return; // No more violations
+
+    swap_up(H, i);
+    i = i/2;
+  }
+  //@assert i == 1;
+}
+
+void sift_down(heap* H)
+//@requires is_heap_safe(H);
+//@requires H->next > 1 && is_heap_except_down(H, 1);
+//@ensures is_heap(H);
+{
+  int i = 1;
+
+  while (2*i < H->next)
+  //@loop_invariant 1 <= i && i < H->next;
+  //@loop_invariant is_heap_except_down(H, i);
+  //@loop_invariant grandparent_check(H, i);
+  {
+    int left = 2*i;
+    int right = left+1;
+
+    if (ok_above(H, i, left)                // all good on the left, and
+        && (right >= H->next ||             // no right child or
+            ok_above(H, i, right))) {       // all good on the right too
+      // Nothing to do: invariant is restored already!
+      return;
+    } else if (right >= H->next ||          // No right child, or
+               ok_above(H, left, right)) {  // all good on the right
+      // We need to push the new element down to the left
+      swap_up(H, left);
+      i = left;
+    } else {                                // right child needs fixing
+      //@assert right < H->next && ok_above(H, right, left);
+      swap_up(H, right);
+      i = right;
+    }
+  }
+
+  //@assert i < H->next && 2*i >= H->next;
+  //@assert is_heap_except_down(H, i);
+}
+
+elem pq_rem(heap* H)
+//@requires is_heap(H) && !pq_empty(H);
+//@ensures \result != NULL && is_heap(H);
+{
+  elem min = H->data[1];
+  (H->next)--;
+
+  if (H->next > 1) {
+    H->data[1] = H->data[H->next];  // Swap last element in
+    /* H is no longer a heap! */
+    sift_down(H);
+  }
+
+  return min;
+}
+
+elem pq_peek(heap* H)
+//@requires is_heap(H) && !pq_empty(H);
+//@ensures \result != NULL && is_heap(H);
+{
+  return H->data[1];
+}
+
+
+// Declare client-side type
+typedef heap* pq_t;
+
+
+/*********************/
+/* Library interface */
+/*********************/
+
+// typedef ______* pq_t;
+
+bool pq_empty(pq_t Q)
+  /*@requires Q != NULL; @*/ ;
+
+bool pq_full(pq_t Q)
+  /*@requires Q != NULL; @*/ ;
+
+pq_t pq_new(int capacity, has_higher_priority_fn* prior)
+  /*@requires capacity > 0 && prior != NULL; @*/
+  /*@ensures \result != NULL && pq_empty(\result); @*/ ;
+
+void pq_add(pq_t Q, elem x)
+  /*@requires Q != NULL && !pq_full(Q) && x != NULL; @*/ ;
+
+elem pq_rem(pq_t Q)
+  /*@requires Q != NULL && !pq_empty(Q); @*/
+  /*@ensures \result != NULL; @*/ ;
+
+elem pq_peek(pq_t Q)
+  /*@requires Q != NULL && !pq_empty(Q); @*/
+  /*@ensures \result != NULL; @*/ ;

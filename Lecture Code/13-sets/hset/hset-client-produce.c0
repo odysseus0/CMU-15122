@@ -1,0 +1,47 @@
+/*
+ * Hash sets, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <string>
+#use <conio>
+#use <rand>
+
+struct produce {
+  string color;
+  string fruit;
+};
+
+bool elem_equiv(struct produce* x, struct produce* y)
+//@requires x != NULL && y != NULL;
+{
+  return string_equal(x->color, y->color)
+      && string_equal(x->fruit, y->fruit);
+  // What if we only compare fruit fields (and leave hash function alone)?
+}
+
+int elem_hash(struct produce* x)
+//@requires x != NULL;
+{
+  return hash_string(string_join(string_join(x->color, " "), x->fruit));
+  // What if we only hash fruit field (and leave equality function alone)?
+}
+
+struct produce* produce(string color, string fruit)
+//@ensures \result != NULL;
+{
+  struct produce* x = alloc(struct produce);
+  x->color = color;
+  x->fruit = fruit;
+  return x;
+}
+
+void elem_print(struct produce* x)
+//@requires x != NULL;
+{
+  print("Looks like a "); print(x->fruit);
+  print (" that is "); println(x->color);
+}
+
+typedef struct produce* elem;

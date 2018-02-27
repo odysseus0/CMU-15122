@@ -1,0 +1,190 @@
+/*
+ * Generic dictionaries, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <util>
+#use <conio>
+
+/************************/
+/*** Client interface ***/
+/************************/
+
+typedef void* entry;
+typedef void* key;
+
+typedef key entry_key_fn(entry x)            // Supplied by client
+          /*@requires x != NULL; @*/
+          /*@ensures \result != NULL; @*/ ;
+typedef int key_hash_fn(key k)               // Supplied by client
+          /*@requires k != NULL; @*/ ;
+typedef bool key_equiv_fn(key k1, key k2)    // Supplied by client
+          /*@requires k1 != NULL; @*/
+          /*@requires k2 != NULL; @*/ ;
+
+
+/******************************/
+/*** Library implementation ***/
+/******************************/
+
+typedef struct chain_node chain;
+struct chain_node {
+  entry entry;           // != NULL; contains both key and value
+  chain* next;
+};
+
+typedef struct hdict_header hdict;
+struct hdict_header {
+  int size;             // 0 <= size
+  chain*[] table;       // \length(table) == capacity
+  int capacity;         // 0 < capacity
+  entry_key_fn* key;    // != NULL
+  key_hash_fn* hash;    // != NULL
+  key_equiv_fn* equiv;  // != NULL
+};
+
+bool is_table_expected_length(chain*[] table, int length) {
+  //@assert \length(table) == length;
+  return true;
+}
+
+bool is_hdict(hdict* H) {
+  return H != NULL
+      && H->capacity > 0
+      && H->size >= 0
+      && H->key   != NULL
+      && H->hash  != NULL
+      && H->equiv != NULL
+      && is_table_expected_length(H->table, H->capacity);
+ /*   && each element satisfies its own representation invariants */
+ /*   && there aren't equal elements */
+ /*   && the number of elements matches the size */
+ /*   && every element in H->table[i] hashes to i */
+ /*   && ... */
+}
+
+int index_of_key(hdict* H, key k)
+//@requires is_hdict(H) && k != NULL;
+//@ensures 0 <= \result && \result < H->capacity;
+{
+  return abs((*H->hash)(k) % H->capacity);
+}
+
+key entry_key(hdict* H, entry x)
+//@requires is_hdict(H) && x != NULL;
+//@ensures \result != NULL;
+{
+  return (*H->key)(x);
+}
+
+bool key_equiv(hdict* H, key k1, key k2)
+//@requires is_hdict(H) && k1 != NULL && k2 != NULL;
+{
+  return (*H->equiv)(k1, k2);
+}
+
+hdict* hdict_new(int capacity,
+                 entry_key_fn *entry_key, key_hash_fn* hash, key_equiv_fn* equiv)
+//@requires capacity > 0;
+//@requires entry_key != NULL && hash != NULL && equiv != NULL;
+//@ensures is_hdict(\result);
+{
+  hdict* H = alloc(hdict);
+  H->size = 0;
+  H->capacity = capacity;
+  H->table = alloc_array(chain*, capacity);
+  H->key   = entry_key;
+  H->hash  = hash;
+  H->equiv = equiv;
+  return H;
+}
+
+entry hdict_lookup(hdict* H, key k)
+//@requires is_hdict(H) && k != NULL;
+{
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    if (key_equiv(H, entry_key(H, p->entry), k))
+      return p->entry;
+  }
+  return NULL;
+}
+
+void hdict_insert(hdict* H, entry x)
+//@requires is_hdict(H);
+//@requires x != NULL;
+//@ensures is_hdict(H);
+//@ensures x == hdict_lookup(H, entry_key(H, x));
+{
+  key k = entry_key(H, x);
+  int i = index_of_key(H, k);
+  for (chain* p = H->table[i]; p != NULL; p = p->next) {
+    //@assert p->entry != NULL; // Not given by loop invariant!
+    if (key_equiv(H, entry_key(H, p->entry), k)) {
+      p->entry = x;
+      return;
+    }
+  }
+
+  // prepend new entry
+  chain* p = alloc(chain);
+  p->entry = x;
+  p->next = H->table[i];
+  H->table[i] = p;
+  (H->size)++;
+}
+
+// Statistics
+int chain_length(chain* p) {
+  int i = 0;
+  while (p != NULL) {
+    i++;
+    p = p->next;
+  }
+  return i;
+}
+
+// report the distribution stats for the hashtable
+void hdict_stats(hdict* H)
+//@requires is_hdict(H);
+{
+  int max = 0;
+  int[] A = alloc_array(int, 11);
+  for(int i = 0; i < H->capacity; i++) {
+    int j = chain_length(H->table[i]);
+    if (j > 9) A[10]++;
+    else A[j]++;
+    if (j > max) max = j;
+  }
+
+  println("Hash table distribution: how many chains have size... ");
+  for(int i = 0; i < 10; i++) {
+    print("..."); printint(i); print(":   "); printint(A[i]); print("\n");
+  }
+  print("...10+: "); printint(A[10]); print("\n");
+  print("Longest chain: "); printint(max); print("\n");
+}
+
+// Client-side type
+typedef hdict* hdict_t;
+
+
+/*************************/
+/*** Library interface ***/
+/*************************/
+
+// typedef ______* hdict_t;
+
+hdict_t hdict_new(int capacity,
+                  entry_key_fn* entry_key, key_hash_fn* hash, key_equiv_fn* equiv)
+/*@requires capacity > 0; @*/
+/*@requires entry_key != NULL && hash != NULL && equiv != NULL; @*/
+/*@ensures \result != NULL; @*/ ;
+
+entry hdict_lookup(hdict_t H, key k)
+/*@requires H != NULL && k != NULL; @*/ ;
+
+void hdict_insert(hdict_t H, entry x)
+/*@requires H != NULL && x != NULL; @*/
+/*@ensures hdict_lookup(H, entry_key(H, x)) == x; @*/ ;

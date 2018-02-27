@@ -1,0 +1,34 @@
+#use <conio>
+
+void ssa_print(ssa_t A)
+/*@requires A != NULL; @*/
+{
+  println("");
+  for (int j = 0; j < ssa_len(A); j++)
+  //@loop_invariant 0 <= j;
+    {
+      printint(j);print(" => "); println(ssa_get(A, j));
+    }
+}
+
+
+int main () {
+
+  ssa_t A = ssa_new(3);
+  ssa_set(A, 0, "hello");
+  ssa_print(A);
+  ssa_set(A, 1, "world");
+  ssa_print(A);
+  ssa_set(A, 2, "new");
+  ssa_print(A);
+
+  ssa_t B = ssa_new(3);
+  ssa_set(B, 0, "hello");
+  ssa_print(B);
+  ssa_set(B, 0, "world");
+  ssa_print(B);
+  ssa_set(B, 0, "new");
+  ssa_print(B);
+
+  return 0;
+}

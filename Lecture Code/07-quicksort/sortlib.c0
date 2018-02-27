@@ -1,0 +1,76 @@
+/*
+ * Mergesort and Quicksort -- support functions
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+
+// Merge used in mergesort
+void merge(int[] A, int lo, int mid, int hi)
+//@requires 0 <= lo && lo <= mid && mid <= hi && hi <= \length(A);
+//@requires is_sorted(A, lo, mid) && is_sorted(A, mid, hi);
+//@ensures is_sorted(A, lo, hi);
+{
+  int[] B = alloc_array(int, hi-lo);
+  int i = lo;
+  int j = mid;
+  int k = 0;
+
+  while (i < mid && j < hi)
+  //@loop_invariant lo <= i && i <= mid;
+  //@loop_invariant mid <= j && j <= hi;
+  //@loop_invariant k == (i - lo) + (j - mid);
+  {
+    if (A[i] <= A[j]) {
+      B[k] = A[i];
+      i++;
+    } else { //@assert A[i] > A[j];
+      B[k] = A[j];
+      j++;
+    }
+    k++;
+  }
+
+  //@assert i == mid || j == hi;
+  // Exercise: write the omitted invariants for these loops
+  while (i < mid) { B[k] = A[i]; i++; k++; }
+  while (j < hi) { B[k] = A[j]; j++; k++; }
+
+  // Copy sorted array back into A
+  for (k = 0; k < hi-lo; k++)
+    A[lo+k] = B[k];
+}
+
+
+// Partition used in quicksort
+int partition(int[] A, int lo, int hi)
+//@requires 0 <= lo && lo < hi && hi <= \length(A);
+//@ensures lo <= \result && \result < hi;
+//@ensures ge_seg(A[\result], A, lo, \result);
+//@ensures le_seg(A[\result], A, \result+1, hi);
+{
+  int pi = lo + (hi - lo)/2;
+  int pivot = A[pi];
+  swap(A, pi, lo);
+  int left = lo + 1;
+  int right = hi;
+
+  while (left < right)
+  //@loop_invariant lo <= left && left <= right && right <= hi;
+  //@loop_invariant ge_seg(pivot, A, lo, left);
+  //@loop_invariant le_seg(pivot, A, right, hi);
+  //@loop_invariant pivot == A[lo];
+  {
+    if (A[left] <= pivot) {
+      left++;
+    } else {
+      //@assert A[left] > pivot;
+      swap(A, left, right-1);
+      right--;
+    }
+  }
+
+  //@assert left == right;
+  swap(A, lo, left-1);
+  return left-1;
+}

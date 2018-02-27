@@ -1,0 +1,39 @@
+/*
+ * Text buffers as doubly linked lists.
+ * 
+ * 15-122 Principles of Imperative Computation */
+
+/*** Interface ***/
+
+typedef struct dll_node dll;
+struct dll_node {
+  char data; 
+  dll* next;
+  dll* prev;
+};
+
+typedef struct tbuf_header tbuf;
+struct tbuf_header {
+  dll* start;  /* the fist node of the list (on the left)  */
+  dll* cursor; /* the position where the cursor is displayed */
+  dll* end;    /* the last node of the list (on the right) */
+};
+
+bool is_tbuf(tbuf* B);
+
+bool tbuf_at_left(tbuf* B);            /* Returns true if the cursor       */
+                                       /* is in leftmost position          */
+bool tbuf_at_right(tbuf* B);           /* Returns true if the cursor       */
+                                       /* is in rightmost position         */
+
+tbuf* tbuf_new();                      /* Creates a new, empty text buffer */
+void tbuf_forward(tbuf* B);            /* Moves the cursor forward (right) */
+void tbuf_backward(tbuf* B);           /* Moves the cursor backward (left) */
+void tbuf_insert(tbuf* B, char c);     /* Insert a character before cursor */
+char tbuf_delete(tbuf* B);             /* Remove character before cursor   */
+                                       /* (and returns the deleted char)   */
+
+int tbuf_row(tbuf* B);                 /* Returns the row of the cursor    */
+int tbuf_col(tbuf* B);                 /* Returns the column of the cursor */
+
+/*** Implementation ***/

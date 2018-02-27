@@ -1,0 +1,76 @@
+/*
+ * Extended interface of queues
+ * 
+ * 15-122 Principles of Imperative Computation 
+ */
+
+/*************************/
+/*** Library interface ***/
+/*************************/
+
+// typedef ______* queue_t;
+typedef struct queue_header* queue_t;
+
+/* O(1) */
+queue_t queue_new() 
+  /*@ensures \result != NULL; @*/ ;
+
+/* O(1) */
+int queue_size(queue_t Q) 
+  /*@requires Q != NULL; @*/
+  /*@ensures \result >= 0; @*/ ;
+
+/* O(1) -- adds an item to the back of the queue */
+void enq(queue_t Q, void* x) 
+  /*@requires Q != NULL; @*/ ;
+
+/* O(1) -- removes an item from the front of the queue */
+void* deq(queue_t Q)
+  /*@requires Q != NULL && queue_size(Q) > 0; @*/ ;
+
+/* O(i) -- doesn't remove the item from the queue */
+void* queue_peek(queue_t Q, int i)
+  /*@requires Q != NULL && 0 <= i && i < queue_size(Q); @*/ ;
+
+/* O(n) */
+void queue_reverse(queue_t Q)
+  /*@requires Q != NULL; @*/ ;
+
+typedef bool check_property_fn(void* x);
+
+/* O(n) worst case, assuming P is O(1) */
+bool queue_all(queue_t Q, check_property_fn* P)
+  /*@requires Q != NULL && P != NULL; @*/ ;
+
+typedef void* iterate_fn(void* accum, void* x);
+
+/* O(n) worst case, assuming F is O(1) */
+void* queue_iterate(queue_t Q, void* base, iterate_fn* F)
+  /*@requires Q != NULL && F != NULL; @*/ ;
+
+/**********************/
+/*** Implementation ***/
+/**********************/
+
+typedef struct list_node list;
+struct list_node {
+  void* data;
+  list* next;
+};
+
+typedef struct queue_header queue;
+struct queue_header {
+  list* front;
+  list* back;
+  int size;
+};
+
+bool is_inclusive_segment(list* start, list* end, int i) {
+  /* FIX ME */  
+  return true;
+}
+
+bool is_queue(queue* Q) {
+  return Q != NULL;
+  return is_inclusive_segment(Q->front, Q->back, Q->size);
+}

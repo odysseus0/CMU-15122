@@ -1,0 +1,20 @@
+struct point {
+  int x;
+  int y;
+};
+typedef struct point* point;
+
+point reflect(point p) {
+  point q = alloc(struct point);
+  q->x = p->y;
+  q->y = p->x;
+  return q;
+}
+
+int main () {
+  point p = alloc(struct point);
+  p->x = 1;
+  p->y = 2;
+  point q = reflect(p);
+  return q->x*10 + q->y;
+}

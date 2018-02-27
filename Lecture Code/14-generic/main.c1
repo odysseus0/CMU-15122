@@ -1,0 +1,58 @@
+#use <conio>
+
+int main() {
+  // Using the hash dictionary to store word counts
+
+  // Get list of (possibly duplicate) words from file
+  bundle_t words = read_words("vocab_t_z.txt");
+  int len = string_bundle_length(words);
+  string[] word_list = string_bundle_array(words);
+
+  // Store (word, count) entries in dictionary
+  hdict_t H = hdict_new(len/2, &entry_key_wcount,
+                               &key_hash_wcount,
+                               &key_equiv_wcount);
+
+  for (int i = 0 ; i < len ; i++)
+    //@loop_invariant 0 <= i;
+    {
+      struct wcount* wc = alloc(struct wcount);
+      wc->word = word_list[i];
+      hdict_insert(H, (entry)wc);
+    }
+  hdict_stats(H);
+
+  println("All word count tests passed!\n");
+
+
+  // Using the hash dictionary to store produce
+  entry greenapple = (entry)produce("green", "apple", 10);
+  entry redapple   = (entry)produce("red",   "apple", 15);
+  entry redberry   = (entry)produce("red",   "berry",  5);
+  entry blueberry  = (entry)produce("blue",  "berry",  8);
+
+  key k_ga = make_key("green", "apple");
+  key k_ra = make_key("red", "apple");
+  key k_rb = make_key("red", "berry");
+
+
+  hdict_t H_produce = hdict_new(10, &entry_key_produce,
+                                    &key_hash_produce,
+                                    &key_equiv_produce);
+
+  hdict_insert(H_produce, greenapple);
+  hdict_insert(H_produce, redapple);
+  assert(hdict_lookup(H_produce, k_ga) != NULL);
+  assert(hdict_lookup(H_produce, k_ra) != NULL);
+  assert(hdict_lookup(H_produce, k_rb) == NULL);
+
+  hdict_insert(H_produce, redberry);
+  hdict_insert(H_produce, blueberry);
+  assert(hdict_lookup(H_produce, k_ga) != NULL);
+  assert(hdict_lookup(H_produce, k_ra) != NULL);
+  assert(hdict_lookup(H_produce, k_rb) != NULL);
+
+
+  println("All produce tests passed!");
+  return 0;
+}

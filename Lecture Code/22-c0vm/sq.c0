@@ -1,0 +1,7 @@
+int sq (int x, int y) {
+  return x*x + y*y;
+}
+
+int main() {
+  return sq(3,4);
+}

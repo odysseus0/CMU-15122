@@ -1,0 +1,35 @@
+#use <string>
+#use <conio>
+
+queue_t queue_copy(queue_t Q)
+//@requires Q != NULL;
+//@ensures \result != NULL;
+{
+  queue_t C1;
+  queue_t C2;
+  C1 = queue_new();
+  C2 = queue_new();
+  while(!queue_empty(Q)) {
+    string s = deq(Q);
+    enq(C1, s);
+    enq(C2, s);
+  }
+  //@assert queue_empty(Q);
+  while (!queue_empty(C1)) {
+    enq(Q, deq(C1));
+  }
+  return C2;
+}
+
+int main() {
+  queue_t Q = queue_new();
+  enq(Q, "a"); enq(Q, "b"); enq(Q, "c"); enq(Q, "d");
+  assert(string_equal(deq(Q), "a"));
+  queue_t C = queue_copy(Q);
+  while (!queue_empty(Q)) {
+    assert(string_equal(deq(Q),deq(C)));
+  }
+
+  print("All tests passed\n");
+  return 0;
+}

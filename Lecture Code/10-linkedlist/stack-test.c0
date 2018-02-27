@@ -1,0 +1,47 @@
+#use <conio>
+#use <string>
+
+// Using the stack interface
+
+string stack_peek(stack_t S)
+//@requires S != NULL;
+//@requires !stack_empty(S);
+// Time O(1)
+{
+  string s = pop(S);
+  push(S, s);
+  return s;
+}
+
+int stack_size(stack_t S)
+//@requires S != NULL;
+{
+  int i = 0;
+  stack_t T = stack_new();
+
+  while (!stack_empty(S)) {
+    string s = pop(S);   // store top in local variable
+    push(T, s);
+    i++;
+  }
+
+  while (!stack_empty(T))
+    push(S, pop(T));     // do without using a local variable
+
+  return i;
+}
+
+
+int main() {
+  stack_t S = stack_new();
+  push(S, "a");
+  push(S, "b");
+  // peek gives the right answer:
+  assert(string_equal(stack_peek(S), "b"));
+  // peek is nondestructive:
+  assert(string_equal(stack_peek(S), "b"));
+  assert(stack_size(S) == 2);
+
+  print("All tests passed\n");
+  return 0;
+}

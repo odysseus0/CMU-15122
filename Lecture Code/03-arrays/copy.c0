@@ -1,0 +1,17 @@
+int[] array_copy(int[] A, int n)
+//@requires 0 <= n && n <= \length(A);
+//@ensures \length(\result) == n;
+{
+  int[] B = alloc_array(int, n);
+
+  for (int i = 0; i < n; i++)
+  //@loop_invariant 0 <= i;
+  {
+    B[i] = A[i];
+  }
+
+  // A = alloc_array(int, n+1);  // does not impact caller
+  // A[0] = A[0]+1;              // impacts caller
+
+  return B;
+}

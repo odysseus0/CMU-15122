@@ -1,0 +1,122 @@
+/*
+ * (Mildly generic) dictionaries as binary search tree without balancing
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <conio>
+#use <rand>
+
+// Utility functions
+entry mk_entry(int k, string s) {
+  struct wcount * wc = alloc(struct wcount);
+  wc->word = s;
+  wc->count = k;
+  return wc;
+}
+
+entry entry_fromint(int k) {
+  string s = string_fromint(k);
+  struct wcount * wc = alloc(struct wcount);
+  wc->word = s;
+  wc->count = k;
+  return wc;
+}
+
+int main() {
+  {
+    println("Testing with Lecture 1's black-box testing code");
+    entry E1 = mk_entry(1, "a"); key k1 = entry_key(E1);
+    entry E2 = mk_entry(3, "c"); key k2 = entry_key(E2);
+    entry E3 = mk_entry(5, "a"); key k3 = entry_key(E3);
+    entry E4 = mk_entry(7, "c"); key k4 = entry_key(E4);
+    entry E5 = mk_entry(9, "b"); key k5 = entry_key(E5);
+
+    dict_t B = dict_new();
+    assert(B != NULL);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E1);
+    assert(dict_lookup(B, k1) == E1);
+    assert(dict_lookup(B, k3) == E1);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E2);
+    assert(dict_lookup(B, k1) == E1);
+    assert(dict_lookup(B, k3) == E1);
+    assert(dict_lookup(B, k2) == E2);
+    assert(dict_lookup(B, k4) == E2);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E3);
+    assert(dict_lookup(B, k1) == E3);
+    assert(dict_lookup(B, k3) == E3);
+    assert(dict_lookup(B, k2) == E2);
+    assert(dict_lookup(B, k4) == E2);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E4);
+    assert(dict_lookup(B, k1) == E3);
+    assert(dict_lookup(B, k3) == E3);
+    assert(dict_lookup(B, k2) == E4);
+    assert(dict_lookup(B, k4) == E4);
+    assert(dict_lookup(B, k5) == NULL);
+  }
+
+  {
+    println("Testing with Lecture 2's black-box testing code");
+    entry E1 = mk_entry(1, "waffles"); key k1 = entry_key(E1);
+    entry E2 = mk_entry(3, "waffles"); key k2 = entry_key(E2);
+    entry E3 = mk_entry(5, "fruit"); key k3 = entry_key(E3);
+    entry E4 = mk_entry(7, ""); key k4 = entry_key(E4);
+    entry E5 = mk_entry(9, "pancakes"); key k5 = entry_key(E5);
+
+    dict_t B = dict_new();
+    assert(NULL == dict_lookup(B, k4));
+    assert(NULL == dict_lookup(B, k5));
+
+    dict_insert(B, E1);
+    assert(dict_lookup(B, k1) == E1);
+    assert(dict_lookup(B, k2) == E1);
+    assert(dict_lookup(B, k4) == NULL);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E2);
+    assert(dict_lookup(B, k1) == E2);
+
+    dict_insert(B, E3);
+    assert(dict_lookup(B, k1) == E2);
+    assert(dict_lookup(B, k3) == E3);
+    assert(dict_lookup(B, k4) == NULL);
+    assert(dict_lookup(B, k5) == NULL);
+
+    dict_insert(B, E4);
+    assert(dict_lookup(B, k4) == E4);
+    assert(dict_lookup(B, k1) == E2);
+    assert(dict_lookup(B, k3) == E3);
+    assert(dict_lookup(B, k5) == NULL);
+  }
+
+  int n = (1<<9)-1;             // 1<<9 for -d; 1<<13 for timing
+  int num_tests = 10;           // 10 for -d;  100 for timing
+  int seed = 0xc0c0ffee;
+  rand_t gen = init_rand(seed);
+  entry[] A = alloc_array(entry, n);
+  for (int i = 0; i < n; i++)
+    A[i] = entry_fromint(rand(gen));
+
+  assert(n+num_tests > 0);
+  print("Testing dict of size "); printint(n);
+  print(" "); printint(num_tests); print(" times\n");
+  for (int j = 0; j < num_tests; j++) {
+    dict_t B = dict_new();
+    for (int i = 0; i < n; i++) {
+      entry e = A[(j+i) % n];
+      dict_insert(B, e);
+      assert(dict_lookup(B, entry_key(e)) == e); /* insert ok? */
+    }
+    /* next line violates interface... */
+    assert(is_dict(B)); /* repeated insert failed to preserve order */
+  }
+  return 0;
+}

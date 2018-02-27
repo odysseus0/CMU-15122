@@ -1,0 +1,32 @@
+#use <conio>
+
+int main () {
+
+  entry greenapple = (entry)produce("green", "apple", 10);
+  entry redapple   = (entry)produce("red",   "apple", 15);
+  entry redberry   = (entry)produce("red",   "berry",  5);
+  entry blueberry  = (entry)produce("blue",  "berry",  8);
+
+  key k_ga = make_key("green", "apple");
+  key k_ra = make_key("red", "apple");
+  key k_rb = make_key("red", "berry");
+
+
+  hdict_t H_produce = hdict_new(10);
+
+  hdict_insert(H_produce, greenapple);
+  hdict_insert(H_produce, redapple);
+  assert(hdict_lookup(H_produce, k_ga) != NULL);
+  assert(hdict_lookup(H_produce, k_ra) != NULL);
+  assert(hdict_lookup(H_produce, k_rb) == NULL);
+
+  hdict_insert(H_produce, redberry);
+  hdict_insert(H_produce, blueberry);
+  assert(hdict_lookup(H_produce, k_ga) != NULL);
+  assert(hdict_lookup(H_produce, k_ra) != NULL);
+  assert(hdict_lookup(H_produce, k_rb) != NULL);
+
+
+  println("All produce tests passed!");
+  return 0;
+}

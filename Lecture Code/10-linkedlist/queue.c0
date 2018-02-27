@@ -1,0 +1,128 @@
+/*
+ * Queues
+ *
+ * 15-122 Principles of Imperative Computation */
+
+typedef string elem; // This goes in the client's code
+
+/********************** Implementation **************************/
+// Element type -- supplied by client
+// typedef ______ elem;
+
+/* Aux structure of linked lists */
+typedef struct list_node list;
+struct list_node {
+  elem data;
+  list* next;
+};
+
+bool is_acyclic(list* start) {
+  if (start == NULL) return true;
+  list* h = start->next;         // hare
+  list* t = start;               // tortoise
+  while (h != t) {
+    if (h == NULL || h->next == NULL) return true;
+    h = h->next->next;
+    //@assert t != NULL; // hare is faster and hits NULL quicker
+    t = t->next;
+  }
+  //@assert h == t;
+  return false;
+}
+
+/* is_segment(start, end) will diverge if list is circular! */
+// Recursive version
+bool is_segment(list* start, list* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment(start->next, end);
+}
+// Iterative version using a while loop
+bool is_segmentB(list* start, list* end) {
+  list* l = start;
+  while (l != NULL) {
+    if (l == end) return true;
+    l = l->next;
+  }
+  return false;
+}
+// Iterative version using a for loop
+bool is_segmentC(list* start, list* end) {
+  for (list* p = start; p != NULL; p = p->next) {
+    if (p == end) return true;
+  }
+  return false;
+}
+
+/* Queues */
+
+typedef struct queue_header queue;
+struct queue_header {
+  list* front;
+  list* back;
+};
+
+bool is_queue(queue* Q) {
+  return Q != NULL
+      && is_acyclic(Q->front)
+      && is_segment(Q->front, Q->back);
+}
+
+bool queue_empty(queue* Q)
+//@requires is_queue(Q);
+{
+  return Q->front == Q->back;
+}
+
+queue* queue_new()
+//@ensures is_queue(\result);
+//@ensures queue_empty(\result);
+{
+  queue* Q = alloc(queue);
+  list* l = alloc(list);
+  Q->front = l;
+  Q->back = l;
+  return Q;
+}
+
+void enq(queue* Q, elem s)
+//@requires is_queue(Q);
+//@ensures is_queue(Q);
+{
+  list* l = alloc(list);
+  Q->back->data = s;
+  Q->back->next = l;
+  Q->back = l;
+  return;
+}
+
+elem deq(queue* Q)
+//@requires is_queue(Q);
+//@requires !queue_empty(Q);
+//@ensures is_queue(Q);
+{
+  elem s = Q->front->data;
+  Q->front = Q->front->next;
+  return s;
+}
+
+typedef queue* queue_t;
+
+
+/****************************** Interface *******************************/
+
+// typedef ______* queue_t;
+
+bool queue_empty(queue_t Q)       /* O(1) */
+/*@requires Q != NULL; @*/;
+
+queue_t queue_new()               /* O(1) */
+/*@ensures \result != NULL; @*/
+/*@ensures queue_empty(\result); @*/;
+
+void enq(queue_t Q, elem e)       /* O(1) */
+/*@requires Q != NULL; @*/;
+
+elem deq(queue_t Q)               /* O(1) */
+/*@requires Q != NULL; @*/
+/*@requires !queue_empty(Q); @*/ ;

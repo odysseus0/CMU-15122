@@ -1,0 +1,129 @@
+#use <conio>
+
+int main()
+{
+	int max; int min; 
+	int x; int y; int z;
+	int constant;
+	
+	//Testing overflow
+	max = 2147483647;
+	min = -2147483648;
+	y = max + 1;
+	printint(y);
+	print("   ");
+	y = min - 1;
+	printint(y);
+	print("   ");
+//	printint(min / -1);
+	
+	//Testing multiplication of negatives
+	
+	x = -25;
+	y = 15;
+	printint(x * y);
+	print("   "); 
+	printint(-15 * -2147483648);	
+	print("   ");
+	
+	//Divide by 0
+//	println("");
+//	printint(x / 0);
+
+	//Modulus by 0
+//	println("");
+//	printint(x % 0);
+
+	//Testing addition
+	x = -5;
+	y = -4;
+	printint(x + y);
+	z = x - y;
+	print("   ");
+	printint(z);
+	print("   ");
+
+
+	//Division truncation
+	x = 25;
+	y = 2;
+	z = x / y;
+	printint(z);
+	print("   ");
+
+	println("");
+	x = -25;
+	y = 2;
+	z = x / y;
+	printint(z);
+	print("   ");
+	x = -25;
+	y = -2;
+	z = x / y;
+	printint(z);
+	print("   ");	
+	
+	//Modulus testing 
+	print("Modulus testing   ");
+	printint(235%32);
+	printint(-15%2);
+	print("   ");
+	printint(5%6);
+	print("   ");
+	printint(5%-2);
+	print("   ");
+	
+	//Testing constants
+	print("Testing constants   ");
+	constant = -251;
+	printint(constant);
+	print("   ");
+	
+	//Testing inequalities
+	println("Testing inequalities   ");
+	if(5>4) print("y1  "); else print("n1  ");
+	if(1>-1) print("y2  "); else print("n2  ");
+	if(0>=0) print("y3  "); else print("n3  ");
+	if(12945<-235) print("y4  "); else print("n4  ");
+	if(5<5) print("y5  "); else print("n5  ");
+	if(-5==5) print("y6  "); else print("n6  ");
+	if(15!=-15) print("y7  "); else print("n7  ");
+	
+	//Testing bitwise operators
+	println("Testing bitwise operators   ");
+	printint(0xF232C & 0xFF2352);
+	print("   ");
+	printint(0xF232C | 0xFF232);
+	print("   ");
+	printint(0xCD25 ^ 0x1D27);
+	print("   ");
+	printint(~0x2F32);
+	print("   ");
+	
+	//Testing bit shifting
+	println("Testing bit shifting");
+	printint(1<<31);
+	print("   ");
+	printint(23<<5);
+	print("   ");
+	printint(1>>5<<7);
+	print("   ");
+	printint(2352352>>2);
+	print("   ");
+	
+	//Default value for integers
+//	println("Testing default value for integers");
+//	printint(default_int);
+//	print("   ");
+
+	//Testing other arithmetic functions
+	printint(-6-25);
+	print("   ");
+	printint(6-25);
+	print("   ");
+
+	
+	
+	println("");
+	return 0;
+}

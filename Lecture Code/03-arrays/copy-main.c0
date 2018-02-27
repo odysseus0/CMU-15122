@@ -1,0 +1,8 @@
+int main() {
+  int[] A = alloc_array(int, 3);
+  for (int i=0; i<3; i++) A[i] = i; // A is [0, 1, 2]
+
+  int[] B = array_copy(A,3);
+  int[] C = array_copy(B,3);
+  return 0;
+}

@@ -1,0 +1,99 @@
+/*
+ * Testing the text buffer implementation.
+ * 
+ * Note that this is just for testing! This code allows the user's
+ * input to attempt to do invalid things like deleting from an empty
+ * buffer and moving left or right off the end of an array. These
+ * should lead to a @requires violation.
+ *
+ * cc0 -d -w -x tbuf.c0 tbuf-test.c0
+ *
+ * 15-122 Principles of Imperative Computation */
+
+#use <string>
+#use <conio>
+
+void visualize_tbuf(tbuf* B)
+{
+  print("START");
+  for (dll* L = B->start->next; L != B->end; L = L->next) {
+    print(" <--> ");
+    if (L == B->cursor) print("_");
+    printchar('\''); 
+    if (L->data == '\n') print("\\n");
+    else printchar(L->data); 
+    printchar('\'');
+    if (L == B->cursor) print("_");
+  }
+
+  if (B->cursor == B->end) println(" <--> _END_");
+  else println(" <--> END");
+}
+
+void process_char(buffer_t BUF, char c)  {
+  if (c == '<') {
+    print("<=   : ");
+    backward(BUF);
+  } else if (c == '>') {
+    print("=>   : ");
+    forward(BUF);
+  } else if (c == '^') {
+    print("del  : ");
+    delete(BUF); 
+  } else if (c == '@') {
+    print("enter: ");
+    insert(BUF,'\n'); 
+  } else {
+    print("'"); printchar(c); print("'  : ");
+    insert(BUF,c);
+  }
+}
+
+void visualize_position(buffer_t BUF) {
+    print("       Position: (");
+    printint(row(BUF));
+    print(",");
+    printint(col(BUF));
+    println(")");
+}
+
+void process_string(buffer_t BUF, string s) {
+  int limit = string_length(s);
+  for(int i = 0; i < limit; i++) {
+    process_char(BUF, string_charat(s, i));
+    visualize_tbuf(extract_tbuf(BUF));    
+    visualize_position(BUF);
+  }
+}
+
+void test() 
+{
+  buffer_t BUF = new();
+  println("Visualizing an initially-empty text buffer.");
+  println("The '<' character mimics going backwards (left arrow key)");
+  println("The '>' character mimics going forwards (right arrow key)");
+  println("The '^' character mimics deletion (delete key)");
+  println("The '@' character mimics a newline (enter key)");
+  println("All other characters just insert that character");
+  println("");
+  print("Give initial input (empty line quits): ");
+  flush();
+
+  string s = readline();
+
+  while(!string_equal("", s)) {
+    print("       ");
+    visualize_tbuf(extract_tbuf(BUF));
+    visualize_position(BUF);
+    process_string(BUF, s);
+    print("Done. More input? (empty line quits): ");
+    flush();
+    s = readline();
+  }
+}
+
+int main() {
+  test();
+  println("Goodbye.");
+  return 0;
+}

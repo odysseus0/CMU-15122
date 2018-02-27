@@ -1,0 +1,19 @@
+#use <conio>
+
+bool test_prog(string input, int output) {
+  queue_t Q = tokenize(input);
+  istack_t S = istack_new();
+  eval(S, Q);
+  if (istack_empty(S)) return false;
+  int i = ipop(S);
+  if (!istack_empty(S)) return false;
+  return i == output;
+}
+
+int main() {
+  assert(test_prog("3 4 * -9 2 / +", 8));
+  // Add more tests of your own!
+
+  println("All tests passed!");
+  return 0;
+}

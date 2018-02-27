@@ -1,0 +1,108 @@
+/*
+ * Stacks
+ *
+ * 15-122 Principles of Imperative Computation */
+
+/*************************** Implementation ****************************/
+
+/* Aux structure of linked lists */
+typedef struct list_node list;
+struct list_node {
+  string data;
+  list* next;
+};
+
+/* is_segment(start, end) will diverge if list is circular! */
+bool is_segment(list* start, list* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment(start->next, end);
+}
+
+bool is_acyclic(list* start, list* end) {
+  for (list* p = start; p != end; p = p->next)
+  //@loop_invariant is_segment(start, p);
+  {
+    if (p == NULL) return true;
+
+    for (list* q = start; q != p; q = q->next)
+    //@loop_invariant is_segment(start, q);
+    //@loop_invariant is_segment(q, p);
+    {
+      if (q == p->next) return false; /* circular */
+    }
+  }
+  return true;
+}
+
+/* Stacks */
+
+typedef struct stack_header stack;
+struct stack_header {
+  list* top;
+  list* bottom;
+};
+
+bool is_stack(stack* S) {
+  return S != NULL
+      && is_acyclic(S->top, S->bottom)
+      && is_segment(S->top, S->bottom);
+}
+
+bool stack_empty(stack* S)
+//@requires is_stack(S);
+{
+  return S->top == S->bottom;
+}
+
+stack* stack_new()
+//@ensures is_stack(\result);
+//@ensures stack_empty(\result);
+{
+  stack* S = alloc(stack);
+  list* l = alloc(list);
+  S->top = l;
+  S->bottom = l;
+  return S;
+}
+
+void push(stack* S, string x)
+//@requires is_stack(S);
+//@ensures is_stack(S);
+{
+  list* l = alloc(list);
+  l->data = x;
+  l->next = S->top;
+  S->top = l;
+}
+
+string pop(stack* S)
+//@requires is_stack(S);
+//@requires !stack_empty(S);
+//@ensures is_stack(S);
+{
+  string e = S->top->data;
+  S->top = S->top->next;
+  return e;
+}
+
+typedef stack* stack_t;
+
+
+/************************ Interface ****************************/
+
+// typedef ______* stack_t;
+
+bool stack_empty(stack_t S)       /* O(1) */
+/*@requires S != NULL; @*/;
+
+stack_t stack_new()               /* O(1) */
+/*@ensures \result != NULL; @*/
+/*@ensures stack_empty(\result); @*/;
+
+void push(stack_t S, string x)    /* O(1) */
+/*@requires S != NULL; @*/;
+
+string pop(stack_t S)             /* O(1) */
+/*@requires S != NULL; @*/
+/*@requires !stack_empty(S); @*/;

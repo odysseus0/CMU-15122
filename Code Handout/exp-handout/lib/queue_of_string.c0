@@ -1,0 +1,121 @@
+/* 
+ * Queues of string
+ *
+ * 15-122 Principles of Imperative Computation */
+
+/*** Interface ***/
+
+// typedef ______* queue_t;
+typedef struct queue_header* queue_t;
+
+bool queue_empty(queue_t Q)        /* O(1) */
+  /*@requires Q != NULL; @*/;
+
+bool queue_is_read_only(queue_t Q) /* O(1) */
+  /*@requires Q != NULL; @*/;
+
+queue_t queue_new()                /* O(1) */
+  /*@ensures \result != NULL; @*/
+  /*@ensures queue_empty(\result); @*/;
+
+void enq(queue_t Q, string e)      /* O(1) */
+  /*@requires Q != NULL; @*/;
+
+string deq(queue_t Q)              /* O(1) */
+  /*@requires Q != NULL; @*/
+  /*@requires !queue_empty(Q); @*/ ;
+
+/* O(1) operation to create a copy of the queue that can only be
+ * dequeued from, not enqueued onto. */
+queue_t queue_read_only_copy(queue_t Q) 
+  /*@ensures \result != NULL; @*/
+  /*@ensures queue_is_read_only(\result); @*/ ;
+
+
+/*** Implementation ***/
+
+/* Aux structure of linked lists of strings */
+typedef struct slist_node slist;
+struct slist_node {
+  string data;
+  struct slist_node* next;
+};
+
+/* is_segment(start, end) will diverge if list is circular! */
+bool is_segment_slist(slist* start, slist* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment_slist(start->next, end);
+}
+
+/* Queues */
+
+typedef struct queue_header queue;
+struct queue_header {
+  bool is_read_only;
+  slist* front;
+  slist* back;
+};
+
+bool is_queue(queue* Q) {
+  return Q != NULL
+    && is_segment_slist(Q->front, Q->back);
+}
+
+bool queue_empty(queue* Q)
+//@requires is_queue(Q);
+{
+  return Q->front == Q->back;
+}
+
+bool queue_is_read_only(queue* Q)
+//@requires is_queue(Q);
+{
+  return Q->is_read_only;
+}
+
+queue* queue_new()
+//@ensures is_queue(\result);
+//@ensures queue_empty(\result);
+{
+  queue* Q = alloc(queue);
+  slist* l = alloc(slist);
+  Q->is_read_only = false;
+  Q->front = l;
+  Q->back = l;
+  return Q;
+}
+
+void enq(queue* Q, string s)
+//@requires is_queue(Q);
+//@ensures is_queue(Q);
+{
+  slist* l = alloc(slist);
+  Q->back->data = s;
+  Q->back->next = l;
+  Q->back = l;
+  return;
+}
+
+string deq(queue* Q)
+//@requires is_queue(Q);
+//@requires !queue_empty(Q);
+//@ensures is_queue(Q);
+{
+  string s = Q->front->data;
+  Q->front = Q->front->next;
+  return s;
+}
+
+queue* queue_read_only_copy(queue* Q) 
+//@requires is_queue(Q);
+//@ensures is_queue(Q);
+//@ensures is_queue(\result);
+//@ensures queue_is_read_only(\result); 
+{
+  queue* QC = alloc(queue);
+  QC->is_read_only = true;
+  QC->front = Q->front;
+  QC->back = Q->back;
+  return QC;
+}

@@ -1,0 +1,29 @@
+/*
+ * (Mildly generic) dictionaries as binary search tree without balancing
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+/******************************/
+/* Client-side implementation */
+/******************************/
+#use <string>
+
+struct wcount {
+  string word;  /* key */
+  int count;
+};
+
+// Fulfilling the client interface of the dictionary
+typedef struct wcount* entry;
+typedef string key;
+
+key entry_key(struct wcount* e)
+//@requires e != NULL;
+{
+  return e->word;
+}
+
+int key_compare(string k1, string k2) {
+  return string_compare(k1, k2);
+}

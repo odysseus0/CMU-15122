@@ -1,0 +1,6 @@
+#use <conio>
+
+int main () {
+  error("assertion failure");
+  return 0;
+}

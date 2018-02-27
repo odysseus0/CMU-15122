@@ -1,0 +1,38 @@
+/* Binary search
+ *
+ * 15-122: Principles of Imperative Computation
+ */
+
+int search(int x, int[] A, int n)
+//@requires n == \length(A);
+//@requires is_sorted(A, 0, n);
+/*@ensures (\result == -1 && !is_in(x, A, 0, n))
+        || (0 <= \result && \result < n && A[\result] == x); @*/
+{
+  int lo = 0;
+  int hi = n;
+
+  while (lo < hi)
+  //@loop_invariant 0 <= lo && lo <= hi && hi <= n;
+  //@loop_invariant gt_seg(x, A, 0, lo);     // implies !is_in(x, A,0,lo)
+  //@loop_invariant lt_seg(x, A, hi, n);     // implies !is_in(x, A,hi,n)
+  {
+    // int mid = lo;            // This is linear search!
+    // int mid = (hi + lo)/2;   // Jon Bentley's bug!
+    int mid = lo + (hi - lo)/2;
+    //@assert lo <= mid && mid < hi;
+
+    if (A[mid] == x) return mid;
+    if (A[mid] < x) {
+      //@assert mid + 1 <= hi;
+      //@assert gt_seg(x, A, 0, mid+1);      // implies !is_in(x, A,0,mid+1)
+      lo = mid+1;
+    } else { //@assert A[mid] > x;
+      //@assert lt_seg(x, A, mid, n);        // implies !is_in(x, A,mid,n)
+      hi = mid;
+    }
+  }
+  //@assert lo == hi;
+  //@assert !is_in(x,A,0,n);
+  return -1;
+}

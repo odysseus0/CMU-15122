@@ -1,0 +1,90 @@
+/* 
+ * Stacks of string
+ * 
+ * 15-122 Principles of Imperative Computation */
+
+/*** Interface to stacks of strings ***/
+
+// typedef ______* stringstack_t;
+typedef struct stack_header* stack_t;
+
+bool stack_empty(stack_t S)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+stack_t stack_new()               /* O(1) */
+  /*@ensures \result != NULL; @*/
+  /*@ensures stack_empty(\result); @*/;
+
+void push(stack_t S, string x)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+string pop(stack_t S)                /* O(1) */
+  /*@requires S != NULL; @*/
+  /*@requires !stack_empty(S); @*/;
+
+
+/*** Implementation of stacks of strings ***/
+
+/* Aux structure of linked lists of strings */
+typedef struct stringlist_node stringlist;
+struct stringlist_node {
+  string data;
+  stringlist* next;
+};
+
+/* is_segment_stringlist(start, end) will diverge if list is circular! */
+bool is_segment_stringlist(stringlist* start, stringlist* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment_stringlist(start->next, end);
+}
+
+/* Stacks of strings */
+
+typedef struct stack_header stack;
+struct stack_header {
+  stringlist* top;
+  stringlist* bottom;
+};
+
+bool is_stack(stack* S) {
+  return S != NULL
+    && is_segment_stringlist(S->top, S->bottom);
+}
+
+bool stack_empty(stack* S)
+//@requires is_stack(S);
+{
+  return S->top == S->bottom;
+}
+
+stack* stack_new()
+//@ensures is_stack(\result);
+//@ensures stack_empty(\result);
+{
+  stack* S = alloc(stack);
+  stringlist* l = alloc(stringlist); /* does not need to be initialized! */
+  S->top = l;
+  S->bottom = l;
+  return S;
+}
+
+void push(stack* S, string x)
+//@requires is_stack(S);
+//@ensures is_stack(S);
+{
+  stringlist* l = alloc(stringlist);
+  l->data = x;
+  l->next = S->top;
+  S->top = l;
+}
+
+string pop(stack* S)
+//@requires is_stack(S);
+//@requires !stack_empty(S);
+//@ensures is_stack(S);
+{
+  string x = S->top->data;
+  S->top = S->top->next;
+  return x;
+}

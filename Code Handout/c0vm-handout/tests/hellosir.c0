@@ -1,0 +1,9 @@
+#use <conio>
+#use <string>
+
+int main () {
+  print("What's your name? ");
+  string name = readline();
+  print(string_join("Hello, ", string_join(name, "!\n")));
+  return 0;
+}

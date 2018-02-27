@@ -1,0 +1,33 @@
+/*
+ * Mystery function with a bug or two
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+// Specification function!
+int POW(int b, int e)
+//@requires e >= 0;
+{
+  if (e == 0) return 1;
+  return POW(b, e-1) * b;
+}
+
+int f (int x, int y) 
+//@requires y >= 0;
+//@ensures POW(x, y) == \result;
+{
+  int b = x; /* Line 19 */
+  int e = y; /* Line 20 */
+  int r = 1; /* Line 21 */
+  while (e > 0) /* Line 22 */
+  //@loop_invariant e >= 0; /* Line 23 */
+  //@loop_invariant POW(b, e) * r == POW(x, y);
+  {
+    if (e % 2 == 1) { /* Line 26 */
+      r = b * r;      /* Line 27 */
+    }
+    b = b * b;        /* Line 29 */
+    e = e / 2;        /* Line 30 */
+  }
+  return r;
+}

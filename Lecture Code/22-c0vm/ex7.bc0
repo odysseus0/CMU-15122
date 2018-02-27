@@ -1,0 +1,37 @@
+C0 C0 FF EE       # magic number
+00 13             # version 9, arch = 1 (64 bits)
+
+00 00             # int pool count
+# int pool
+
+00 0F             # string pool total size
+# string pool
+48 65 6C 6C 6F 20 00  # "Hello "
+57 6F 72 6C 64 21 0A 00  # "World!\n"
+
+00 01             # function count
+# function_pool
+
+#<main>
+00 00             # number of arguments = 0
+00 02             # number of local variables = 2
+00 1B             # code length = 27 bytes
+14 00 00 # aldc 0          # s[0] = "Hello "
+36 00    # vstore 0        # h = "Hello ";
+15 00    # vload 0         # h
+14 00 07 # aldc 7          # s[7] = "World!\n"
+B7 00 00 # invokenative 0  # string_join(h, "World!\n")
+36 01    # vstore 1        # hw = string_join(h, "World!\n");
+15 01    # vload 1         # hw
+B7 00 01 # invokenative 1  # print(hw)
+57       # pop             # (ignore result)
+15 01    # vload 1         # hw
+B7 00 02 # invokenative 2  # string_length(hw)
+B0       # return          # 
+
+00 03             # native count
+# native pool
+00 02 00 64       # string_join
+00 01 00 06       # print
+00 01 00 65       # string_length
+

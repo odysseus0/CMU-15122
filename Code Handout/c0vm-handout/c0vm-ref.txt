@@ -1,0 +1,81 @@
+C0VM Instruction Reference
+
+S = operand stack
+V = local variable array, V[0..num_vars)
+
+Instruction operands:
+<i> = local variable index (unsigned)
+<b> = byte (signed)
+<s> = element size in bytes (unsigned)
+<f> = field offset in struct in bytes (unsigned)
+<c> = <c1,c2> = pool index = (c1<<8|c2) (unsigned)
+<o> = <o1,o2> = pc offset = (o1<<8|o2) (signed)
+
+Stack operands:
+a : * = address ("reference")
+x, i, n : w32 = 32 bit word representing an int, bool, or char ("primitive")
+v = arbitrary value (v:* or v:w32)
+
+Stack operations
+0x59 dup           S, v -> S, v, v
+0x57 pop           S, v -> S
+0x5F swap          S, v1, v2 -> S, v2, v1
+
+Arithmetic
+0x60 iadd         S, x:w32, y:w32 -> S, x+y:w32
+0x7E iand         S, x:w32, y:w32 -> S, x&y:w32
+0x6C idiv         S, x:w32, y:w32 -> S, x/y:w32
+0x68 imul         S, x:w32, y:w32 -> S, x*y:w32
+0x80 ior          S, x:w32, y:w32 -> S, x|y:w32
+0x70 irem         S, x:w32, y:w32 -> S, x%y:w32
+0x78 ishl         S, x:w32, y:w32 -> S, x<<y:w32
+0x7A ishr         S, x:w32, y:w32 -> S, x>>y:w32
+0x64 isub         S, x:w32, y:w32 -> S, x-y:w32
+0x82 ixor         S, x:w32, y:w32 -> S, x^y:w32
+
+Local Variables
+0x15 vload <i>      S -> S, v        v = V[i]
+0x36 vstore <i>     S, v -> S        V[i] = v
+
+Constants
+0x01 aconst_null   S -> S, null:*
+0x10 bipush <b>    S -> S, x:w32     (x = (w32)b, sign extended)
+0x13 ildc <c1,c2>  S -> S, x:w32     (x = int_pool[(c1<<8)|c2])
+0x14 aldc <c1,c2>  S -> S, a:*       (a = &string_pool[(c1<<8)|c2])
+
+Control Flow
+0x00 nop               S -> S
+0x9F if_cmpeq <o1,o2>  S, v1, v2 -> S       (pc = pc+(o1<<8|o2) if v1 == v2)
+0xA0 if_cmpne <o1,o2>  S, v1, v2 -> S       (pc = pc+(o1<<8|o2) if v1 != v2)
+0xA1 if_icmplt <o1,o2> S, x:w32, y:w32 -> S (pc = pc+(o1<<8|o2) if x < y)
+0xA2 if_icmpge <o1,o2> S, x:w32, y:w32 -> S (pc = pc+(o1<<8|o2) if x >= y)
+0xA3 if_icmpgt <o1,o2> S, x:w32, y:w32 -> S (pc = pc+(o1<<8|o2) if x > y)
+0xA4 if_icmple <o1,o2> S, x:w32, y:w32 -> S (pc = pc+(o1<<8|o2) if x <= y)
+0xA7 goto <o1,o2>      S -> S               (pc = pc+(o1<<8|o2))
+0xBF athrow            S, a:* -> S          (c0_user_error(a))
+0xCF assert            S, x:w32, a:* -> S   (c0_assertion_failure(a) if x == 0)
+
+Functions
+0xB8 invokestatic <c1,c2> S, v1, v2, ..., vn -> S, v
+                          (function_pool[c1<<8|c2] => g, g(v1,...,vn) = v)
+0xB0 return   ., v -> .   (return v to caller)
+0xB7 invokenative <c1,c2> S, v1, v2, ..., vn -> S, v
+                          (native_pool[c1<<8|c2] => g, g(v1,...,vn) = v)
+
+Memory
+0xBB new <s>       S -> S, a:*             (*a is now allocated, size <s>)
+0xBC newarray <s>  S, n:w32 -> S, a:*      (a[0..n) now allocated,
+                                            each array element has size <s>)
+0xBE arraylength   S, a:* -> S, n:w32      (n = \length(a))
+
+0x62 aaddf <f>      S, a:* -> S, (a+f):*  
+                                     (a != NULL; f field offset in bytes)
+0x63 aadds          S, a:*, i:w32 -> S, (a->elems+s*i):*
+                                     (a != NULL, 0 <= i < \length(a))
+
+0x34 cmload   S, a:* -> S, x:w32  (x = (w32)(*a), a != NULL, load 1 byte)
+0x55 cmstore  S, a:*, x:w32 -> S  (*a = x & 0x7f, a != NULL, store 1 byte)
+0x2E imload   S, a:* -> S, x:w32  (x = *a, a != NULL, load 4 bytes)
+0x4E imstore  S, a:*, x:w32 -> S  (*a = x, a != NULL, store 4 bytes)
+0x2F amload   S, a:* -> S, b:*    (b = *a, a != NULL, load address)
+0x4F amstore  S, a:*, b:* -> S    (*a = b, a != NULL, store address)

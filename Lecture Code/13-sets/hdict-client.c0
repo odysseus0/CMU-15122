@@ -1,0 +1,51 @@
+/*
+ * Dictionaries, implemented with separate chaining,
+ *               with key and values as part of entry
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+/******************************/
+/* client-side implementation */
+/******************************/
+
+#use <rand>
+#use <string>
+
+struct wcount {
+  string word;     // key
+  int count;       // other data
+};
+
+/* from hash-string.c0 */
+int hash_string(string s) {
+  int h = 0;
+  int len = string_length(s);
+  rand_t random = init_rand(0xFEEDFACE);
+  for (int i = 0; i < len ; i++)
+  //@loop_invariant 0 <= i;
+  {
+    h = h * rand(random);
+    h = h + char_ord(string_charat(s,i));
+  }
+  return h;
+}
+
+
+// Fulfilling the client interface
+typedef struct wcount* entry;
+typedef string         key;
+
+key entry_key(entry x)
+//@requires x != NULL;
+{
+  return x->word;
+}
+
+int key_hash(key k) {
+  return hash_string(k);
+}
+
+bool key_equiv(key k1, key k2) {
+  return string_equal(k1, k2);
+}

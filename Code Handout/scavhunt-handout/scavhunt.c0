@@ -1,0 +1,14 @@
+// Allows you to use I/O functions like print and println
+#use <conio> 
+// Allows you to use string functions like string_join
+#use <string>
+// Allows you to use utility functions like abs() and min() 
+#use <util> 
+
+string greet(string salutation, string entity) {
+  string str = salutation;
+  str = string_join(str, ", ");
+  str = string_join(str, entity);
+  str = string_join(str, "!");
+  return str;
+}

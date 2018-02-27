@@ -1,0 +1,56 @@
+#use <conio>
+
+int main () {
+
+  // Generic stacks
+
+  // A stack of strings
+  stack_t I = stack_new();
+  stack_t S = stack_new();
+
+  string* s1 = alloc(string);        // Push a value
+  *s1 = "hello";
+  push(S, (void *)s1);
+
+  string* s1b = alloc(string);       // Push another
+  *s1b = "world";
+  push(S, (void *)s1b);
+
+  string *s2 = (string *)pop(S);     // Pop it
+  println(*s2);
+
+  println(*(string *) pop(S));       // Pop the first one
+
+
+  // A stack of ints
+  int* x = alloc(int);
+  *x = 42;
+  push(I, (void *)x);
+
+  int* y = alloc(int);
+  *y = 15122;
+  void* p = (void *)y;
+  push(I, p);
+
+  int* z = (int *)pop(I);
+  printint(*z); println("");
+
+
+  // Void pointers in general
+  void* p1 = (void*)alloc(int);
+  void* p2 = (void*)alloc(string);
+  void* p3 = (void*)alloc(int**);
+
+  //@assert \hastag(int*, p1);
+  //@assert \hastag(string*, p2);
+  //@assert \hastag(int***, p3);
+
+  //@assert !\hastag(string*, p1);
+  //@assert !\hastag(int**, p1);
+  //@assert !\hastag(int***, p1);
+
+  void* q = NULL;
+  void* r = (void*)(int*)(void*)(string*)q;
+
+  return 0;
+}

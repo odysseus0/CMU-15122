@@ -1,0 +1,26 @@
+/*
+ * Dictionaries, implemented with separate chaining,
+ *               with keys and values as distinct entities
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+int main () {
+
+  // Create some numbers
+  int* i1 = alloc(int); *i1 = 1;
+  int* i2 = alloc(int); *i2 = 5;
+  int* i3 = alloc(int); *i3 = 42;
+
+  hdict_t H = hdict_new(10);
+  hdict_insert(H, "apple", i1);
+  hdict_insert(H, "banana", i2);
+  hdict_insert(H, "pumpkin", i3);
+  assert(*hdict_lookup(H, "apple") == 1);
+  assert(hdict_lookup(H, "lime") == NULL);
+  hdict_insert(H, "lemon", i2);
+  assert(hdict_lookup(H, "grape") == NULL);
+  hdict_insert(H, "banana", i2);
+
+  return 0;
+}

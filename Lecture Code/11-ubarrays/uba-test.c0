@@ -1,0 +1,68 @@
+#use <string>
+#use <conio>
+
+int main() {
+  arr_t A = arr_new(3);
+  assert(arr_len(A) == 3);
+  assert(string_equal(arr_get(A, 0), ""));
+  assert(string_equal(arr_get(A, 1), ""));
+  assert(string_equal(arr_get(A, 2), ""));
+  arr_set(A, 1, "Hello");
+  arr_set(A, 2, "World");
+  assert(string_equal(arr_get(A, 0), ""));
+  assert(string_equal(arr_get(A, 1), "Hello"));
+  assert(string_equal(arr_get(A, 2), "World"));
+
+  for (int i = 3; i < 40; i++) {
+    arr_add(A, string_fromint(i));
+    assert(i+1 == arr_len(A));
+    assert(string_equal(arr_get(A, i), string_fromint(i)));
+
+    // BREAKS INTERFACE
+    print("After add: A->size = "); printint(A->size); 
+    print(", A->limit = "); printint(A->limit); println("");
+  }
+
+  while(arr_len(A) > 3) {
+    assert(string_equal(string_fromint(arr_len(A)-1), arr_rem(A)));
+
+    // BREAKS INTERFACE
+    print("After rem: A->size = "); printint(A->size); 
+    print(", A->limit = "); printint(A->limit); println("");    
+  }
+
+  assert(arr_len(A) == 3 && string_equal(arr_rem(A), "World"));
+  print("After rem: A->size = "); printint(A->size); 
+  print(", A->limit = "); printint(A->limit); println("");    
+  assert(arr_len(A) == 2 && string_equal(arr_rem(A), "Hello"));
+  print("After rem: A->size = "); printint(A->size); 
+  print(", A->limit = "); printint(A->limit); println("");    
+  assert(arr_len(A) == 1 && string_equal(arr_rem(A), ""));
+  print("After rem: A->size = "); printint(A->size); 
+  print(", A->limit = "); printint(A->limit); println("");    
+  assert(arr_len(A) == 0);
+  print("After rem: A->size = "); printint(A->size); 
+  print(", A->limit = "); printint(A->limit); println("");    
+
+  for (int i = 0; i < 15; i++) {
+    arr_add(A, "foo");
+
+    // BREAKS INTERFACE
+    print("After add: A->size = "); printint(A->size); 
+    print(", A->limit = "); printint(A->limit); println("");    
+  }
+
+  assert(arr_len(A) == 15);
+
+  arr_t B = arr_new(1);
+  assert(arr_len(B) == 1);
+  assert(string_equal(arr_rem(B), ""));
+  assert(arr_len(B) == 0);
+  arr_add(B, "a");
+  arr_add(B, "b");
+  arr_add(B, "c");
+  assert(arr_len(B) == 3);
+
+  println("All tests passed!");
+  return 0;
+}

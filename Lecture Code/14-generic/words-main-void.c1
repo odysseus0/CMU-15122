@@ -1,0 +1,21 @@
+int main() {
+  // Get list of (possibly duplicate) words from file
+  bundle_t words = read_words("vocab_t_z.txt");
+  int len = string_bundle_length(words);
+  string[] word_list = string_bundle_array(words);
+
+  // Store (word, count) entries in dictionary
+  hdict_t H = hdict_new(len/2);
+  for (int i = 0 ; i < len ; i++)
+    //@loop_invariant 0 <= i;
+    {
+      struct wcount* wc = alloc(struct wcount);
+      wc->word = word_list[i];
+      hdict_insert(H, (entry)wc);
+    }
+  hdict_stats(H);
+
+  println("All word count tests passed!\n");
+
+  return 0;
+}

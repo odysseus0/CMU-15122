@@ -1,0 +1,75 @@
+/*
+ * Clac, interface to a stack-based calculator language
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <string>
+#use <parse>
+#use <conio>
+#use <args>
+
+dict_t precedence() {
+  string[] A = alloc_array(string, 8);
+  A[1] = "||";
+  A[2] = "&&";
+  A[3] = "< > != ==";
+  A[4] = "<< >>";
+  A[5] = "+ -";
+  A[6] = "* / %";
+  A[7] = "**";
+  return dict_new(A, 8);
+}
+
+void top_level(bool exec) {
+  dict_t PREC = precedence();
+
+  print("EXP top level\nExecution: ");
+  println(exec ? "on" : "off");
+
+  while (true) {
+    // If there is nothing to be done on the queue and more input, get input
+    if (!eof()) {
+      print("EXP>> ");
+      flush();
+      queue_t input = tokenize(readline());
+
+      // Parse input
+      queue_t output = parse(PREC, input);
+      if (output == NULL) {
+        println("Error: could not parse input");
+
+      } else { // Report the parsed Clac program
+        print("Corresponding Clac program: ");
+        assert(queue_empty(input));
+        while (!queue_empty(output)) {
+          string tok = deq(output);
+          print(tok); print(" ");
+          enq(input, tok);
+        }
+        println("");
+
+        if (exec) { // Attempt to execute the Clac program
+          istack_t S = istack_new();
+          eval(S, input);
+          assert(!istack_empty(S) && queue_empty(input));
+          int result = ipop(S);
+          assert(istack_empty(S));
+          print("Result: "); printint(result); println("");
+        }
+      }
+    } else {
+      return;
+    }
+  }
+}
+
+int main() {
+  /* pass file names on command line, no flags */
+  /* these will be processed in order */
+  bool* exec = alloc(bool);
+  args_flag("-x", exec);
+  args_t args = args_parse();
+  top_level(*exec);
+  return 0;
+}

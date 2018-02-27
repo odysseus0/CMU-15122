@@ -1,0 +1,48 @@
+/* 
+ * Interface for bloom filters (sets)
+ * Worst possible "correct" implementation, just returns "true" always
+ * 
+ * 15-122 Principles of Imperative Computation */
+
+/*** Interface to bloom filters ***/
+
+// typedef ______* bloom_t;
+typedef int* bloom_t;
+
+bloom_t bloom_new(int table_size)
+  /*@requires table_size > 0; @*/
+  /*@ensures \result != NULL; @*/ ;
+
+bool bloom_contains(bloom_t B, string x)
+  /*@requires B != NULL; @*/ ;
+
+void bloom_add(bloom_t B, string x)
+  /*@requires B != NULL; @*/
+  /*@ensures bloom_contains(B, x); @*/ ;
+
+/*** Implementation of bloom filters ***/
+
+bool is_bloom(int* B) {
+  return B != NULL && *B == 0;
+}
+
+int* bloom_new(int table_size) 
+//@requires table_size > 0;
+//@ensures is_bloom(\result);
+{ 
+  return alloc(int); 
+}
+ 
+bool bloom_contains(int* B, string x) 
+//@requires is_bloom(B);
+{ 
+  return true; 
+}
+
+void bloom_add(int* B, string x) 
+//@requires is_bloom(B);
+//@ensures is_bloom(B);
+//@ensures bloom_contains(B, x); 
+{ 
+  return;
+}

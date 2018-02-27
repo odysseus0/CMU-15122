@@ -1,0 +1,198 @@
+15-122, Spring 2013, Homework 8: The C0VM
+Notes on some useful C idioms
+William Lovas
+
+This file describes a number of C idioms you may find useful in your
+implementation of the C0VM, most of which we haven't had the
+opportunity to present in detail in class.
+
+
+1. The switch/case construct:
+
+    The 'switch' statement is a multi-way branching control construct
+    something like an iterated conditional.  Given an int expression e
+    and constants c1, c2, ..., cn, the following 'switch'-statement
+    and 'if'-statement are roughly equivalent:
+
+        switch (e) {
+            case c1:
+                <statement 1>
+                break;
+
+            case c2:
+                <statement 2>
+                break;
+
+            ...
+
+            case cn:
+                <statement n>
+                break;
+
+            default:
+                <default statement>
+                break;
+        }
+
+    and
+
+        int x = e;
+        if (x == c1)
+            <statement 1>
+        else if (x == c2)
+            <statement 2>
+        ...
+        else if (x == cn)
+            <statement n>
+        else
+            <default statement>
+
+    Note: the 'break;' statements in the cases of the switch are
+    important: without a 'break;', control falls through to the
+    following case.  This design choice can easily lead to unexpected
+    behaviors.  Consider:
+
+        /* XXX WRONG XXX */
+        switch (x % 2) {
+            case 0:
+                printf("x is even\n");
+
+            case 1:
+                printf("x" is odd\n");
+        }
+
+    The fallthrough behavior of cases can sometimes be exploited, though:
+
+        switch (x) {
+            case 1:
+            case 4:
+            case 9:
+                printf("x is a single digit perfect square\n");
+                break;
+
+            case 2:
+            case 3:
+            case 5:
+            case 7:
+                printf("x is a single digit prime\n');
+                break;
+        }
+
+    To introduce new variables local to a case, create a new block
+    using curly braces:
+
+        switch(x) {
+            case 1:
+            case 4:
+            case 9:
+            {
+                int sx = isqrt(x);
+                printf("sqrt(x) = %d\n", sx);
+                break;
+            }
+
+            default:
+                printf("not a perfect square...\n");
+        }
+
+    The entire main loop of your VM will be one big switch statement.
+    Be wary of fallthrough!
+
+2. Structs that aren't pointers
+
+    In C0 and in much of our C programming, we have accessed structs
+    through pointers almost exclusively.  For example, we would write
+
+        typedef struct stack * stack;
+        struct stack {
+            list top;
+        };
+
+        ...
+        stack S = stack_new();
+        ...
+        ... S->top ...
+
+    Sometimes it is convenient to access structs directly, though,
+    like when they're stored in an array.  To access a field f of a
+    struct expression e, one uses the syntax 'e.f'.
+
+        stack stack_array[] = ...
+
+        ... stack_array[i].top ...
+
+    In fact, the familiar notation 'p->f' for accessing a struct field
+    through a pointer p is just syntactic sugar for '(*p).f', and
+    since array indexing is just syntactic sugar for pointer
+    arithmetic, the above expression really amounts to
+    '(*(stack_array+i)).top', or (stack_array+i)->top.
+
+    Accessing structs directly will be useful when dealing with
+    various pools.
+
+3. Casting pointers <-> integers, signed <-> unsigned
+
+    C99 leaves the behavior of casting pointers to integral types and
+    the representation of signed integers up to the implementation --
+    they are both "implementation-defined" behaviors.  For this
+    assignment, we look to GCC's documentation:
+
+        GCC supports only two's complement integer types, and all bit
+        patterns are ordinary values.
+            (from http://gcc.gnu.org/onlinedocs/gcc-4.3.5/gcc/Integers-implementation.html#Integers-implementation)
+
+        A cast from pointer to integer discards most-significant bits
+        if the pointer representation is larger than the integer type,
+        sign-extends1 if the pointer representation is smaller than
+        the integer type, otherwise the bits are unchanged.
+
+        A cast from integer to pointer discards most-significant bits
+        if the pointer representation is smaller than the integer
+        type, extends according to the signedness of the integer type
+        if the pointer representation is larger than the integer type,
+        otherwise the bits are unchanged.
+            (from http://gcc.gnu.org/onlinedocs/gcc-4.3.5/gcc/Arrays-and-pointers-implementation.html#Arrays-and-pointers-implementation)
+
+    We encourage you to leverage these implementation decisions to
+    implement reliable signed modular arithmetic using unsigned
+    modular arithmetic and to store integer types directly onto a
+    stack that holds elements of type void *.
+
+    The functions INT(p) and VAL(x) cast back and forth between void*
+    pointers and ints, and we always have INT(VAL(x)) == x.  INT(p) is
+    not defined, unless p was obtained by casting an int (or is equal
+    to NULL).  You can see the definition of these functions in the
+    file c0vm.h.
+
+4. Coping with unused variables
+
+    When compiling with -Wall -Wextra, a warning will be generated if any
+    variable is unused, and when compiling with -Werror, that warning turns
+    into an error:
+
+        cc1: warnings being treated as errors
+        foo.c: In function 'bar':
+        foo.c:12: error: unused variable 'x'
+
+    Sometimes this indicates a bug in your program, but sometimes it just
+    indicates that you're program is incomplete, and you may want to compile
+    regardless in order to test the partial functionality you have written
+    thus far.  You might think to suppress the error simply by mentioning
+    the unused variable on a line by itself:
+
+        x;
+
+    but that just triggers another warning/error:
+
+        cc1: warnings being treated as errors
+        foo.c: In function 'bar':
+        foo.c:12: error: statement with no effect
+
+    The proper solution is to mention the unused variable on a line by itself
+    but additionally indicate your intent to ignore its value by casting it
+    to void;
+
+        (void) x;
+
+    That should eliminate the warning and get you back on track to compiling
+    and testing your code.

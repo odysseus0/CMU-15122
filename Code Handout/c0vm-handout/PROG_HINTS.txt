@@ -1,0 +1,40 @@
+Tom Cortina
+
+For case RETURN:
+You will write code here to implement a return operation. Later, when
+you implement INVOKESTATIC, you will need to revise RETURN to handle
+all steps below since you may be returning from an arbitrary function,
+not necessarily main.
+
+Basic steps:
+1. Pop return value off the operand stack.
+2. Free the current local variables array and operand stack.
+3. If callStack is empty, return that value as an int.
+4. Pop a frame off the callstack.
+5. Restore V, S, P, and pc from the stack frame.
+6. Free the stack frame.
+7. Push the return value onto the operand stack.
+
+
+For case INVOKESTATIC:
+You will write code to implement an invokestatic operation (i.e. call a
+user-supplied function).  Remember to go back to RETURN and revise it since
+it may return from this function call now (rather than returning from the
+main function).
+
+Basic steps:
+Let fi denote the struct function_info for the called function.
+1. Build a stack frame containing current code pointer,
+   current pc, current locals, and current operand stack.
+   Push this stack frame onto the call stack.
+2. Allocate a new locals array of size fi.num_vars.
+3. Pop fi.num_args values off the stack and put them into
+   the new locals array.
+4. Create a new, empty operand stack.
+5. Load the new code into the program array.
+6. Set the program counter to 0.
+
+
+For case INVOKENATIVE:
+You will need to call the function with an array of argument values and
+store the returned result on the operand stack.

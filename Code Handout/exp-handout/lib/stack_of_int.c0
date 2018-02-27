@@ -1,0 +1,90 @@
+/* 
+ * Stacks of int
+ * 
+ * 15-122 Principles of Imperative Computation */
+
+/*** Interface to stacks of ints ***/
+
+// typedef ______* istack_t;
+typedef struct istack_header* istack_t;
+
+bool istack_empty(istack_t S)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+istack_t istack_new()               /* O(1) */
+  /*@ensures \result != NULL; @*/
+  /*@ensures istack_empty(\result); @*/;
+
+void ipush(istack_t S, int x)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+int ipop(istack_t S)                /* O(1) */
+  /*@requires S != NULL; @*/
+  /*@requires !istack_empty(S); @*/;
+
+
+/*** Implementation of stacks of ints ***/
+
+/* Aux structure of linked lists of ints */
+typedef struct intlist_node intlist;
+struct intlist_node {
+  int data;
+  intlist* next;
+};
+
+/* is_segment_intlist(start, end) will diverge if list is circular! */
+bool is_segment_intlist(intlist* start, intlist* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment_intlist(start->next, end);
+}
+
+/* Stacks of ints */
+
+typedef struct istack_header istack;
+struct istack_header {
+  intlist* top;
+  intlist* bottom;
+};
+
+bool is_istack(istack* S) {
+  return S != NULL
+    && is_segment_intlist(S->top, S->bottom);
+}
+
+bool istack_empty(istack* S)
+//@requires is_istack(S);
+{
+  return S->top == S->bottom;
+}
+
+istack* istack_new()
+//@ensures is_istack(\result);
+//@ensures istack_empty(\result);
+{
+  istack* S = alloc(istack);
+  intlist* l = alloc(intlist); /* does not need to be initialized! */
+  S->top = l;
+  S->bottom = l;
+  return S;
+}
+
+void ipush(istack* S, int x)
+//@requires is_istack(S);
+//@ensures is_istack(S);
+{
+  intlist* l = alloc(intlist);
+  l->data = x;
+  l->next = S->top;
+  S->top = l;
+}
+
+int ipop(istack* S)
+//@requires is_istack(S);
+//@requires !istack_empty(S);
+//@ensures is_istack(S);
+{
+  int x = S->top->data;
+  S->top = S->top->next;
+  return x;
+}

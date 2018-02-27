@@ -1,0 +1,8 @@
+int mid (int lo, int hi) {
+  int mid = lo + (hi - lo)/2;
+  return mid;
+}
+
+int main () {
+  return mid(3,6);
+}

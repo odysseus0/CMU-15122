@@ -1,0 +1,68 @@
+/*
+ * Clac, interface to a stack-based calculator language
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <string>
+#use <parse>
+#use <conio>
+#use <args>
+
+void print_top(istack_t S) 
+//@requires S != NULL;
+{
+  if (istack_empty(S)) {
+    println("Stack is now empty");
+    return;
+  }
+
+  print("Stack is now ["); 
+  int top = ipop(S);
+  if (istack_empty(S)) {
+    printint(top); println("]");
+    ipush(S, top);
+    return;
+  }
+
+  int next = ipop(S);
+  print(istack_empty(S) ? "" : "..,"); 
+  printint(next); print(","); printint(top); println("]");
+  ipush(S, next); ipush(S, top);
+  return;
+}
+
+void top_level(queue_t Q) 
+//@requires Q != NULL;
+{
+  /* Q is input queue */
+  istack_t S = istack_new(); /* operand stack */
+
+  print("Clac top level\n");
+  while (true) {
+    // If there is nothing to be done on the queue and more input, get input
+    if (queue_empty(Q)) {
+      if (!eof()) {
+        print("clac>> ");
+        flush();
+        Q = tokenize(readline());
+      } else {
+        return;
+      }
+    }
+
+    eval(S, Q);
+    print_top(S);
+  }
+}
+
+int main() {
+  /* pass file names on command line, no flags */
+  /* these will be processed in order */
+  args_t args = args_parse();
+  int argc = args->argc;
+  queue_t Q = queue_new();
+
+  top_level(Q);
+  return 0;
+}

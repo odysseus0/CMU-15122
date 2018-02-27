@@ -1,0 +1,59 @@
+/*
+ * Dictionaries, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+/******************************/
+/* client-side implementation */
+/******************************/
+
+#use <rand>
+#use <string>
+
+struct wcount {
+  string word;     // key
+  int count;       // other data
+};
+
+/* from hash-string.c0 */
+int hash_string(string s) {
+  int h = 0;
+  int len = string_length(s);
+  rand_t random = init_rand(0xFEEDFACE);
+  for (int i = 0; i < len ; i++)
+  //@loop_invariant 0 <= i;
+  {
+    h = h * rand(random);
+    h = h + char_ord(string_charat(s,i));
+  }
+  return h;
+}
+
+
+// Fulfilling the client interface
+
+// typedef key entry_key_fn(entry x)
+key entry_key_wcount(entry x)
+//@requires x != NULL && \hastag(struct wcount*, x);
+//@ensures \result != NULL && \hastag(string*, \result); // Client preconditions
+{
+  string* k = alloc(string);
+  *k = ((struct wcount*)x)->word;
+  return (key)k;
+}
+
+// typedef int key_hash_fn(key k);
+int key_hash_wcount(key k)
+//@requires k != NULL && \hastag(string*, k);  // Client preconditions
+{
+  return hash_string(*(string*)k);
+}
+
+// typedef bool key_equiv_fn(key k1, key k2);
+bool key_equiv_wcount(key k1, key k2)
+//@requires k1 != NULL && \hastag(string*, k1);  // Client preconditions
+//@requires k2 != NULL && \hastag(string*, k2);  // Client preconditions
+{
+  return string_equal(*(string*)k1, *(string*)k2);
+}

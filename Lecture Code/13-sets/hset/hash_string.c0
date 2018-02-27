@@ -1,0 +1,16 @@
+#use <rand>
+#use <string>
+
+int hash_string(string s) {
+  int h = 0;
+  int len = string_length(s);
+  //  rand_t random = init_rand(0xFEEDFACE);
+  for (int i = 0; i < len ; i++)
+  //@loop_invariant 0 <= i;
+  {
+    // do something with the current char and h
+    //    h = h * rand(random);
+    h = h + char_ord(string_charat(s,i));
+  }
+  return h;
+}

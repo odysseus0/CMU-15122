@@ -1,0 +1,65 @@
+C0 C0 FF EE       # magic number
+00 13             # version 9, arch = 1 (64 bits)
+
+00 00             # int pool count
+# int pool
+
+00 00             # string pool total size
+# string pool
+
+00 02             # function count
+# function_pool
+
+#<main>
+00 00             # number of arguments = 0
+00 02             # number of local variables = 2
+00 28             # code length = 40 bytes
+BB 08    # new 8           # alloc(struct point)
+36 00    # vstore 0        # p = alloc(struct point);
+15 00    # vload 0         # p
+62 00    # aaddf 0         # &p->x
+10 01    # bipush 1        # 1
+4E       # imstore         # p->x = 1;
+15 00    # vload 0         # p
+62 04    # aaddf 4         # &p->y
+10 02    # bipush 2        # 2
+4E       # imstore         # p->y = 2;
+15 00    # vload 0         # p
+B8 00 01 # invokestatic 1  # reflect(p)
+36 01    # vstore 1        # q = reflect(p);
+15 01    # vload 1         # q
+62 00    # aaddf 0         # &q->x
+2E       # imload          # q->x
+10 0A    # bipush 10       # 10
+68       # imul            # (q->x * 10)
+15 01    # vload 1         # q
+62 04    # aaddf 4         # &q->y
+2E       # imload          # q->y
+60       # iadd            # ((q->x * 10) + q->y)
+B0       # return          # 
+
+
+#<reflect>
+00 01             # number of arguments = 1
+00 02             # number of local variables = 2
+00 1B             # code length = 27 bytes
+BB 08    # new 8           # alloc(struct point)
+36 01    # vstore 1        # q = alloc(struct point);
+15 01    # vload 1         # q
+62 00    # aaddf 0         # &q->x
+15 00    # vload 0         # p
+62 04    # aaddf 4         # &p->y
+2E       # imload          # p->y
+4E       # imstore         # q->x = p->y;
+15 01    # vload 1         # q
+62 04    # aaddf 4         # &q->y
+15 00    # vload 0         # p
+62 00    # aaddf 0         # &p->x
+2E       # imload          # p->x
+4E       # imstore         # q->y = p->x;
+15 01    # vload 1         # q
+B0       # return          # 
+
+00 00             # native count
+# native pool
+

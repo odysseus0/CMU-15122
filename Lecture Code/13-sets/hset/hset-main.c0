@@ -1,0 +1,45 @@
+/*
+ * Hash sets, implemented with separate chaining
+ *
+ * 15-122 Principles of Imperative Computation
+ */
+
+#use <string>
+#use <conio>
+#use <rand>
+
+
+int main() {
+  elem banana = produce("yellow", "banana");
+  elem green_banana = produce("green", "banana");
+  elem yellow_apple = produce("yellow", "apple");
+  elem red_apple = produce("red", "apple");
+  elem green_apple = produce("green", "apple");
+  elem cherry = produce("red", "cherry");
+  elem red_pepper = produce("red", "pepper");
+  elem green_pepper = produce("green", "pepper");
+  elem yellow_pepper = produce("yellow", "pepper");
+  elem purple_pepper = produce("purple", "pepper");
+  elem yellow_tomato = produce("yellow", "tomato");
+
+
+  hset_t H = hset_new(20);
+  hset_add(H, banana);
+  hset_add(H, green_banana);
+  hset_add(H, yellow_apple);
+  hset_add(H, red_apple);
+  hset_add(H, green_apple);
+  hset_add(H, cherry);
+  hset_add(H, red_pepper);
+  hset_add(H, green_pepper);
+  hset_add(H, yellow_pepper);
+  hset_add(H, purple_pepper);
+  hset_add(H, yellow_tomato);
+
+  assert(hset_contains(H, yellow_tomato));
+  assert(hset_contains(H, yellow_apple));
+  assert(!hset_contains(H, produce("yellow", "lemon")));
+  assert(!hset_contains(H, produce("orange", "orange")));
+
+  return(0);
+}

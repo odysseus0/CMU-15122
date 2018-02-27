@@ -1,0 +1,92 @@
+/* 
+ * Stacks of int
+ * 
+ * 15-122 Principles of Imperative Computation */
+
+#use "stack_of_string.c0"
+
+/*** Interface to stacks of ints ***/
+
+// typedef ______* sstack_t;
+typedef struct sstack_header* sstack_t;
+
+bool sstack_empty(sstack_t S)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+sstack_t sstack_new()               /* O(1) */
+  /*@ensures \result != NULL; @*/
+  /*@ensures sstack_empty(\result); @*/;
+
+void spush(sstack_t S, stack_t x)       /* O(1) */
+  /*@requires S != NULL; @*/;
+
+stack_t spop(sstack_t S)                /* O(1) */
+  /*@requires S != NULL; @*/
+  /*@requires !sstack_empty(S); @*/;
+
+
+/*** Implementation of stacks of stacks of strings ***/
+
+/* Aux structure of linked lists of stacks */
+typedef struct stacklist_node stacklist;
+struct stacklist_node {
+  stack_t data;
+  stacklist* next;
+};
+
+/* is_segment_stacklist(start, end) will diverge if list is circular! */
+bool is_segment_stacklist(stacklist* start, stacklist* end) {
+  if (start == NULL) return false;
+  if (start == end) return true;
+  return is_segment_stacklist(start->next, end);
+}
+
+/* Stacks of ints */
+
+typedef struct sstack_header sstack;
+struct sstack_header {
+  stacklist* top;
+  stacklist* bottom;
+};
+
+bool is_sstack(sstack* S) {
+  return S != NULL
+    && is_segment_stacklist(S->top, S->bottom);
+}
+
+bool sstack_empty(sstack* S)
+//@requires is_sstack(S);
+{
+  return S->top == S->bottom;
+}
+
+sstack* sstack_new()
+//@ensures is_sstack(\result);
+//@ensures sstack_empty(\result);
+{
+  sstack* S = alloc(sstack);
+  stacklist* l = alloc(stacklist); /* does not need to be initialized! */
+  S->top = l;
+  S->bottom = l;
+  return S;
+}
+
+void spush(sstack* S, stack_t x)
+//@requires is_sstack(S);
+//@ensures is_sstack(S);
+{
+  stacklist* l = alloc(stacklist);
+  l->data = x;
+  l->next = S->top;
+  S->top = l;
+}
+
+stack_t spop(sstack* S)
+//@requires is_sstack(S);
+//@requires !sstack_empty(S);
+//@ensures is_sstack(S);
+{
+  stack_t x = S->top->data;
+  S->top = S->top->next;
+  return x;
+}
